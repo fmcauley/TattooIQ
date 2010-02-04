@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Tattoo IQ Quiz' target in the 'Tattoo IQ Quiz' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

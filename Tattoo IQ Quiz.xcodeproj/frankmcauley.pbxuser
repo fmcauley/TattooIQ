@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* Tattoo_IQ_QuizAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 584}}";
+			sepNavSelRange = "{275, 21}";
+			sepNavVisRange = "{0, 522}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Tattoo_IQ_QuizAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {937, 602}}";
+			sepNavSelRange = "{478, 0}";
+			sepNavVisRange = "{0, 655}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Tattoo IQ Quiz */ = {
+		activeExec = 0;
+		executables = (
+			F0286CF910ED0CB3008EA040 /* Tattoo IQ Quiz */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {937, 599}}";
+			sepNavSelRange = "{411, 33}";
+			sepNavVisRange = "{0, 451}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {937, 949}}";
+			sepNavSelRange = "{439, 0}";
+			sepNavVisRange = "{206, 1071}";
+			sepNavWindowFrame = "{{21, 0}, {1259, 778}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F0286CF910ED0CB3008EA040 /* Tattoo IQ Quiz */;
+		activeSDKPreference = iphonesimulator3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Tattoo IQ Quiz */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Tattoo IQ Quiz */,
+		);
+		breakpoints = (
+			F080418510F24421004CF8CB /* Quiz_GameViewController.m:240 */,
+		);
+		codeSenseManager = F0286D0710ED0CCD008EA040 /* Code sense */;
+		executables = (
+			F0286CF910ED0CB3008EA040 /* Tattoo IQ Quiz */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_ContinueID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					100,
+					100,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					839,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 286981775;
+			PBXWorkspaceStateSaveDate = 286981775;
+		};
+		perUserProjectItems = {
+			F011295F10FA003300ECB428 = F011295F10FA003300ECB428 /* PBXBookmark */;
+			F011296010FA003300ECB428 = F011296010FA003300ECB428 /* PBXBookmark */;
+			F011299810FBA0D600ECB428 = F011299810FBA0D600ECB428 /* PBXBookmark */;
+			F05105D611149D5E007A8EE0 = F05105D611149D5E007A8EE0 /* PBXTextBookmark */;
+			F05105D711149D5E007A8EE0 = F05105D711149D5E007A8EE0 /* PBXTextBookmark */;
+			F05105D811149D5E007A8EE0 = F05105D811149D5E007A8EE0 /* PBXTextBookmark */;
+			F05105D911149D5E007A8EE0 = F05105D911149D5E007A8EE0 /* PBXTextBookmark */;
+			F05105DB11149D5E007A8EE0 = F05105DB11149D5E007A8EE0 /* PBXTextBookmark */;
+			F05106A811171964007A8EE0 = F05106A811171964007A8EE0 /* PBXTextBookmark */;
+			F05107951117D432007A8EE0 = F05107951117D432007A8EE0 /* PBXTextBookmark */;
+			F06E86D1111AFE94009A4047 /* PBXTextBookmark */ = F06E86D1111AFE94009A4047 /* PBXTextBookmark */;
+			F0860CDB1104AA6D00D849B0 = F0860CDB1104AA6D00D849B0 /* PBXTextBookmark */;
+			F0860CDC1104AA6D00D849B0 = F0860CDC1104AA6D00D849B0 /* PBXTextBookmark */;
+			F0860D101104B19E00D849B0 = F0860D101104B19E00D849B0 /* PBXTextBookmark */;
+			F0860D111104B19E00D849B0 = F0860D111104B19E00D849B0 /* PBXTextBookmark */;
+			F08ED09510EF825400F6C263 = F08ED09510EF825400F6C263 /* PBXTextBookmark */;
+			F0FD415810FF42BF0082EC82 = F0FD415810FF42BF0082EC82 /* PBXTextBookmark */;
+			F0FD418010FF43F80082EC82 = F0FD418010FF43F80082EC82 /* PBXTextBookmark */;
+			F0FD418110FF43F80082EC82 = F0FD418110FF43F80082EC82 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F0286D0610ED0CCD008EA040 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 584}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{0, 370}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Tattoo_IQ_Quiz_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 584}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 197}";
+		};
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{42, 49}, {1231, 703}}";
+		};
+	};
+	F011295F10FA003300ECB428 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */;
+	};
+	F011296010FA003300ECB428 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F011293610F9FE8000ECB428 /* Default.jpg */;
+	};
+	F011297910FB987E00ECB428 /* InfoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {961, 599}}";
+			sepNavSelRange = "{211, 51}";
+			sepNavVisRange = "{0, 466}";
+			sepNavWindowFrame = "{{19, 0}, {1229, 778}}";
+		};
+	};
+	F011297A10FB987E00ECB428 /* InfoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 962}}";
+			sepNavSelRange = "{223, 35}";
+			sepNavVisRange = "{0, 1080}";
+		};
+	};
+	F011297F10FB98EE00ECB428 /* _TattIQ_InfoPage_480x320.jpg */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{1318, -67}, {1334, 841}}";
+		};
+	};
+	F011298410FB9AC400ECB428 /* TestImageAsButton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {937, 602}}";
+			sepNavSelRange = "{259, 0}";
+			sepNavVisRange = "{0, 396}";
+		};
+	};
+	F011298510FB9AC400ECB428 /* TestImageAsButton.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 884}}";
+			sepNavSelRange = "{304, 0}";
+			sepNavVisRange = "{183, 591}";
+			sepNavWindowFrame = "{{19, 0}, {1229, 778}}";
+		};
+	};
+	F011299810FBA0D600ECB428 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F0286D0A10ED0D6A008EA040 /* icon.png */;
+	};
+	F0286CF910ED0CB3008EA040 /* Tattoo IQ Quiz */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Tattoo IQ Quiz";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fs = 1;
+			$fstat = 1;
+			$ftag = 1;
+			$gs = 1;
+			$ss = 1;
+		};
+	};
+	F0286D0610ED0CCD008EA040 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F0286D0710ED0CCD008EA040 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F0286D0A10ED0D6A008EA040 /* icon.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{42, 8}, {1229, 744}}";
+		};
+	};
+	F0286D4110EE09D4008EA040 /* Quiz_GameViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1275, 741}}";
+			sepNavSelRange = "{1124, 0}";
+			sepNavVisRange = "{0, 1352}";
+			sepNavWindowFrame = "{{1299, -76}, {1387, 870}}";
+		};
+	};
+	F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 4693}}";
+			sepNavSelRange = "{4127, 2}";
+			sepNavVisRange = "{2895, 1576}";
+			sepNavWindowFrame = "{{1276, -9}, {1334, 778}}";
+		};
+	};
+	F05105D611149D5E007A8EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Tattoo_IQ_Quiz_Prefix.pch */;
+		name = "Tattoo_IQ_Quiz_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	F05105D711149D5E007A8EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 299;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 0;
+	};
+	F05105D811149D5E007A8EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Tattoo_IQ_QuizAppDelegate.h */;
+		name = "Tattoo_IQ_QuizAppDelegate.h: 13";
+		rLen = 21;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 0;
+	};
+	F05105D911149D5E007A8EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F05105DA11149D5E007A8EE0 /* UIApplication.h */;
+		name = "UIApplication.h: 161";
+		rLen = 42;
+		rLoc = 7642;
+		rType = 0;
+		vrLen = 1999;
+		vrLoc = 0;
+	};
+	F05105DA11149D5E007A8EE0 /* UIApplication.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIApplication.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h;
+		sourceTree = "<absolute>";
+	};
+	F05105DB11149D5E007A8EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 105";
+		rLen = 0;
+		rLoc = 2910;
+		rType = 0;
+		vrLen = 849;
+		vrLoc = 3;
+	};
+	F05106A811171964007A8EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4110EE09D4008EA040 /* Quiz_GameViewController.h */;
+		name = "Quiz_GameViewController.h: 10";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 1248;
+		vrLoc = 0;
+	};
+	F05107951117D432007A8EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 147";
+		rLen = 2;
+		rLoc = 4127;
+		rType = 0;
+		vrLen = 1576;
+		vrLoc = 2895;
+	};
+	F06E86D1111AFE94009A4047 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 147";
+		rLen = 2;
+		rLoc = 4127;
+		rType = 0;
+		vrLen = 1576;
+		vrLoc = 2895;
+	};
+	F080418510F24421004CF8CB /* Quiz_GameViewController.m:240 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+			F080419710F244B6004CF8CB /* XCBreakpointCommandAction */,
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		functionName = "-buttonOne";
+		hitCount = 3;
+		ignoreCount = 0;
+		lineNumber = 240;
+		location = "Tattoo IQ Quiz";
+		modificationTime = 284317244.124557;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	F080419710F244B6004CF8CB /* XCBreakpointCommandAction */ = {
+		isa = XCBreakpointCommandAction;
+		command = "";
+		fallbackIsa = XCBreakpointAction;
+		logCommand = 0;
+		useDebuggerSideImplementation = 1;
+	};
+	F0860CDB1104AA6D00D849B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.m */;
+		name = "Tattoo_IQ_QuizViewController.m: 21";
+		rLen = 0;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 1071;
+		vrLoc = 206;
+	};
+	F0860CDC1104AA6D00D849B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.h */;
+		name = "Tattoo_IQ_QuizViewController.h: 25";
+		rLen = 33;
+		rLoc = 411;
+		rType = 0;
+		vrLen = 451;
+		vrLoc = 0;
+	};
+	F0860D101104B19E00D849B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F011297910FB987E00ECB428 /* InfoViewController.h */;
+		name = "InfoViewController.h: 12";
+		rLen = 51;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 466;
+		vrLoc = 0;
+	};
+	F0860D111104B19E00D849B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F011297A10FB987E00ECB428 /* InfoViewController.m */;
+		name = "InfoViewController.m: 13";
+		rLen = 35;
+		rLoc = 223;
+		rType = 0;
+		vrLen = 1080;
+		vrLoc = 0;
+	};
+	F08ED09510EF825400F6C263 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F08ED09610EF825400F6C263 /* ListTest1.java */;
+		name = "ListTest1.java: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	F08ED09610EF825400F6C263 /* ListTest1.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = ListTest1.java;
+		path = /Users/frankmcauley/java/ListTest1.java;
+		sourceTree = "<absolute>";
+	};
+	F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{19, 29}, {1229, 744}}";
+		};
+	};
+	F0FD415810FF42BF0082EC82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Tattoo_IQ_QuizAppDelegate.m */;
+		name = "Tattoo_IQ_QuizAppDelegate.m: 21";
+		rLen = 0;
+		rLoc = 478;
+		rType = 0;
+		vrLen = 655;
+		vrLoc = 0;
+	};
+	F0FD418010FF43F80082EC82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F011298410FB9AC400ECB428 /* TestImageAsButton.h */;
+		name = "TestImageAsButton.h: 15";
+		rLen = 0;
+		rLoc = 259;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 0;
+	};
+	F0FD418110FF43F80082EC82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F011298510FB9AC400ECB428 /* TestImageAsButton.m */;
+		name = "TestImageAsButton.m: 18";
+		rLen = 0;
+		rLoc = 357;
+		rType = 0;
+		vrLen = 1245;
+		vrLoc = 0;
+	};
+}

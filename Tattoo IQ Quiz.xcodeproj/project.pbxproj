@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Tattoo_IQ_QuizAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Tattoo_IQ_QuizAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* Tattoo_IQ_QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* Tattoo_IQ_QuizViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.m */; };
+		F011293710F9FE8000ECB428 /* Default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F011293610F9FE8000ECB428 /* Default.jpg */; };
+		F011297B10FB987E00ECB428 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F011297A10FB987E00ECB428 /* InfoViewController.m */; };
+		F011297D10FB989600ECB428 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F011297C10FB989600ECB428 /* InfoViewController.xib */; };
+		F011298010FB98EE00ECB428 /* _TattIQ_InfoPage_480x320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F011297F10FB98EE00ECB428 /* _TattIQ_InfoPage_480x320.jpg */; };
+		F011298610FB9AC400ECB428 /* TestImageAsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F011298510FB9AC400ECB428 /* TestImageAsButton.m */; };
+		F011298810FB9AD300ECB428 /* TestImageAsButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F011298710FB9AD300ECB428 /* TestImageAsButton.xib */; };
+		F0286D0B10ED0D6A008EA040 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F0286D0A10ED0D6A008EA040 /* icon.png */; };
+		F0286D4310EE09D4008EA040 /* Quiz_GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */; };
+		F0286D4710EE0A1D008EA040 /* Quiz_GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0286D4610EE0A1D008EA040 /* Quiz_GameViewController.xib */; };
+		F0EC167D10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Tattoo_IQ_QuizAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tattoo_IQ_QuizAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Tattoo_IQ_QuizAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tattoo_IQ_QuizAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Tattoo IQ Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tattoo IQ Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* Tattoo_IQ_QuizViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tattoo_IQ_QuizViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tattoo_IQ_QuizViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tattoo_IQ_QuizViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Tattoo_IQ_Quiz_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tattoo_IQ_Quiz_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F011293610F9FE8000ECB428 /* Default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Default.jpg; sourceTree = "<group>"; };
+		F011297910FB987E00ECB428 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		F011297A10FB987E00ECB428 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		F011297C10FB989600ECB428 /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		F011297F10FB98EE00ECB428 /* _TattIQ_InfoPage_480x320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _TattIQ_InfoPage_480x320.jpg; sourceTree = "<group>"; };
+		F011298410FB9AC400ECB428 /* TestImageAsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestImageAsButton.h; sourceTree = "<group>"; };
+		F011298510FB9AC400ECB428 /* TestImageAsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestImageAsButton.m; sourceTree = "<group>"; };
+		F011298710FB9AD300ECB428 /* TestImageAsButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestImageAsButton.xib; sourceTree = "<group>"; };
+		F0286D0A10ED0D6A008EA040 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F0286D4110EE09D4008EA040 /* Quiz_GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz_GameViewController.h; sourceTree = "<group>"; };
+		F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz_GameViewController.m; sourceTree = "<group>"; };
+		F0286D4610EE0A1D008EA040 /* Quiz_GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Quiz_GameViewController.xib; sourceTree = "<group>"; };
+		F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _TattIQ_Questions_480x320.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* Tattoo_IQ_QuizAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Tattoo_IQ_QuizAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.m */,
+				F0286D4110EE09D4008EA040 /* Quiz_GameViewController.h */,
+				F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */,
+				F011297910FB987E00ECB428 /* InfoViewController.h */,
+				F011297A10FB987E00ECB428 /* InfoViewController.m */,
+				F011298410FB9AC400ECB428 /* TestImageAsButton.h */,
+				F011298510FB9AC400ECB428 /* TestImageAsButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Tattoo IQ Quiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Tattoo_IQ_Quiz_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F011297F10FB98EE00ECB428 /* _TattIQ_InfoPage_480x320.jpg */,
+				F011293610F9FE8000ECB428 /* Default.jpg */,
+				F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */,
+				F0286D4610EE0A1D008EA040 /* Quiz_GameViewController.xib */,
+				F0286D0A10ED0D6A008EA040 /* icon.png */,
+				2899E5210DE3E06400AC0155 /* Tattoo_IQ_QuizViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				F011297C10FB989600ECB428 /* InfoViewController.xib */,
+				F011298710FB9AD300ECB428 /* TestImageAsButton.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Tattoo IQ Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Tattoo IQ Quiz" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tattoo IQ Quiz";
+			productName = "Tattoo IQ Quiz";
+			productReference = 1D6058910D05DD3D006BFB54 /* Tattoo IQ Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tattoo IQ Quiz" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Tattoo IQ Quiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* Tattoo_IQ_QuizViewController.xib in Resources */,
+				F0286D0B10ED0D6A008EA040 /* icon.png in Resources */,
+				F0286D4710EE0A1D008EA040 /* Quiz_GameViewController.xib in Resources */,
+				F0EC167D10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg in Resources */,
+				F011293710F9FE8000ECB428 /* Default.jpg in Resources */,
+				F011297D10FB989600ECB428 /* InfoViewController.xib in Resources */,
+				F011298010FB98EE00ECB428 /* _TattIQ_InfoPage_480x320.jpg in Resources */,
+				F011298810FB9AD300ECB428 /* TestImageAsButton.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Tattoo_IQ_QuizAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.m in Sources */,
+				F0286D4310EE09D4008EA040 /* Quiz_GameViewController.m in Sources */,
+				F011297B10FB987E00ECB428 /* InfoViewController.m in Sources */,
+				F011298610FB9AC400ECB428 /* TestImageAsButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tattoo_IQ_Quiz_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "Tattoo IQ Quiz";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tattoo_IQ_Quiz_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "Tattoo IQ Quiz";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Tattoo IQ Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tattoo IQ Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
