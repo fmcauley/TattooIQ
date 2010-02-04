@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>F06E86D8111B1131009A4047</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>Quiz_GameViewController.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>F06E86D9111B1131009A4047</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>Quiz_GameViewController.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>F06E86DA111B1131009A4047</string>
+						<key>history</key>
+						<array>
+							<string>F06E86D5111B0900009A4047</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1276, 681}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>4 56 1276 722 0 0 1280 778 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -274,8 +315,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>19</integer>
-									<integer>15</integer>
+									<integer>7</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -327,7 +368,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F06E86D1111AFE94009A4047</string>
+										<string>F06E86D7111B1131009A4047</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -346,7 +387,7 @@
 											<string>F05105D811149D5E007A8EE0</string>
 											<string>F05105D911149D5E007A8EE0</string>
 											<string>F05106A811171964007A8EE0</string>
-											<string>F05107951117D432007A8EE0</string>
+											<string>F06E86D6111B1131009A4047</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -544,6 +585,7 @@
 	<array>
 		<string>F0286D4A10EE0A8D008EA040</string>
 		<string>/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Tattoo IQ Quiz.xcodeproj</string>
+		<string>F06E86D8111B1131009A4047</string>
 	</array>
 	<key>WindowString</key>
 	<string>4 55 1276 723 0 0 1280 778 </string>
