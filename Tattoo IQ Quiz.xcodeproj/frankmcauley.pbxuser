@@ -44,7 +44,7 @@
 			1D6058900D05DD3D006BFB54 /* Tattoo IQ Quiz */,
 		);
 		breakpoints = (
-			F080418510F24421004CF8CB /* Quiz_GameViewController.m:242 */,
+			F080418510F24421004CF8CB /* Quiz_GameViewController.m:241 */,
 		);
 		codeSenseManager = F0286D0710ED0CCD008EA040 /* Code sense */;
 		executables = (
@@ -117,6 +117,12 @@
 			F06E86E9111E1E16009A4047 = F06E86E9111E1E16009A4047 /* PBXTextBookmark */;
 			F06E86EA111E1E16009A4047 = F06E86EA111E1E16009A4047 /* PBXTextBookmark */;
 			F06E8704111E208A009A4047 /* PBXTextBookmark */ = F06E8704111E208A009A4047 /* PBXTextBookmark */;
+			F06E8713111E213B009A4047 /* PBXTextBookmark */ = F06E8713111E213B009A4047 /* PBXTextBookmark */;
+			F06E8714111E213B009A4047 /* PBXTextBookmark */ = F06E8714111E213B009A4047 /* PBXTextBookmark */;
+			F06E8715111E213B009A4047 /* PBXTextBookmark */ = F06E8715111E213B009A4047 /* PBXTextBookmark */;
+			F06E871C111E225C009A4047 /* PBXTextBookmark */ = F06E871C111E225C009A4047 /* PBXTextBookmark */;
+			F06E8723111E239B009A4047 /* PBXTextBookmark */ = F06E8723111E239B009A4047 /* PBXTextBookmark */;
+			F06E8726111E2425009A4047 /* PBXTextBookmark */ = F06E8726111E2425009A4047 /* PBXTextBookmark */;
 			F0860CDB1104AA6D00D849B0 = F0860CDB1104AA6D00D849B0 /* PBXTextBookmark */;
 			F0860CDC1104AA6D00D849B0 = F0860CDC1104AA6D00D849B0 /* PBXTextBookmark */;
 			F0860D101104B19E00D849B0 = F0860D101104B19E00D849B0 /* PBXTextBookmark */;
@@ -274,16 +280,16 @@
 	F0286D4110EE09D4008EA040 /* Quiz_GameViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1017, 741}}";
-			sepNavSelRange = "{860, 0}";
-			sepNavVisRange = "{0, 1312}";
+			sepNavSelRange = "{237, 56}";
+			sepNavVisRange = "{33, 1302}";
 			sepNavWindowFrame = "{{1299, -76}, {1387, 870}}";
 		};
 	};
 	F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1017, 5005}}";
-			sepNavSelRange = "{280, 0}";
-			sepNavVisRange = "{0, 761}";
+			sepNavIntBoundsRect = "{{0, 0}, {1209, 4849}}";
+			sepNavSelRange = "{7758, 0}";
+			sepNavVisRange = "{6713, 1241}";
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
 		};
 	};
@@ -349,7 +355,7 @@
 		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
 		name = "Quiz_GameViewController.m: 147";
 		rLen = 2;
-		rLoc = 4206;
+		rLoc = 4214;
 		rType = 0;
 		vrLen = 1576;
 		vrLoc = 2895;
@@ -359,7 +365,7 @@
 		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
 		name = "Quiz_GameViewController.m: 148";
 		rLen = 2;
-		rLoc = 4206;
+		rLoc = 4214;
 		rType = 0;
 		vrLen = 1576;
 		vrLoc = 2912;
@@ -369,7 +375,7 @@
 		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
 		name = "Quiz_GameViewController.m: 148";
 		rLen = 2;
-		rLoc = 4206;
+		rLoc = 4214;
 		rType = 0;
 		vrLen = 1576;
 		vrLoc = 2912;
@@ -379,7 +385,7 @@
 		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
 		name = "Quiz_GameViewController.m: 148";
 		rLen = 2;
-		rLoc = 4206;
+		rLoc = 4214;
 		rType = 0;
 		vrLen = 1576;
 		vrLoc = 2912;
@@ -399,7 +405,7 @@
 		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
 		name = "Quiz_GameViewController.m: 148";
 		rLen = 2;
-		rLoc = 4206;
+		rLoc = 4214;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 0;
@@ -424,7 +430,64 @@
 		vrLen = 761;
 		vrLoc = 0;
 	};
-	F080418510F24421004CF8CB /* Quiz_GameViewController.m:242 */ = {
+	F06E8713111E213B009A4047 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4110EE09D4008EA040 /* Quiz_GameViewController.h */;
+		name = "Quiz_GameViewController.h: 13";
+		rLen = 56;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 1302;
+		vrLoc = 33;
+	};
+	F06E8714111E213B009A4047 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		rLen = 1;
+		rLoc = 12;
+		rType = 1;
+	};
+	F06E8715111E213B009A4047 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 146";
+		rLen = 0;
+		rLoc = 3939;
+		rType = 0;
+		vrLen = 1423;
+		vrLoc = 3242;
+	};
+	F06E871C111E225C009A4047 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 157";
+		rLen = 5;
+		rLoc = 4377;
+		rType = 0;
+		vrLen = 1443;
+		vrLoc = 2934;
+	};
+	F06E8723111E239B009A4047 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 306";
+		rLen = 0;
+		rLoc = 7758;
+		rType = 0;
+		vrLen = 1143;
+		vrLoc = 6713;
+	};
+	F06E8726111E2425009A4047 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 306";
+		rLen = 0;
+		rLoc = 7758;
+		rType = 0;
+		vrLen = 1241;
+		vrLoc = 6713;
+	};
+	F080418510F24421004CF8CB /* Quiz_GameViewController.m:241 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 			F080419710F244B6004CF8CB /* XCBreakpointCommandAction */,
@@ -437,7 +500,7 @@
 		functionName = "-buttonOne";
 		hitCount = 3;
 		ignoreCount = 0;
-		lineNumber = 242;
+		lineNumber = 241;
 		location = "Tattoo IQ Quiz";
 		modificationTime = 284317244.124557;
 		originalNumberOfMultipleMatches = 1;

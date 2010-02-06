@@ -144,18 +144,17 @@
 		{
 			
 			
+			
+			
 			NSString *finishingStatement = [[NSString alloc] initWithFormat:@"Scratcher!\nYou got more than five questions incorrect. You are definitely a scratcher! " 
 											@"Be sure to study up and take the Tattoo IQ test again. Check back for monthly updates!"];
 			//theQuestion.font = [UIFont boldSystemFontOfSize:17.0];
 			theQuestion.text = finishingStatement;
-			[finishingStatement release];
+			[finishingStatement release]; 
 		}
 		theLives.text = @"";
 		
-		// End of the game set the buttons for finall actions.
-		// NEED TO WIRE UP THE UPDATES TO FB, TWITTER, WEBSITE AND RESTART! **REMOVE AFTER TESTING
-		
-		
+				
 		// RESTART THE GAME SET
 	
 		
