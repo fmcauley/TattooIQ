@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 @class NSAttributedString;
+@class InfoViewController;
 
 @interface Quiz_GameViewController : UIViewController {
 	IBOutlet	UILabel		*theQuestion;
@@ -27,8 +28,12 @@
 	BOOL questionLive;
 	BOOL restartGame;
 	
+	//seting up a new screen for restart
+	InfoViewController *infoViewController;
+	
 }
 
+@property (nonatomic, retain) IBOutlet InfoViewController *infoViewController;
 @property (retain, nonatomic) UILabel	*theQuestion;
 @property (retain, nonatomic) UILabel	*theScore;
 @property (retain, nonatomic) UILabel	*theLives;

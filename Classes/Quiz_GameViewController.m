@@ -7,10 +7,11 @@
 //
 
 #import "Quiz_GameViewController.h"
-
+#import "InfoViewController.h"
 
 
 @implementation Quiz_GameViewController
+@synthesize infoViewController;
 @synthesize theQuestion;
 @synthesize theScore;
 @synthesize theLives;
