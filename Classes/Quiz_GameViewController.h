@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 @class NSAttributedString;
-@class InfoViewController;
+@class FinalViewController;
 
 @interface Quiz_GameViewController : UIViewController {
 	IBOutlet	UILabel		*theQuestion;
@@ -29,11 +29,11 @@
 	BOOL restartGame;
 	
 	//seting up a new screen for restart
-	InfoViewController *infoViewController;
+	FinalViewController *finalViewController;
 	
 }
 
-@property (nonatomic, retain) IBOutlet InfoViewController *infoViewController;
+@property (nonatomic, retain) IBOutlet FinalViewController *finalViewController;
 @property (retain, nonatomic) UILabel	*theQuestion;
 @property (retain, nonatomic) UILabel	*theScore;
 @property (retain, nonatomic) UILabel	*theLives;
@@ -43,6 +43,8 @@
 @property (retain, nonatomic) UIButton	*answerFour;
 @property (retain, nonatomic) NSArray *theQuiz;
 @property (retain, nonatomic) NSTimer *timer;
+@property (nonatomic, assign) NSInteger myScore;
+
 
 -(IBAction)buttonOne;
 -(IBAction)buttonTwo;
@@ -54,7 +56,6 @@
 -(void)updateScore;
 -(void)loadQuiz;
 -(void)countDown;
--(void)restartQuiz;
 
 
 @end

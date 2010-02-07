@@ -7,11 +7,11 @@
 //
 
 #import "Quiz_GameViewController.h"
-#import "InfoViewController.h"
+#import "FinalViewController.h"
 
 
 @implementation Quiz_GameViewController
-@synthesize infoViewController;
+@synthesize finalViewController;
 @synthesize theQuestion;
 @synthesize theScore;
 @synthesize theLives;
@@ -21,17 +21,15 @@
 @synthesize answerFour;
 @synthesize theQuiz;
 @synthesize timer;
+@synthesize myScore;
 
-
-//RESTART THE GAME
--(void)restartQuiz {
-  
-	NSLog(@"RESTART QUIZ FUNCATION HAS BEEN CALLED!"); 
-	restartGame = YES;
-  	
-}
 
 //THIS IS A TEST
+
+-(NSInteger)getMyScore {
+	return myScore;
+}
+	
 
 
 -(void)askQuestion
@@ -70,7 +68,6 @@
 	
 	// Set the question string, and set the buttons the the answers
 	NSString *selected = [theQuiz objectAtIndex:row];
-	//NSString *activeQuestion = [[NSString alloc] initWithFormat:@"Question: %@", selected];
 	NSString *activeQuestion = [[NSString alloc] initWithFormat:@"%@", selected];
 	[answerOne setTitle:[theQuiz objectAtIndex:row+1] forState:UIControlStateNormal];
 	[answerTwo setTitle:[theQuiz objectAtIndex:row+2] forState:UIControlStateNormal];
@@ -108,8 +105,9 @@
 	NSInteger endOfQuiz = [theQuiz count];
 	if((((questionNumber - 1) * 6) + 6) == endOfQuiz)
 	{
+		[self presentModalViewController:finalViewController animated:YES];
 		
-		
+		/*
 		// Game is over.
 		if(myScore >= 140)
 		{
@@ -120,7 +118,7 @@
 			NSString *finishingStatement = [[NSString alloc] initWithFormat:@"Tattoo Guru!!\nCongratulations! Your tattoo knowledge is impressive,"
 											@" you are a Tattoo Guru! Be sure to post your results and challenge your friends to take the" 
 											@" Tattoo IQ test!"];
-			//theQuestion.font = [UIFont boldSystemFontOfSize:17.0];
+			
 			theQuestion.text = finishingStatement;
 			
 			
@@ -166,11 +164,11 @@
 		[answerTwo   setTitle:@"Update Facebok status" forState:UIControlStateNormal];
 		[answerThree setTitle:@"Update Twitter status" forState:UIControlStateNormal];
 		[answerFour  setTitle:@"More Hell City tattoo apps"     forState:UIControlStateNormal];
-		[self restartQuiz];
-				
+		*/				
 		
 		
 	}
+		
 	else
 	{
 		// Give a short rest between questions
@@ -238,16 +236,6 @@
 		
 	}
 	
-	if(restartGame == YES)
-	{
-		//questionNumber = 0;
-		NSLog(@"RESTART THE GAME!!!!!!");
-		//FOR TESTING ONLY
-		NSLog(@"INSIDE THE IF OG BUTTON ONE %d\n ",restartGame); //THIS WILL BE REMOVED AFTER TESTING
-		//[self viewDidLoad];
-		// Create a restart game function.
-		
-	}
 }
 
 - (IBAction)buttonTwo
@@ -292,16 +280,12 @@
     [super viewDidLoad];
 	questionLive = NO;
 	restartGame = NO;
-	theQuestion.text = @"Welcome to the Tattoo IQ test presented by\n The Hell City Tattoo Festival!";
+	//theQuestion.text = @"Welcome to the Tattoo IQ test presented by\n The Hell City Tattoo Festival!";
 	theScore.text = @"Score:0";
 	theLives.text = @"";
 	questionNumber = 0;
 	myScore = 0;
 	myLives = 0;
-	[answerOne setTitle:@"Start the Quiz!" forState:UIControlStateNormal];
-	[answerTwo setHidden:YES];
-	[answerThree setHidden:YES];
-	[answerFour setHidden:YES];
 	[self loadQuiz];
 	[self askQuestion];
 }
@@ -316,23 +300,18 @@
 						  @"How many layers does a tattoo get injected into skin?",@"1-2 layers",@"2-3 layers",@"3-5 layers",@"5-8 layers",@"2",
 						  @"What is the popular slang for a tattoo machine?", @"Shooter", @"Inker", @"Zapper", @"Gun", @"4",
 						  @"Body weight can distort a tattoo?", @"true", @"false", @"", @"", @"1",
-						  @"What's the name of the oldest iceman found with tattoos on his skin?", @"Yaki", @"Tommy", @"Otano", 
-						  @"Otzi", @"4",
-						  @"Who's the current Guinness Worlds Records most heavily tattooed man?",@"Chris Longo",@"Lyle Tuttle",@"Lucky Diamond Rich",@"Don Ed Hardy",@"3",
-						  @"What's the Japanese terms for hand poked tattooing?",@"Kanji",@"Itai",@"Katana",@"Tebori",@"4",
-						  @"What is one considered that is learning to tattoo from another tattoo artist?",@"Apprentice",@"Trainee",@"Learner",@"Sidehand",@"1",
-						  @"Which of the following is not a tattoo machine?",@"Pneumatic",@"Hydro",@"Coil",@"Rotary",@"2",
-						  @"Tattoo Designs that are sold from the walls of studios are called?",@"Drawings",@"Stencils",@"Transfer",@"Flash",@"4",
-						  @"What is the instrument used to sterilize tattoo equipment?",@"Autoclave",@"Cooker",@"Sterilizer",@"Heatclave",@"1",
-						  @"The most current method of tattooing is?",@"Hand Poked",@"Battery",@"Electric",@"Solar",@"3",
-						  @"What is the tattoo machine designed from?",@"Telephone",@"Doorbell",@"Cassettee recorder",@"Television",@"2ß∫®",
-						  @"What makes a tattoo machine operate?",@"Wind Power",@"Static electricity",@"Nuclear Fission",@"Electromagnetics",@"4",
-						 // @"Which celebrity does not have a tattoo?",@"Mark Walhberg",@"Brad Pitt",@"Robin Williams",@"Johnny Depp",@"3",
-						  @"Who's the current oldest living tattoo artist?",@"Lyle Tuttle",@"Philadelphia Eddie",@"Don Ed Hardy",@"Sailor Jerry",@"1",
-						  //@"What is the hand held attachment that the artist holds called?",@"Tube",@"Needle",@"Ink",@"Dabber",@"1",
-						 // @"What happens when you fart while getting a tattoo?",@"The artist gets angry and quits",@"You shart in your pants",
-						 // @"The stench knocks the artist out",@"Your tattoo gets infected",@"2",
-						  
+						//  @"What's the name of the oldest iceman found with tattoos on his skin?", @"Yaki", @"Tommy", @"Otano", 
+						//  @"Otzi", @"4",
+						//  @"Who's the current Guinness Worlds Records most heavily tattooed man?",@"Chris Longo",@"Lyle Tuttle",@"Lucky Diamond Rich",@"Don Ed Hardy",@"3",
+						//  @"What's the Japanese terms for hand poked tattooing?",@"Kanji",@"Itai",@"Katana",@"Tebori",@"4",
+						//  @"What is one considered that is learning to tattoo from another tattoo artist?",@"Apprentice",@"Trainee",@"Learner",@"Sidehand",@"1",
+						//  @"Which of the following is not a tattoo machine?",@"Pneumatic",@"Hydro",@"Coil",@"Rotary",@"2",
+						//  @"Tattoo Designs that are sold from the walls of studios are called?",@"Drawings",@"Stencils",@"Transfer",@"Flash",@"4",
+						//  @"What is the instrument used to sterilize tattoo equipment?",@"Autoclave",@"Cooker",@"Sterilizer",@"Heatclave",@"1",
+						//  @"The most current method of tattooing is?",@"Hand Poked",@"Battery",@"Electric",@"Solar",@"3",
+						//  @"What is the tattoo machine designed from?",@"Telephone",@"Doorbell",@"Cassettee recorder",@"Television",@"2ß∫®",
+						//  @"What makes a tattoo machine operate?",@"Wind Power",@"Static electricity",@"Nuclear Fission",@"Electromagnetics",@"4",
+						//  @"Who's the current oldest living tattoo artist?",@"Lyle Tuttle",@"Philadelphia Eddie",@"Don Ed Hardy",@"Sailor Jerry",@"1",
 						  nil];
 	self.theQuiz = quizArray;
 	[quizArray release];
