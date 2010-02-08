@@ -38,7 +38,7 @@
     [super viewDidLoad];
 	
 	
-	NSString *finishingStatement = [[NSString alloc] initWithFormat:@"Tattoo Apprentice!!\nYou got more than one question incorrect. " 
+	NSString *finishingStatement = [[NSString alloc] initWithFormat:@"You got more than one question incorrect. " 
 									@"You are still a tattoo apprentice! " 
 									@"Be sure to study up and take the Tattoo IQ test again. Check back for monthly updates!"];
 	middleOutput.text = finishingStatement;

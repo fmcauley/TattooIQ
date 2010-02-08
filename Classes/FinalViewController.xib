@@ -13,7 +13,7 @@
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<integer value="8"/>
-			<integer value="1"/>
+			<integer value="4"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -89,7 +89,7 @@
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<object class="NSFont" key="IBUIFont" id="168969322">
+						<object class="NSFont" key="IBUIFont" id="169924748">
 							<string key="NSName">Helvetica-Bold</string>
 							<double key="NSSize">15</double>
 							<int key="NSfFlags">16</int>
@@ -102,14 +102,14 @@
 						</object>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MyAwLjMwOTgwMzkzIDAuNTIxNTY4NjYAA</bytes>
+							<bytes key="NSRGB">MC4wMjc5MzU1MTM0IDAuMDMyNzAwOTM5OCAwLjUyMTU2ODY2AA</bytes>
 						</object>
-						<object class="NSColor" key="IBUINormalTitleShadowColor" id="575826524">
+						<object class="NSColor" key="IBUINormalTitleShadowColor" id="85964303">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
 						</object>
 					</object>
-					<object class="IBUIButton" id="587144097">
+					<object class="IBUIButton" id="130759539">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{20, 265}, {280, 37}}</string>
@@ -118,17 +118,17 @@
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<reference key="IBUIFont" ref="168969322"/>
+						<reference key="IBUIFont" ref="169924748"/>
 						<int key="IBUIButtonType">1</int>
 						<string key="IBUINormalTitle">More Hell City tattoo apps</string>
 						<reference key="IBUIHighlightedTitleColor" ref="518441771"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MyAwLjMwOTgwMzkzIDAuNTIxNTY4NjYAA</bytes>
+							<bytes key="NSRGB">MC4wMTAyNzY2NDAzNiAwLjAxOTU0Mzg1MzU4IDAuNTIxNTY4NjYAA</bytes>
 						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="575826524"/>
+						<reference key="IBUINormalTitleShadowColor" ref="85964303"/>
 					</object>
-					<object class="IBUILabel" id="698916337">
+					<object class="IBUILabel" id="194787356">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{25, 20}, {275, 29}}</string>
@@ -201,7 +201,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">restartTheGame:</string>
-						<reference key="source" ref="587144097"/>
+						<reference key="source" ref="130759539"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -225,8 +225,8 @@
 							<reference ref="66359498"/>
 							<reference ref="544692339"/>
 							<reference ref="1036070885"/>
-							<reference ref="587144097"/>
-							<reference ref="698916337"/>
+							<reference ref="130759539"/>
+							<reference ref="194787356"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -263,12 +263,12 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">12</int>
-						<reference key="object" ref="587144097"/>
+						<reference key="object" ref="130759539"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">14</int>
-						<reference key="object" ref="698916337"/>
+						<reference key="object" ref="194787356"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>

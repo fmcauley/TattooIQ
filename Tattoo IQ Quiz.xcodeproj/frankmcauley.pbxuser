@@ -182,6 +182,10 @@
 			F0150800111FB8EE0031C193 /* PBXTextBookmark */ = F0150800111FB8EE0031C193 /* PBXTextBookmark */;
 			F015080C1120648C0031C193 /* PBXTextBookmark */ = F015080C1120648C0031C193 /* PBXTextBookmark */;
 			F015080D1120648C0031C193 /* PBXTextBookmark */ = F015080D1120648C0031C193 /* PBXTextBookmark */;
+			F0150812112064DF0031C193 /* PBXTextBookmark */ = F0150812112064DF0031C193 /* PBXTextBookmark */;
+			F0150818112066150031C193 /* PBXTextBookmark */ = F0150818112066150031C193 /* PBXTextBookmark */;
+			F0150819112066150031C193 /* PBXTextBookmark */ = F0150819112066150031C193 /* PBXTextBookmark */;
+			F015081A112066150031C193 /* PBXTextBookmark */ = F015081A112066150031C193 /* PBXTextBookmark */;
 			F05105D611149D5E007A8EE0 = F05105D611149D5E007A8EE0 /* PBXTextBookmark */;
 			F05105D711149D5E007A8EE0 = F05105D711149D5E007A8EE0 /* PBXTextBookmark */;
 			F05105D811149D5E007A8EE0 = F05105D811149D5E007A8EE0 /* PBXTextBookmark */;
@@ -280,9 +284,9 @@
 	};
 	F0150705111F483C0031C193 /* FinalViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 988}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 949}}";
 			sepNavSelRange = "{1100, 0}";
-			sepNavVisRange = "{255, 1123}";
+			sepNavVisRange = "{292, 1259}";
 		};
 	};
 	F015070C111F48890031C193 /* XCBuildMessageTextBookmark */ = {
@@ -623,9 +627,9 @@
 	};
 	F0150794111FA3090031C193 /* MiddleScoreViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 936}}";
-			sepNavSelRange = "{1343, 0}";
-			sepNavVisRange = "{373, 1394}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 949}}";
+			sepNavSelRange = "{1049, 0}";
+			sepNavVisRange = "{443, 1303}";
 		};
 	};
 	F0150798111FA33B0031C193 /* LowScoreViewConroller.h */ = {
@@ -821,7 +825,7 @@
 		fRef = F0150794111FA3090031C193 /* MiddleScoreViewController.m */;
 		name = "MiddleScoreViewController.m: 39";
 		rLen = 0;
-		rLoc = 1344;
+		rLoc = 1323;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -831,7 +835,7 @@
 		fRef = F0150794111FA3090031C193 /* MiddleScoreViewController.m */;
 		name = "MiddleScoreViewController.m: 40";
 		rLen = 0;
-		rLoc = 1343;
+		rLoc = 1322;
 		rType = 0;
 		vrLen = 1178;
 		vrLoc = 229;
@@ -861,7 +865,7 @@
 		fRef = F0150794111FA3090031C193 /* MiddleScoreViewController.m */;
 		name = "MiddleScoreViewController.m: 40";
 		rLen = 0;
-		rLoc = 1343;
+		rLoc = 1322;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 230;
@@ -871,7 +875,7 @@
 		fRef = F0150794111FA3090031C193 /* MiddleScoreViewController.m */;
 		name = "MiddleScoreViewController.m: 49";
 		rLen = 0;
-		rLoc = 1343;
+		rLoc = 1322;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 373;
@@ -881,7 +885,7 @@
 		fRef = F0150794111FA3090031C193 /* MiddleScoreViewController.m */;
 		name = "MiddleScoreViewController.m: 49";
 		rLen = 0;
-		rLoc = 1343;
+		rLoc = 1322;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 373;
@@ -1079,6 +1083,46 @@
 		rType = 0;
 		vrLen = 1123;
 		vrLoc = 255;
+	};
+	F0150812112064DF0031C193 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150705111F483C0031C193 /* FinalViewController.m */;
+		name = "FinalViewController.m: 43";
+		rLen = 0;
+		rLoc = 1100;
+		rType = 0;
+		vrLen = 1086;
+		vrLoc = 292;
+	};
+	F0150818112066150031C193 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150705111F483C0031C193 /* FinalViewController.m */;
+		name = "FinalViewController.m: 43";
+		rLen = 0;
+		rLoc = 1100;
+		rType = 0;
+		vrLen = 1259;
+		vrLoc = 292;
+	};
+	F0150819112066150031C193 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150793111FA3090031C193 /* MiddleScoreViewController.h */;
+		name = "MiddleScoreViewController.h: 21";
+		rLen = 13;
+		rLoc = 468;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	F015081A112066150031C193 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150794111FA3090031C193 /* MiddleScoreViewController.m */;
+		name = "MiddleScoreViewController.m: 41";
+		rLen = 0;
+		rLoc = 1049;
+		rType = 0;
+		vrLen = 1303;
+		vrLoc = 443;
 	};
 	F0286CF910ED0CB3008EA040 /* Tattoo IQ Quiz */ = {
 		isa = PBXExecutable;
