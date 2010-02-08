@@ -24,5 +24,6 @@
 @property (nonatomic, retain) IBOutlet UILabel *textView;
 
 -(IBAction)goBackOneScreen:(id)sender;
+-(IBAction)setUpdateToTwitter:(id)sender:
 
 @end

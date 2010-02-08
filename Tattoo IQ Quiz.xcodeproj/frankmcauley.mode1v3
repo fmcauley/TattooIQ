@@ -272,8 +272,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>26</integer>
-									<integer>25</integer>
+									<integer>21</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F015088D1120881E0031C193</string>
+										<string>F015091B1120C8790031C193</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -347,15 +347,16 @@
 											<string>F05105D911149D5E007A8EE0</string>
 											<string>F01507E4111FB6F70031C193</string>
 											<string>F01507F0111FB8670031C193</string>
-											<string>F015080C1120648C0031C193</string>
 											<string>F0150819112066150031C193</string>
 											<string>F0150820112067620031C193</string>
-											<string>F015082A11206C160031C193</string>
-											<string>F015083A112072630031C193</string>
 											<string>F015083B112072630031C193</string>
 											<string>F0150846112074290031C193</string>
-											<string>F0150886112087FE0031C193</string>
-											<string>F0150887112087FE0031C193</string>
+											<string>F01508F71120B6ED0031C193</string>
+											<string>F01508F81120B6ED0031C193</string>
+											<string>F01508F91120B6ED0031C193</string>
+											<string>F01509181120C8790031C193</string>
+											<string>F01509191120C8790031C193</string>
+											<string>F015091A1120C8790031C193</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -551,9 +552,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>F01508A411208BD60031C193</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>F0286D4A10EE0A8D008EA040</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Tattoo IQ Quiz.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -578,7 +580,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Quiz_GameViewController.m</string>
+								<string>HellCityAppsViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -936,7 +938,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

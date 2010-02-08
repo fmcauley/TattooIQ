@@ -262,7 +262,7 @@
 	// FORMAT IS IMPORTANT!!!!
 	// 1: Question, 2 3 4 5: Answers 1-4 respectively, 6: The right answer
 	// THIS IS A TERRIBLE WAY TO DO THIS. I will figure out how to do nested arrays to make this better.
-	NSArray *quizArray = [[NSArray alloc] initWithObjects:@"Who invented the tattoo machine?",@"Thomas Edison",@"Sam O'Reilly",@"Thomas Riley",@"Albert Einstein",@"2",
+	NSArray *quizArray = [[NSArray alloc] initWithObjects:@"Who patented the first tattoo machine?",@"Thomas Edison",@"Sam O'Reilly",@"Thomas Riley",@"Percy Waters",@"2",
 						  @"How many layers does a tattoo get injected into skin?",@"1-2 layers",@"2-3 layers",@"3-5 layers",@"5-8 layers",@"2",
 						  @"What is the popular slang for a tattoo machine?", @"Shooter", @"Inker", @"Zapper", @"Gun", @"4",
 						  @"Body weight can distort a tattoo?", @"true", @"false", @"", @"", @"1",

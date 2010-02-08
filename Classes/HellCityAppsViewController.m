@@ -12,9 +12,11 @@
 @implementation HellCityAppsViewController
 
 -(void) loadURL {
+   
 	NSURL *url = [[NSURL alloc] initWithString:urlField.text];
 	NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
 	[webview loadRequest:request];
+	
 	[request release];
 	[url release];
 }
@@ -42,12 +44,13 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	[self loadURL];
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
