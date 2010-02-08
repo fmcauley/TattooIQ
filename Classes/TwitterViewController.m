@@ -1,43 +1,23 @@
 //
-//  FinalViewController.m
+//  TwitterViewController.m
 //  Tattoo IQ Quiz
 //
-//  Created by Frank McAuley on 2/7/10.
+//  Created by Frank McAuley on 2/8/10.
 //  Copyright 2010 Frank McAuley LLC. All rights reserved.
 //
 
-#import "FinalViewController.h"
-#import "InfoViewController.h"
-#import "Quiz_GameViewController.h"
-#import "HellCityAppsViewController.h"
 #import "TwitterViewController.h"
+#import "FinalViewController.h"
 
 
-@implementation FinalViewController
+@implementation TwitterViewController
 
-@synthesize infoViewController;
-@synthesize quiz_GameViewController;
-@synthesize finalScore;
-@synthesize hellCityViewController;
-@synthesize twitterViewController;
+@synthesize finalViewController;
 
--(IBAction)restartTheGame:(id)sender {
+-(IBAction)goBackOneScreen:(id)sender{
 	
-	[self presentModalViewController:infoViewController animated:YES];
-	
+	[self dismissModalViewControllerAnimated:YES];
 }
-
--(IBAction)goToWebSite:(id)sender {
-	
-	[self presentModalViewController:hellCityViewController animated:YES];
-	
-}
-
--(IBAction)updateTwitter:(id)sender{
-	[self presentModalViewController:twitterViewController animated:YES];
-}
-
-
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -49,22 +29,12 @@
 }
 */
 
-
+/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	NSString *finishingStatement = [[NSString alloc] initWithFormat:@"Congratulations! Your tattoo knowledge is impressive,"
-									@" you are a Tattoo Guru! Be sure to post your results and challenge your friends to take the" 
-									@" Tattoo IQ test!"];
-	
-	finalScore.text = finishingStatement;
-	[finishingStatement release];
-	
-	
-	
-	
 }
-
+*/
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -82,8 +52,8 @@
 }
 
 - (void)viewDidUnload {
-  	
-
+	// Release any retained subviews of the main view.
+	// e.g. self.myOutlet = nil;
 }
 
 

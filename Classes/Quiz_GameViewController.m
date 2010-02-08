@@ -231,7 +231,7 @@
 	NSLog(@"The value %d\n ",restartGame); //THIS WILL BE REMOVED AFTER TESTING
 	if(rightAnswer == theAnswerValue)
 	{
-		theQuestion.text = @"Correct!!\n Ready for the next question?";
+		theQuestion.text = @"Correct!\n Ready for the next question?";
 		myScore = myScore + 10;
 	}
 	else
