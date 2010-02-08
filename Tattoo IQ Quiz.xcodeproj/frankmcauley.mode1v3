@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>F01507FE111FB8EE0031C193</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>Quiz_GameViewController.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>F01507FF111FB8EE0031C193</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>Quiz_GameViewController.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>F0150800111FB8EE0031C193</string>
+						<key>history</key>
+						<array>
+							<string>F01507F5111FB8910031C193</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1276, 681}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>4 56 1276 722 0 0 1280 778 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -229,6 +270,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -272,7 +315,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>16</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -308,14 +351,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>LowScoreViewConroller.h</string>
+								<string>Quiz_GameViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +364,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>LowScoreViewConroller.h</string>
+										<string>Quiz_GameViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F01507DC111FB5A70031C193</string>
+										<string>F01507FD111FB8EE0031C193</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -346,13 +387,13 @@
 											<string>F05105D811149D5E007A8EE0</string>
 											<string>F05105D911149D5E007A8EE0</string>
 											<string>F0150777111F53DF0031C193</string>
-											<string>F01507A7111FA4270031C193</string>
-											<string>F01507B4111FA6080031C193</string>
 											<string>F01507C1111FA8330031C193</string>
 											<string>F01507C9111FA8FC0031C193</string>
 											<string>F01507D3111FAA230031C193</string>
-											<string>F01507DA111FB5A70031C193</string>
-											<string>F01507DB111FB5A70031C193</string>
+											<string>F01507E4111FB6F70031C193</string>
+											<string>F01507E8111FB7BA0031C193</string>
+											<string>F01507F0111FB8670031C193</string>
+											<string>F01507FC111FB8EE0031C193</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -552,6 +593,7 @@
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>F0286D4A10EE0A8D008EA040</string>
 		<string>/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Tattoo IQ Quiz.xcodeproj</string>
+		<string>F01507FE111FB8EE0031C193</string>
 	</array>
 	<key>WindowString</key>
 	<string>4 55 1276 723 0 0 1280 778 </string>

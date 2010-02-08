@@ -16,6 +16,9 @@
 
 }
 
+@property (nonatomic,retain) IBOutlet InfoViewController *infoViewController;
+@property (nonatomic,retain) IBOutlet UILabel *lowScore;
+
 -(IBAction)restartTheGame;
 
 @end

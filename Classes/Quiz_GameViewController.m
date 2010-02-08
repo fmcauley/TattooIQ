@@ -9,10 +9,12 @@
 #import "Quiz_GameViewController.h"
 #import "FinalViewController.h"
 #import "MiddleScoreViewController.h"
+#import "LowScoreViewConroller.h"
 
 
 @implementation Quiz_GameViewController
 @synthesize middleScoreViewController;
+@synthesize lowScoreViewController;
 @synthesize finalViewController;
 @synthesize theQuestion;
 @synthesize theScore;
@@ -128,37 +130,9 @@
 		
 		else
 		{
+			[self presentModalViewController:lowScoreViewController animated:YES];
 			
-			NSLog(@"THIS IS A PLACE HOLDER");
-			/**
-			
-			
-			
-			NSString *finishingStatement = [[NSString alloc] initWithFormat:@"Scratcher!\nYou got more than five questions incorrect. You are definitely a scratcher! " 
-											@"Be sure to study up and take the Tattoo IQ test again. Check back for monthly updates!"];
-			//theQuestion.font = [UIFont boldSystemFontOfSize:17.0];
-			theQuestion.text = finishingStatement;
-			[finishingStatement release]; 
-			 */
 		}
-		/*
-		theLives.text = @"";
-		
-				
-		// RESTART THE GAME SET
-	
-		
-		[answerOne   setHidden:NO];
-		[answerTwo   setHidden:NO];
-		[answerThree setHidden:NO];
-		[answerFour  setHidden:NO];
-		[answerOne   setTitle:@"Shoot for a higher score" forState:UIControlStateNormal];
-		[answerTwo   setTitle:@"Update Facebok status" forState:UIControlStateNormal];
-		[answerThree setTitle:@"Update Twitter status" forState:UIControlStateNormal];
-		[answerFour  setTitle:@"More Hell City tattoo apps"     forState:UIControlStateNormal];
-		*/
-			
-		
 		
 	}
 		
@@ -273,7 +247,6 @@
     [super viewDidLoad];
 	questionLive = NO;
 	restartGame = NO;
-	//theQuestion.text = @"Welcome to the Tattoo IQ test presented by\n The Hell City Tattoo Festival!";
 	theScore.text = @"Score:0";
 	theLives.text = @"";
 	questionNumber = 0;
