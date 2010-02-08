@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -272,8 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
-									<integer>1</integer>
+									<integer>27</integer>
+									<integer>23</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -308,14 +310,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MiddleScoreViewController.m</string>
+								<string>FinalViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MiddleScoreViewController.m</string>
+										<string>FinalViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F015081A112066150031C193</string>
+										<string>F015083D112072630031C193</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -345,14 +345,15 @@
 											<string>F05105D711149D5E007A8EE0</string>
 											<string>F05105D811149D5E007A8EE0</string>
 											<string>F05105D911149D5E007A8EE0</string>
-											<string>F0150777111F53DF0031C193</string>
 											<string>F01507E4111FB6F70031C193</string>
-											<string>F01507E8111FB7BA0031C193</string>
 											<string>F01507F0111FB8670031C193</string>
 											<string>F015080C1120648C0031C193</string>
-											<string>F0150818112066150031C193</string>
 											<string>F0150819112066150031C193</string>
-											<string>F01507D3111FAA230031C193</string>
+											<string>F0150820112067620031C193</string>
+											<string>F015082A11206C160031C193</string>
+											<string>F015083A112072630031C193</string>
+											<string>F015083B112072630031C193</string>
+											<string>F015083C112072630031C193</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -548,9 +549,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>F0286D4A10EE0A8D008EA040</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Tattoo IQ Quiz.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -886,6 +887,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -898,7 +901,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {833, 395}}</string>
 								<key>RubberWindowFrame</key>
-								<string>25 319 833 436 0 0 1280 778 </string>
+								<string>1282 356 833 436 1280 -100 1440 900 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -927,11 +930,11 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>25 319 833 436 0 0 1280 778 </string>
+			<string>1282 356 833 436 1280 -100 1440 900 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

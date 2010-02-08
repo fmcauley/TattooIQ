@@ -27,6 +27,8 @@
 		F0150797111FA3090031C193 /* MiddleScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0150795111FA3090031C193 /* MiddleScoreViewController.xib */; };
 		F015079B111FA33B0031C193 /* LowScoreViewConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = F0150799111FA33B0031C193 /* LowScoreViewConroller.m */; };
 		F015079C111FA33B0031C193 /* LowScoreViewConroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = F015079A111FA33B0031C193 /* LowScoreViewConroller.xib */; };
+		F015082811206B680031C193 /* HellCityAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F015082611206B680031C193 /* HellCityAppsViewController.m */; };
+		F015082911206B680031C193 /* HellCityAppsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F015082711206B680031C193 /* HellCityAppsViewController.xib */; };
 		F0286D0B10ED0D6A008EA040 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F0286D0A10ED0D6A008EA040 /* icon.png */; };
 		F0286D4310EE09D4008EA040 /* Quiz_GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */; };
 		F0286D4710EE0A1D008EA040 /* Quiz_GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0286D4610EE0A1D008EA040 /* Quiz_GameViewController.xib */; };
@@ -64,6 +66,9 @@
 		F0150798111FA33B0031C193 /* LowScoreViewConroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowScoreViewConroller.h; sourceTree = "<group>"; };
 		F0150799111FA33B0031C193 /* LowScoreViewConroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowScoreViewConroller.m; sourceTree = "<group>"; };
 		F015079A111FA33B0031C193 /* LowScoreViewConroller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LowScoreViewConroller.xib; path = Classes/LowScoreViewConroller.xib; sourceTree = "<group>"; };
+		F015082511206B680031C193 /* HellCityAppsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellCityAppsViewController.h; sourceTree = "<group>"; };
+		F015082611206B680031C193 /* HellCityAppsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellCityAppsViewController.m; sourceTree = "<group>"; };
+		F015082711206B680031C193 /* HellCityAppsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HellCityAppsViewController.xib; path = Classes/HellCityAppsViewController.xib; sourceTree = "<group>"; };
 		F0286D0A10ED0D6A008EA040 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		F0286D4110EE09D4008EA040 /* Quiz_GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz_GameViewController.h; sourceTree = "<group>"; };
 		F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz_GameViewController.m; sourceTree = "<group>"; };
@@ -104,6 +109,8 @@
 				F0150794111FA3090031C193 /* MiddleScoreViewController.m */,
 				F0150798111FA33B0031C193 /* LowScoreViewConroller.h */,
 				F0150799111FA33B0031C193 /* LowScoreViewConroller.m */,
+				F015082511206B680031C193 /* HellCityAppsViewController.h */,
+				F015082611206B680031C193 /* HellCityAppsViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -140,6 +147,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F015082711206B680031C193 /* HellCityAppsViewController.xib */,
 				F015079A111FA33B0031C193 /* LowScoreViewConroller.xib */,
 				F0150795111FA3090031C193 /* MiddleScoreViewController.xib */,
 				F0150706111F483C0031C193 /* FinalViewController.xib */,
@@ -221,6 +229,7 @@
 				F0150708111F483C0031C193 /* FinalViewController.xib in Resources */,
 				F0150797111FA3090031C193 /* MiddleScoreViewController.xib in Resources */,
 				F015079C111FA33B0031C193 /* LowScoreViewConroller.xib in Resources */,
+				F015082911206B680031C193 /* HellCityAppsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +249,7 @@
 				F0150707111F483C0031C193 /* FinalViewController.m in Sources */,
 				F0150796111FA3090031C193 /* MiddleScoreViewController.m in Sources */,
 				F015079B111FA33B0031C193 /* LowScoreViewConroller.m in Sources */,
+				F015082811206B680031C193 /* HellCityAppsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

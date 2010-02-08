@@ -1,27 +1,36 @@
 //
-//  LowScoreViewConroller.m
+//  HellCityAppsViewController.m
 //  Tattoo IQ Quiz
 //
-//  Created by Frank McAuley on 2/7/10.
+//  Created by Frank McAuley on 2/8/10.
 //  Copyright 2010 Frank McAuley LLC. All rights reserved.
 //
 
-#import "LowScoreViewConroller.h"
-#import "InfoViewController.h"
+#import "HellCityAppsViewController.h"
 
 
+@implementation HellCityAppsViewController
 
-@implementation LowScoreViewConroller
-
-@synthesize infoViewController;
-@synthesize lowScore;
-
--(IBAction)restartTheGame {
-  
-	[self presentModalViewController:infoViewController animated:YES];
-
+-(void) loadURL {
+	NSURL *url = [[NSURL alloc] initWithString:urlField.text];
+	NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
+	[webview loadRequest:request];
+	[request release];
+	[url release];
 }
 
+-(IBAction)handleGoTapped {
+	[urlField resignFirstResponder]; //delegate call to relase the first responder of the keyboard
+	[self loadURL];
+}
+
+ //method textFieldShouldReturn: handle the user hitting the keyboard's Return instead of the Go button:
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+	if (textField == urlField) {
+		[self handleGoTapped];
+	}
+	return YES;
+}
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -33,16 +42,12 @@
 }
 */
 
-
+/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	NSString *finishingStatement = [[NSString alloc] initWithFormat:@"You got more than five questions incorrect. You are definitely a scratcher! " 
-									@"Be sure to study up and take the Tattoo IQ test again. Check back for monthly updates!"];
-	lowScore.text = finishingStatement;
-	[finishingStatement release]; 
 }
-
+*/
 
 /*
 // Override to allow orientations other than the default portrait orientation.

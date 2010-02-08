@@ -9,6 +9,7 @@
 #import "FinalViewController.h"
 #import "InfoViewController.h"
 #import "Quiz_GameViewController.h"
+#import "HellCityAppsViewController.h"
 
 
 @implementation FinalViewController
@@ -16,6 +17,7 @@
 @synthesize infoViewController;
 @synthesize quiz_GameViewController;
 @synthesize finalScore;
+@synthesize hellCityViewController;
 
 -(IBAction)restartTheGame:(id)sender {
 	
@@ -23,6 +25,11 @@
 	
 }
 
+-(IBAction)goToWebSite:(id)sender {
+	
+	[self presentModalViewController:hellCityViewController animated:YES];
+	
+}
 
 
 
