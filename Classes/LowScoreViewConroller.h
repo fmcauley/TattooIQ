@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@class InfoViewController;
 
 
 @interface LowScoreViewConroller : UIViewController {
+	InfoViewController *infoViewController;
+	UILabel *lowScore;
 
 }
+
+-(IBAction)restartTheGame;
 
 @end

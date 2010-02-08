@@ -7,9 +7,20 @@
 //
 
 #import "MiddleScoreViewController.h"
+#import "InfoViewController.h"
 
 
 @implementation MiddleScoreViewController
+
+
+@synthesize infoViewController;
+@synthesize middleOutput;
+
+-(IBAction)restartTheGame:(id) sender{
+	
+	[self presentModalViewController:infoViewController animated:YES];
+	
+}
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -21,12 +32,22 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	
+	NSString *finishingStatement = [[NSString alloc] initWithFormat:@"Tattoo Apprentice!!\nYou got more than one question incorrect. " 
+									@"You are still a tattoo apprentice! " 
+									@"Be sure to study up and take the Tattoo IQ test again. Check back for monthly updates!"];
+	middleOutput.text = finishingStatement;
+	
+	
+	[finishingStatement release];
 }
-*/
+
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.

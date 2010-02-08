@@ -115,35 +115,22 @@
 		{
 			[self presentModalViewController:finalViewController animated:YES];
 		
-			/*
-						
-			NSString *finishingStatement = [[NSString alloc] initWithFormat:@"Tattoo Guru!!\nCongratulations! Your tattoo knowledge is impressive,"
-											@" you are a Tattoo Guru! Be sure to post your results and challenge your friends to take the" 
-											@" Tattoo IQ test!"];
 			
-			theQuestion.text = finishingStatement;
-			
-			
-			[finishingStatement release]; */
 			
 		} 
-			/**else if(myScore < 140 && myScore >= 100)  {
+			else if(myScore < 140 && myScore >= 100)  {
+				
+				[self presentModalViewController:middleScoreViewController animated:YES];
 			
 						
-			NSString *finishingStatement = [[NSString alloc] initWithFormat:@"Tattoo Apprentice!!\nYou got more than one question incorrect. " 
-											@"You are still a tattoo apprentice! " 
-											@"Be sure to study up and take the Tattoo IQ test again. Check back for monthly updates!"];
-			//theQuestion.font = [UIFont boldSystemFontOfSize:17.0];
-			theQuestion.text = finishingStatement;
-			
-			
-			[finishingStatement release];
 		}
 
 		
 		else
 		{
 			
+			NSLog(@"THIS IS A PLACE HOLDER");
+			/**
 			
 			
 			
@@ -152,7 +139,9 @@
 			//theQuestion.font = [UIFont boldSystemFontOfSize:17.0];
 			theQuestion.text = finishingStatement;
 			[finishingStatement release]; 
+			 */
 		}
+		/*
 		theLives.text = @"";
 		
 				

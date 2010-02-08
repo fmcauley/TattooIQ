@@ -7,10 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+@class InfoViewController;
 
 
 @interface MiddleScoreViewController : UIViewController {
+	
+	InfoViewController *infoViewController;
+	UILabel *middleOutput;
 
 }
 
+@property (nonatomic,retain) IBOutlet InfoViewController *infoViewController;
+@property (nonatomic, retain) IBOutlet UILabel *middleOutput;
+
+
+-(IBAction)restartTheGame:(id) sender;
 @end
