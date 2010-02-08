@@ -262,17 +262,17 @@
 	// FORMAT IS IMPORTANT!!!!
 	// 1: Question, 2 3 4 5: Answers 1-4 respectively, 6: The right answer
 	// THIS IS A TERRIBLE WAY TO DO THIS. I will figure out how to do nested arrays to make this better.
-	NSArray *quizArray = [[NSArray alloc] initWithObjects:@"Who invented the tattoo machine?",@"Thomas Edison",@"Sam Oreilly",@"Thomas Riley",@"Albert Einstein",@"3",
+	NSArray *quizArray = [[NSArray alloc] initWithObjects:@"Who invented the tattoo machine?",@"Thomas Edison",@"Sam O'Reilly",@"Thomas Riley",@"Albert Einstein",@"2",
 						  @"How many layers does a tattoo get injected into skin?",@"1-2 layers",@"2-3 layers",@"3-5 layers",@"5-8 layers",@"2",
 						  @"What is the popular slang for a tattoo machine?", @"Shooter", @"Inker", @"Zapper", @"Gun", @"4",
 						  @"Body weight can distort a tattoo?", @"true", @"false", @"", @"", @"1",
 						  @"What's the name of the oldest iceman found with tattoos on his skin?", @"Yaki", @"Tommy", @"Otano", 
 						  @"Otzi", @"4",
-						  @"Who's the current Guinness Worlds Records most heavily tattooed man?",@"Chris Longo",@"Lyle Tuttle",@"Lucky Diamond Rich",@"Don Ed Hardy",@"3",
-						  @"What's the Japanese terms for hand poked tattooing?",@"Kanji",@"Itai",@"Katana",@"Tebori",@"4",
+						  @"Who's the current Guinness World Record most heavily tattooed man?",@"Chris Longo",@"Lyle Tuttle",@"Lucky Diamond Rich",@"Don Ed Hardy",@"3",
+						  @"What's the Japanese term for hand poked tattooing?",@"Kanji",@"Itai",@"Katana",@"Tebori",@"4",
 						  @"What is one considered that is learning to tattoo from another tattoo artist?",@"Apprentice",@"Trainee",@"Learner",@"Sidehand",@"1",
 						  @"Which of the following is not a tattoo machine?",@"Pneumatic",@"Hydro",@"Coil",@"Rotary",@"2",
-						  @"Tattoo Designs that are sold from the walls of studios are called?",@"Drawings",@"Stencils",@"Transfer",@"Flash",@"4",
+						  @"Tattoo designs that are sold from the walls of studios are called?",@"Drawings",@"Stencils",@"Transfer",@"Flash",@"4",
 						  @"What is the instrument used to sterilize tattoo equipment?",@"Autoclave",@"Cooker",@"Sterilizer",@"Heatclave",@"1",
 						  @"The most current method of tattooing is?",@"Hand Poked",@"Battery",@"Electric",@"Solar",@"3",
 						  @"What is the tattoo machine designed from?",@"Telephone",@"Doorbell",@"Cassettee recorder",@"Television",@"2ß∫®",

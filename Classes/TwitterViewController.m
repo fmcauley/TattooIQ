@@ -13,6 +13,7 @@
 @implementation TwitterViewController
 
 @synthesize finalViewController;
+@synthesize textView;
 
 -(IBAction)goBackOneScreen:(id)sender{
 	
@@ -29,12 +30,16 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	NSString *update = [[NSString alloc] initWithString:@"Update your Twitter status with this Tattoo IQ result."];
+	textView.text = update;
+	[update release];
+	
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
