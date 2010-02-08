@@ -272,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>13</integer>
+									<integer>6</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -315,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FinalViewController.m</string>
+								<string>Quiz_GameViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FinalViewController.m</string>
+										<string>Quiz_GameViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F0150780111F54F00031C193</string>
+										<string>F01507B6111FA6080031C193</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -345,10 +345,13 @@
 											<string>F05105D711149D5E007A8EE0</string>
 											<string>F05105D811149D5E007A8EE0</string>
 											<string>F05105D911149D5E007A8EE0</string>
-											<string>F015076D111F534B0031C193</string>
 											<string>F0150777111F53DF0031C193</string>
-											<string>F015077E111F54F00031C193</string>
-											<string>F015077F111F54F00031C193</string>
+											<string>F01507A4111FA4270031C193</string>
+											<string>F01507A5111FA4270031C193</string>
+											<string>F01507A6111FA4270031C193</string>
+											<string>F01507A7111FA4270031C193</string>
+											<string>F01507B4111FA6080031C193</string>
+											<string>F01507B5111FA6080031C193</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

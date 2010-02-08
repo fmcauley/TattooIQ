@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 @class NSAttributedString;
 @class FinalViewController;
+@class MiddleScoreViewController;
 
 @interface Quiz_GameViewController : UIViewController {
 	IBOutlet	UILabel		*theQuestion;
@@ -30,10 +31,12 @@
 	
 	//seting up a new screen for restart
 	FinalViewController *finalViewController;
+	MiddleScoreViewController *middleScoreViewController;
 	
 }
 
 @property (nonatomic, retain) IBOutlet FinalViewController *finalViewController;
+@property (nonatomic, retain) IBOutlet MiddleScoreViewController *middleScoreViewController;
 @property (retain, nonatomic) UILabel	*theQuestion;
 @property (retain, nonatomic) UILabel	*theScore;
 @property (retain, nonatomic) UILabel	*theLives;
