@@ -40,7 +40,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	NSString *finishingStatement = [[NSString alloc] initWithFormat:@"Tattoo Guru!!\nCongratulations! Your tattoo knowledge is impressive,"
+	NSString *finishingStatement = [[NSString alloc] initWithFormat:@"Congratulations! Your tattoo knowledge is impressive,"
 									@" you are a Tattoo Guru! Be sure to post your results and challenge your friends to take the" 
 									@" Tattoo IQ test!"];
 	

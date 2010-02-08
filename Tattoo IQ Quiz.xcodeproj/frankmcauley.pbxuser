@@ -180,6 +180,8 @@
 			F01507FC111FB8EE0031C193 /* PBXTextBookmark */ = F01507FC111FB8EE0031C193 /* PBXTextBookmark */;
 			F01507FD111FB8EE0031C193 /* PBXTextBookmark */ = F01507FD111FB8EE0031C193 /* PBXTextBookmark */;
 			F0150800111FB8EE0031C193 /* PBXTextBookmark */ = F0150800111FB8EE0031C193 /* PBXTextBookmark */;
+			F015080C1120648C0031C193 /* PBXTextBookmark */ = F015080C1120648C0031C193 /* PBXTextBookmark */;
+			F015080D1120648C0031C193 /* PBXTextBookmark */ = F015080D1120648C0031C193 /* PBXTextBookmark */;
 			F05105D611149D5E007A8EE0 = F05105D611149D5E007A8EE0 /* PBXTextBookmark */;
 			F05105D711149D5E007A8EE0 = F05105D711149D5E007A8EE0 /* PBXTextBookmark */;
 			F05105D811149D5E007A8EE0 = F05105D811149D5E007A8EE0 /* PBXTextBookmark */;
@@ -278,9 +280,9 @@
 	};
 	F0150705111F483C0031C193 /* FinalViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1079}}";
-			sepNavSelRange = "{1377, 0}";
-			sepNavVisRange = "{862, 1048}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 988}}";
+			sepNavSelRange = "{1100, 0}";
+			sepNavVisRange = "{255, 1123}";
 		};
 	};
 	F015070C111F48890031C193 /* XCBuildMessageTextBookmark */ = {
@@ -367,7 +369,7 @@
 		fRef = F0150705111F483C0031C193 /* FinalViewController.m */;
 		name = "FinalViewController.m: 43";
 		rLen = 0;
-		rLoc = 1385;
+		rLoc = 1370;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 479;
@@ -467,7 +469,7 @@
 		fRef = F0150705111F483C0031C193 /* FinalViewController.m */;
 		name = "FinalViewController.m: 45";
 		rLen = 0;
-		rLoc = 1381;
+		rLoc = 1366;
 		rType = 0;
 		vrLen = 1110;
 		vrLoc = 255;
@@ -477,7 +479,7 @@
 		fRef = F0150705111F483C0031C193 /* FinalViewController.m */;
 		name = "FinalViewController.m: 45";
 		rLen = 0;
-		rLoc = 1381;
+		rLoc = 1366;
 		rType = 0;
 		vrLen = 1110;
 		vrLoc = 255;
@@ -527,7 +529,7 @@
 		fRef = F0150705111F483C0031C193 /* FinalViewController.m */;
 		name = "FinalViewController.m: 45";
 		rLen = 0;
-		rLoc = 1381;
+		rLoc = 1366;
 		rType = 0;
 		vrLen = 1110;
 		vrLoc = 255;
@@ -597,7 +599,7 @@
 		fRef = F0150705111F483C0031C193 /* FinalViewController.m */;
 		name = "FinalViewController.m: 47";
 		rLen = 0;
-		rLoc = 1319;
+		rLoc = 1304;
 		rType = 0;
 		vrLen = 1256;
 		vrLoc = 324;
@@ -607,7 +609,7 @@
 		fRef = F0150705111F483C0031C193 /* FinalViewController.m */;
 		name = "FinalViewController.m: 48";
 		rLen = 0;
-		rLoc = 1377;
+		rLoc = 1362;
 		rType = 0;
 		vrLen = 1226;
 		vrLoc = 385;
@@ -649,7 +651,7 @@
 		fRef = F0150705111F483C0031C193 /* FinalViewController.m */;
 		name = "FinalViewController.m: 48";
 		rLen = 0;
-		rLoc = 1377;
+		rLoc = 1362;
 		rType = 0;
 		vrLen = 1375;
 		vrLoc = 502;
@@ -839,7 +841,7 @@
 		fRef = F0150705111F483C0031C193 /* FinalViewController.m */;
 		name = "FinalViewController.m: 48";
 		rLen = 0;
-		rLoc = 1377;
+		rLoc = 1362;
 		rType = 0;
 		vrLen = 1048;
 		vrLoc = 862;
@@ -1058,6 +1060,26 @@
 		vrLen = 973;
 		vrLoc = 264;
 	};
+	F015080C1120648C0031C193 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 17";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 819;
+		vrLoc = 95;
+	};
+	F015080D1120648C0031C193 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150705111F483C0031C193 /* FinalViewController.m */;
+		name = "FinalViewController.m: 43";
+		rLen = 0;
+		rLoc = 1100;
+		rType = 0;
+		vrLen = 1123;
+		vrLoc = 255;
+	};
 	F0286CF910ED0CB3008EA040 /* Tattoo IQ Quiz */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -1143,9 +1165,9 @@
 	};
 	F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1217, 4173}}";
-			sepNavSelRange = "{5527, 0}";
-			sepNavVisRange = "{4465, 1061}";
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 4056}}";
+			sepNavSelRange = "{413, 0}";
+			sepNavVisRange = "{95, 819}";
 			sepNavWindowFrame = "{{1350, -45}, {1276, 778}}";
 		};
 	};
