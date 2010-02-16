@@ -8,18 +8,28 @@
 
 #import <UIKit/UIKit.h>
 @class InfoViewController;
+@class HellCityAppsViewController;
+@class TwitterViewController;
 
 
 @interface MiddleScoreViewController : UIViewController {
 	
 	InfoViewController *infoViewController;
+	HellCityAppsViewController *hellCityViewController;
+	TwitterViewController *twitterViewController;
 	UILabel *middleOutput;
 
 }
 
+@property (nonatomic, retain) IBOutlet HellCityAppsViewController *hellCityViewController;
+@property (nonatomic, retain) IBOutlet TwitterViewController *twitterViewController;
 @property (nonatomic,retain) IBOutlet InfoViewController *infoViewController;
 @property (nonatomic, retain) IBOutlet UILabel *middleOutput;
 
 
--(IBAction)restartTheGame:(id) sender;
+
+-(IBAction)restartTheGame:(id)sender;
+-(IBAction)goToWebSite:(id)sender;
+-(IBAction)updateTwitter:(id)sender;
+
 @end

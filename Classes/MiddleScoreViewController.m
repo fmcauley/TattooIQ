@@ -8,12 +8,16 @@
 
 #import "MiddleScoreViewController.h"
 #import "InfoViewController.h"
+#import "HellCityAppsViewController.h"
+#import "TwitterViewController.h"
 
 
 @implementation MiddleScoreViewController
 
 
 @synthesize infoViewController;
+@synthesize hellCityViewController;
+@synthesize twitterViewController;
 @synthesize middleOutput;
 
 -(IBAction)restartTheGame:(id) sender{
@@ -21,6 +25,16 @@
 	[self presentModalViewController:infoViewController animated:YES];
 	
 }
+
+-(IBAction)goToWebSite:(id)sender{
+	
+	[self presentModalViewController:hellCityViewController animated:YES];
+	
+}
+-(IBAction)updateTwitter:(id)sender{
+	[self presentModalViewController:twitterViewController animated:YES];
+ }
+
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.

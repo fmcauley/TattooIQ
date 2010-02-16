@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -272,7 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>20</integer>
+									<integer>12</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -308,14 +310,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TwitterViewController.h</string>
+								<string>FinalViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TwitterViewController.h</string>
+										<string>FinalViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F009E1BC112AFCC9002AE76A</string>
+										<string>F009E1D9112B0F2D002AE76A</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -347,16 +347,16 @@
 											<string>F01509911121CF300031C193</string>
 											<string>F01509921121CF300031C193</string>
 											<string>F01509931121CF300031C193</string>
-											<string>F01509941121CF300031C193</string>
-											<string>F01509951121CF300031C193</string>
-											<string>F01509961121CF300031C193</string>
 											<string>F01509971121CF300031C193</string>
-											<string>F01509981121CF300031C193</string>
 											<string>F01509991121CF300031C193</string>
 											<string>F015099A1121CF300031C193</string>
 											<string>F015099B1121CF300031C193</string>
 											<string>F015099C1121CF300031C193</string>
-											<string>F009E19D112AF8A8002AE76A</string>
+											<string>F009E1CC112B08AB002AE76A</string>
+											<string>F009E1CD112B08AB002AE76A</string>
+											<string>F009E1D6112B0F2D002AE76A</string>
+											<string>F009E1D7112B0F2D002AE76A</string>
+											<string>F009E1D8112B0F2D002AE76A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -579,7 +579,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FinalViewController.h</string>
+								<string>FinalViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>

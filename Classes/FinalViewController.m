@@ -2,7 +2,6 @@
 
 #import "FinalViewController.h"
 #import "InfoViewController.h"
-#import "Quiz_GameViewController.h"
 #import "HellCityAppsViewController.h"
 #import "TwitterViewController.h"
 
@@ -10,7 +9,6 @@
 @implementation FinalViewController
 
 @synthesize infoViewController;
-@synthesize quiz_GameViewController;
 @synthesize finalScore;
 @synthesize hellCityViewController;
 @synthesize twitterViewController;
