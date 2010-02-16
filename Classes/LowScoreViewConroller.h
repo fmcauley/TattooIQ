@@ -8,17 +8,24 @@
 
 #import <UIKit/UIKit.h>
 @class InfoViewController;
+@class HellCityAppsViewController;
+@class TwitterViewController;
+
 
 
 @interface LowScoreViewConroller : UIViewController {
-	InfoViewController *infoViewController;
+	IBOutlet InfoViewController *infoViewController;
+	IBOutlet HellCityAppsViewController *hellCityViewController;
+	IBOutlet TwitterViewController *twitterViewController;
 	UILabel *lowScore;
 
 }
 
-@property (nonatomic,retain) IBOutlet InfoViewController *infoViewController;
+
 @property (nonatomic,retain) IBOutlet UILabel *lowScore;
 
 -(IBAction)restartTheGame;
+-(IBAction)goToWebSite;
+-(IBAction)updateTwitter;
 
 @end

@@ -10,7 +10,7 @@
 
 }
 
-@property (nonatomic, retain) IBOutlet FinalViewController *finalViewController;
+
 @property (nonatomic, retain) IBOutlet UILabel *textView;
 
 -(IBAction)goBackOneScreen:(id)sender;

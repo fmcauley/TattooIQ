@@ -8,12 +8,14 @@
 
 #import "LowScoreViewConroller.h"
 #import "InfoViewController.h"
+#import "HellCityAppsViewController.h"
+#import "TwitterViewController.h"
 
 
 
 @implementation LowScoreViewConroller
 
-@synthesize infoViewController;
+
 @synthesize lowScore;
 
 -(IBAction)restartTheGame {
@@ -21,6 +23,18 @@
 	[self presentModalViewController:infoViewController animated:YES];
 
 }
+
+-(IBAction)goToWebSite{
+	
+	[self presentModalViewController:hellCityViewController animated:YES];	
+}
+
+-(IBAction)updateTwitter{
+	
+	[self presentModalViewController:twitterViewController animated:YES];	
+}
+
+
 
 
 /*

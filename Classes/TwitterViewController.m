@@ -1,11 +1,11 @@
 
 #import "TwitterViewController.h"
-#import "FinalViewController.h"
+
 
 
 @implementation TwitterViewController
 
-@synthesize finalViewController;
+
 @synthesize textView;
 
 -(IBAction)goBackOneScreen:(id)sender{

@@ -8,10 +8,8 @@
 
 @implementation FinalViewController
 
-@synthesize infoViewController;
 @synthesize finalScore;
-@synthesize hellCityViewController;
-@synthesize twitterViewController;
+
 
 -(IBAction)restartTheGame:(id)sender {
 	

@@ -10,16 +10,14 @@
 
 @interface FinalViewController : UIViewController {
 	
-	InfoViewController * infoViewController;
-	HellCityAppsViewController *hellCityViewController;
-	TwitterViewController *twitterViewController;
+	IBOutlet InfoViewController * infoViewController;
+	IBOutlet HellCityAppsViewController *hellCityViewController;
+	IBOutlet TwitterViewController *twitterViewController;
 	UILabel *finalScore;
 
 }
 
-@property (nonatomic, retain) IBOutlet InfoViewController *infoViewController;
-@property (nonatomic, retain) IBOutlet HellCityAppsViewController *hellCityViewController;
-@property (nonatomic, retain) IBOutlet TwitterViewController *twitterViewController;
+
 @property (nonatomic, retain) IBOutlet UILabel *finalScore;
 
 -(IBAction)restartTheGame:(id)sender;

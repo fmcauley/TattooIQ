@@ -14,16 +14,14 @@
 
 @interface MiddleScoreViewController : UIViewController {
 	
-	InfoViewController *infoViewController;
-	HellCityAppsViewController *hellCityViewController;
-	TwitterViewController *twitterViewController;
+	IBOutlet InfoViewController *infoViewController;
+	IBOutlet HellCityAppsViewController *hellCityViewController;
+	IBOutlet TwitterViewController *twitterViewController;
 	UILabel *middleOutput;
 
 }
 
-@property (nonatomic, retain) IBOutlet HellCityAppsViewController *hellCityViewController;
-@property (nonatomic, retain) IBOutlet TwitterViewController *twitterViewController;
-@property (nonatomic,retain) IBOutlet InfoViewController *infoViewController;
+
 @property (nonatomic, retain) IBOutlet UILabel *middleOutput;
 
 

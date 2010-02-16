@@ -15,9 +15,7 @@
 @implementation MiddleScoreViewController
 
 
-@synthesize infoViewController;
-@synthesize hellCityViewController;
-@synthesize twitterViewController;
+
 @synthesize middleOutput;
 
 -(IBAction)restartTheGame:(id) sender{
