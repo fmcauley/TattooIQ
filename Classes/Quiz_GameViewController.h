@@ -1,13 +1,7 @@
-//
-//  Quiz_GameViewController.h
-//  Tattoo IQ Quiz
-//
-//  Created by Frank McAuley on 1/1/10.
-//  Copyright 2010 Frank McAuley LLC. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
-@class NSAttributedString;
+
 @class FinalViewController;
 @class MiddleScoreViewController;
 @class LowScoreViewConroller;

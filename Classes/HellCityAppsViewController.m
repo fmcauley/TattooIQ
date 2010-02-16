@@ -13,6 +13,9 @@
 
 -(void) loadURL {
    
+	//Fit the page to the view
+//	[self webview scalesPageToFit:YES];
+	
 	NSURL *url = [[NSURL alloc] initWithString:urlField.text];
 	NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
 	[webview loadRequest:request];

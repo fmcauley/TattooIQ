@@ -1,10 +1,3 @@
-//
-//  TwitterViewController.m
-//  Tattoo IQ Quiz
-//
-//  Created by Frank McAuley on 2/8/10.
-//  Copyright 2010 Frank McAuley LLC. All rights reserved.
-//
 
 #import "TwitterViewController.h"
 #import "FinalViewController.h"
@@ -20,14 +13,14 @@
 	[self dismissModalViewControllerAnimated:YES];
 }
 
--(IBAction)setUpdateToTwitter:(id)sender {
+/*-(IBAction)setUpdateToTwitter:(id)sender {
 	
 	NSMutableURLRequest *theRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://fmcauley:compest123@twitter.com/status/update/xml"]
 															  cachePolicy:NSURLRequestUseProtocolCachePolicy
 														  timeoutInterval:60.0];
 	[theRequest setHTTPMethod:@"POST"];
-	[theRequest 
-
+	[theRequest setHTTPBody:[[NSString stringWithFormat:@"status=TATTOO GURU!"]
+*/
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {

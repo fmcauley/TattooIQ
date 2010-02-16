@@ -1,18 +1,12 @@
-//
-//  FinalViewController.h
-//  Tattoo IQ Quiz
-//
-//  Created by Frank McAuley on 2/7/10.
-//  Copyright 2010 Frank McAuley LLC. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
-@class InfoViewController;
 @class Quiz_GameViewController;
+@class InfoViewController;
 @class HellCityAppsViewController;
 @class TwitterViewController;
 
-//The Quiz_GameViewController will be used to obtain the final score to present to the screen
+
 
 @interface FinalViewController : UIViewController {
 	
