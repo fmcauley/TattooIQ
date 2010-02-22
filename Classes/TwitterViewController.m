@@ -6,21 +6,44 @@
 @implementation TwitterViewController
 
 
-@synthesize textView;
+@synthesize textView, theMessage;
+
 
 -(IBAction)goBackOneScreen:(id)sender{
 	
 	[self dismissModalViewControllerAnimated:YES];
 }
 
-/*-(IBAction)setUpdateToTwitter:(id)sender {
+-(NSString *)setTheMessage{
+	return [NSString stringWithFormat:@"Take the Tattion IQ TEST!!!"];
 	
-	NSMutableURLRequest *theRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://fmcauley:compest123@twitter.com/status/update/xml"]
+}
+
+-(void)buildTwitterUpdate{
+	//the logic to access twitter and post an update.
+	NSMutableURLRequest *therequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://fmcauley:compest123@twitter.com/statuses/update.xml"]
 															  cachePolicy:NSURLRequestUseProtocolCachePolicy
 														  timeoutInterval:60.0];
-	[theRequest setHTTPMethod:@"POST"];
-	[theRequest setHTTPBody:[[NSString stringWithFormat:@"status=TATTOO GURU!"]
-*/
+	[therequest setHTTPMethod:@"POST"];
+	[therequest setHTTPBody:[[NSString stringWithFormat:@"status=%@",
+							  theMessage]
+							 dataUsingEncoding:NSASCIIStringEncoding]];
+	NSURLResponse* response;
+	NSError* error;
+	NSData* result = [NSURLConnection sendSynchronousRequest:therequest returningResponse:&response error:&error];
+	NSLog(@"%@", [[[NSString alloc]initWithData:result encoding:NSASCIIStringEncoding] autorelease]);
+	
+	
+}
+
+-(IBAction)setUpdateToTwitter:(id)sender {
+	self.theMessage = [self setTheMessage];
+	
+	//test
+	NSLog(@"THE BUTTONS setUpdateToTwitter has been pressed!");
+	
+}
+
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {

@@ -110,6 +110,22 @@
 			F009E253112B223C002AE76A = F009E253112B223C002AE76A /* PBXTextBookmark */;
 			F009E254112B223C002AE76A = F009E254112B223C002AE76A /* PBXTextBookmark */;
 			F009E265112C3BDB002AE76A = F009E265112C3BDB002AE76A /* PBXTextBookmark */;
+			F009E4131132DADC002AE76A /* XCBuildMessageTextBookmark */ = F009E4131132DADC002AE76A /* XCBuildMessageTextBookmark */;
+			F009E4141132DADC002AE76A /* PBXTextBookmark */ = F009E4141132DADC002AE76A /* PBXTextBookmark */;
+			F009E4311132DE24002AE76A /* XCBuildMessageTextBookmark */ = F009E4311132DE24002AE76A /* XCBuildMessageTextBookmark */;
+			F009E4321132DE24002AE76A /* PBXTextBookmark */ = F009E4321132DE24002AE76A /* PBXTextBookmark */;
+			F009E4431132E329002AE76A /* XCBuildMessageTextBookmark */ = F009E4431132E329002AE76A /* XCBuildMessageTextBookmark */;
+			F009E4441132E329002AE76A /* PBXTextBookmark */ = F009E4441132E329002AE76A /* PBXTextBookmark */;
+			F009E4471132E32D002AE76A /* PBXTextBookmark */ = F009E4471132E32D002AE76A /* PBXTextBookmark */;
+			F009E4481132E32D002AE76A /* PBXTextBookmark */ = F009E4481132E32D002AE76A /* PBXTextBookmark */;
+			F009E44A1132E32D002AE76A /* PBXTextBookmark */ = F009E44A1132E32D002AE76A /* PBXTextBookmark */;
+			F009E44B1132E32D002AE76A /* PBXTextBookmark */ = F009E44B1132E32D002AE76A /* PBXTextBookmark */;
+			F009E44C1132E32D002AE76A /* PBXTextBookmark */ = F009E44C1132E32D002AE76A /* PBXTextBookmark */;
+			F009E44D1132E32D002AE76A /* XCBuildMessageTextBookmark */ = F009E44D1132E32D002AE76A /* XCBuildMessageTextBookmark */;
+			F009E44E1132E32D002AE76A /* PBXTextBookmark */ = F009E44E1132E32D002AE76A /* PBXTextBookmark */;
+			F009E4531132E32D002AE76A /* PBXTextBookmark */ = F009E4531132E32D002AE76A /* PBXTextBookmark */;
+			F009E4541132E32D002AE76A /* PBXTextBookmark */ = F009E4541132E32D002AE76A /* PBXTextBookmark */;
+			F009E4551132E32D002AE76A /* PBXTextBookmark */ = F009E4551132E32D002AE76A /* PBXTextBookmark */;
 			F011295F10FA003300ECB428 = F011295F10FA003300ECB428 /* PBXBookmark */;
 			F011296010FA003300ECB428 = F011296010FA003300ECB428 /* PBXBookmark */;
 			F011299810FBA0D600ECB428 = F011299810FBA0D600ECB428 /* PBXBookmark */;
@@ -158,7 +174,7 @@
 		fRef = F0150840112074220031C193 /* TwitterViewController.h */;
 		name = "TwitterViewController.h: 13";
 		rLen = 0;
-		rLoc = 179;
+		rLoc = 202;
 		rType = 0;
 		vrLen = 326;
 		vrLoc = 0;
@@ -243,6 +259,168 @@
 		vrLen = 716;
 		vrLoc = 0;
 	};
+	F009E4131132DADC002AE76A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected expression before '@' token";
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 23;
+		rType = 1;
+	};
+	F009E4141132DADC002AE76A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		name = "TwitterViewController.m: 18";
+		rLen = 0;
+		rLoc = 385;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 100;
+	};
+	F009E4311132DE24002AE76A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Assignment from incompatible pointer type";
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 39;
+		rType = 1;
+	};
+	F009E4321132DE24002AE76A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		name = "TwitterViewController.m: 35";
+		rLen = 0;
+		rLoc = 1124;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 646;
+	};
+	F009E4431132E329002AE76A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'setTheMessage' undeclared (first use in this function)";
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 39;
+		rType = 1;
+	};
+	F009E4441132E329002AE76A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		name = "TwitterViewController.m: 40";
+		rLen = 0;
+		rLoc = 1148;
+		rType = 0;
+		vrLen = 570;
+		vrLoc = 604;
+	};
+	F009E4471132E32D002AE76A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150793111FA3090031C193 /* MiddleScoreViewController.h */;
+		name = "MiddleScoreViewController.h: 19";
+		rLen = 0;
+		rLoc = 459;
+		rType = 0;
+		vrLen = 716;
+		vrLoc = 0;
+	};
+	F009E4481132E32D002AE76A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F009E4491132E32D002AE76A /* UIWebView.h */;
+		name = "UIWebView.h: 50";
+		rLen = 15;
+		rLoc = 1409;
+		rType = 0;
+		vrLen = 1485;
+		vrLoc = 561;
+	};
+	F009E4491132E32D002AE76A /* UIWebView.h */ = {
+		isa = PBXFileReference;
+		name = UIWebView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWebView.h;
+		sourceTree = "<absolute>";
+	};
+	F009E44A1132E32D002AE76A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F015082511206B680031C193 /* HellCityAppsViewController.h */;
+		name = "HellCityAppsViewController.h: 13";
+		rLen = 17;
+		rLoc = 294;
+		rType = 0;
+		vrLen = 416;
+		vrLoc = 0;
+	};
+	F009E44B1132E32D002AE76A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
+		name = "HellCityAppsViewController.m: 12";
+		rLen = 43;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 1278;
+		vrLoc = 202;
+	};
+	F009E44C1132E32D002AE76A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150840112074220031C193 /* TwitterViewController.h */;
+		name = "TwitterViewController.h: 16";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 416;
+		vrLoc = 0;
+	};
+	F009E44D1132E32D002AE76A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected expression before '@' token";
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 23;
+		rType = 1;
+	};
+	F009E44E1132E32D002AE76A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		name = "TwitterViewController.m: 24";
+		rLen = 0;
+		rLoc = 385;
+		rType = 0;
+		vrLen = 1174;
+		vrLoc = 0;
+	};
+	F009E4531132E32D002AE76A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150840112074220031C193 /* TwitterViewController.h */;
+		name = "TwitterViewController.h: 21";
+		rLen = 27;
+		rLoc = 410;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	F009E4541132E32D002AE76A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		name = "TwitterViewController.m: 35";
+		rLen = 0;
+		rLoc = 1124;
+		rType = 0;
+		vrLen = 1518;
+		vrLoc = 0;
+	};
+	F009E4551132E32D002AE76A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		name = "TwitterViewController.m: 40";
+		rLen = 0;
+		rLoc = 1148;
+		rType = 0;
+		vrLen = 1581;
+		vrLoc = 747;
+	};
 	F011295F10FA003300ECB428 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */;
@@ -307,7 +485,7 @@
 	};
 	F0150793111FA3090031C193 /* MiddleScoreViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1017, 564}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 538}}";
 			sepNavSelRange = "{459, 0}";
 			sepNavVisRange = "{0, 716}";
 		};
@@ -335,33 +513,33 @@
 	};
 	F015082511206B680031C193 /* HellCityAppsViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1017, 572}}";
-			sepNavSelRange = "{363, 0}";
-			sepNavVisRange = "{0, 369}";
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 561}}";
+			sepNavSelRange = "{294, 17}";
+			sepNavVisRange = "{0, 416}";
 			sepNavWindowFrame = "{{4, 0}, {1334, 778}}";
 		};
 	};
 	F015082611206B680031C193 /* HellCityAppsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1053}}";
-			sepNavSelRange = "{296, 2}";
-			sepNavVisRange = "{0, 1272}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1092}}";
+			sepNavSelRange = "{202, 43}";
+			sepNavVisRange = "{202, 1278}";
 			sepNavWindowFrame = "{{4, 0}, {1334, 778}}";
 		};
 	};
 	F0150840112074220031C193 /* TwitterViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1017, 564}}";
-			sepNavSelRange = "{179, 0}";
-			sepNavVisRange = "{0, 326}";
+			sepNavIntBoundsRect = "{{0, 0}, {1217, 650}}";
+			sepNavSelRange = "{410, 27}";
+			sepNavVisRange = "{0, 444}";
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
 		};
 	};
 	F0150841112074220031C193 /* TwitterViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1097, 962}}";
-			sepNavSelRange = "{77, 0}";
-			sepNavVisRange = "{0, 240}";
+			sepNavIntBoundsRect = "{{0, 0}, {1217, 1144}}";
+			sepNavSelRange = "{1148, 0}";
+			sepNavVisRange = "{747, 1581}";
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
 		};
 	};
@@ -470,7 +648,7 @@
 		fRef = F015082511206B680031C193 /* HellCityAppsViewController.h */;
 		name = "HellCityAppsViewController.h: 19";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 410;
 		rType = 0;
 		vrLen = 369;
 		vrLoc = 0;
@@ -480,7 +658,7 @@
 		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
 		name = "HellCityAppsViewController.m: 17";
 		rLen = 2;
-		rLoc = 296;
+		rLoc = 300;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 0;

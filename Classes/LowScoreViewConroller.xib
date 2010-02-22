@@ -12,10 +12,10 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="1"/>
-			<integer value="15"/>
-			<integer value="4"/>
 			<integer value="14"/>
+			<integer value="1"/>
+			<integer value="4"/>
+			<integer value="15"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -87,6 +87,10 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{20, 161}, {280, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
+						<object class="NSColor" key="IBUIBackgroundColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MCAwIDAgMAA</bytes>
+						</object>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 						<int key="IBUIContentHorizontalAlignment">0</int>
@@ -97,7 +101,6 @@
 							<int key="NSfFlags">16</int>
 						</object>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Try for a higher score</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor" id="813284637">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
@@ -109,6 +112,10 @@
 						<object class="NSColor" key="IBUINormalTitleShadowColor" id="997343378">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
+						</object>
+						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">TryAgain_tattooIQ.jpg</string>
 						</object>
 					</object>
 					<object class="IBUILabel" id="1036579929">
@@ -140,24 +147,31 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{20, 206}, {280, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
+						<object class="NSColor" key="IBUIBackgroundColor">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MCAwAA</bytes>
+						</object>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<reference key="IBUIFont" ref="390126957"/>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">More Hell City tattoo apps</string>
 						<reference key="IBUIHighlightedTitleColor" ref="813284637"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4wMTM1NzE1Mjc1OSAwLjAxNzUxMzExODk5IDAuNTIxNTY4NjYAA</bytes>
+							<bytes key="NSRGB">MC4xOTYwNzg0MzE0IDAuMzA5ODAzOTIxNiAwLjUyMTU2ODYyNzUAA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="997343378"/>
+						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">MoreApps_tattooIQ.jpg</string>
+						</object>
 					</object>
 					<object class="IBUIButton" id="543958569">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 251}, {280, 37}}</string>
+						<string key="NSFrame">{{20, 247}, {280, 45}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -165,13 +179,16 @@
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<reference key="IBUIFont" ref="390126957"/>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Update Twitter status</string>
 						<reference key="IBUIHighlightedTitleColor" ref="813284637"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4wNDkxNDk5MTg0OCAwLjAyMzM3ODg2NzQ0IDAuNTIxNTY4NjYAA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="997343378"/>
+						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">Twitter_tattooIQ.jpg</string>
+						</object>
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 460}</string>
@@ -277,9 +294,9 @@
 							<reference ref="31762720"/>
 							<reference ref="952750796"/>
 							<reference ref="1036579929"/>
-							<reference ref="201719356"/>
 							<reference ref="988493563"/>
 							<reference ref="543958569"/>
+							<reference ref="201719356"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -369,19 +386,19 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>LowScoreViewConroller</string>
 					<string>UIResponder</string>
-					<string>{{207, 102}, {320, 480}}</string>
+					<string>{{1617, 246}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>HellCityAppsViewController</string>
-					<string>{{14, 254}, {320, 480}}</string>
+					<string>{{1608, 279}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>TwitterViewController</string>
-					<string>{{35, 231}, {320, 480}}</string>
+					<string>{{1510, 246}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>InfoViewController</string>
-					<string>{{351, 276}, {320, 480}}</string>
+					<string>{{1684, 298}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

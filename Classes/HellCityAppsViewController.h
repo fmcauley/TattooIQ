@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <UIKit/UIWebView.h>
 
 
-@interface HellCityAppsViewController : UIViewController <UITextFieldDelegate>{
+@interface HellCityAppsViewController : UIViewController <UITextFieldDelegate, UIWebViewDelegate>{
 	
 	IBOutlet UITextField *urlField;
 	IBOutlet UIWebView *webview;
