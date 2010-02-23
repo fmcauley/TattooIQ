@@ -15,7 +15,7 @@
 }
 
 -(NSString *)setTheMessage{
-	return [NSString stringWithFormat:@"Take the Tattion IQ TEST!!!"];
+	return [NSString stringWithFormat:@"Take the Tattoo IQ TEST! http://wip.hellcity.com/hell_city_iphone_apps.html "];
 	
 }
 
@@ -66,13 +66,7 @@
 }
 
 
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
+
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
