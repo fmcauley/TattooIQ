@@ -37,6 +37,10 @@
 		F0286D0B10ED0D6A008EA040 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F0286D0A10ED0D6A008EA040 /* icon.png */; };
 		F0286D4310EE09D4008EA040 /* Quiz_GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */; };
 		F0286D4710EE0A1D008EA040 /* Quiz_GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0286D4610EE0A1D008EA040 /* Quiz_GameViewController.xib */; };
+		F028B16B113357A4005C3AB3 /* Facebook_IQ_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F028B167113357A4005C3AB3 /* Facebook_IQ_Button.png */; };
+		F028B16C113357A4005C3AB3 /* TryAgain_IQ_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F028B168113357A4005C3AB3 /* TryAgain_IQ_Button.png */; };
+		F028B16D113357A4005C3AB3 /* Twitter_IQ_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F028B169113357A4005C3AB3 /* Twitter_IQ_Button.png */; };
+		F028B16E113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */; };
 		F0EC167D10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +88,10 @@
 		F0286D4110EE09D4008EA040 /* Quiz_GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz_GameViewController.h; sourceTree = "<group>"; };
 		F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz_GameViewController.m; sourceTree = "<group>"; };
 		F0286D4610EE0A1D008EA040 /* Quiz_GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Quiz_GameViewController.xib; sourceTree = "<group>"; };
+		F028B167113357A4005C3AB3 /* Facebook_IQ_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook_IQ_Button.png; sourceTree = "<group>"; };
+		F028B168113357A4005C3AB3 /* TryAgain_IQ_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TryAgain_IQ_Button.png; sourceTree = "<group>"; };
+		F028B169113357A4005C3AB3 /* Twitter_IQ_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_IQ_Button.png; sourceTree = "<group>"; };
+		F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoreHellCityApps_IQ_Button.png; sourceTree = "<group>"; };
 		F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _TattIQ_Questions_480x320.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +168,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F028B167113357A4005C3AB3 /* Facebook_IQ_Button.png */,
+				F028B168113357A4005C3AB3 /* TryAgain_IQ_Button.png */,
+				F028B169113357A4005C3AB3 /* Twitter_IQ_Button.png */,
+				F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */,
 				F009E3F61132D2F9002AE76A /* MoreApps_tattooIQ.jpg */,
 				F009E3F41132D2E3002AE76A /* Twitter_tattooIQ.jpg */,
 				F009E3EC1132D04A002AE76A /* TryAgain_tattooIQ.jpg */,
@@ -251,6 +263,10 @@
 				F009E3ED1132D04A002AE76A /* TryAgain_tattooIQ.jpg in Resources */,
 				F009E3F51132D2E3002AE76A /* Twitter_tattooIQ.jpg in Resources */,
 				F009E3F71132D2F9002AE76A /* MoreApps_tattooIQ.jpg in Resources */,
+				F028B16B113357A4005C3AB3 /* Facebook_IQ_Button.png in Resources */,
+				F028B16C113357A4005C3AB3 /* TryAgain_IQ_Button.png in Resources */,
+				F028B16D113357A4005C3AB3 /* Twitter_IQ_Button.png in Resources */,
+				F028B16E113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -41,6 +41,7 @@
 	
 	//test
 	NSLog(@"THE BUTTONS setUpdateToTwitter has been pressed!");
+	[self buildTwitterUpdate];
 	
 }
 
