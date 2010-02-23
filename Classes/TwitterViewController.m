@@ -14,8 +14,40 @@
 	[self dismissModalViewControllerAnimated:YES];
 }
 
+
+/*-(void)userNameandPassword {
+	UITextField *textField;
+	UITextField *textField2;
+	
+	UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Username and Password" message:@"\n\n\n" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:@"Enter",nil];
+	textField = [[UITextField alloc] initWithFrame:CGRectMake(12.0, 50.0, 260.0, 25.0)];
+	//[textField setBackground:[UIColor whiteColor]];
+	[textField setPlaceholder:@"username"];
+	[prompt addSubview:textField];
+	
+	textField2 = [[UITextField alloc] initWithFrame:CGRectMake(12.0, 85.0, 260.0, 25.0)];
+	//[textField2 setBackground:[UIColor whiteColor]];
+	[textField2 setPlaceholder:@"password"];
+	[textField2 setSecureTextEntry:YES];
+	[prompt addSubview:textField2];
+	
+	//set place
+	[prompt setTransform:CGAffineTransformMakeTranslation(0.0, 110.0)];
+	[prompt show];
+	[prompt release];
+	
+	
+	// set cursor and show keyboard
+	[textField resignFirstResponder];
+	
+	NSLog(@"Username %@",textField.text);
+	NSLog(@"password %@", textField2.text);
+	
+}
+*/
+
 -(NSString *)setTheMessage{
-	return [NSString stringWithFormat:@"Take the Tattoo IQ TEST! http://wip.hellcity.com/hell_city_iphone_apps.html "];
+	return [NSString stringWithFormat:@"Take the Tattoo IQ TEST!"];
 	
 }
 
@@ -39,47 +71,12 @@
 }
 
 
-
--(void)userNameandPassword {
-	UITextField *textField;
-	UITextField *textField2;
+-(IBAction)setUpdateToTwitter:(id)sender {
 	
-	UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Username and Password" message:@"\n\n\n" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:@"Enter",nil];
-	textField = [[UITextField alloc] initWithFrame:CGRectMake(12.0, 50.0, 260.0, 25.0)];
-	//[textField setBackground:[UIColor whiteColor]];
-	[textField setPlaceholder:@"username"];
-	[prompt addSubview:textField];
-	
-	textField2 = [[UITextField alloc] initWithFrame:CGRectMake(12.0, 85.0, 260.0, 25.0)];
-	//[textField2 setBackground:[UIColor whiteColor]];
-	[textField2 setPlaceholder:@"password"];
-	[textField2 setSecureTextEntry:YES];
-	[prompt addSubview:textField2];
-	
-	//set place
-	[prompt setTransform:CGAffineTransformMakeTranslation(0.0, 110.0)];
-	[prompt show];
-	[prompt release];
-	
-	// set cursor and show keyboard
-	[textField resignFirstResponder];
-	
+	self.theMessage = [self setTheMessage];
 	[self buildTwitterUpdate];
 	
-	
 }
-
-
--(IBAction)setUpdateToTwitter:(id)sender {
-	self.theMessage = [self setTheMessage];
-	
-	//test
-	NSLog(@"THE BUTTONS setUpdateToTwitter has been pressed!");
-	[self userNameandPassword];
-	
-}
-
-
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -90,8 +87,6 @@
 	[update release];
 	
 }
-
-
 
 
 - (void)didReceiveMemoryWarning {
