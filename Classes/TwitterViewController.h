@@ -19,5 +19,6 @@
 -(IBAction)setUpdateToTwitter:(id)sender;
 -(void)buildTwitterUpdate;
 -(NSString *)setTheMessage;
+-(void)userNameandPassword;
 
 @end

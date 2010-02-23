@@ -19,6 +19,12 @@
 	
 }
 
+-(void)userNameandPassword {
+	
+	
+	
+}
+
 -(void)buildTwitterUpdate{
 	//the logic to access twitter and post an update.
 	NSMutableURLRequest *therequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://fmcauley:compest123@twitter.com/statuses/update.xml"]
