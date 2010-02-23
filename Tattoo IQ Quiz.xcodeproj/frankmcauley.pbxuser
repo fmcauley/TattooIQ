@@ -38,7 +38,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = F0286CF910ED0CB3008EA040 /* Tattoo IQ Quiz */;
-		activeSDKPreference = iphonesimulator3.1.2;
+		activeSDKPreference = iphonesimulator3.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Tattoo IQ Quiz */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Tattoo IQ Quiz */,
@@ -168,6 +168,9 @@
 			F028B1F51133786F005C3AB3 /* PBXTextBookmark */ = F028B1F51133786F005C3AB3 /* PBXTextBookmark */;
 			F028B1F6113378EE005C3AB3 /* PBXTextBookmark */ = F028B1F6113378EE005C3AB3 /* PBXTextBookmark */;
 			F028B1F7113378EE005C3AB3 /* PBXTextBookmark */ = F028B1F7113378EE005C3AB3 /* PBXTextBookmark */;
+			F028B22411349CE8005C3AB3 /* PBXTextBookmark */ = F028B22411349CE8005C3AB3 /* PBXTextBookmark */;
+			F028B22511349CE8005C3AB3 /* PBXBookmark */ = F028B22511349CE8005C3AB3 /* PBXBookmark */;
+			F028B22611349CE8005C3AB3 /* PBXBookmark */ = F028B22611349CE8005C3AB3 /* PBXBookmark */;
 			F05105D611149D5E007A8EE0 = F05105D611149D5E007A8EE0 /* PBXTextBookmark */;
 			F05105D711149D5E007A8EE0 = F05105D711149D5E007A8EE0 /* PBXTextBookmark */;
 			F05105D911149D5E007A8EE0 = F05105D911149D5E007A8EE0 /* PBXTextBookmark */;
@@ -442,9 +445,9 @@
 	};
 	F0150841112074220031C193 /* TwitterViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1251, 1443}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1111, 1274}}";
 			sepNavSelRange = "{2866, 0}";
-			sepNavVisRange = "{1980, 891}";
+			sepNavVisRange = "{1304, 676}";
 			sepNavWindowFrame = "{{4, 293}, {1259, 485}}";
 		};
 	};
@@ -1030,6 +1033,24 @@
 		rType = 0;
 		vrLen = 891;
 		vrLoc = 1980;
+	};
+	F028B22411349CE8005C3AB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		name = "TwitterViewController.m: 110";
+		rLen = 0;
+		rLoc = 2866;
+		rType = 0;
+		vrLen = 1312;
+		vrLoc = 1210;
+	};
+	F028B22511349CE8005C3AB3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */;
+	};
+	F028B22611349CE8005C3AB3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */;
 	};
 	F05105D611149D5E007A8EE0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
