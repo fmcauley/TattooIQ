@@ -19,13 +19,9 @@
 	
 }
 
--(void)userNameandPassword {
-	
-	
-	
-}
-
 -(void)buildTwitterUpdate{
+	
+	
 	//the logic to access twitter and post an update.
 	NSMutableURLRequest *therequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://fmcauley:compest123@twitter.com/statuses/update.xml"]
 															  cachePolicy:NSURLRequestUseProtocolCachePolicy
@@ -42,24 +38,48 @@
 	
 }
 
+
+
+-(void)userNameandPassword {
+	UITextField *textField;
+	UITextField *textField2;
+	
+	UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Username and Password" message:@"\n\n\n" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:@"Enter",nil];
+	textField = [[UITextField alloc] initWithFrame:CGRectMake(12.0, 50.0, 260.0, 25.0)];
+	//[textField setBackground:[UIColor whiteColor]];
+	[textField setPlaceholder:@"username"];
+	[prompt addSubview:textField];
+	
+	textField2 = [[UITextField alloc] initWithFrame:CGRectMake(12.0, 85.0, 260.0, 25.0)];
+	//[textField2 setBackground:[UIColor whiteColor]];
+	[textField2 setPlaceholder:@"password"];
+	[textField2 setSecureTextEntry:YES];
+	[prompt addSubview:textField2];
+	
+	//set place
+	[prompt setTransform:CGAffineTransformMakeTranslation(0.0, 110.0)];
+	[prompt show];
+	[prompt release];
+	
+	// set cursor and show keyboard
+	[textField resignFirstResponder];
+	
+	[self buildTwitterUpdate];
+	
+	
+}
+
+
 -(IBAction)setUpdateToTwitter:(id)sender {
 	self.theMessage = [self setTheMessage];
 	
 	//test
 	NSLog(@"THE BUTTONS setUpdateToTwitter has been pressed!");
-	[self buildTwitterUpdate];
+	[self userNameandPassword];
 	
 }
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
+
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.

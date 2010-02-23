@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F028B19511336C77005C3AB3</string>
+										<string>F028B1BF11337363005C3AB3</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -360,8 +360,8 @@
 											<string>F028B17F1133664E005C3AB3</string>
 											<string>F028B1801133664E005C3AB3</string>
 											<string>F028B18B11336800005C3AB3</string>
-											<string>F028B19311336C77005C3AB3</string>
-											<string>F028B19411336C77005C3AB3</string>
+											<string>F028B1A711336FAA005C3AB3</string>
+											<string>F028B1A811336FAA005C3AB3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -557,9 +557,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>F0286D4A10EE0A8D008EA040</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Tattoo IQ Quiz.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -584,7 +584,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>TwitterViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -601,6 +601,8 @@
 							<string>241pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -940,7 +942,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
