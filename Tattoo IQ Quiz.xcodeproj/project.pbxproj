@@ -53,6 +53,7 @@
 		F028B4AC1134D177005C3AB3 /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F028B4A21134D177005C3AB3 /* FBConnect.bundle */; };
 		F028B5001134D5E3005C3AB3 /* SessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */; };
 		F028B5021134D60C005C3AB3 /* SessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F028B5011134D60C005C3AB3 /* SessionViewController.xib */; };
+		F028B63311357FF2005C3AB3 /* iTunesArtWork in Resources */ = {isa = PBXBuildFile; fileRef = F028B63211357FF2005C3AB3 /* iTunesArtWork */; };
 		F0EC167D10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */; };
 /* End PBXBuildFile section */
 
@@ -127,6 +128,7 @@
 		F028B4FE1134D5CC005C3AB3 /* SessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SessionViewController.h; path = "../../Desktop/fbconnect-iphone/samples/Connect/SessionViewController.h"; sourceTree = SOURCE_ROOT; };
 		F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SessionViewController.m; path = "../../Desktop/fbconnect-iphone/samples/Connect/SessionViewController.m"; sourceTree = SOURCE_ROOT; };
 		F028B5011134D60C005C3AB3 /* SessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SessionViewController.xib; path = "../../Desktop/fbconnect-iphone/samples/Connect/SessionViewController.xib"; sourceTree = SOURCE_ROOT; };
+		F028B63211357FF2005C3AB3 /* iTunesArtWork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtWork; path = ../../Desktop/iTunesArtWork; sourceTree = SOURCE_ROOT; };
 		F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _TattIQ_Questions_480x320.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -206,6 +208,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F028B63211357FF2005C3AB3 /* iTunesArtWork */,
 				F028B5011134D60C005C3AB3 /* SessionViewController.xib */,
 				F028B167113357A4005C3AB3 /* Facebook_IQ_Button.png */,
 				F028B168113357A4005C3AB3 /* TryAgain_IQ_Button.png */,
@@ -335,6 +338,7 @@
 				F028B16E113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png in Resources */,
 				F028B4AC1134D177005C3AB3 /* FBConnect.bundle in Resources */,
 				F028B5021134D60C005C3AB3 /* SessionViewController.xib in Resources */,
+				F028B63311357FF2005C3AB3 /* iTunesArtWork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

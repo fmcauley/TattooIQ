@@ -6,7 +6,11 @@
 @implementation TwitterViewController
 
 
-@synthesize textView, theMessage;
+@synthesize textView, theMessage, username, password;
+
+
+
+
 
 
 -(IBAction)goBackOneScreen:(id)sender{
@@ -15,47 +19,35 @@
 }
 
 
-/*-(void)userNameandPassword {
-	UITextField *textField;
-	UITextField *textField2;
-	
-	UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Username and Password" message:@"\n\n\n" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:@"Enter",nil];
-	textField = [[UITextField alloc] initWithFrame:CGRectMake(12.0, 50.0, 260.0, 25.0)];
-	//[textField setBackground:[UIColor whiteColor]];
-	[textField setPlaceholder:@"username"];
-	[prompt addSubview:textField];
-	
-	textField2 = [[UITextField alloc] initWithFrame:CGRectMake(12.0, 85.0, 260.0, 25.0)];
-	//[textField2 setBackground:[UIColor whiteColor]];
-	[textField2 setPlaceholder:@"password"];
-	[textField2 setSecureTextEntry:YES];
-	[prompt addSubview:textField2];
-	
-	//set place
-	[prompt setTransform:CGAffineTransformMakeTranslation(0.0, 110.0)];
-	[prompt show];
-	[prompt release];
-	
-	
-	// set cursor and show keyboard
-	[textField resignFirstResponder];
-	
-	NSLog(@"Username %@",textField.text);
-	NSLog(@"password %@", textField2.text);
-	
-}
-*/
 
 -(NSString *)setTheMessage{
 	return [NSString stringWithFormat:@"Take the Tattoo IQ TEST! http://wip.hellcity.com/hell_city_iphone_apps.html"];
 	
 }
 
--(void)buildTwitterUpdate{
+
+-(BOOL) textFieldShouldReturn:(UITextField *)theTextField {
+	[username resignFirstResponder];
+	[password resignFirstResponder];
 	
+	return YES;
+}
+
+
+-(IBAction)setUpdateToTwitter {
+	
+	self.theMessage = [self setTheMessage];
+	
+	//get the username and password from the fields
+	NSString *userN = [NSString stringWithFormat:@"%@",username.text];
+	
+	NSString *passW = [NSString stringWithFormat:@"%@",password.text];
+	
+	
+	NSString *build = [NSString stringWithFormat:@"http://%@:%@@twitter.com/statuses/update.xml",userN,passW];
 	
 	//the logic to access twitter and post an update.
-	NSMutableURLRequest *therequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://fmcauley:compest123@twitter.com/statuses/update.xml"]
+	NSMutableURLRequest *therequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:build]
 															  cachePolicy:NSURLRequestUseProtocolCachePolicy
 														  timeoutInterval:60.0];
 	[therequest setHTTPMethod:@"POST"];
@@ -70,13 +62,6 @@
 	
 }
 
-
--(IBAction)setUpdateToTwitter:(id)sender {
-	
-	self.theMessage = [self setTheMessage];
-	[self buildTwitterUpdate];
-	
-}
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.

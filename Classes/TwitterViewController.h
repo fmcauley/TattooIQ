@@ -2,23 +2,26 @@
 #import <UIKit/UIKit.h>
 @class FinalViewController;
 
-@interface TwitterViewController : UIViewController {
+@interface TwitterViewController : UIViewController <UITextFieldDelegate> {
 	
 	UILabel *textView;
 	
 	FinalViewController *finalViewController;
 	NSString *theMessage;
+	UITextField *username;
+	UITextField *password;
 
 }
 
 
 @property (nonatomic, retain) IBOutlet UILabel *textView;
 @property (assign)NSString *theMessage;
+@property (nonatomic, retain) IBOutlet UITextField *username;
+@property (nonatomic, retain) IBOutlet UITextField *password;
 
 -(IBAction)goBackOneScreen:(id)sender;
--(IBAction)setUpdateToTwitter:(id)sender;
--(void)buildTwitterUpdate;
+-(IBAction)setUpdateToTwitter;
+//-(void)buildTwitterUpdate;
 -(NSString *)setTheMessage;
-//-(void)userNameandPassword;
 
 @end
