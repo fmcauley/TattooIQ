@@ -10,6 +10,7 @@
 #import "InfoViewController.h"
 #import "HellCityAppsViewController.h"
 #import "TwitterViewController.h"
+#import "SessionViewController.h"
 
 
 
@@ -33,6 +34,13 @@
 	
 	[self presentModalViewController:twitterViewController animated:YES];	
 }
+
+-(IBAction)updateFacebook{
+	
+	[self presentModalViewController:session animated:YES];
+	
+}
+
 
 
 

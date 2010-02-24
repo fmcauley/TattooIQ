@@ -47,7 +47,7 @@
 */
 
 -(NSString *)setTheMessage{
-	return [NSString stringWithFormat:@"Take the Tattoo IQ TEST!"];
+	return [NSString stringWithFormat:@"Take the Tattoo IQ TEST! http://wip.hellcity.com/hell_city_iphone_apps.html"];
 	
 }
 

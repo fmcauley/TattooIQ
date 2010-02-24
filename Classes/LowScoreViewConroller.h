@@ -10,13 +10,13 @@
 @class InfoViewController;
 @class HellCityAppsViewController;
 @class TwitterViewController;
-
-
+@class SessionViewController;
 
 @interface LowScoreViewConroller : UIViewController {
 	IBOutlet InfoViewController *infoViewController;
 	IBOutlet HellCityAppsViewController *hellCityViewController;
 	IBOutlet TwitterViewController *twitterViewController;
+	IBOutlet SessionViewController *session;
 	UILabel *lowScore;
 
 }
@@ -27,5 +27,6 @@
 -(IBAction)restartTheGame;
 -(IBAction)goToWebSite;
 -(IBAction)updateTwitter;
+-(IBAction)updateFacebook;
 
 @end
