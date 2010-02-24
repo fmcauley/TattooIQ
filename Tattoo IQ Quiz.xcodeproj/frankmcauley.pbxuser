@@ -171,6 +171,12 @@
 			F028B22411349CE8005C3AB3 /* PBXTextBookmark */ = F028B22411349CE8005C3AB3 /* PBXTextBookmark */;
 			F028B22511349CE8005C3AB3 /* PBXBookmark */ = F028B22511349CE8005C3AB3 /* PBXBookmark */;
 			F028B22611349CE8005C3AB3 /* PBXBookmark */ = F028B22611349CE8005C3AB3 /* PBXBookmark */;
+			F028B27E1134A3E8005C3AB3 /* PBXBookmark */ = F028B27E1134A3E8005C3AB3 /* PBXBookmark */;
+			F028B27F1134A3E8005C3AB3 /* PBXBookmark */ = F028B27F1134A3E8005C3AB3 /* PBXBookmark */;
+			F028B2801134A3E8005C3AB3 /* PBXBookmark */ = F028B2801134A3E8005C3AB3 /* PBXBookmark */;
+			F028B28C1134A4CA005C3AB3 /* PBXTextBookmark */ = F028B28C1134A4CA005C3AB3 /* PBXTextBookmark */;
+			F028B28D1134A4CA005C3AB3 /* XCBuildMessageTextBookmark */ = F028B28D1134A4CA005C3AB3 /* XCBuildMessageTextBookmark */;
+			F028B28E1134A4CA005C3AB3 /* PBXTextBookmark */ = F028B28E1134A4CA005C3AB3 /* PBXTextBookmark */;
 			F05105D611149D5E007A8EE0 = F05105D611149D5E007A8EE0 /* PBXTextBookmark */;
 			F05105D711149D5E007A8EE0 = F05105D711149D5E007A8EE0 /* PBXTextBookmark */;
 			F05105D911149D5E007A8EE0 = F05105D911149D5E007A8EE0 /* PBXTextBookmark */;
@@ -445,9 +451,9 @@
 	};
 	F0150841112074220031C193 /* TwitterViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1111, 1274}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1111, 1287}}";
 			sepNavSelRange = "{2866, 0}";
-			sepNavVisRange = "{1304, 676}";
+			sepNavVisRange = "{1304, 547}";
 			sepNavWindowFrame = "{{4, 293}, {1259, 485}}";
 		};
 	};
@@ -1051,6 +1057,74 @@
 	F028B22611349CE8005C3AB3 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */;
+	};
+	F028B25D1134A3BF005C3AB3 /* FBConnectGlobal.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FBConnectGlobal.m;
+		path = "/Users/frankmcauley/Downloads/facebook-facebook-iphone-sdk-d23068d/src/FBConnectGlobal.m";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1063, 481}}";
+			sepNavSelRange = "{629, 0}";
+			sepNavVisRange = "{405, 547}";
+		};
+	};
+	F028B27E1134A3E8005C3AB3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */;
+	};
+	F028B27F1134A3E8005C3AB3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F028B168113357A4005C3AB3 /* TryAgain_IQ_Button.png */;
+	};
+	F028B2801134A3E8005C3AB3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F028B167113357A4005C3AB3 /* Facebook_IQ_Button.png */;
+	};
+	F028B28C1134A4CA005C3AB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		name = "TwitterViewController.m: 110";
+		rLen = 0;
+		rLoc = 2866;
+		rType = 0;
+		vrLen = 547;
+		vrLoc = 1304;
+	};
+	F028B28D1134A4CA005C3AB3 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected expression before '@' token";
+		fRef = F028B25D1134A3BF005C3AB3 /* FBConnectGlobal.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 18;
+		rType = 1;
+	};
+	F028B28E1134A4CA005C3AB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F028B25D1134A3BF005C3AB3 /* FBConnectGlobal.m */;
+		name = "FBConnectGlobal.m: 19";
+		rLen = 0;
+		rLoc = 629;
+		rType = 0;
+		vrLen = 547;
+		vrLoc = 405;
+	};
+	F028B2A41134A6B3005C3AB3 /* FacebookViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 535}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 248}";
+		};
+	};
+	F028B2A51134A6B3005C3AB3 /* FacebookViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 689}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1204}";
+		};
 	};
 	F05105D611149D5E007A8EE0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;

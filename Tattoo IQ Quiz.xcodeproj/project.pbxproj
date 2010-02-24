@@ -41,6 +41,8 @@
 		F028B16C113357A4005C3AB3 /* TryAgain_IQ_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F028B168113357A4005C3AB3 /* TryAgain_IQ_Button.png */; };
 		F028B16D113357A4005C3AB3 /* Twitter_IQ_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F028B169113357A4005C3AB3 /* Twitter_IQ_Button.png */; };
 		F028B16E113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */; };
+		F028B2A71134A6B3005C3AB3 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F028B2A51134A6B3005C3AB3 /* FacebookViewController.m */; };
+		F028B2A81134A6B3005C3AB3 /* FacebookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F028B2A61134A6B3005C3AB3 /* FacebookViewController.xib */; };
 		F0EC167D10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +94,18 @@
 		F028B168113357A4005C3AB3 /* TryAgain_IQ_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TryAgain_IQ_Button.png; sourceTree = "<group>"; };
 		F028B169113357A4005C3AB3 /* Twitter_IQ_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_IQ_Button.png; sourceTree = "<group>"; };
 		F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoreHellCityApps_IQ_Button.png; sourceTree = "<group>"; };
+		F028B2971134A604005C3AB3 /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		F028B2981134A604005C3AB3 /* FBConnectGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnectGlobal.h; sourceTree = "<group>"; };
+		F028B2991134A604005C3AB3 /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		F028B29A1134A604005C3AB3 /* FBFeedDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFeedDialog.h; sourceTree = "<group>"; };
+		F028B29B1134A604005C3AB3 /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginButton.h; sourceTree = "<group>"; };
+		F028B29C1134A604005C3AB3 /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		F028B29D1134A604005C3AB3 /* FBPermissionDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPermissionDialog.h; sourceTree = "<group>"; };
+		F028B29E1134A604005C3AB3 /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		F028B29F1134A604005C3AB3 /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSession.h; sourceTree = "<group>"; };
+		F028B2A41134A6B3005C3AB3 /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
+		F028B2A51134A6B3005C3AB3 /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
+		F028B2A61134A6B3005C3AB3 /* FacebookViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FacebookViewController.xib; path = Classes/FacebookViewController.xib; sourceTree = "<group>"; };
 		F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _TattIQ_Questions_480x320.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +146,8 @@
 				F015082611206B680031C193 /* HellCityAppsViewController.m */,
 				F0150840112074220031C193 /* TwitterViewController.h */,
 				F0150841112074220031C193 /* TwitterViewController.m */,
+				F028B2A41134A6B3005C3AB3 /* FacebookViewController.h */,
+				F028B2A51134A6B3005C3AB3 /* FacebookViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -147,6 +163,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				F028B2961134A604005C3AB3 /* FBConnect */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -168,6 +185,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F028B2A61134A6B3005C3AB3 /* FacebookViewController.xib */,
 				F028B167113357A4005C3AB3 /* Facebook_IQ_Button.png */,
 				F028B168113357A4005C3AB3 /* TryAgain_IQ_Button.png */,
 				F028B169113357A4005C3AB3 /* Twitter_IQ_Button.png */,
@@ -203,6 +221,23 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		F028B2961134A604005C3AB3 /* FBConnect */ = {
+			isa = PBXGroup;
+			children = (
+				F028B2971134A604005C3AB3 /* FBConnect.h */,
+				F028B2981134A604005C3AB3 /* FBConnectGlobal.h */,
+				F028B2991134A604005C3AB3 /* FBDialog.h */,
+				F028B29A1134A604005C3AB3 /* FBFeedDialog.h */,
+				F028B29B1134A604005C3AB3 /* FBLoginButton.h */,
+				F028B29C1134A604005C3AB3 /* FBLoginDialog.h */,
+				F028B29D1134A604005C3AB3 /* FBPermissionDialog.h */,
+				F028B29E1134A604005C3AB3 /* FBRequest.h */,
+				F028B29F1134A604005C3AB3 /* FBSession.h */,
+			);
+			name = FBConnect;
+			path = "../../Desktop/fbconnect-iphone/src/FBConnect";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -267,6 +302,7 @@
 				F028B16C113357A4005C3AB3 /* TryAgain_IQ_Button.png in Resources */,
 				F028B16D113357A4005C3AB3 /* Twitter_IQ_Button.png in Resources */,
 				F028B16E113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png in Resources */,
+				F028B2A81134A6B3005C3AB3 /* FacebookViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +324,7 @@
 				F015079B111FA33B0031C193 /* LowScoreViewConroller.m in Sources */,
 				F015082811206B680031C193 /* HellCityAppsViewController.m in Sources */,
 				F0150843112074220031C193 /* TwitterViewController.m in Sources */,
+				F028B2A71134A6B3005C3AB3 /* FacebookViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,9 +365,15 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/frankmcauley/iPhone_Apps/Tattoo,
+					IQ,
+					Quiz/src,
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos2.2.1;
+				USER_HEADER_SEARCH_PATHS = "/Users/frankmcauley/Desktop/fbconnect-iphone/src";
 			};
 			name = Debug;
 		};
@@ -342,8 +385,14 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/frankmcauley/iPhone_Apps/Tattoo,
+					IQ,
+					Quiz/src,
+				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos2.2.1;
+				USER_HEADER_SEARCH_PATHS = "/Users/frankmcauley/Desktop/fbconnect-iphone/src";
 			};
 			name = Release;
 		};
