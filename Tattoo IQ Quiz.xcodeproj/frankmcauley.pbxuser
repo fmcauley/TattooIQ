@@ -262,6 +262,16 @@
 			F028B52B1134DBAA005C3AB3 /* PBXTextBookmark */ = F028B52B1134DBAA005C3AB3 /* PBXTextBookmark */;
 			F028B5301134DC6E005C3AB3 /* PBXTextBookmark */ = F028B5301134DC6E005C3AB3 /* PBXTextBookmark */;
 			F028B5311134DC6E005C3AB3 /* PBXTextBookmark */ = F028B5311134DC6E005C3AB3 /* PBXTextBookmark */;
+			F028B54C11355A81005C3AB3 /* PBXTextBookmark */ = F028B54C11355A81005C3AB3 /* PBXTextBookmark */;
+			F028B54D11355A81005C3AB3 /* XCBuildMessageTextBookmark */ = F028B54D11355A81005C3AB3 /* XCBuildMessageTextBookmark */;
+			F028B54E11355A81005C3AB3 /* PBXTextBookmark */ = F028B54E11355A81005C3AB3 /* PBXTextBookmark */;
+			F028B55011355A88005C3AB3 /* PBXTextBookmark */ = F028B55011355A88005C3AB3 /* PBXTextBookmark */;
+			F028B55111355A88005C3AB3 /* PBXTextBookmark */ = F028B55111355A88005C3AB3 /* PBXTextBookmark */;
+			F028B55211355A88005C3AB3 /* PBXTextBookmark */ = F028B55211355A88005C3AB3 /* PBXTextBookmark */;
+			F028B55311355A88005C3AB3 /* PBXTextBookmark */ = F028B55311355A88005C3AB3 /* PBXTextBookmark */;
+			F028B55811355B62005C3AB3 /* PBXTextBookmark */ = F028B55811355B62005C3AB3 /* PBXTextBookmark */;
+			F028B55911355B62005C3AB3 /* PBXTextBookmark */ = F028B55911355B62005C3AB3 /* PBXTextBookmark */;
+			F028B55A11355B62005C3AB3 /* PBXTextBookmark */ = F028B55A11355B62005C3AB3 /* PBXTextBookmark */;
 			F05105D611149D5E007A8EE0 = F05105D611149D5E007A8EE0 /* PBXTextBookmark */;
 			F05105D711149D5E007A8EE0 = F05105D711149D5E007A8EE0 /* PBXTextBookmark */;
 			F05105D911149D5E007A8EE0 = F05105D911149D5E007A8EE0 /* PBXTextBookmark */;
@@ -537,9 +547,9 @@
 	};
 	F0150841112074220031C193 /* TwitterViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1251, 1378}}";
-			sepNavSelRange = "{1312, 0}";
-			sepNavVisRange = "{1014, 790}";
+			sepNavIntBoundsRect = "{{0, 0}, {1251, 1339}}";
+			sepNavSelRange = "{2917, 0}";
+			sepNavVisRange = "{1825, 875}";
 			sepNavWindowFrame = "{{4, 293}, {1259, 485}}";
 		};
 	};
@@ -1732,15 +1742,15 @@
 	F028B4FE1134D5CC005C3AB3 /* SessionViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {916, 558}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1044}";
+			sepNavSelRange = "{642, 52}";
+			sepNavVisRange = "{0, 1068}";
 		};
 	};
 	F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {916, 1625}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{1114, 1415}";
+			sepNavIntBoundsRect = "{{0, 0}, {916, 1703}}";
+			sepNavSelRange = "{912, 0}";
+			sepNavVisRange = "{100, 1593}";
 		};
 	};
 	F028B51B1134DB3B005C3AB3 /* PBXBookmark */ = {
@@ -1856,6 +1866,102 @@
 		rType = 0;
 		vrLen = 790;
 		vrLoc = 1014;
+	};
+	F028B54C11355A81005C3AB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		name = "TwitterViewController.m: 110";
+		rLen = 0;
+		rLoc = 2917;
+		rType = 0;
+		vrLen = 875;
+		vrLoc = 1825;
+	};
+	F028B54D11355A81005C3AB3 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "No declaration of property 'lowScore' found in the interface";
+		fRef = F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 34;
+		rType = 1;
+	};
+	F028B54E11355A81005C3AB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */;
+		name = "SessionViewController.m: 35";
+		rLen = 0;
+		rLoc = 1333;
+		rType = 0;
+		vrLen = 1185;
+		vrLoc = 100;
+	};
+	F028B55011355A88005C3AB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
+		name = "TwitterViewController.m: 50";
+		rLen = 0;
+		rLoc = 1312;
+		rType = 0;
+		vrLen = 792;
+		vrLoc = 2130;
+	};
+	F028B55111355A88005C3AB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */;
+		name = "SessionViewController.m: 19";
+		rLen = 0;
+		rLoc = 656;
+		rType = 0;
+		vrLen = 1596;
+		vrLoc = 100;
+	};
+	F028B55211355A88005C3AB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F028B4FE1134D5CC005C3AB3 /* SessionViewController.h */;
+		name = "SessionViewController.h: 33";
+		rLen = 0;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 1204;
+		vrLoc = 0;
+	};
+	F028B55311355A88005C3AB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F028B4FE1134D5CC005C3AB3 /* SessionViewController.h */;
+		name = "SessionViewController.h: 32";
+		rLen = 0;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 1068;
+		vrLoc = 0;
+	};
+	F028B55811355B62005C3AB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */;
+		name = "SessionViewController.m: 24";
+		rLen = 0;
+		rLoc = 912;
+		rType = 0;
+		vrLen = 1593;
+		vrLoc = 100;
+	};
+	F028B55911355B62005C3AB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F028B4FE1134D5CC005C3AB3 /* SessionViewController.h */;
+		rLen = 1;
+		rLoc = 20;
+		rType = 1;
+	};
+	F028B55A11355B62005C3AB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F028B4FE1134D5CC005C3AB3 /* SessionViewController.h */;
+		name = "SessionViewController.h: 21";
+		rLen = 52;
+		rLoc = 642;
+		rType = 0;
+		vrLen = 1068;
+		vrLoc = 0;
 	};
 	F05105D611149D5E007A8EE0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
