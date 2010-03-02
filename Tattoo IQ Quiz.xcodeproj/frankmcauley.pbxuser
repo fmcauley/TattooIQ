@@ -36,7 +36,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Distribution;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = F0286CF910ED0CB3008EA040 /* Tattoo IQ Quiz */;
 		activeSDKPreference = iphonesimulator3.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Tattoo IQ Quiz */;
@@ -190,6 +190,9 @@
 			F0D6081C1137EF6900D516BC = F0D6081C1137EF6900D516BC /* PBXTextBookmark */;
 			F0D608231137F45100D516BC = F0D608231137F45100D516BC /* PBXTextBookmark */;
 			F0D60A85113C9AF100D516BC = F0D60A85113C9AF100D516BC /* PBXTextBookmark */;
+			F0D60AB2113CA19B00D516BC /* PBXBookmark */ = F0D60AB2113CA19B00D516BC /* PBXBookmark */;
+			F0D60AB3113CA19B00D516BC /* PBXBookmark */ = F0D60AB3113CA19B00D516BC /* PBXBookmark */;
+			F0D60AB8113CA1BD00D516BC /* PBXBookmark */ = F0D60AB8113CA1BD00D516BC /* PBXBookmark */;
 		};
 		sourceControlManager = F0286D0610ED0CCD008EA040 /* Source Control */;
 		userBuildSettings = {
@@ -1080,6 +1083,18 @@
 		rType = 0;
 		vrLen = 1430;
 		vrLoc = 10905;
+	};
+	F0D60AB2113CA19B00D516BC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F009E3F61132D2F9002AE76A /* MoreApps_tattooIQ.jpg */;
+	};
+	F0D60AB3113CA19B00D516BC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F009E3F61132D2F9002AE76A /* MoreApps_tattooIQ.jpg */;
+	};
+	F0D60AB8113CA1BD00D516BC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F009E3F61132D2F9002AE76A /* MoreApps_tattooIQ.jpg */;
 	};
 	F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */ = {
 		uiCtxt = {
