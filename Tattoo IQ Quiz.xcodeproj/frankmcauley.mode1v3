@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,13 +276,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>50</integer>
-									<integer>26</integer>
+									<integer>38</integer>
+									<integer>24</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 240}, {364, 664}}</string>
+							<string>{{0, 131}, {364, 664}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -310,14 +312,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TestImageAsButton.h</string>
+								<string>Tattoo_IQ_QuizViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TestImageAsButton.h</string>
+										<string>Tattoo_IQ_QuizViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F0D60B47113CAD5F00D516BC</string>
+										<string>F0D60B71113CB16500D516BC</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -339,8 +339,6 @@
 											<string>F05105D611149D5E007A8EE0</string>
 											<string>F05105D711149D5E007A8EE0</string>
 											<string>F05105D911149D5E007A8EE0</string>
-											<string>F015098C1121CF300031C193</string>
-											<string>F015098D1121CF300031C193</string>
 											<string>F01509901121CF300031C193</string>
 											<string>F01509911121CF300031C193</string>
 											<string>F009E234112B207B002AE76A</string>
@@ -380,10 +378,10 @@
 											<string>F0D6081B1137EF6900D516BC</string>
 											<string>F0D608231137F45100D516BC</string>
 											<string>F0D60B0C113CAB5100D516BC</string>
-											<string>F0D60B0D113CAB5100D516BC</string>
-											<string>F0D60B44113CAD5F00D516BC</string>
-											<string>F0D60B45113CAD5F00D516BC</string>
-											<string>F0D60B46113CAD5F00D516BC</string>
+											<string>F0D60B6D113CB16500D516BC</string>
+											<string>F0D60B6E113CB16500D516BC</string>
+											<string>F0D60B6F113CB16500D516BC</string>
+											<string>F0D60B70113CB16500D516BC</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
