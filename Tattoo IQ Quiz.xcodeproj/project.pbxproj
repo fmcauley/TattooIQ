@@ -54,6 +54,7 @@
 		F028B5001134D5E3005C3AB3 /* SessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */; };
 		F028B5021134D60C005C3AB3 /* SessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F028B5011134D60C005C3AB3 /* SessionViewController.xib */; };
 		F028B63311357FF2005C3AB3 /* iTunesArtWork in Resources */ = {isa = PBXBuildFile; fileRef = F028B63211357FF2005C3AB3 /* iTunesArtWork */; };
+		F0D608101137EEC900D516BC /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0D6080F1137EEC900D516BC /* Entitlements.plist */; };
 		F0EC167D10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +130,7 @@
 		F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SessionViewController.m; path = "../../Desktop/fbconnect-iphone/samples/Connect/SessionViewController.m"; sourceTree = SOURCE_ROOT; };
 		F028B5011134D60C005C3AB3 /* SessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SessionViewController.xib; path = "../../Desktop/fbconnect-iphone/samples/Connect/SessionViewController.xib"; sourceTree = SOURCE_ROOT; };
 		F028B63211357FF2005C3AB3 /* iTunesArtWork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtWork; path = ../../Desktop/iTunesArtWork; sourceTree = SOURCE_ROOT; };
+		F0D6080F1137EEC900D516BC /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _TattIQ_Questions_480x320.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -192,6 +194,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				F0D6080F1137EEC900D516BC /* Entitlements.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				F028B4AC1134D177005C3AB3 /* FBConnect.bundle in Resources */,
 				F028B5021134D60C005C3AB3 /* SessionViewController.xib in Resources */,
 				F028B63311357FF2005C3AB3 /* iTunesArtWork in Resources */,
+				F0D608101137EEC900D516BC /* Entitlements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +410,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Frank McAuley (J6CCLGA6DL)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -426,7 +431,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Frank McAuley (J6CCLGA6DL)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -441,6 +447,38 @@
 			};
 			name = Release;
 		};
+		F0D607FE1137EA0500D516BC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Frank McAuley (J6CCLGA6DL)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/frankmcauley/iPhone_Apps/Tattoo,
+					IQ,
+					Quiz/src,
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+				USER_HEADER_SEARCH_PATHS = "/Users/frankmcauley/Desktop/fbconnect-iphone/src/**";
+			};
+			name = Distribution;
+		};
+		F0D607FF1137EA0500D516BC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tattoo_IQ_Quiz_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "Tattoo IQ Quiz";
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -449,6 +487,7 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+				F0D607FF1137EA0500D516BC /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -458,6 +497,7 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+				F0D607FE1137EA0500D516BC /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

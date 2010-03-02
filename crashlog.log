@@ -1,0 +1,326 @@
+==== Attached at 2010-02-26 06:11:17 -0500 ====
+Fri Feb 26 05:08:59 unknown TweetDeck[4048] <Warning>: 
+Dealloc Twitter XML Client
+Fri Feb 26 05:08:59 unknown TweetDeck[4048] <Warning>: 
+Dealloc Twitter XML Client
+Fri Feb 26 05:09:05 unknown TweetDeck[4048] <Warning>: 
+Dealloc Twitter XML Client
+Fri Feb 26 05:09:06 unknown TweetDeck[4048] <Error>: CGBitmapContextCreate: unsupported colorspace.
+Fri Feb 26 05:09:06 unknown TweetDeck[4048] <Error>: CGContextDrawImage: invalid context
+Fri Feb 26 05:09:06 unknown TweetDeck[4048] <Error>: CGBitmapContextCreateImage: invalid context
+Fri Feb 26 05:09:15 unknown TweetDeck[4048] <Warning>: Setting no interaction
+Fri Feb 26 05:10:24 unknown TweetDeck[4048] <Error>: CGBitmapContextCreate: unsupported colorspace.
+Fri Feb 26 05:10:24 unknown TweetDeck[4048] <Error>: CGContextDrawImage: invalid context
+Fri Feb 26 05:10:24 unknown TweetDeck[4048] <Error>: CGBitmapContextCreateImage: invalid context
+Fri Feb 26 05:10:26 unknown TweetDeck[4048] <Error>: CGBitmapContextCreate: unsupported colorspace.
+Fri Feb 26 05:10:26 unknown TweetDeck[4048] <Error>: CGContextDrawImage: invalid context
+Fri Feb 26 05:10:26 unknown TweetDeck[4048] <Error>: CGBitmapContextCreateImage: invalid context
+Fri Feb 26 05:10:26 unknown TweetDeck[4048] <Error>: CGBitmapContextCreate: unsupported colorspace.
+Fri Feb 26 05:10:26 unknown TweetDeck[4048] <Error>: CGContextDrawImage: invalid context
+Fri Feb 26 05:10:26 unknown TweetDeck[4048] <Error>: CGBitmapContextCreateImage: invalid context
+Fri Feb 26 05:10:41 unknown TweetDeck[4048] <Error>: CGBitmapContextCreate: unsupported parameter combination: 16 integer bits/component; 48 bits/pixel; 3-component colorspace; kCGImageAlphaNone; 228 bytes/row.
+Fri Feb 26 05:10:41 unknown TweetDeck[4048] <Error>: CGContextDrawImage: invalid context
+Fri Feb 26 05:10:41 unknown TweetDeck[4048] <Error>: CGBitmapContextCreateImage: invalid context
+Fri Feb 26 05:11:14 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 0 -> 1
+Fri Feb 26 05:11:18 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 1 -> 0
+Fri Feb 26 05:11:18 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) device bootloaded
+Fri Feb 26 05:11:20 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 0 -> 1
+Fri Feb 26 05:11:36 unknown CommCenter[28] <Notice>: There are 4 assertions for PDP context 0:
+Fri Feb 26 05:11:36 unknown CommCenter[28] <Notice>:     PersConn-apsd-com.apple.apsd-push.apple.com
+Fri Feb 26 05:11:36 unknown CommCenter[28] <Notice>:     PersConn-MobileMail-EA17DF0C-12B2-47A0-A6CF-6A217B6A1DB5
+Fri Feb 26 05:11:36 unknown CommCenter[28] <Notice>:     PersConn-aosnotifyd-com.apple.AOSNotification
+Fri Feb 26 05:11:36 unknown CommCenter[28] <Notice>:     MobileMail
+Fri Feb 26 05:11:36 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 1:
+Fri Feb 26 05:11:36 unknown CommCenter[28] <Notice>: Telling PDP context 1 to go inactive.
+Fri Feb 26 05:11:36 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 2:
+Fri Feb 26 05:11:36 unknown CommCenter[28] <Notice>: Telling PDP context 2 to go inactive.
+Fri Feb 26 05:11:36 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 3:
+Fri Feb 26 05:11:36 unknown CommCenter[28] <Notice>: Telling PDP context 3 to go inactive.
+Fri Feb 26 05:11:40 unknown CommCenter[28] <Notice>: Telling CSI to go low power.
+Fri Feb 26 05:11:40 unknown CommCenter[28] <Notice>: CSI can enter low power, so now telling to do so.
+Fri Feb 26 05:11:40 unknown CommCenter[28] <Notice>: Will sleep.  Heard from CSI in 0.00722098 seconds
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::sleepWakeNotification: Sysmtem Going to sleep
+Fri Feb 26 05:20:35 unknown CommCenter[28] <Notice>: Telling CSI to exit low power.
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: + AppleMPVDDriver[0xc0b5c800]::setPowerStateGated()
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::setPowerState(0)
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AppleMultitouchZ2SPI: disabled power
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AirPort: Disabled AppleMRVL868x (link 1, sys 1, user 0)
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AppleMRVL868x::setPOWER() [kernel_task]: 0
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AppleMRVL868x::setPOWER(): Flushing beacons!!
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::changePowerStateGated(0)
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AppleMRVL868x::setPowerStateGated(): 1 -> 0, 0xc0c66800
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: [188317.541494499]: AppleS5L8900XSDIO::sendCommand(): Timeout waiting for CMDRDY indication
+Fri Feb 26 05:11:40 unknown kernel[0] <Debug>: System Sleep
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: pmu wake events: rtc
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::sleepWakeNotification: System Powering on
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: System Wake
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: + AppleMPVDDriver[0xc0b5c800]::setPowerStateGated()
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::setPowerState(1)
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::changePowerStateGated(1)
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AppleMRVL868x::setPowerStateGated(): 0 -> 1, 0xc0c66800
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AppleMRVL868x::wakeupSequence()
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: ApplePCF50635PMURTC: Unexpected RTC alarm interrupt
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AirPort: Enabled AppleMRVL868x (link 1, sys 0, user 0)
+Fri Feb 26 05:20:35 unknown kernel[0] <Debug>: AppleMultitouchZ2SPI: enabled power, scheduled bootloading
+Fri Feb 26 05:20:35 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) device bootloaded
+Fri Feb 26 05:20:35 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) uilock state: 1 -> 1
+Fri Feb 26 05:20:38 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 1 -> 0
+Fri Feb 26 05:20:38 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) device bootloaded
+Fri Feb 26 05:20:46 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 0 -> 1
+Fri Feb 26 05:21:02 unknown CommCenter[28] <Notice>: There are 4 assertions for PDP context 0:
+Fri Feb 26 05:21:02 unknown CommCenter[28] <Notice>:     PersConn-apsd-com.apple.apsd-push.apple.com
+Fri Feb 26 05:21:02 unknown CommCenter[28] <Notice>:     PersConn-MobileMail-EA17DF0C-12B2-47A0-A6CF-6A217B6A1DB5
+Fri Feb 26 05:21:02 unknown CommCenter[28] <Notice>:     PersConn-aosnotifyd-com.apple.AOSNotification
+Fri Feb 26 05:21:02 unknown CommCenter[28] <Notice>:     MobileMail
+Fri Feb 26 05:21:02 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 1:
+Fri Feb 26 05:21:02 unknown CommCenter[28] <Notice>: Telling PDP context 1 to go inactive.
+Fri Feb 26 05:21:02 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 2:
+Fri Feb 26 05:21:02 unknown CommCenter[28] <Notice>: Telling PDP context 2 to go inactive.
+Fri Feb 26 05:21:02 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 3:
+Fri Feb 26 05:21:02 unknown CommCenter[28] <Notice>: Telling PDP context 3 to go inactive.
+Fri Feb 26 05:21:06 unknown CommCenter[28] <Notice>: Telling CSI to go low power.
+Fri Feb 26 05:21:06 unknown CommCenter[28] <Notice>: CSI can enter low power, so now telling to do so.
+Fri Feb 26 05:21:06 unknown CommCenter[28] <Notice>: Will sleep.  Heard from CSI in 0.00697398 seconds
+Fri Feb 26 05:21:06 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::sleepWakeNotification: Sysmtem Going to sleep
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: + AppleMPVDDriver[0xc0b5c800]::setPowerStateGated()
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::setPowerState(0)
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AppleMultitouchZ2SPI: disabled power
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AirPort: Disabled AppleMRVL868x (link 1, sys 1, user 0)
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AppleMRVL868x::setPOWER() [kernel_task]: 0
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AppleMRVL868x::setPOWER(): Flushing beacons!!
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::changePowerStateGated(0)
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AppleMRVL868x::setPowerStateGated(): 1 -> 0, 0xc0c66800
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: [188349.508804166]: AppleS5L8900XSDIO::sendCommand(): Timeout waiting for CMDRDY indication
+Fri Feb 26 05:21:06 unknown kernel[0] <Debug>: System Sleep
+Fri Feb 26 05:38:09 unknown CommCenter[28] <Notice>: Telling CSI to exit low power.
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: pmu wake events: exton2(bb)
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::sleepWakeNotification: System Powering on
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: System Wake
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: + AppleMPVDDriver[0xc0b5c800]::setPowerStateGated()
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::setPowerState(1)
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::changePowerStateGated(1)
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AppleMRVL868x::setPowerStateGated(): 0 -> 1, 0xc0c66800
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AppleMRVL868x::wakeupSequence()
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AppleS5L8900XSDIO::sendCommand(): CMD52 Failure - SDIO Cmd Timeout: arg(0x00000a00), error count(1), dsta register(0x0000c004)
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AirPort: Enabled AppleMRVL868x (link 1, sys 0, user 0)
+Fri Feb 26 05:38:09 unknown kernel[0] <Debug>: AppleMultitouchZ2SPI: enabled power, scheduled bootloading
+Fri Feb 26 05:38:09 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) device bootloaded
+Fri Feb 26 05:38:09 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) uilock state: 1 -> 1
+Fri Feb 26 05:38:40 unknown CommCenter[28] <Notice>: There are 4 assertions for PDP context 0:
+Fri Feb 26 05:38:40 unknown CommCenter[28] <Notice>:     PersConn-apsd-com.apple.apsd-push.apple.com
+Fri Feb 26 05:38:40 unknown CommCenter[28] <Notice>:     PersConn-MobileMail-EA17DF0C-12B2-47A0-A6CF-6A217B6A1DB5
+Fri Feb 26 05:38:40 unknown CommCenter[28] <Notice>:     PersConn-aosnotifyd-com.apple.AOSNotification
+Fri Feb 26 05:38:40 unknown CommCenter[28] <Notice>:     MobileMail
+Fri Feb 26 05:38:40 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 1:
+Fri Feb 26 05:38:40 unknown CommCenter[28] <Notice>: Telling PDP context 1 to go inactive.
+Fri Feb 26 05:38:40 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 2:
+Fri Feb 26 05:38:40 unknown CommCenter[28] <Notice>: Telling PDP context 2 to go inactive.
+Fri Feb 26 05:38:40 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 3:
+Fri Feb 26 05:38:40 unknown CommCenter[28] <Notice>: Telling PDP context 3 to go inactive.
+Fri Feb 26 05:38:44 unknown CommCenter[28] <Notice>: Telling CSI to go low power.
+Fri Feb 26 05:38:44 unknown CommCenter[28] <Notice>: CSI can enter low power, so now telling to do so.
+Fri Feb 26 05:38:44 unknown CommCenter[28] <Notice>: Will sleep.  Heard from CSI in 0.00692499 seconds
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::sleepWakeNotification: Sysmtem Going to sleep
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: + AppleMPVDDriver[0xc0b5c800]::setPowerStateGated()
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::setPowerState(0)
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleMultitouchZ2SPI: disabled power
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AirPort: Disabled AppleMRVL868x (link 1, sys 1, user 0)
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleMRVL868x::setPOWER() [kernel_task]: 0
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleMRVL868x::setPOWER(): Flushing beacons!!
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::changePowerStateGated(0)
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleMRVL868x::setPowerStateGated(): 1 -> 0, 0xc0c66800
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: [188384.890443166]: AppleS5L8900XSDIO::sendCommand(): Timeout waiting for CMDRDY indication
+Fri Feb 26 05:39:31 unknown CommCenter[28] <Notice>: Telling CSI to exit low power.
+Fri Feb 26 05:38:44 unknown kernel[0] <Debug>: System Sleep
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: pmu wake events: exton2(bb)
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::sleepWakeNotification: System Powering on
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: System Wake
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: + AppleMPVDDriver[0xc0b5c800]::setPowerStateGated()
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::setPowerState(1)
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::changePowerStateGated(1)
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleMRVL868x::setPowerStateGated(): 0 -> 1, 0xc0c66800
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleMRVL868x::wakeupSequence()
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleS5L8900XSDIO::sendCommand(): CMD52 Failure - SDIO Cmd Timeout: arg(0x00000a00), error count(1), dsta register(0x0000c004)
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AirPort: Enabled AppleMRVL868x (link 1, sys 0, user 0)
+Fri Feb 26 05:39:31 unknown kernel[0] <Debug>: AppleMultitouchZ2SPI: enabled power, scheduled bootloading
+Fri Feb 26 05:39:31 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) device bootloaded
+Fri Feb 26 05:39:31 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) uilock state: 1 -> 1
+Fri Feb 26 05:39:51 unknown CommCenter[28] <Notice>: aosnotifyd (0x00003ef7 <-> 0x00008f6f) is being killed for not responding.
+Fri Feb 26 05:40:02 unknown CommCenter[28] <Notice>: There are 4 assertions for PDP context 0:
+Fri Feb 26 05:40:02 unknown CommCenter[28] <Notice>:     PersConn-apsd-com.apple.apsd-push.apple.com
+Fri Feb 26 05:40:02 unknown CommCenter[28] <Notice>:     PersConn-MobileMail-EA17DF0C-12B2-47A0-A6CF-6A217B6A1DB5
+Fri Feb 26 05:40:02 unknown CommCenter[28] <Notice>:     PersConn-aosnotifyd-com.apple.AOSNotification
+Fri Feb 26 05:40:02 unknown CommCenter[28] <Notice>:     MobileMail
+Fri Feb 26 05:40:02 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 1:
+Fri Feb 26 05:40:02 unknown CommCenter[28] <Notice>: Telling PDP context 1 to go inactive.
+Fri Feb 26 05:40:02 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 2:
+Fri Feb 26 05:40:02 unknown CommCenter[28] <Notice>: Telling PDP context 2 to go inactive.
+Fri Feb 26 05:40:02 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 3:
+Fri Feb 26 05:40:02 unknown CommCenter[28] <Notice>: Telling PDP context 3 to go inactive.
+Fri Feb 26 05:40:06 unknown CommCenter[28] <Notice>: Telling CSI to go low power.
+Fri Feb 26 05:40:06 unknown CommCenter[28] <Notice>: CSI can enter low power, so now telling to do so.
+Fri Feb 26 05:40:06 unknown CommCenter[28] <Notice>: Will sleep.  Heard from CSI in 0.00698203 seconds
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::sleepWakeNotification: Sysmtem Going to sleep
+Fri Feb 26 05:43:00 unknown CommCenter[28] <Notice>: Telling CSI to exit low power.
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: + AppleMPVDDriver[0xc0b5c800]::setPowerStateGated()
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::setPowerState(0)
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AppleMultitouchZ2SPI: disabled power
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AirPort: Disabled AppleMRVL868x (link 1, sys 1, user 0)
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AppleMRVL868x::setPOWER() [kernel_task]: 0
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AppleMRVL868x::setPOWER(): Flushing beacons!!
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::changePowerStateGated(0)
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AppleMRVL868x::setPowerStateGated(): 1 -> 0, 0xc0c66800
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: [188420.243306999]: AppleS5L8900XSDIO::sendCommand(): Timeout waiting for CMDRDY indication
+Fri Feb 26 05:40:06 unknown kernel[0] <Debug>: System Sleep
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: pmu wake events: rtc
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::sleepWakeNotification: System Powering on
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: System Wake
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: + AppleMPVDDriver[0xc0b5c800]::setPowerStateGated()
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::setPowerState(1)
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::changePowerStateGated(1)
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AppleMRVL868x::setPowerStateGated(): 0 -> 1, 0xc0c66800
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AppleMRVL868x::wakeupSequence()
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: ApplePCF50635PMURTC: Unexpected RTC alarm interrupt
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AirPort: Enabled AppleMRVL868x (link 1, sys 0, user 0)
+Fri Feb 26 05:43:00 unknown kernel[0] <Debug>: AppleMultitouchZ2SPI: enabled power, scheduled bootloading
+Fri Feb 26 05:43:00 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) device bootloaded
+Fri Feb 26 05:43:00 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) uilock state: 1 -> 1
+Fri Feb 26 05:43:12 unknown CommCenter[28] <Notice>: There are 4 assertions for PDP context 0:
+Fri Feb 26 05:43:12 unknown CommCenter[28] <Notice>:     PersConn-apsd-com.apple.apsd-push.apple.com
+Fri Feb 26 05:43:12 unknown CommCenter[28] <Notice>:     PersConn-MobileMail-EA17DF0C-12B2-47A0-A6CF-6A217B6A1DB5
+Fri Feb 26 05:43:12 unknown CommCenter[28] <Notice>:     PersConn-aosnotifyd-com.apple.AOSNotification
+Fri Feb 26 05:43:12 unknown CommCenter[28] <Notice>:     MobileMail
+Fri Feb 26 05:43:12 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 1:
+Fri Feb 26 05:43:12 unknown CommCenter[28] <Notice>: Telling PDP context 1 to go inactive.
+Fri Feb 26 05:43:12 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 2:
+Fri Feb 26 05:43:12 unknown CommCenter[28] <Notice>: Telling PDP context 2 to go inactive.
+Fri Feb 26 05:43:12 unknown CommCenter[28] <Notice>: There are no assertions for PDP context 3:
+Fri Feb 26 05:43:12 unknown CommCenter[28] <Notice>: Telling PDP context 3 to go inactive.
+Fri Feb 26 05:43:16 unknown CommCenter[28] <Notice>: Telling CSI to go low power.
+Fri Feb 26 05:43:16 unknown CommCenter[28] <Notice>: CSI can enter low power, so now telling to do so.
+Fri Feb 26 05:43:16 unknown CommCenter[28] <Notice>: Will sleep.  Heard from CSI in 0.00694102 seconds
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::sleepWakeNotification: Sysmtem Going to sleep
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: + AppleMPVDDriver[0xc0b5c800]::setPowerStateGated()
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::setPowerState(0)
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleMultitouchZ2SPI: disabled power
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AirPort: Disabled AppleMRVL868x (link 1, sys 1, user 0)
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleMRVL868x::setPOWER() [kernel_task]: 0
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleMRVL868x::setPOWER(): Flushing beacons!!
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::changePowerStateGated(0)
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleMRVL868x::setPowerStateGated(): 1 -> 0, 0xc0c66800
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: [188437.316020000]: AppleS5L8900XSDIO::sendCommand(): Timeout waiting for CMDRDY indication
+Fri Feb 26 06:04:29 unknown CommCenter[28] <Notice>: Telling CSI to exit low power.
+Fri Feb 26 05:43:17 unknown kernel[0] <Debug>: System Sleep
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: pmu wake events: usb
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::sleepWakeNotification: System Powering on
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: System Wake
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: + AppleMPVDDriver[0xc0b5c800]::setPowerStateGated()
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::setPowerState(1)
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleMBXDevice(0xc0bbc800)::changePowerStateGated(1)
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleMRVL868x::setPowerStateGated(): 0 -> 1, 0xc0c66800
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleMRVL868x::wakeupSequence()
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleS5L8900XSDIO::sendCommand(): CMD52 Failure - SDIO Cmd Timeout: arg(0x00000a00), error count(1), dsta register(0x0000c004)
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AirPort: Enabled AppleMRVL868x (link 1, sys 0, user 0)
+Fri Feb 26 06:04:29 unknown kernel[0] <Debug>: AppleMultitouchZ2SPI: enabled power, scheduled bootloading
+Fri Feb 26 06:04:29 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) device bootloaded
+Fri Feb 26 06:04:29 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) uilock state: 1 -> 1
+Fri Feb 26 06:04:29 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 1 -> 0
+Fri Feb 26 06:04:29 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) device bootloaded
+Fri Feb 26 06:04:37 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 0 -> 1
+Fri Feb 26 06:10:45 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 1 -> 0
+Fri Feb 26 06:10:45 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) device bootloaded
+Fri Feb 26 06:10:53 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 0 -> 1
+Fri Feb 26 06:11:03 unknown kernel[0] <Debug>: AppleSynopsysOTGDevice::handleUSBReset
+Fri Feb 26 06:11:03 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::setCurrentLimit: current:100, suspended:0
+Fri Feb 26 06:11:03 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::setCurrentLimit: current:100, suspended:0
+Fri Feb 26 06:11:03 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::setCurrentLimit: current:600, suspended:0
+Fri Feb 26 06:11:03 unknown kernel[0] <Debug>: AppleSynopsysOTGCore::setCurrentLimit: current:1000, suspended:0
+Fri Feb 26 06:11:03 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 1 -> 0
+Fri Feb 26 06:11:03 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) device bootloaded
+Fri Feb 26 06:11:04 unknown /usr/libexec/ptpd[4052] <Notice>: PTP interface bas been activated at high speed.
+Fri Feb 26 06:11:07 unknown lockdownd[16] <Error>: (0x845c00) spawn_service_agent: Could not look up service in the map
+Fri Feb 26 06:11:07 unknown lockdownd[16] <Error>: (0x845c00) handle_start_service: Could not spawn the com.apple.afc2 service agent: 515048
+Fri Feb 26 06:11:07 unknown lockdownd[16] <Error>: (0x845c00) set_response_error: handle_start_service InvalidService
+Fri Feb 26 06:11:09 unknown com.apple.mobile.lockdown[16] <Notice>: Could not receive size of message
+Fri Feb 26 06:11:09 unknown lockdownd[16] <Error>: (0x845c00) handle_connection: Could not receive USB message #12 from PhoneView. Killing connection
+Fri Feb 26 06:11:11 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 0 -> 1
+Fri Feb 26 06:11:12 unknown mc_mobile_tunnel[4067] <Warning>: received request 4: <CFArray 0x105250 [0x38388ff4]>{type = immutable, count = 1, values = (
+0 : <CFString 0x105820 [0x38388ff4]>{contents = "RequestType"}
+)}, keys <CFDictionary 0x105860 [0x38388ff4]>{type = mutable, count = 1, capacity = 12, pairs = (
+0 : <CFString 0x105820 [0x38388ff4]>{contents = "RequestType"} = <CFString 0x105840 [0x38388ff4]>{contents = "GetProfileList"}
+)}
+Fri Feb 26 06:11:12 unknown mc_mobile_tunnel[4067] <Warning>: processing request 4: (<CFArray 0x106be0 [0x38388ff4]>{type = immutable, count = 1, values = (
+0 : <CFString 0x105820 [0x38388ff4]>{contents = "RequestType"}
+)})
+Fri Feb 26 06:11:12 unknown mc_mobile_tunnel[4067] <Warning>: Not migrating manifest
+Fri Feb 26 06:11:12 unknown mc_mobile_tunnel[4067] <Warning>: ...completed profile migration.
+Fri Feb 26 06:11:12 unknown mc_mobile_tunnel[4067] <Warning>: sending reply <CFDictionary 0x10dd60 [0x38388ff4]>{type = immutable, count = 4, capacity = 6, pairs = (
+2 : <CFString 0x552c [0x38388ff4]>{contents = "Status"} = <CFString 0x555c [0x38388ff4]>{contents = "Acknowledged"}
+3 : <CFString 0x567c [0x38388ff4]>{contents = "OrderedIdentifiers"} = <CFArray 0x10bf90 [0x38388ff4]>{type = mutable-small, count = 0, values = (
+)}
+4 : <CFString 0x566c [0x38388ff4]>{contents = "ProfileManifest"} = <CFDictionary 0x10bc70 [0x38388ff4]>{type = mutable, count = 0, capacity = 3, pairs = (
+)}
+7 : <CFString 0x568c [0x38388ff4]>{contents = "ProfileMetadata"} = <CFDictionary 0x10dd20 [0x38388ff4]>{type = mutable, count = 0, capacity = 3, pairs = (
+)}
+)}
+Fri Feb 26 06:11:12 unknown mc_mobile_tunnel[4067] <Error>: receive_message: Could not receive size of message: 0 Operation not permitted
+Fri Feb 26 06:11:12 unknown mc_mobile_tunnel[4067] <Warning>: received request 4: (null), keys (null)
+Fri Feb 26 06:11:12 unknown mc_mobile_tunnel[4067] <Error>: main: Could not receive request from host.
+Fri Feb 26 06:11:15 unknown SpringBoard[24] <Warning>: SB SYNC: iTunesSyncRequestedStart 0
+Fri Feb 26 06:11:15 unknown SpringBoard[24] <Warning>: SB SYNC: beginSyncing 1
+Fri Feb 26 06:11:15 unknown SpringBoard[24] <Warning>: SB SYNC: didShowSyncPanel 2
+Fri Feb 26 06:11:15 unknown SpringBoard[24] <Warning>: SB SYNC: _notifyAppsSyncWillBegin 2
+Fri Feb 26 06:11:15 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 1 -> 0
+Fri Feb 26 06:11:15 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) device bootloaded
+Fri Feb 26 06:11:26 unknown BackupAgent[4088] <Warning>: BackupAgent starting up...
+Fri Feb 26 06:11:26 unknown BackupAgent[4088] <Warning>: Backup session starting
+Fri Feb 26 06:11:53 unknown mobile_installationd[4065] <Error>: 00809800 verify_executable: Could not validate signature: e800800e
+Fri Feb 26 06:11:53 unknown mobile_installationd[4065] <Error>: 00809800 preflight_application_install: Could not verify /var/tmp/install_staging.p6Yj9P/foo_extracted/Payload/Tattoo IQ Quiz.app/Tattoo IQ Quiz
+Fri Feb 26 06:11:53 unknown mobile_installationd[4065] <Error>: 00809800 install_application: Could not preflight application install
+Fri Feb 26 06:11:53 unknown mobile_installation_proxy[4094] <Error>: handle_install: Installation failed
+Fri Feb 26 06:11:53 unknown mobile_installationd[4065] <Error>: 00809800 handle_install: API failed
+Fri Feb 26 06:11:53 unknown mobile_installationd[4065] <Error>: 00809800 send_message: failed to send mach message of 64 bytes: 10000003
+Fri Feb 26 06:11:53 unknown mobile_installationd[4065] <Error>: 00809800 send_error: Could not send error response to client
+Fri Feb 26 06:11:57 unknown SpringBoard[24] <Warning>: SB SYNC: iTunesSyncHasCompleted 2
+Fri Feb 26 06:11:57 unknown SpringBoard[24] <Warning>: SB SYNC: didEndSyncing 5
+Fri Feb 26 06:11:58 unknown SpringBoard[24] <Warning>: ITDBPrepServerPostProcessRun: [BEGIN] looking up itdbprepserver.
+Fri Feb 26 06:11:58 unknown itdbprepserver[4101] <Warning>: starting up.
+Fri Feb 26 06:11:58 unknown itdbprepserver[4101] <Warning>: acquired iTunes sync file lock.
+Fri Feb 26 06:11:58 unknown itdbprepserver[4101] <Warning>: acquired itdbprep file lock.
+Fri Feb 26 06:11:59 unknown itdbprepserver[4101] <Warning>: posting com.apple.itdbprep.notification.willBegin
+Fri Feb 26 06:11:59 unknown SpringBoard[24] <Warning>: ITDBPrepServerPostProcessRun: [-END-] looking up itdbprepserver.  success = 1
+Fri Feb 26 06:11:59 unknown itdbprepserver[4101] <Warning>: BEGIN processing command: com.apple.itdprep.command.runPostProcess
+Fri Feb 26 06:11:59 unknown itdbprepserver[4101] <Warning>: [BEGIN] ITDBPostProcessController...
+Fri Feb 26 06:11:59 unknown com.apple.itdbprep.server[4101] <Notice>: warning: Could not compile statement SELECT value FROM _SqliteDatabaseProperties WHERE key = ?;: no such table: _SqliteDatabaseProperties
+Fri Feb 26 06:11:59 unknown com.apple.itdbprep.server[4101] <Notice>: warning: Could not compile statement SELECT value FROM _SqliteDatabaseProperties WHERE key = ?;: no such table: _SqliteDatabaseProperties
+Fri Feb 26 06:11:59 unknown com.apple.itdbprep.server[4101] <Notice>: warning: Could not compile statement SELECT value FROM _SqliteDatabaseProperties WHERE key = ?;: no such table: _SqliteDatabaseProperties
+Fri Feb 26 06:12:00 unknown itdbprepserver[4101] <Warning>: [BEGIN] Post Processing...
+Fri Feb 26 06:12:00 unknown itdbprepserver[4101] <Warning>: Skipping iTunes Commands.
+Fri Feb 26 06:12:00 unknown itdbprepserver[4101] <Warning>: Running Misc Commands...
+Fri Feb 26 06:12:01 unknown itdbprepserver[4101] <Warning>: Running Sorting Process...
+Fri Feb 26 06:12:02 unknown itdbprepserver[4101] <Warning>: Running Create Triggers...
+Fri Feb 26 06:12:03 unknown itdbprepserver[4101] <Warning>: [-END-] Post Processing.
+Stats
+totalMLSITDBPostProcessing=2.36s
+commands=0.01
+misc=0.52s
+icuSort=1.38s (MLS_icu_data=0.10s, MLS_icu_sec_data=0.05, dropIdx=0.05, normalize=0.03, update_orders=0.40, tStatsICUOther1=0.01, createIndex=0.47)
+Fri Feb 26 06:12:06 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 0 -> 1
+Fri Feb 26 06:12:09 unknown itdbprepserver[4101] <Warning>: *** STARTING: DB Backup (CREATE-NEW) ***
+Fri Feb 26 06:12:09 unknown itdbprepserver[4101] <Warning>: *** FINISHED: DB Backup (CREATE-NEW, time = 0.44s) ***
+Fri Feb 26 06:12:09 unknown itdbprepserver[4101] <Warning>: Initializing MusicLibrary
+Fri Feb 26 06:12:11 unknown itdbprepserver[4101] <Warning>: [-END-] ITDBPostProcessController.
+Stats
+totalTime=11.40s
+ensureIndices=5.10
+Fri Feb 26 06:12:11 unknown itdbprepserver[4101] <Warning>: DONE processing command: com.apple.itdprep.command.runPostProcess
+Fri Feb 26 06:12:11 unknown itdbprepserver[4101] <Warning>: posting com.apple.itdbprep.notification.didEnd
+Fri Feb 26 06:12:11 unknown itdbprepserver[4101] <Warning>: Releasing locks.
+Fri Feb 26 06:12:11 unknown itdbprepserver[4101] <Warning>: exiting now.
+Fri Feb 26 06:12:25 unknown springboardservicesrelay[4104] <Warning>: Unable to parse property list data of length: 0
+Fri Feb 26 06:12:45 unknown springboardservicesrelay[4106] <Warning>: Unable to parse property list data of length: 0
+Fri Feb 26 06:14:11 unknown mobile_installationd[4116] <Error>: 00808a00 install_embedded_profile: Skipping the installation of the embedded profile
+Fri Feb 26 06:14:15 unknown SpringBoard[24] <Warning>: Reloading and rendering all application icons.
+Fri Feb 26 06:14:16 unknown lockdownd[16] <Error>: (0x833200) set_response_error: handle_start_session SessionActive
+Fri Feb 26 06:14:23 unknown SpringBoard[24] <Notice>: MultitouchHID(208b30) uilock state: 1 -> 0
+Fri Feb 26 06:14:23 unknown SpringBoard[24] <Notice>: MultitouchHID(2afab0) device bootloaded
