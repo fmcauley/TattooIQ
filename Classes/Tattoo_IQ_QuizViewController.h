@@ -14,6 +14,7 @@
 @interface Tattoo_IQ_QuizViewController : UIViewController {
 	
 	InfoViewController *infoViewController;
+	NSTimer *timer;
 	
 
 }
@@ -21,8 +22,6 @@
 
 @property (nonatomic, retain) IBOutlet InfoViewController *infoViewController;
 
-
--(IBAction)startQuiz:(id)sender;
 
 @end
 

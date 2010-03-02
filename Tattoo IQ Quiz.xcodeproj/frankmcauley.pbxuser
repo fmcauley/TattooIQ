@@ -94,7 +94,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					770,
+					651,
 					20,
 					48,
 					43,
@@ -133,8 +133,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 289185362;
-			PBXWorkspaceStateSaveDate = 289185362;
+			PBXPerProjectTemplateStateSaveDate = 289188730;
+			PBXWorkspaceStateSaveDate = 289188730;
 		};
 		perUserProjectItems = {
 			F009E234112B207B002AE76A = F009E234112B207B002AE76A /* PBXTextBookmark */;
@@ -147,8 +147,6 @@
 			F011299810FBA0D600ECB428 = F011299810FBA0D600ECB428 /* PBXBookmark */;
 			F015098C1121CF300031C193 = F015098C1121CF300031C193 /* PBXTextBookmark */;
 			F015098D1121CF300031C193 = F015098D1121CF300031C193 /* PBXTextBookmark */;
-			F015098E1121CF300031C193 = F015098E1121CF300031C193 /* PBXTextBookmark */;
-			F015098F1121CF300031C193 = F015098F1121CF300031C193 /* PBXTextBookmark */;
 			F01509901121CF300031C193 = F01509901121CF300031C193 /* PBXTextBookmark */;
 			F01509911121CF300031C193 = F01509911121CF300031C193 /* PBXTextBookmark */;
 			F01509921121CF300031C193 = F01509921121CF300031C193 /* PBXTextBookmark */;
@@ -187,12 +185,15 @@
 			F0D608001137EC4600D516BC = F0D608001137EC4600D516BC /* PBXTextBookmark */;
 			F0D608131137EF3D00D516BC = F0D608131137EF3D00D516BC /* PBXTextBookmark */;
 			F0D6081B1137EF6900D516BC = F0D6081B1137EF6900D516BC /* PlistBookmark */;
-			F0D6081C1137EF6900D516BC = F0D6081C1137EF6900D516BC /* PBXTextBookmark */;
 			F0D608231137F45100D516BC = F0D608231137F45100D516BC /* PBXTextBookmark */;
-			F0D60A85113C9AF100D516BC = F0D60A85113C9AF100D516BC /* PBXTextBookmark */;
-			F0D60AB2113CA19B00D516BC /* PBXBookmark */ = F0D60AB2113CA19B00D516BC /* PBXBookmark */;
-			F0D60AB3113CA19B00D516BC /* PBXBookmark */ = F0D60AB3113CA19B00D516BC /* PBXBookmark */;
-			F0D60AB8113CA1BD00D516BC /* PBXBookmark */ = F0D60AB8113CA1BD00D516BC /* PBXBookmark */;
+			F0D60B0C113CAB5100D516BC = F0D60B0C113CAB5100D516BC /* PBXBookmark */;
+			F0D60B0D113CAB5100D516BC = F0D60B0D113CAB5100D516BC /* PBXTextBookmark */;
+			F0D60B0E113CAB5100D516BC = F0D60B0E113CAB5100D516BC /* PBXTextBookmark */;
+			F0D60B0F113CAB5100D516BC = F0D60B0F113CAB5100D516BC /* PBXTextBookmark */;
+			F0D60B44113CAD5F00D516BC /* PBXTextBookmark */ = F0D60B44113CAD5F00D516BC /* PBXTextBookmark */;
+			F0D60B45113CAD5F00D516BC /* PBXTextBookmark */ = F0D60B45113CAD5F00D516BC /* PBXTextBookmark */;
+			F0D60B46113CAD5F00D516BC /* PBXTextBookmark */ = F0D60B46113CAD5F00D516BC /* PBXTextBookmark */;
+			F0D60B47113CAD5F00D516BC /* PBXTextBookmark */ = F0D60B47113CAD5F00D516BC /* PBXTextBookmark */;
 		};
 		sourceControlManager = F0286D0610ED0CCD008EA040 /* Source Control */;
 		userBuildSettings = {
@@ -308,17 +309,29 @@
 		};
 	};
 	F011298410FB9AC400ECB428 /* TestImageAsButton.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = TestImageAsButton.h;
+		path = "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/TestImageAsButton.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1017, 572}}";
-			sepNavSelRange = "{259, 0}";
-			sepNavVisRange = "{0, 396}";
+			sepNavIntBoundsRect = "{{0, 0}, {829, 571}}";
+			sepNavSelRange = "{418, 0}";
+			sepNavVisRange = "{0, 424}";
 		};
 	};
 	F011298510FB9AC400ECB428 /* TestImageAsButton.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = TestImageAsButton.m;
+		path = "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/TestImageAsButton.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 884}}";
-			sepNavSelRange = "{357, 0}";
-			sepNavVisRange = "{0, 1069}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 897}}";
+			sepNavSelRange = "{276, 0}";
+			sepNavVisRange = "{153, 1268}";
 			sepNavWindowFrame = "{{19, 0}, {1229, 778}}";
 		};
 	};
@@ -388,7 +401,7 @@
 	};
 	F0150840112074220031C193 /* TwitterViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {948, 552}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1217, 650}}";
 			sepNavSelRange = "{107, 19}";
 			sepNavVisRange = "{0, 629}";
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
@@ -396,9 +409,9 @@
 	};
 	F0150841112074220031C193 /* TwitterViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {948, 1248}}";
-			sepNavSelRange = "{1593, 0}";
-			sepNavVisRange = "{529, 1379}";
+			sepNavIntBoundsRect = "{{0, 0}, {1217, 1235}}";
+			sepNavSelRange = "{324, 0}";
+			sepNavVisRange = "{136, 1479}";
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
 		};
 	};
@@ -421,26 +434,6 @@
 		rType = 0;
 		vrLen = 853;
 		vrLoc = 206;
-	};
-	F015098E1121CF300031C193 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F0286D4110EE09D4008EA040 /* Quiz_GameViewController.h */;
-		name = "Quiz_GameViewController.h: 42";
-		rLen = 0;
-		rLoc = 1028;
-		rType = 0;
-		vrLen = 1522;
-		vrLoc = 95;
-	};
-	F015098F1121CF300031C193 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
-		name = "Quiz_GameViewController.m: 267";
-		rLen = 6;
-		rLoc = 6279;
-		rType = 0;
-		vrLen = 2572;
-		vrLoc = 5625;
 	};
 	F01509901121CF300031C193 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -477,7 +470,7 @@
 		fRef = F011298510FB9AC400ECB428 /* TestImageAsButton.m */;
 		name = "TestImageAsButton.m: 18";
 		rLen = 0;
-		rLoc = 357;
+		rLoc = 276;
 		rType = 0;
 		vrLen = 1069;
 		vrLoc = 0;
@@ -559,17 +552,17 @@
 	};
 	F0286D4110EE09D4008EA040 /* Quiz_GameViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1217, 767}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1180}";
+			sepNavIntBoundsRect = "{{0, 0}, {1210, 754}}";
+			sepNavSelRange = "{1028, 0}";
+			sepNavVisRange = "{89, 1465}";
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
 		};
 	};
 	F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1202, 3887}}";
-			sepNavSelRange = "{6279, 6}";
-			sepNavVisRange = "{5625, 2572}";
+			sepNavIntBoundsRect = "{{0, 0}, {908, 4329}}";
+			sepNavSelRange = "{3619, 4}";
+			sepNavVisRange = "{2984, 785}";
 			sepNavWindowFrame = "{{1350, -45}, {1276, 778}}";
 		};
 	};
@@ -863,7 +856,7 @@
 		fRef = F0150841112074220031C193 /* TwitterViewController.m */;
 		name = "TwitterViewController.m: 62";
 		rLen = 0;
-		rLoc = 1593;
+		rLoc = 1611;
 		rType = 0;
 		vrLen = 1379;
 		vrLoc = 529;
@@ -1056,14 +1049,6 @@
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
-	F0D6081C1137EF6900D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)";
-		fRef = F028B49B1134D177005C3AB3 /* FBDialog.m */;
-		rLen = 1;
-		rLoc = 321;
-		rType = 1;
-	};
 	F0D608231137F45100D516BC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = F028B49B1134D177005C3AB3 /* FBDialog.m */;
@@ -1074,27 +1059,79 @@
 		vrLen = 1558;
 		vrLoc = 10905;
 	};
-	F0D60A85113C9AF100D516BC /* PBXTextBookmark */ = {
+	F0D60B0C113CAB5100D516BC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F009E3F61132D2F9002AE76A /* MoreApps_tattooIQ.jpg */;
+	};
+	F0D60B0D113CAB5100D516BC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = F028B49B1134D177005C3AB3 /* FBDialog.m */;
-		name = "FBDialog.m: 322";
+		fRef = F0286D4110EE09D4008EA040 /* Quiz_GameViewController.h */;
+		name = "Quiz_GameViewController.h: 36";
 		rLen = 0;
-		rLoc = 11414;
+		rLoc = 1028;
 		rType = 0;
-		vrLen = 1430;
-		vrLoc = 10905;
+		vrLen = 1465;
+		vrLoc = 89;
 	};
-	F0D60AB2113CA19B00D516BC /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = F009E3F61132D2F9002AE76A /* MoreApps_tattooIQ.jpg */;
+	F0D60B0E113CAB5100D516BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 53";
+		rLen = 5;
+		rLoc = 1023;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 737;
 	};
-	F0D60AB3113CA19B00D516BC /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = F009E3F61132D2F9002AE76A /* MoreApps_tattooIQ.jpg */;
+	F0D60B0F113CAB5100D516BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 156";
+		rLen = 4;
+		rLoc = 3619;
+		rType = 0;
+		vrLen = 692;
+		vrLoc = 3055;
 	};
-	F0D60AB8113CA1BD00D516BC /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = F009E3F61132D2F9002AE76A /* MoreApps_tattooIQ.jpg */;
+	F0D60B44113CAD5F00D516BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 156";
+		rLen = 4;
+		rLoc = 3619;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 2984;
+	};
+	F0D60B45113CAD5F00D516BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F011298510FB9AC400ECB428 /* TestImageAsButton.m */;
+		name = "TestImageAsButton.m: 16";
+		rLen = 0;
+		rLoc = 276;
+		rType = 0;
+		vrLen = 1268;
+		vrLoc = 153;
+	};
+	F0D60B46113CAD5F00D516BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F011298410FB9AC400ECB428 /* TestImageAsButton.h */;
+		name = "TestImageAsButton.h: 25";
+		rLen = 0;
+		rLoc = 418;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 0;
+	};
+	F0D60B47113CAD5F00D516BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F011298410FB9AC400ECB428 /* TestImageAsButton.h */;
+		name = "TestImageAsButton.h: 22";
+		rLen = 0;
+		rLoc = 418;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
 	};
 	F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */ = {
 		uiCtxt = {

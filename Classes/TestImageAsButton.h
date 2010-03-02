@@ -13,11 +13,11 @@
 @interface TestImageAsButton : UIViewController {
 	
 	 InfoViewController *info;
+	 NSTimer *timer;
 	
 }
 
 @property(nonatomic, retain) IBOutlet InfoViewController *info;
+@property(nonatomic, retain) NSTimer *timer;
 
-
--(IBAction)showScreen:(id)sender;
 @end

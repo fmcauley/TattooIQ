@@ -12,13 +12,9 @@
 
 @implementation TestImageAsButton
 
-@synthesize info;
+@synthesize info, timer;
 
--(IBAction)showScreen:(id)sender{
-	[self presentModalViewController:info animated:YES];
-	
-	NSLog(@"THIS IS A TEST OF THE BUTTON AS A SCREEN");
-}
+
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -35,12 +31,18 @@
 }
 */
 
-/*
+-(void)countDown {
+	[self presentModalViewController:info animated:YES];
+	
+}
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	timer = [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(countDown) userInfo:nil repeats:YES];
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
