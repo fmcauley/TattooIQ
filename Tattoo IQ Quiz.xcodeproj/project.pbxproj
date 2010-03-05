@@ -60,7 +60,6 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* Tattoo_IQ_QuizAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tattoo_IQ_QuizAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* Tattoo_IQ_QuizAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tattoo_IQ_QuizAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* Tattoo IQ Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tattoo IQ Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E5210DE3E06400AC0155 /* Tattoo_IQ_QuizViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tattoo_IQ_QuizViewController.xib; sourceTree = "<group>"; };
@@ -125,6 +124,7 @@
 		F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SessionViewController.m; path = "../../Desktop/fbconnect-iphone/samples/Connect/SessionViewController.m"; sourceTree = SOURCE_ROOT; };
 		F028B5011134D60C005C3AB3 /* SessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SessionViewController.xib; path = "../../Desktop/fbconnect-iphone/samples/Connect/SessionViewController.xib"; sourceTree = SOURCE_ROOT; };
 		F028B63211357FF2005C3AB3 /* iTunesArtWork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtWork; path = ../../Desktop/iTunesArtWork; sourceTree = SOURCE_ROOT; };
+		F03187B0114095AD000021E9 /* Tattoo IQ Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tattoo IQ Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D6080F1137EEC900D516BC /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _TattIQ_Questions_480x320.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,7 +173,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Tattoo IQ Quiz.app */,
+				F03187B0114095AD000021E9 /* Tattoo IQ Quiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -285,7 +285,7 @@
 			);
 			name = "Tattoo IQ Quiz";
 			productName = "Tattoo IQ Quiz";
-			productReference = 1D6058910D05DD3D006BFB54 /* Tattoo IQ Quiz.app */;
+			productReference = F03187B0114095AD000021E9 /* Tattoo IQ Quiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -401,7 +401,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = Entitlements.plist;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Frank McAuley (J6CCLGA6DL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Richard Morrison (535ST6MQ6F)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -422,7 +422,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = Entitlements.plist;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Frank McAuley (J6CCLGA6DL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Richard Morrison (535ST6MQ6F)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -442,7 +442,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = Entitlements.plist;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Frank McAuley (J6CCLGA6DL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Richard Morrison (535ST6MQ6F)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;

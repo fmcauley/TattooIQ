@@ -17,12 +17,12 @@
 	1D6058900D05DD3D006BFB54 /* Tattoo IQ Quiz */ = {
 		activeExec = 0;
 		executables = (
-			F0286CF910ED0CB3008EA040 /* Tattoo IQ Quiz */,
+			F03187B1114095AD000021E9 /* Tattoo IQ Quiz */,
 		);
 	};
 	28D7ACF60DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {829, 571}}";
+			sepNavIntBoundsRect = "{{0, 0}, {952, 557}}";
 			sepNavSelRange = "{426, 0}";
 			sepNavVisRange = "{0, 434}";
 		};
@@ -36,8 +36,8 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
-		activeExecutable = F0286CF910ED0CB3008EA040 /* Tattoo IQ Quiz */;
+		activeBuildConfigurationName = Release;
+		activeExecutable = F03187B1114095AD000021E9 /* Tattoo IQ Quiz */;
 		activeSDKPreference = iphoneos3.1.3;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Tattoo IQ Quiz */;
 		addToTargets = (
@@ -48,7 +48,7 @@
 		);
 		codeSenseManager = F0286D0710ED0CCD008EA040 /* Code sense */;
 		executables = (
-			F0286CF910ED0CB3008EA040 /* Tattoo IQ Quiz */,
+			F03187B1114095AD000021E9 /* Tattoo IQ Quiz */,
 		);
 		perUserDictionary = {
 			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
@@ -76,12 +76,12 @@
 				);
 			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
-				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
 				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					22,
 					300,
-					657.58349609375,
+					661.58349609375,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXExecutablesDataSource_ActiveFlagID,
@@ -94,7 +94,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					651,
+					774,
 					20,
 					48,
 					43,
@@ -133,10 +133,18 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 289188730;
-			PBXWorkspaceStateSaveDate = 289188730;
+			PBXPerProjectTemplateStateSaveDate = 289483215;
+			PBXWorkspaceStateSaveDate = 289483215;
 		};
 		perUserProjectItems = {
+			F005268611412536002D3143 = F005268611412536002D3143 /* PBXTextBookmark */;
+			F005268711412536002D3143 = F005268711412536002D3143 /* PBXTextBookmark */;
+			F005268F114126E3002D3143 = F005268F114126E3002D3143 /* PBXTextBookmark */;
+			F0052690114126E3002D3143 = F0052690114126E3002D3143 /* PBXTextBookmark */;
+			F00526BC11413030002D3143 /* XCBuildMessageTextBookmark */ = F00526BC11413030002D3143 /* XCBuildMessageTextBookmark */;
+			F00526BD11413030002D3143 /* PBXTextBookmark */ = F00526BD11413030002D3143 /* PBXTextBookmark */;
+			F00526C511413036002D3143 /* XCBuildMessageTextBookmark */ = F00526C511413036002D3143 /* XCBuildMessageTextBookmark */;
+			F00526C611413036002D3143 /* PBXTextBookmark */ = F00526C611413036002D3143 /* PBXTextBookmark */;
 			F009E234112B207B002AE76A = F009E234112B207B002AE76A /* PBXTextBookmark */;
 			F009E240112B2120002AE76A = F009E240112B2120002AE76A /* PBXTextBookmark */;
 			F009E253112B223C002AE76A = F009E253112B223C002AE76A /* PBXTextBookmark */;
@@ -145,12 +153,8 @@
 			F011295F10FA003300ECB428 = F011295F10FA003300ECB428 /* PBXBookmark */;
 			F011296010FA003300ECB428 = F011296010FA003300ECB428 /* PBXBookmark */;
 			F011299810FBA0D600ECB428 = F011299810FBA0D600ECB428 /* PBXBookmark */;
-			F015098C1121CF300031C193 = F015098C1121CF300031C193 /* PBXTextBookmark */;
-			F015098D1121CF300031C193 = F015098D1121CF300031C193 /* PBXTextBookmark */;
 			F01509901121CF300031C193 = F01509901121CF300031C193 /* PBXTextBookmark */;
 			F01509911121CF300031C193 = F01509911121CF300031C193 /* PBXTextBookmark */;
-			F01509921121CF300031C193 = F01509921121CF300031C193 /* PBXTextBookmark */;
-			F01509931121CF300031C193 = F01509931121CF300031C193 /* PBXTextBookmark */;
 			F028B17E1133664E005C3AB3 = F028B17E1133664E005C3AB3 /* PBXBookmark */;
 			F028B18B11336800005C3AB3 = F028B18B11336800005C3AB3 /* PBXTextBookmark */;
 			F028B27E1134A3E8005C3AB3 = F028B27E1134A3E8005C3AB3 /* PBXBookmark */;
@@ -168,37 +172,13 @@
 			F08ED09510EF825400F6C263 = F08ED09510EF825400F6C263 /* PBXTextBookmark */;
 			F0D6063A1136A63500D516BC = F0D6063A1136A63500D516BC /* PBXTextBookmark */;
 			F0D607461136C2A200D516BC = F0D607461136C2A200D516BC /* PlistBookmark */;
-			F0D6074F1136D10300D516BC = F0D6074F1136D10300D516BC /* PBXTextBookmark */;
-			F0D607501136D10300D516BC = F0D607501136D10300D516BC /* PBXTextBookmark */;
-			F0D607511136D10300D516BC = F0D607511136D10300D516BC /* PBXTextBookmark */;
-			F0D607521136D10300D516BC = F0D607521136D10300D516BC /* PBXTextBookmark */;
-			F0D607531136D10300D516BC = F0D607531136D10300D516BC /* PBXTextBookmark */;
-			F0D607541136D10300D516BC = F0D607541136D10300D516BC /* PBXTextBookmark */;
-			F0D607551136D10300D516BC = F0D607551136D10300D516BC /* PBXTextBookmark */;
-			F0D607561136D10300D516BC = F0D607561136D10300D516BC /* PBXTextBookmark */;
-			F0D607571136D10300D516BC = F0D607571136D10300D516BC /* PBXTextBookmark */;
-			F0D607581136D10300D516BC = F0D607581136D10300D516BC /* PBXTextBookmark */;
-			F0D607591136D10300D516BC = F0D607591136D10300D516BC /* PBXTextBookmark */;
-			F0D6075A1136D10300D516BC = F0D6075A1136D10300D516BC /* PBXTextBookmark */;
-			F0D6075C1136D10300D516BC = F0D6075C1136D10300D516BC /* PBXTextBookmark */;
 			F0D607741136D1FF00D516BC = F0D607741136D1FF00D516BC /* PBXTextBookmark */;
-			F0D608001137EC4600D516BC = F0D608001137EC4600D516BC /* PBXTextBookmark */;
 			F0D608131137EF3D00D516BC = F0D608131137EF3D00D516BC /* PBXTextBookmark */;
 			F0D6081B1137EF6900D516BC = F0D6081B1137EF6900D516BC /* PlistBookmark */;
-			F0D608231137F45100D516BC = F0D608231137F45100D516BC /* PBXTextBookmark */;
 			F0D60B0C113CAB5100D516BC = F0D60B0C113CAB5100D516BC /* PBXBookmark */;
-			F0D60B0D113CAB5100D516BC = F0D60B0D113CAB5100D516BC /* PBXTextBookmark */;
-			F0D60B0E113CAB5100D516BC = F0D60B0E113CAB5100D516BC /* PBXTextBookmark */;
-			F0D60B0F113CAB5100D516BC = F0D60B0F113CAB5100D516BC /* PBXTextBookmark */;
-			F0D60B44113CAD5F00D516BC /* PBXTextBookmark */ = F0D60B44113CAD5F00D516BC /* PBXTextBookmark */;
-			F0D60B45113CAD5F00D516BC /* PBXTextBookmark */ = F0D60B45113CAD5F00D516BC /* PBXTextBookmark */;
-			F0D60B46113CAD5F00D516BC /* PBXTextBookmark */ = F0D60B46113CAD5F00D516BC /* PBXTextBookmark */;
-			F0D60B47113CAD5F00D516BC /* PBXTextBookmark */ = F0D60B47113CAD5F00D516BC /* PBXTextBookmark */;
-			F0D60B6D113CB16500D516BC /* PBXTextBookmark */ = F0D60B6D113CB16500D516BC /* PBXTextBookmark */;
-			F0D60B6E113CB16500D516BC /* PBXTextBookmark */ = F0D60B6E113CB16500D516BC /* PBXTextBookmark */;
-			F0D60B6F113CB16500D516BC /* PBXTextBookmark */ = F0D60B6F113CB16500D516BC /* PBXTextBookmark */;
-			F0D60B70113CB16500D516BC /* PBXTextBookmark */ = F0D60B70113CB16500D516BC /* PBXTextBookmark */;
-			F0D60B71113CB16500D516BC /* PBXTextBookmark */ = F0D60B71113CB16500D516BC /* PBXTextBookmark */;
+			F0D60B6D113CB16500D516BC = F0D60B6D113CB16500D516BC /* PBXTextBookmark */;
+			F0D60B6E113CB16500D516BC = F0D60B6E113CB16500D516BC /* PBXTextBookmark */;
+			F0D60B6F113CB16500D516BC = F0D60B6F113CB16500D516BC /* PBXTextBookmark */;
 		};
 		sourceControlManager = F0286D0610ED0CCD008EA040 /* Source Control */;
 		userBuildSettings = {
@@ -222,6 +202,84 @@
 		uiCtxt = {
 			sepNavWindowFrame = "{{42, 49}, {1231, 703}}";
 		};
+	};
+	F005268611412536002D3143 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.h */;
+		name = "Tattoo_IQ_QuizViewController.h: 24";
+		rLen = 0;
+		rLoc = 426;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 0;
+	};
+	F005268711412536002D3143 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */;
+		name = "SessionViewController.m: 134";
+		rLen = 0;
+		rLoc = 4561;
+		rType = 0;
+		vrLen = 1317;
+		vrLoc = 3251;
+	};
+	F005268F114126E3002D3143 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */;
+		name = "SessionViewController.m: 134";
+		rLen = 0;
+		rLoc = 4561;
+		rType = 0;
+		vrLen = 1399;
+		vrLoc = 3169;
+	};
+	F0052690114126E3002D3143 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */;
+		name = "SessionViewController.m: 134";
+		rLen = 0;
+		rLoc = 4561;
+		rType = 0;
+		vrLen = 1399;
+		vrLoc = 3169;
+	};
+	F00526BC11413030002D3143 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)";
+		fRef = F028B49B1134D177005C3AB3 /* FBDialog.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 321;
+		rType = 1;
+	};
+	F00526BD11413030002D3143 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F028B49B1134D177005C3AB3 /* FBDialog.m */;
+		name = "FBDialog.m: 322";
+		rLen = 0;
+		rLoc = 11414;
+		rType = 0;
+		vrLen = 1711;
+		vrLoc = 10867;
+	};
+	F00526C511413036002D3143 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)";
+		fRef = F028B49B1134D177005C3AB3 /* FBDialog.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 321;
+		rType = 1;
+	};
+	F00526C611413036002D3143 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F028B49B1134D177005C3AB3 /* FBDialog.m */;
+		name = "FBDialog.m: 322";
+		rLen = 0;
+		rLoc = 11414;
+		rType = 0;
+		vrLen = 1693;
+		vrLoc = 7671;
 	};
 	F009E234112B207B002AE76A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -313,33 +371,6 @@
 			sepNavWindowFrame = "{{1318, -67}, {1334, 841}}";
 		};
 	};
-	F011298410FB9AC400ECB428 /* TestImageAsButton.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = TestImageAsButton.h;
-		path = "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/TestImageAsButton.h";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {829, 571}}";
-			sepNavSelRange = "{418, 0}";
-			sepNavVisRange = "{0, 424}";
-		};
-	};
-	F011298510FB9AC400ECB428 /* TestImageAsButton.m */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.objc;
-		name = TestImageAsButton.m;
-		path = "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/TestImageAsButton.m";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 897}}";
-			sepNavSelRange = "{276, 0}";
-			sepNavVisRange = "{153, 1268}";
-			sepNavWindowFrame = "{{19, 0}, {1229, 778}}";
-		};
-	};
 	F011299810FBA0D600ECB428 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = F0286D0A10ED0D6A008EA040 /* icon.png */;
@@ -420,26 +451,6 @@
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
 		};
 	};
-	F015098C1121CF300031C193 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.h */;
-		name = "Tattoo_IQ_QuizViewController.h: 25";
-		rLen = 1;
-		rLoc = 426;
-		rType = 0;
-		vrLen = 451;
-		vrLoc = 0;
-	};
-	F015098D1121CF300031C193 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.m */;
-		name = "Tattoo_IQ_QuizViewController.m: 21";
-		rLen = 0;
-		rLoc = 319;
-		rType = 0;
-		vrLen = 853;
-		vrLoc = 206;
-	};
 	F01509901121CF300031C193 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = F011297910FB987E00ECB428 /* InfoViewController.h */;
@@ -459,82 +470,6 @@
 		rType = 0;
 		vrLen = 1073;
 		vrLoc = 0;
-	};
-	F01509921121CF300031C193 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F011298410FB9AC400ECB428 /* TestImageAsButton.h */;
-		name = "TestImageAsButton.h: 15";
-		rLen = 0;
-		rLoc = 259;
-		rType = 0;
-		vrLen = 396;
-		vrLoc = 0;
-	};
-	F01509931121CF300031C193 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F011298510FB9AC400ECB428 /* TestImageAsButton.m */;
-		name = "TestImageAsButton.m: 18";
-		rLen = 0;
-		rLoc = 276;
-		rType = 0;
-		vrLen = 1069;
-		vrLoc = 0;
-	};
-	F0286CF910ED0CB3008EA040 /* Tattoo IQ Quiz */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
-		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		dataTipCustomDataFormattersEnabled = 1;
-		dataTipShowTypeColumn = 1;
-		dataTipSortType = 0;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = "Tattoo IQ Quiz";
-		savedGlobals = {
-		};
-		showTypeColumn = 0;
-		sourceDirectories = (
-		);
-		variableFormatDictionary = {
-			$cs = 1;
-			$ds = 1;
-			$eax = 1;
-			$ebp = 1;
-			$ebx = 1;
-			$ecx = 1;
-			$edi = 1;
-			$edx = 1;
-			$eflags = 1;
-			$eip = 1;
-			$es = 1;
-			$esi = 1;
-			$esp = 1;
-			$fctrl = 1;
-			$fioff = 1;
-			$fiseg = 1;
-			$fooff = 1;
-			$fop = 1;
-			$foseg = 1;
-			$fs = 1;
-			$fstat = 1;
-			$ftag = 1;
-			$gs = 1;
-			$ss = 1;
-		};
 	};
 	F0286D0610ED0CCD008EA040 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -683,9 +618,9 @@
 	};
 	F028B49B1134D177005C3AB3 /* FBDialog.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {948, 7735}}";
+			sepNavIntBoundsRect = "{{0, 0}, {952, 7657}}";
 			sepNavSelRange = "{11414, 0}";
-			sepNavVisRange = "{10905, 1430}";
+			sepNavVisRange = "{7671, 1693}";
 		};
 	};
 	F028B49C1134D177005C3AB3 /* FBLoginDialog.h */ = {
@@ -711,9 +646,10 @@
 	};
 	F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {948, 1885}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1200, 1781}}";
 			sepNavSelRange = "{4561, 0}";
-			sepNavVisRange = "{3570, 998}";
+			sepNavVisRange = "{758, 971}";
+			sepNavWindowFrame = "{{19, 288}, {1259, 485}}";
 		};
 	};
 	F028B5211134DBAA005C3AB3 /* PBXTextBookmark */ = {
@@ -775,6 +711,36 @@
 		rType = 0;
 		vrLen = 629;
 		vrLoc = 0;
+	};
+	F03187B1114095AD000021E9 /* Tattoo IQ Quiz */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Tattoo IQ Quiz";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
 	};
 	F05105D611149D5E007A8EE0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -878,136 +844,6 @@
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
-	F0D6074F1136D10300D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B48F1134D177005C3AB3 /* FBConnect.h */;
-		name = "FBConnect.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 802;
-		vrLoc = 0;
-	};
-	F0D607501136D10300D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B4901134D177005C3AB3 /* FBConnectGlobal.h */;
-		name = "FBConnectGlobal.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1003;
-		vrLoc = 0;
-	};
-	F0D607511136D10300D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B4911134D177005C3AB3 /* FBConnectGlobal.m */;
-		name = "FBConnectGlobal.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1243;
-		vrLoc = 0;
-	};
-	F0D607521136D10300D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B4921134D177005C3AB3 /* FBSession.h */;
-		name = "FBSession.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1367;
-		vrLoc = 0;
-	};
-	F0D607531136D10300D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B4931134D177005C3AB3 /* FBSession.m */;
-		name = "FBSession.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1178;
-		vrLoc = 0;
-	};
-	F0D607541136D10300D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B4941134D177005C3AB3 /* FBRequest.h */;
-		name = "FBRequest.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 945;
-		vrLoc = 0;
-	};
-	F0D607551136D10300D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B4951134D177005C3AB3 /* FBRequest.m */;
-		name = "FBRequest.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1193;
-		vrLoc = 0;
-	};
-	F0D607561136D10300D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B4961134D177005C3AB3 /* FBXMLHandler.h */;
-		name = "FBXMLHandler.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 969;
-		vrLoc = 0;
-	};
-	F0D607571136D10300D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B4971134D177005C3AB3 /* FBXMLHandler.m */;
-		name = "FBXMLHandler.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1090;
-		vrLoc = 0;
-	};
-	F0D607581136D10300D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B4981134D177005C3AB3 /* FBLoginButton.h */;
-		name = "FBLoginButton.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1104;
-		vrLoc = 0;
-	};
-	F0D607591136D10300D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B4991134D177005C3AB3 /* FBLoginButton.m */;
-		name = "FBLoginButton.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1140;
-		vrLoc = 0;
-	};
-	F0D6075A1136D10300D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B49A1134D177005C3AB3 /* FBDialog.h */;
-		name = "FBDialog.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1005;
-		vrLoc = 0;
-	};
-	F0D6075C1136D10300D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B49C1134D177005C3AB3 /* FBLoginDialog.h */;
-		name = "FBLoginDialog.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 753;
-		vrLoc = 0;
-	};
 	F0D607741136D1FF00D516BC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = F028B4FF1134D5E3005C3AB3 /* SessionViewController.m */;
@@ -1017,16 +853,6 @@
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 3570;
-	};
-	F0D608001137EC4600D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B49D1134D177005C3AB3 /* FBLoginDialog.m */;
-		name = "FBLoginDialog.m: 30";
-		rLen = 0;
-		rLoc = 1004;
-		rType = 0;
-		vrLen = 1584;
-		vrLoc = 481;
 	};
 	F0D6080F1137EEC900D516BC /* Entitlements.plist */ = {
 		uiCtxt = {
@@ -1054,89 +880,9 @@
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
-	F0D608231137F45100D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F028B49B1134D177005C3AB3 /* FBDialog.m */;
-		name = "FBDialog.m: 322";
-		rLen = 0;
-		rLoc = 11414;
-		rType = 0;
-		vrLen = 1558;
-		vrLoc = 10905;
-	};
 	F0D60B0C113CAB5100D516BC /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = F009E3F61132D2F9002AE76A /* MoreApps_tattooIQ.jpg */;
-	};
-	F0D60B0D113CAB5100D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F0286D4110EE09D4008EA040 /* Quiz_GameViewController.h */;
-		name = "Quiz_GameViewController.h: 36";
-		rLen = 0;
-		rLoc = 1028;
-		rType = 0;
-		vrLen = 1465;
-		vrLoc = 89;
-	};
-	F0D60B0E113CAB5100D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
-		name = "Quiz_GameViewController.m: 53";
-		rLen = 5;
-		rLoc = 1023;
-		rType = 0;
-		vrLen = 1212;
-		vrLoc = 737;
-	};
-	F0D60B0F113CAB5100D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
-		name = "Quiz_GameViewController.m: 156";
-		rLen = 4;
-		rLoc = 3619;
-		rType = 0;
-		vrLen = 692;
-		vrLoc = 3055;
-	};
-	F0D60B44113CAD5F00D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
-		name = "Quiz_GameViewController.m: 156";
-		rLen = 4;
-		rLoc = 3619;
-		rType = 0;
-		vrLen = 785;
-		vrLoc = 2984;
-	};
-	F0D60B45113CAD5F00D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F011298510FB9AC400ECB428 /* TestImageAsButton.m */;
-		name = "TestImageAsButton.m: 16";
-		rLen = 0;
-		rLoc = 276;
-		rType = 0;
-		vrLen = 1268;
-		vrLoc = 153;
-	};
-	F0D60B46113CAD5F00D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F011298410FB9AC400ECB428 /* TestImageAsButton.h */;
-		name = "TestImageAsButton.h: 25";
-		rLen = 0;
-		rLoc = 418;
-		rType = 0;
-		vrLen = 462;
-		vrLoc = 0;
-	};
-	F0D60B47113CAD5F00D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F011298410FB9AC400ECB428 /* TestImageAsButton.h */;
-		name = "TestImageAsButton.h: 22";
-		rLen = 0;
-		rLoc = 418;
-		rType = 0;
-		vrLen = 424;
-		vrLoc = 0;
 	};
 	F0D60B6D113CB16500D516BC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1167,26 +913,6 @@
 		rType = 0;
 		vrLen = 941;
 		vrLoc = 284;
-	};
-	F0D60B70113CB16500D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.h */;
-		name = "Tattoo_IQ_QuizViewController.h: 17";
-		rLen = 0;
-		rLoc = 339;
-		rType = 0;
-		vrLen = 468;
-		vrLoc = 0;
-	};
-	F0D60B71113CB16500D516BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* Tattoo_IQ_QuizViewController.h */;
-		name = "Tattoo_IQ_QuizViewController.h: 24";
-		rLen = 0;
-		rLoc = 426;
-		rType = 0;
-		vrLen = 434;
-		vrLoc = 0;
 	};
 	F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */ = {
 		uiCtxt = {
