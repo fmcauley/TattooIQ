@@ -9,10 +9,6 @@
 @synthesize textView, theMessage, username, password;
 
 
-
-
-
-
 -(IBAction)goBackOneScreen:(id)sender{
 	
 	[self dismissModalViewControllerAnimated:YES];

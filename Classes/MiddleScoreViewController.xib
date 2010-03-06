@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="1"/>
+			<integer value="14"/>
 			<integer value="18"/>
 			<integer value="6"/>
 			<integer value="19"/>
@@ -170,31 +170,6 @@
 						</object>
 						<reference key="IBUINormalBackgroundImage" ref="1042305151"/>
 					</object>
-					<object class="IBUIButton" id="945787044">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 354}, {280, 37}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<reference key="IBUIFont" ref="563542515"/>
-						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Update Twitter status</string>
-						<reference key="IBUIHighlightedTitleColor" ref="864323630"/>
-						<object class="NSColor" key="IBUINormalTitleColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4wMTgxODkzMzk0NCAwLjAxNjgwNTc3NjgxIDAuNTIxNTY4NjYAA</bytes>
-						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="241538064"/>
-						<object class="NSCustomResource" key="IBUINormalImage" id="932213994">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">Facebook_IQ_Button.png</string>
-						</object>
-						<reference key="IBUINormalBackgroundImage" ref="932213994"/>
-					</object>
 					<object class="IBUILabel" id="844671425">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
@@ -219,6 +194,29 @@
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
 						<int key="IBUILineBreakMode">0</int>
+					</object>
+					<object class="IBUIButton" id="415840143">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{20, 354}, {280, 37}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<int key="IBUIContentHorizontalAlignment">0</int>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<reference key="IBUIFont" ref="563542515"/>
+						<int key="IBUIButtonType">1</int>
+						<reference key="IBUIHighlightedTitleColor" ref="864323630"/>
+						<object class="NSColor" key="IBUINormalTitleColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+						</object>
+						<reference key="IBUINormalTitleShadowColor" ref="241538064"/>
+						<object class="NSCustomResource" key="IBUINormalImage" id="989727339">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">Facebook_IQ_Button.png</string>
+						</object>
+						<reference key="IBUINormalBackgroundImage" ref="989727339"/>
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 460}</string>
@@ -293,15 +291,6 @@
 					</object>
 					<int key="connectionID">30</int>
 				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">updateTwitter:</string>
-						<reference key="source" ref="1019676670"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">31</int>
-				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -323,7 +312,7 @@
 							<reference ref="844671425"/>
 							<reference ref="610900657"/>
 							<reference ref="1019676670"/>
-							<reference ref="945787044"/>
+							<reference ref="415840143"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -384,8 +373,8 @@
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">28</int>
-						<reference key="object" ref="945787044"/>
+						<int key="objectID">34</int>
+						<reference key="object" ref="415840143"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>
@@ -407,7 +396,7 @@
 					<string>19.CustomClassName</string>
 					<string>19.IBEditorWindowLastContentRect</string>
 					<string>19.IBPluginDependency</string>
-					<string>28.IBPluginDependency</string>
+					<string>34.IBPluginDependency</string>
 					<string>4.IBPluginDependency</string>
 					<string>5.IBPluginDependency</string>
 					<string>6.CustomClassName</string>
@@ -455,7 +444,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">31</int>
+			<int key="maxID">35</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

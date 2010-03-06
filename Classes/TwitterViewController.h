@@ -21,7 +21,6 @@
 
 -(IBAction)goBackOneScreen:(id)sender;
 -(IBAction)setUpdateToTwitter;
-//-(void)buildTwitterUpdate;
 -(NSString *)setTheMessage;
 
 @end
