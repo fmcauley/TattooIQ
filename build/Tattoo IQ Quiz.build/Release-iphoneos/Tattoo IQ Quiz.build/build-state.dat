@@ -826,46 +826,65 @@ N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/fbconnect-iphone
 c0000000049A484C200000000000004DB
 t1235518658
 s1243
+i"FBConnect/FBConnectGlobal.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/fbconnect-iphone/src/FBDialog.m
 c0000000049B9925800000000000051DB
 t1236898392
 s20955
+i"FBConnect/FBDialog.h"
+i"FBConnect/FBSession.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/fbconnect-iphone/src/FBFeedDialog.m
 c0000000049B4A5A60000000000000AF3
 t1236575654
 s2803
+i"FBConnect/FBFeedDialog.h"
+i"FBConnect/FBSession.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/fbconnect-iphone/src/FBLoginButton.m
 c0000000049B97D5000000000000010B2
 t1236893008
 s4274
+i"FBConnect/FBLoginButton.h"
+i"FBConnect/FBLoginDialog.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/fbconnect-iphone/src/FBLoginDialog.m
 c000000004B869A7D0000000000000FEF
 t1267112573
 s4079
+i"FBConnect/FBLoginDialog.h"
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/fbconnect-iphone/src/FBPermissionDialog.m
 c0000000049B983C40000000000000C88
 t1236894660
 s3208
+i"FBConnect/FBPermissionDialog.h"
+i"FBConnect/FBSession.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/fbconnect-iphone/src/FBRequest.m
 c0000000049C1C9940000000000002D19
 t1237436820
 s11545
+i"FBConnect/FBRequest.h"
+i"FBConnect/FBSession.h"
+i"FBXMLHandler.h"
+i<CommonCrypto/CommonDigest.h>
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/fbconnect-iphone/src/FBSession.m
 c000000004A8473FE0000000000002030
 t1250194430
 s8240
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/fbconnect-iphone/src/FBXMLHandler.m
 c0000000049E54F580000000000001148
 t1239764824
 s4424
+i"FBXMLHandler.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/FinalViewController.h
 c000000004B8C668C0000000000000225
@@ -1195,7 +1214,7 @@ s4244
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Release-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz
 t1267791996
-s127124
+s133472
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Release-iphoneos/Tattoo IQ Quiz.app/Tattoo_IQ_QuizViewController.nib
 t1267790418
