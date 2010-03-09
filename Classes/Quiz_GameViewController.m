@@ -237,7 +237,7 @@
 	else
 	{
 		theQuestion.text = @"Ouch!\nLearn more about tattooing.\nGo visit HELLCITY.COM!";
-		myScore = myScore - 10;
+		myScore = myScore - 0; //change to 0 no negative score was -10
 	}
 	[self updateScore];
 }
