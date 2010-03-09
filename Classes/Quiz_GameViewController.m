@@ -51,7 +51,7 @@
 	questionLive = YES;
 	
 	// Set the time for the timer
-	time = 10.0;
+	time = 20.0;
 	
 	// Go to the next question
 	questionNumber = questionNumber + 1;
@@ -161,7 +161,7 @@
 			// Loser!
 			questionLive = NO;
 			theQuestion.text = @"Times up! Try to work faster!";
-			myScore = myScore - 30;
+			myScore = myScore - 0; //was -30 but the score should not be impacted for a wrong answer...
 			[timer invalidate];
 			[self updateScore];
 		}

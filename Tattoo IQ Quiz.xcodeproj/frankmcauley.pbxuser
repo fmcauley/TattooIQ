@@ -166,6 +166,8 @@
 			F0D5B8891146834400FE89A8 /* PBXTextBookmark */ = F0D5B8891146834400FE89A8 /* PBXTextBookmark */;
 			F0D5B88A1146834400FE89A8 /* PBXTextBookmark */ = F0D5B88A1146834400FE89A8 /* PBXTextBookmark */;
 			F0D5B88B1146834400FE89A8 /* PBXTextBookmark */ = F0D5B88B1146834400FE89A8 /* PBXTextBookmark */;
+			F0D5B890114688E800FE89A8 /* PBXTextBookmark */ = F0D5B890114688E800FE89A8 /* PBXTextBookmark */;
+			F0D5B8981146C9F500FE89A8 /* PBXTextBookmark */ = F0D5B8981146C9F500FE89A8 /* PBXTextBookmark */;
 			F0D607461136C2A200D516BC = F0D607461136C2A200D516BC /* PlistBookmark */;
 			F0D608131137EF3D00D516BC = F0D608131137EF3D00D516BC /* PBXTextBookmark */;
 			F0D6081B1137EF6900D516BC = F0D6081B1137EF6900D516BC /* PlistBookmark */;
@@ -453,9 +455,9 @@
 	};
 	F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1202, 4160}}";
-			sepNavSelRange = "{5314, 0}";
-			sepNavVisRange = "{4562, 1002}";
+			sepNavIntBoundsRect = "{{0, 0}, {986, 4524}}";
+			sepNavSelRange = "{3919, 0}";
+			sepNavVisRange = "{3322, 835}";
 			sepNavWindowFrame = "{{1350, -45}, {1276, 778}}";
 		};
 	};
@@ -780,10 +782,30 @@
 		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
 		name = "Quiz_GameViewController.m: 240";
 		rLen = 0;
-		rLoc = 5314;
+		rLoc = 5382;
 		rType = 0;
 		vrLen = 1002;
 		vrLoc = 4562;
+	};
+	F0D5B890114688E800FE89A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 54";
+		rLen = 0;
+		rLoc = 1038;
+		rType = 0;
+		vrLen = 831;
+		vrLoc = 588;
+	};
+	F0D5B8981146C9F500FE89A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 164";
+		rLen = 0;
+		rLoc = 3919;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 3322;
 	};
 	F0D607461136C2A200D516BC /* PlistBookmark */ = {
 		isa = PlistBookmark;
