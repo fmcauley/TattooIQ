@@ -320,22 +320,22 @@
 	};
 	F0150704111F483C0031C193 /* FinalViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1017, 564}}";
+			sepNavIntBoundsRect = "{{0, 0}, {986, 598}}";
 			sepNavSelRange = "{298, 0}";
 			sepNavVisRange = "{0, 549}";
 		};
 	};
 	F0150705111F483C0031C193 /* FinalViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1014}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1079}}";
 			sepNavSelRange = "{176, 0}";
-			sepNavVisRange = "{104, 1231}";
+			sepNavVisRange = "{176, 1237}";
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
 		};
 	};
 	F0150793111FA3090031C193 /* MiddleScoreViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {952, 533}}";
+			sepNavIntBoundsRect = "{{0, 0}, {986, 598}}";
 			sepNavSelRange = "{459, 0}";
 			sepNavVisRange = "{0, 716}";
 			sepNavWindowFrame = "{{19, 288}, {1259, 485}}";
@@ -343,9 +343,9 @@
 	};
 	F0150794111FA3090031C193 /* MiddleScoreViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {952, 871}}";
-			sepNavSelRange = "{1203, 0}";
-			sepNavVisRange = "{57, 1108}";
+			sepNavIntBoundsRect = "{{0, 0}, {986, 793}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1046}";
 			sepNavWindowFrame = "{{19, 288}, {1259, 485}}";
 		};
 	};
@@ -382,7 +382,7 @@
 	};
 	F0150840112074220031C193 /* TwitterViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {952, 533}}";
+			sepNavIntBoundsRect = "{{0, 0}, {986, 598}}";
 			sepNavSelRange = "{565, 0}";
 			sepNavVisRange = "{0, 600}";
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
@@ -391,8 +391,8 @@
 	F0150841112074220031C193 /* TwitterViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {986, 1196}}";
-			sepNavSelRange = "{1607, 0}";
-			sepNavVisRange = "{1174, 1098}";
+			sepNavSelRange = "{543, 32}";
+			sepNavVisRange = "{133, 1473}";
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
 		};
 	};
@@ -653,7 +653,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {986, 1768}}";
 			sepNavSelRange = "{4561, 0}";
-			sepNavVisRange = "{265, 1844}";
+			sepNavVisRange = "{265, 1863}";
 			sepNavWindowFrame = "{{19, 288}, {1259, 485}}";
 		};
 	};
@@ -919,7 +919,7 @@
 		fRef = F0150794111FA3090031C193 /* MiddleScoreViewController.m */;
 		name = "MiddleScoreViewController.m: 52";
 		rLen = 0;
-		rLoc = 1203;
+		rLoc = 1045;
 		rType = 0;
 		vrLen = 1108;
 		vrLoc = 57;

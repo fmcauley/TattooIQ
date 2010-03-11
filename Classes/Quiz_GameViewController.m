@@ -275,7 +275,7 @@
 						  @"Tattoo designs that are sold from the walls of studios are called?",@"Drawings",@"Stencils",@"Transfer",@"Flash",@"4",
 						  @"What is the instrument used to sterilize tattoo equipment?",@"Autoclave",@"Cooker",@"Sterilizer",@"Heatclave",@"1",
 						  @"The most current method of tattooing is?",@"Hand Poked",@"Battery",@"Electric",@"Solar",@"3",
-						  @"What is the tattoo machine designed from?",@"Telephone",@"Doorbell",@"Cassettee recorder",@"Television",@"2ß∫®",
+						  @"What is the tattoo machine designed from?",@"Telephone",@"Doorbell",@"Cassette recorder",@"Television",@"2ß∫®",
 						  @"What makes a tattoo machine operate?",@"Wind Power",@"Static electricity",@"Nuclear Fission",@"Electromagnetics",@"4",
 						  @"Who's the current oldest living tattoo artist?",@"Lyle Tuttle",@"Philadelphia Eddie",@"Don Ed Hardy",@"Sailor Jerry",@"1",
 						  nil];
