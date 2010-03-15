@@ -1,0 +1,972 @@
+TFacebookAPI
+v7
+r0
+t290144801.113581
+cCheck dependencies
+cProcessInfoPlistFile /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/Info.plist FacebookAPI-Info.plist
+cCompileXIB /Users/frankmcauley/Downloads/FacebookAPI/MainWindow.xib
+cCompileXIB /Users/frankmcauley/Downloads/FacebookAPI/FacebookAPIViewController.xib
+cCpResource build/Debug-iphonesimulator/FacebookAPI.app/FBConnect.bundle src/FBConnect.bundle
+cProcessPCH /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch.gch FacebookAPI_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/main.o /Users/frankmcauley/Downloads/FacebookAPI/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FacebookAPIAppDelegate.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FacebookAPIViewController.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBConnectGlobal.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBSession.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBRequest.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBXMLHandler.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginButton.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBPermissionDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBStreamDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/FacebookAPI normal i386
+cGenerateDSYMFile /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app.dSYM /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/FacebookAPI
+cTouch /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004AF0C10000000000000000EE
+t1257292032
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004748A1090000000000002500
+t1195942153
+s9472
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/dlfcn.h
+c00000000476340E00000000000000AC7
+t1197687008
+s2759
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect.bundle
+c000000004B6121DA0000000000000066
+t1264656858
+s102
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnectGlobal.m
+c000000004B5050760000000000000515
+t1263554678
+s1301
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m
+c000000004B612EF200000000000052B1
+t1264660210
+s21169
+i"FBConnect/FBDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m
+c000000004B5050760000000000001476
+t1263554678
+s5238
+i"FBConnect/FBLoginButton.h"
+i"FBConnect/FBLoginDialog.h"
+i<dlfcn.h>
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m
+c000000004B505076000000000000100E
+t1263554678
+s4110
+i"FBConnect/FBLoginDialog.h"
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m
+c000000004B5050760000000000000C88
+t1263554678
+s3208
+i"FBConnect/FBPermissionDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m
+c000000004B5050760000000000002EFC
+t1263554678
+s12028
+i"FBConnect/FBRequest.h"
+i"FBConnect/FBSession.h"
+i"FBXMLHandler.h"
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m
+c000000004B505076000000000000215A
+t1263554678
+s8538
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m
+c000000004B50507600000000000009B1
+t1263554678
+s2481
+i"FBConnect/FBStreamDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBXMLHandler.h
+c000000004B50507600000000000003C9
+t1263554678
+s969
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBXMLHandler.m
+c000000004B5050760000000000001148
+t1263554678
+s4424
+i"FBXMLHandler.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.h
+c000000004B7ED6E800000000000007D8
+t1266603752
+s2008
+i<UIKit/UIKit.h>
+i"FBConnect/FBConnect.h"
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m
+c000000004B7ED6E80000000000000802
+t1266603752
+s2050
+i"FacebookAPIAppDelegate.h"
+i"FacebookAPIViewController.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.h
+c000000004B7ED6E8000000000000083B
+t1266603752
+s2107
+i<UIKit/UIKit.h>
+i"FBConnect/FBConnect.h"
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m
+c000000004B9B0A9E000000000000144E
+t1268451998
+s5198
+i"FacebookAPIViewController.h"
+i"FacebookAPIAppDelegate.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/FacebookAPIViewController.xib
+c000000004B74048600000000000018EB
+t1265894534
+s6379
+
+N/Users/frankmcauley/Downloads/FacebookAPI/FacebookAPI_Prefix.pch
+c000000004B74048600000000000000BF
+t1265894534
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/frankmcauley/Downloads/FacebookAPI/MainWindow.xib
+c000000004B740486000000000000247A
+t1265894534
+s9338
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app
+t1268451999
+s272
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app.dSYM
+t1268451999
+s102
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/FBConnect.bundle
+t1266945265
+s102
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/FacebookAPI
+t1268451999
+s110672
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/FacebookAPIViewController.nib
+t1265894537
+s1151
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/Info.plist
+t1265894537
+s552
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/MainWindow.nib
+t1265894537
+s1503
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/PkgInfo
+t1265894537
+s8
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBConnectGlobal.o
+t1268451460
+s7664
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBDialog.o
+t1268451461
+s73872
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginButton.o
+t1268451461
+s31356
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginDialog.o
+t1268451461
+s24616
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBPermissionDialog.o
+t1268451461
+s21256
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBRequest.o
+t1268451461
+s46004
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBSession.o
+t1268451461
+s31556
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBStreamDialog.o
+t1268451461
+s20052
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBXMLHandler.o
+t1268451461
+s18860
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FacebookAPI.LinkFileList
+c000000004B9B06AB00000000000006AE
+t1268450987
+s1710
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FacebookAPIAppDelegate.o
+t1268451460
+s39856
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FacebookAPIViewController.o
+t1268451999
+s49968
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/main.o
+t1268451460
+s5956
+
+N/Users/frankmcauley/Downloads/FacebookAPI/main.m
+c000000004B7404860000000000000167
+t1265894534
+s359
+i<UIKit/UIKit.h>
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect.bundle
+c000000004B6121DA0000000000000066
+t1264656858
+s102
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBConnect.h
+c000000004B5050760000000000000324
+t1263554678
+s804
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+i"FBConnect/FBLoginButton.h"
+i"FBConnect/FBLoginDialog.h"
+i"FBConnect/FBPermissionDialog.h"
+i"FBConnect/FBStreamDialog.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBConnectGlobal.h
+c000000004B5050760000000000001E6E
+t1263554678
+s7790
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBDialog.h
+c000000004B5050760000000000000EE9
+t1263554678
+s3817
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBLoginButton.h
+c000000004B50507600000000000005A1
+t1263554678
+s1441
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBLoginDialog.h
+c000000004B50507600000000000002F1
+t1263554678
+s753
+i"FBConnect/FBDialog.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBPermissionDialog.h
+c000000004B505076000000000000038C
+t1263554678
+s908
+i"FBConnect/FBLoginDialog.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBRequest.h
+c000000004B5050760000000000001159
+t1263554678
+s4441
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBSession.h
+c000000004B5050760000000000001579
+t1263554678
+s5497
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBStreamDialog.h
+c000000004B505076000000000000083F
+t1263554678
+s2111
+i"FBConnect/FBDialog.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m
+c000000004B5050760000000000000515
+t1263554678
+s1301
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m
+c000000004B612EF200000000000052B1
+t1264660210
+s21169
+i"FBConnect/FBDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m
+c000000004B5050760000000000001476
+t1263554678
+s5238
+i"FBConnect/FBLoginButton.h"
+i"FBConnect/FBLoginDialog.h"
+i<dlfcn.h>
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m
+c000000004B505076000000000000100E
+t1263554678
+s4110
+i"FBConnect/FBLoginDialog.h"
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m
+c000000004B5050760000000000000C88
+t1263554678
+s3208
+i"FBConnect/FBPermissionDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m
+c000000004B5050760000000000002EFC
+t1263554678
+s12028
+i"FBConnect/FBRequest.h"
+i"FBConnect/FBSession.h"
+i"FBXMLHandler.h"
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m
+c000000004B505076000000000000215A
+t1263554678
+s8538
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m
+c000000004B50507600000000000009B1
+t1263554678
+s2481
+i"FBConnect/FBStreamDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.h
+c000000004B50507600000000000003C9
+t1263554678
+s969
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m
+c000000004B5050760000000000001148
+t1263554678
+s4424
+i"FBXMLHandler.h"
+
+N/var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch.gch
+t1268451460
+s13026768
+
+N/var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-gafktzakmqjliablyxieiempxqzj/FacebookAPI_Prefix.pch.gch
+t1268450988
+s13026768
+
+NFacebookAPI-Info.plist
+c000000004B740486000000000000038D
+t1265894534
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies290144801#290144801#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBConnectGlobal.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnectGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290143883.891950
+e290143883.957271
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBConnectGlobal.o
+x/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnectGlobal.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnectGlobal.m290143883#290143883#0(0"0(0#0#74"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnectGlobal.m4300911832#2101"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Projects/Facebook/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-gafktzakmqjliablyxieiempxqzj/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnectGlobal.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBConnectGlobal.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBConnectGlobal.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290144260.848162
+e290144260.904681
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBConnectGlobal.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m290144260#290144260#0(0"0(0#0#63"/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m4300911832#2113"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBConnectGlobal.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBDialog.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290143887.652653
+e290143887.752749
+r0
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBDialog.o
+x/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m:17:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBDialog.h:17:38: error: FBConnect/FBConnectGlobal.h: No such file or directory
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m:18:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:39: error: expected specifier-qualifier-list before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:84: error: expected specifier-qualifier-list before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:147: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:184: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:196: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m: In function '-[FBDialog initWithSession:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m:325: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)
+lSLF07#2@75"Compile /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m290143887#290143887#0(1355"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m:17:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBDialog.h:17:38: error: FBConnect/FBConnectGlobal.h: No such file or directoryIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m:18:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:39: error: expected specifier-qualifier-list before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:84: error: expected specifier-qualifier-list before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:147: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:184: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:196: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m: In function '-[FBDialog initWithSession:]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m:325: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)7(4@54"FBConnect/FBConnectGlobal.h: No such file or directory290143887#94#147#2(7@89"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m290143887#18446744073709551615#0#0(6@67"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m286353010#17#0#17#0#0"0(13@135"FBConnect/FBConnectGlobal.h: No such file or directory in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBDialog.h290143887#18446744073709551615#0#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBDialog.h285247478#17#0#17#0#0"0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBDialog.h285247478#17#0#17#0#28"*: No such file or directory0(4@48"Expected specifier-qualifier-list before 'FBUID'290143887#335#139#2(7@89"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m290143887#18446744073709551615#0#0(6@67"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m286353010#18#0#18#0#0"0(13@130"Expected specifier-qualifier-list before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#39#0#39#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#39#0#39#0#19"expected * before *0(4@48"Expected specifier-qualifier-list before 'FBUID'290143887#474#139#2(7@89"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m290143887#18446744073709551615#0#0(6@67"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m286353010#18#0#18#0#0"0(13@130"Expected specifier-qualifier-list before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#84#0#84#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#84#0#84#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#613#119#2(7@89"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m290143887#18446744073709551615#0#0(6@67"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m286353010#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#147#0#147#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#147#0#147#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#732#119#2(7@89"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m290143887#18446744073709551615#0#0(6@67"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m286353010#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#184#0#184#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#184#0#184#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#851#119#2(7@89"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m290143887#18446744073709551615#0#0(6@67"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m286353010#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#196#0#196#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#196#0#196#0#19"expected * before *0(22@189"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)290143887#1083#272#0(6@67"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m286353010#325#0#325#0#33"'*' is deprecated (declared at *)0(0#0#67"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m4300911832#2087"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Projects/Facebook/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-gafktzakmqjliablyxieiempxqzj/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBDialog.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBDialog.o1#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290144261.122090
+e290144261.324112
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBDialog.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m: In function '-[FBDialog initWithSession:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m:325: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)
+lSLF07#2@64"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m290144261#290144261#0(363"/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m: In function '-[FBDialog initWithSession:]':/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m:325: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)1(22@189"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)290144261#102#261#0(6@56"/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m286353010#325#0#325#0#33"'*' is deprecated (declared at *)0(0#0#56"/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m4300911832#2099"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBDialog.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginButton.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290143887.625083
+e290143887.691189
+r0
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginButton.o
+x/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:17:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h:17:32: error: FBConnect/FBSession.h: No such file or directory
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:17:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h:30: error: cannot find protocol declaration for 'FBSessionDelegate'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h:32: error: expected specifier-qualifier-list before 'FBSession'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h:47: error: expected specifier-qualifier-list before 'FBSession'
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:18:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:17:31: error: FBConnect/FBDialog.h: No such file or directory
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:18:32: error: FBConnect/FBRequest.h: No such file or directory
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:18:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:20: error: cannot find interface declaration for 'FBDialog', superclass of 'FBLoginDialog'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:20: error: cannot find protocol declaration for 'FBRequestDelegate'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:21: error: expected specifier-qualifier-list before 'FBRequest'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:28: error: no declaration of property 'session' found in the interface
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton buttonImage]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:42: error: '_session' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:42: error: (Each undeclared identifier is reported only once
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:42: error: for each function it appears in.)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:53: warning: control reaches end of non-void function
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton buttonHighlightedImage]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:56: error: '_session' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:67: warning: control reaches end of non-void function
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton touchUpInside]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:78: error: '_session' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:81: warning: 'FBLoginDialog' may not respond to '+alloc'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:81: warning: (Messages without a matching method signature
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:81: warning: will be assumed to return 'id' and accept
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:81: warning: '...' as arguments.)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:81: warning: no '-initWithSession:' method found
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:82: warning: 'FBLoginDialog' may not respond to '-show'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton initButton]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:97: error: request for member 'session' in something not a structure or union
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:97: error: 'FBSession' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton dealloc]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:118: error: '_session' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: At top level:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:146: error: expected ')' before 'FBSession'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:146: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:150: error: expected ')' before 'FBSession'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton accessibilityLabel]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:169: error: '_session' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:174: warning: control reaches end of non-void function
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: At top level:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:179: error: expected ')' before 'FBSession'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton setSession:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:180: error: '_session' undeclared (first use in this function)
+lSLF07#2@80"Compile /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m290143887#290143887#0(5857"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:17:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h:17:32: error: FBConnect/FBSession.h: No such file or directoryIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:17:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h:30: error: cannot find protocol declaration for 'FBSessionDelegate'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h:32: error: expected specifier-qualifier-list before 'FBSession'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h:47: error: expected specifier-qualifier-list before 'FBSession'In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:18:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:17:31: error: FBConnect/FBDialog.h: No such file or directory/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:18:32: error: FBConnect/FBRequest.h: No such file or directoryIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:18:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:20: error: cannot find interface declaration for 'FBDialog', superclass of 'FBLoginDialog'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:20: error: cannot find protocol declaration for 'FBRequestDelegate'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:21: error: expected specifier-qualifier-list before 'FBRequest'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:28: error: no declaration of property 'session' found in the interface/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton buttonImage]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:42: error: '_session' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:42: error: (Each undeclared identifier is reported only once/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:42: error: for each function it appears in.)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:53: warning: control reaches end of non-void function/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton buttonHighlightedImage]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:56: error: '_session' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:67: warning: control reaches end of non-void function/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton touchUpInside]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:78: error: '_session' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:81: warning: 'FBLoginDialog' may not respond to '+alloc'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:81: warning: (Messages without a matching method signature/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:81: warning: will be assumed to return 'id' and accept/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:81: warning: '...' as arguments.)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:81: warning: no '-initWithSession:' method found/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:82: warning: 'FBLoginDialog' may not respond to '-show'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton initButton]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:97: error: request for member 'session' in something not a structure or union/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:97: error: 'FBSession' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton dealloc]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:118: error: '_session' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: At top level:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:146: error: expected ')' before 'FBSession'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:146: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:150: error: expected ')' before 'FBSession'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton accessibilityLabel]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:169: error: '_session' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:174: warning: control reaches end of non-void function/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: At top level:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:179: error: expected ')' before 'FBSession'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m: In function '-[FBLoginButton setSession:]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m:180: error: '_session' undeclared (first use in this function)31(4@48"FBConnect/FBSession.h: No such file or directory290143887#99#146#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#17#0#17#0#0"0(13@134"FBConnect/FBSession.h: No such file or directory in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h285247478#17#0#17#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h285247478#17#0#17#0#28"*: No such file or directory0(4@56"Cannot find protocol declaration for 'FBSessionDelegate'290143887#344#151#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#17#0#17#0#0"0(13@142"Cannot find protocol declaration for 'FBSessionDelegate' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h285247478#30#0#30#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h285247478#30#0#30#0#0"0(4@52"Expected specifier-qualifier-list before 'FBSession'290143887#495#147#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#17#0#17#0#0"0(13@138"Expected specifier-qualifier-list before 'FBSession' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h285247478#32#0#32#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h285247478#32#0#32#0#19"expected * before *0(4@52"Expected specifier-qualifier-list before 'FBSession'290143887#642#147#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#17#0#17#0#0"0(13@138"Expected specifier-qualifier-list before 'FBSession' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h285247478#47#0#47#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginButton.h285247478#47#0#47#0#19"expected * before *0(4@47"FBConnect/FBDialog.h: No such file or directory290143887#888#145#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#18#0#18#0#0"0(13@133"FBConnect/FBDialog.h: No such file or directory in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#17#0#17#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#17#0#17#0#28"*: No such file or directory0(4@48"FBConnect/FBRequest.h: No such file or directory290143887#1033#146#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#18#0#18#0#0"0(13@134"FBConnect/FBRequest.h: No such file or directory in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#18#0#18#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#18#0#18#0#28"*: No such file or directory0(4@79"Cannot find interface declaration for 'FBDialog', superclass of 'FBLoginDialog'290143887#1278#174#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#18#0#18#0#0"0(13@165"Cannot find interface declaration for 'FBDialog', superclass of 'FBLoginDialog' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#20#0#20#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#20#0#20#0#60"cannot find interface declaration for '*', superclass of '*'0(4@56"Cannot find protocol declaration for 'FBRequestDelegate'290143887#1452#151#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#18#0#18#0#0"0(13@142"Cannot find protocol declaration for 'FBRequestDelegate' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#20#0#20#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#20#0#20#0#0"0(4@52"Expected specifier-qualifier-list before 'FBRequest'290143887#1603#147#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#18#0#18#0#0"0(13@138"Expected specifier-qualifier-list before 'FBRequest' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#21#0#21#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#21#0#21#0#19"expected * before *0(4@59"No declaration of property 'session' found in the interface290143887#1750#144#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#28#0#28#0#0"0(4@50"'_session' undeclared (first use in this function)290143887#2012#135#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#42#0#42#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function290143887#2399#127#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#53#0#53#0#40"control reaches end of non-void function0(4@50"'_session' undeclared (first use in this function)290143887#2655#135#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#56#0#56#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function290143887#2790#127#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#67#0#67#0#40"control reaches end of non-void function0(4@50"'_session' undeclared (first use in this function)290143887#3037#135#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#78#0#78#0#43"'*' undeclared (first use in this function)0(22@43"'FBLoginDialog' may not respond to '+alloc'290143887#3172#130#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#81#0#81#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)290143887#3302#132#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#81#0#81#0#0"0(22@35"No '-initWithSession:' method found290143887#3669#122#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#81#0#81#0#19"no '*' method found0(22@42"'FBLoginDialog' may not respond to '-show'290143887#3791#129#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#82#0#82#0#26"'*' may not respond to '*'0(4@66"Request for member 'session' in something not a structure or union290143887#4037#151#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#97#0#97#0#0"0(4@51"'FBSession' undeclared (first use in this function)290143887#4188#136#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#97#0#97#0#43"'*' undeclared (first use in this function)0(4@50"'_session' undeclared (first use in this function)290143887#4438#136#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#118#0#118#0#43"'*' undeclared (first use in this function)0(23@13"At top level:290143887#4574#88#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#0#0#0#0#0"0(4@31"Expected ')' before 'FBSession'290143887#4662#117#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#146#0#146#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#4779#113#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#146#0#146#0#19"expected * before *0(4@31"Expected ')' before 'FBSession'290143887#4892#117#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#150#0#150#0#19"expected * before *0(4@50"'_session' undeclared (first use in this function)290143887#5134#136#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#169#0#169#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function290143887#5270#128#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#174#0#174#0#40"control reaches end of non-void function0(23@13"At top level:290143887#5398#88#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#0#0#0#0#0"0(4@31"Expected ')' before 'FBSession'290143887#5486#117#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#179#0#179#0#19"expected * before *0(4@50"'_session' undeclared (first use in this function)290143887#5721#136#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m285247478#180#0#180#0#43"'*' undeclared (first use in this function)0(0#0#72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m4300911832#2097"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Projects/Facebook/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-gafktzakmqjliablyxieiempxqzj/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginButton.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginButton.o1#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginButton.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290144261.097239
+e290144261.187276
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginButton.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m290144261#290144261#0(0"0(0#0#61"/Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m4300911832#2109"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginButton.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginDialog.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290143887.691362
+e290143887.771157
+r0
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:17:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:17:31: error: FBConnect/FBDialog.h: No such file or directory
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:18:32: error: FBConnect/FBRequest.h: No such file or directory
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:17:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:20: error: cannot find interface declaration for 'FBDialog', superclass of 'FBLoginDialog'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:20: error: cannot find protocol declaration for 'FBRequestDelegate'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:21: error: expected specifier-qualifier-list before 'FBRequest'
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:18:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:17:38: error: FBConnect/FBConnectGlobal.h: No such file or directory
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:18:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:39: error: expected specifier-qualifier-list before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:84: error: expected specifier-qualifier-list before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:147: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:184: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:196: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog connectToGetSession:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:34: error: '_getSessionRequest' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:34: error: (Each undeclared identifier is reported only once
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:34: error: for each function it appears in.)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:34: error: '_session' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:34: warning: class 'FBLoginDialog' does not implement the 'FBRequestDelegate' protocol
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog loadLoginPage]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:49: error: '_session' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:52: warning: 'FBLoginDialog' may not respond to '-loadURL:method:get:post:'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:52: warning: (Messages without a matching method signature
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:52: warning: will be assumed to return 'id' and accept
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:52: warning: '...' as arguments.)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog initWithSession:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:59: error: no super class declared in @interface for 'FBLoginDialog'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:60: error: '_getSessionRequest' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog dealloc]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:66: error: '_getSessionRequest' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:68: error: no super class declared in @interface for 'FBLoginDialog'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog dialogWillDisappear]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:79: error: '_webView' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:81: error: '_getSessionRequest' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:83: error: '_session' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog request:didLoad:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:109: error: 'FBUID' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:109: error: expected ';' before 'uid'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:115: error: '_getSessionRequest' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:118: error: '_session' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:118: error: 'uid' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:121: warning: 'FBLoginDialog' may not respond to '-dismissWithSuccess:animated:'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog request:didFailWithError:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:125: error: '_getSessionRequest' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:128: warning: 'FBLoginDialog' may not respond to '-dismissWithError:animated:'
+lSLF07#2@80"Compile /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m290143887#290143887#0(6248"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:17:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:17:31: error: FBConnect/FBDialog.h: No such file or directory/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:18:32: error: FBConnect/FBRequest.h: No such file or directoryIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:17:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:20: error: cannot find interface declaration for 'FBDialog', superclass of 'FBLoginDialog'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:20: error: cannot find protocol declaration for 'FBRequestDelegate'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h:21: error: expected specifier-qualifier-list before 'FBRequest'In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:18:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:17:38: error: FBConnect/FBConnectGlobal.h: No such file or directoryIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:18:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:39: error: expected specifier-qualifier-list before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:84: error: expected specifier-qualifier-list before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:147: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:184: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:196: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog connectToGetSession:]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:34: error: '_getSessionRequest' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:34: error: (Each undeclared identifier is reported only once/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:34: error: for each function it appears in.)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:34: error: '_session' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:34: warning: class 'FBLoginDialog' does not implement the 'FBRequestDelegate' protocol/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog loadLoginPage]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:49: error: '_session' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:52: warning: 'FBLoginDialog' may not respond to '-loadURL:method:get:post:'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:52: warning: (Messages without a matching method signature/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:52: warning: will be assumed to return 'id' and accept/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:52: warning: '...' as arguments.)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog initWithSession:]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:59: error: no super class declared in @interface for 'FBLoginDialog'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:60: error: '_getSessionRequest' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog dealloc]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:66: error: '_getSessionRequest' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:68: error: no super class declared in @interface for 'FBLoginDialog'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog dialogWillDisappear]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:79: error: '_webView' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:81: error: '_getSessionRequest' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:83: error: '_session' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog request:didLoad:]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:109: error: 'FBUID' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:109: error: expected ';' before 'uid'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:115: error: '_getSessionRequest' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:118: error: '_session' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:118: error: 'uid' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:121: warning: 'FBLoginDialog' may not respond to '-dismissWithSuccess:animated:'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m: In function '-[FBLoginDialog request:didFailWithError:]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:125: error: '_getSessionRequest' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m:128: warning: 'FBLoginDialog' may not respond to '-dismissWithError:animated:'32(4@47"FBConnect/FBDialog.h: No such file or directory290143887#99#145#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#17#0#17#0#0"0(13@133"FBConnect/FBDialog.h: No such file or directory in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#17#0#17#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#17#0#17#0#28"*: No such file or directory0(4@48"FBConnect/FBRequest.h: No such file or directory290143887#244#146#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#17#0#17#0#0"0(13@134"FBConnect/FBRequest.h: No such file or directory in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#18#0#18#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#18#0#18#0#28"*: No such file or directory0(4@79"Cannot find interface declaration for 'FBDialog', superclass of 'FBLoginDialog'290143887#489#174#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#17#0#17#0#0"0(13@165"Cannot find interface declaration for 'FBDialog', superclass of 'FBLoginDialog' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#20#0#20#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#20#0#20#0#60"cannot find interface declaration for '*', superclass of '*'0(4@56"Cannot find protocol declaration for 'FBRequestDelegate'290143887#663#151#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#17#0#17#0#0"0(13@142"Cannot find protocol declaration for 'FBRequestDelegate' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#20#0#20#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#20#0#20#0#0"0(4@52"Expected specifier-qualifier-list before 'FBRequest'290143887#814#147#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#17#0#17#0#0"0(13@138"Expected specifier-qualifier-list before 'FBRequest' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h290143887#18446744073709551615#0#0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#21#0#21#0#0"0(6@82"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBLoginDialog.h285247478#21#0#21#0#19"expected * before *0(4@54"FBConnect/FBConnectGlobal.h: No such file or directory290143887#1060#148#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#18#0#18#0#0"0(13@136"FBConnect/FBConnectGlobal.h: No such file or directory in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#17#0#17#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#17#0#17#0#28"*: No such file or directory0(4@48"Expected specifier-qualifier-list before 'FBUID'290143887#1307#139#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#18#0#18#0#0"0(13@130"Expected specifier-qualifier-list before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#39#0#39#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#39#0#39#0#19"expected * before *0(4@48"Expected specifier-qualifier-list before 'FBUID'290143887#1446#139#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#18#0#18#0#0"0(13@130"Expected specifier-qualifier-list before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#84#0#84#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#84#0#84#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#1585#119#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#147#0#147#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#147#0#147#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#1704#119#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#184#0#184#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#184#0#184#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#1823#119#2(7@94"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m290143887#18446744073709551615#0#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#196#0#196#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#196#0#196#0#19"expected * before *0(4@60"'_getSessionRequest' undeclared (first use in this function)290143887#2069#145#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#34#0#34#0#43"'*' undeclared (first use in this function)0(4@50"'_session' undeclared (first use in this function)290143887#2466#135#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#34#0#34#0#43"'*' undeclared (first use in this function)0(22@73"Class 'FBLoginDialog' does not implement the 'FBRequestDelegate' protocol290143887#2601#160#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#34#0#34#0#45"class '*' does not implement the '*' protocol0(4@50"'_session' undeclared (first use in this function)290143887#2881#135#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#49#0#49#0#43"'*' undeclared (first use in this function)0(22@62"'FBLoginDialog' may not respond to '-loadURL:method:get:post:'290143887#3016#149#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#52#0#52#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)290143887#3165#132#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#52#0#52#0#0"0(4@57"No super class declared in @interface for 'FBLoginDialog'290143887#3655#142#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#59#0#59#0#0"0(4@60"'_getSessionRequest' undeclared (first use in this function)290143887#3797#145#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#60#0#60#0#43"'*' undeclared (first use in this function)0(4@60"'_getSessionRequest' undeclared (first use in this function)290143887#4056#145#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#66#0#66#0#43"'*' undeclared (first use in this function)0(4@57"No super class declared in @interface for 'FBLoginDialog'290143887#4201#142#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#68#0#68#0#0"0(4@50"'_webView' undeclared (first use in this function)290143887#4469#135#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#79#0#79#0#43"'*' undeclared (first use in this function)0(4@60"'_getSessionRequest' undeclared (first use in this function)290143887#4604#145#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#81#0#81#0#43"'*' undeclared (first use in this function)0(4@50"'_session' undeclared (first use in this function)290143887#4749#135#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#83#0#83#0#43"'*' undeclared (first use in this function)0(4@47"'FBUID' undeclared (first use in this function)290143887#5007#133#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#109#0#109#0#43"'*' undeclared (first use in this function)0(4@25"Expected ';' before 'uid'290143887#5140#111#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#109#0#109#0#19"expected * before *0(4@60"'_getSessionRequest' undeclared (first use in this function)290143887#5251#146#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#115#0#115#0#43"'*' undeclared (first use in this function)0(4@50"'_session' undeclared (first use in this function)290143887#5397#136#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#118#0#118#0#43"'*' undeclared (first use in this function)0(4@45"'uid' undeclared (first use in this function)290143887#5533#131#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#118#0#118#0#43"'*' undeclared (first use in this function)0(22@66"'FBLoginDialog' may not respond to '-dismissWithSuccess:animated:'290143887#5664#154#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#121#0#121#0#26"'*' may not respond to '*'0(4@60"'_getSessionRequest' undeclared (first use in this function)290143887#5950#146#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#125#0#125#0#43"'*' undeclared (first use in this function)0(22@64"'FBLoginDialog' may not respond to '-dismissWithError:animated:'290143887#6096#152#0(6@72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m285247478#128#0#128#0#26"'*' may not respond to '*'0(0#0#72"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m4300911832#2097"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Projects/Facebook/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-gafktzakmqjliablyxieiempxqzj/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBLoginDialog.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginDialog.o1#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290144261.187377
+e290144261.260954
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m290144261#290144261#0(0"0(0#0#61"/Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m4300911832#2109"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBLoginDialog.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBPermissionDialog.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290143887.752847
+e290143887.826348
+r0
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBPermissionDialog.o
+x/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:17:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBPermissionDialog.h:17:36: error: FBConnect/FBLoginDialog.h: No such file or directory
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:17:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBPermissionDialog.h:19: error: cannot find interface declaration for 'FBLoginDialog', superclass of 'FBPermissionDialog'
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:18:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:17:38: error: FBConnect/FBConnectGlobal.h: No such file or directory
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:18:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:39: error: expected specifier-qualifier-list before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:84: error: expected specifier-qualifier-list before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:147: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:184: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:196: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m: In function '-[FBPermissionDialog redirectToLoginDelayed]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:44: error: no super class declared in @interface for 'FBPermissionDialog'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m: In function '-[FBPermissionDialog initWithSession:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:51: error: no super class declared in @interface for 'FBPermissionDialog'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m: In function '-[FBPermissionDialog dealloc]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:61: error: no super class declared in @interface for 'FBPermissionDialog'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m: In function '-[FBPermissionDialog load]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:69: error: '_session' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:69: error: (Each undeclared identifier is reported only once
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:69: error: for each function it appears in.)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:72: warning: 'FBPermissionDialog' may not respond to '-loadURL:method:get:post:'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:72: warning: (Messages without a matching method signature
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:72: warning: will be assumed to return 'id' and accept
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:72: warning: '...' as arguments.)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m: In function '-[FBPermissionDialog dialogDidSucceed:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:77: error: no super class declared in @interface for 'FBPermissionDialog'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:79: warning: 'FBPermissionDialog' may not respond to '-dismissWithSuccess:animated:'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m: In function '-[FBPermissionDialog webView:shouldStartLoadWithRequest:navigationType:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:97: error: no super class declared in @interface for 'FBPermissionDialog'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:98: warning: control reaches end of non-void function
+lSLF07#2@85"Compile /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m290143887#290143887#0(4359"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:17:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBPermissionDialog.h:17:36: error: FBConnect/FBLoginDialog.h: No such file or directoryIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:17:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBPermissionDialog.h:19: error: cannot find interface declaration for 'FBLoginDialog', superclass of 'FBPermissionDialog'In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:18:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:17:38: error: FBConnect/FBConnectGlobal.h: No such file or directoryIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:18:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:39: error: expected specifier-qualifier-list before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:84: error: expected specifier-qualifier-list before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:147: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:184: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:196: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m: In function '-[FBPermissionDialog redirectToLoginDelayed]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:44: error: no super class declared in @interface for 'FBPermissionDialog'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m: In function '-[FBPermissionDialog initWithSession:]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:51: error: no super class declared in @interface for 'FBPermissionDialog'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m: In function '-[FBPermissionDialog dealloc]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:61: error: no super class declared in @interface for 'FBPermissionDialog'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m: In function '-[FBPermissionDialog load]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:69: error: '_session' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:69: error: (Each undeclared identifier is reported only once/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:69: error: for each function it appears in.)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:72: warning: 'FBPermissionDialog' may not respond to '-loadURL:method:get:post:'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:72: warning: (Messages without a matching method signature/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:72: warning: will be assumed to return 'id' and accept/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:72: warning: '...' as arguments.)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m: In function '-[FBPermissionDialog dialogDidSucceed:]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:77: error: no super class declared in @interface for 'FBPermissionDialog'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:79: warning: 'FBPermissionDialog' may not respond to '-dismissWithSuccess:animated:'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m: In function '-[FBPermissionDialog webView:shouldStartLoadWithRequest:navigationType:]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:97: error: no super class declared in @interface for 'FBPermissionDialog'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m:98: warning: control reaches end of non-void function18(4@52"FBConnect/FBLoginDialog.h: No such file or directory290143887#104#155#2(7@99"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m290143887#18446744073709551615#0#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#17#0#17#0#0"0(13@143"FBConnect/FBLoginDialog.h: No such file or directory in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBPermissionDialog.h290143887#18446744073709551615#0#0(6@87"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBPermissionDialog.h285247478#17#0#17#0#0"0(6@87"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBPermissionDialog.h285247478#17#0#17#0#28"*: No such file or directory0(4@89"Cannot find interface declaration for 'FBLoginDialog', superclass of 'FBPermissionDialog'290143887#363#189#2(7@99"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m290143887#18446744073709551615#0#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#17#0#17#0#0"0(13@180"Cannot find interface declaration for 'FBLoginDialog', superclass of 'FBPermissionDialog' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBPermissionDialog.h290143887#18446744073709551615#0#0(6@87"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBPermissionDialog.h285247478#19#0#19#0#0"0(6@87"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBPermissionDialog.h285247478#19#0#19#0#60"cannot find interface declaration for '*', superclass of '*'0(4@54"FBConnect/FBConnectGlobal.h: No such file or directory290143887#656#148#2(7@99"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m290143887#18446744073709551615#0#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#18#0#18#0#0"0(13@136"FBConnect/FBConnectGlobal.h: No such file or directory in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#17#0#17#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#17#0#17#0#28"*: No such file or directory0(4@48"Expected specifier-qualifier-list before 'FBUID'290143887#908#139#2(7@99"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m290143887#18446744073709551615#0#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#18#0#18#0#0"0(13@130"Expected specifier-qualifier-list before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#39#0#39#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#39#0#39#0#19"expected * before *0(4@48"Expected specifier-qualifier-list before 'FBUID'290143887#1047#139#2(7@99"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m290143887#18446744073709551615#0#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#18#0#18#0#0"0(13@130"Expected specifier-qualifier-list before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#84#0#84#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#84#0#84#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#1186#119#2(7@99"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m290143887#18446744073709551615#0#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#147#0#147#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#147#0#147#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#1305#119#2(7@99"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m290143887#18446744073709551615#0#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#184#0#184#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#184#0#184#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#1424#119#2(7@99"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m290143887#18446744073709551615#0#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#196#0#196#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#196#0#196#0#19"expected * before *0(4@62"No super class declared in @interface for 'FBPermissionDialog'290143887#1682#152#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#44#0#44#0#0"0(4@62"No super class declared in @interface for 'FBPermissionDialog'290143887#1967#152#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#51#0#51#0#0"0(4@62"No super class declared in @interface for 'FBPermissionDialog'290143887#2243#152#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#61#0#61#0#0"0(4@50"'_session' undeclared (first use in this function)290143887#2516#140#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#69#0#69#0#43"'*' undeclared (first use in this function)0(22@67"'FBPermissionDialog' may not respond to '-loadURL:method:get:post:'290143887#2918#159#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#72#0#72#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)290143887#3077#137#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#72#0#72#0#0"0(4@62"No super class declared in @interface for 'FBPermissionDialog'290143887#3593#152#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#77#0#77#0#0"0(22@71"'FBPermissionDialog' may not respond to '-dismissWithSuccess:animated:'290143887#3745#163#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#79#0#79#0#26"'*' may not respond to '*'0(4@62"No super class declared in @interface for 'FBPermissionDialog'290143887#4075#152#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#97#0#97#0#0"0(22@40"Control reaches end of non-void function290143887#4227#132#0(6@77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m285247478#98#0#98#0#40"control reaches end of non-void function0(0#0#77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m4300911832#2107"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Projects/Facebook/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-gafktzakmqjliablyxieiempxqzj/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBPermissionDialog.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBPermissionDialog.o1#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBPermissionDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290144261.261063
+e290144261.328103
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBPermissionDialog.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m290144261#290144261#0(0"0(0#0#66"/Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m4300911832#2119"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBPermissionDialog.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBRequest.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290143887.560050
+e290143887.652553
+r0
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBRequest.o
+x/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m:17:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBRequest.h:17:38: error: FBConnect/FBConnectGlobal.h: No such file or directory
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m:18:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:39: error: expected specifier-qualifier-list before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:84: error: expected specifier-qualifier-list before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:147: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:184: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:196: error: expected ')' before 'FBUID'
+lSLF07#2@76"Compile /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m290143887#290143887#0(973"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m:17:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBRequest.h:17:38: error: FBConnect/FBConnectGlobal.h: No such file or directoryIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m:18:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:39: error: expected specifier-qualifier-list before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:84: error: expected specifier-qualifier-list before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:147: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:184: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:196: error: expected ')' before 'FBUID'6(4@54"FBConnect/FBConnectGlobal.h: No such file or directory290143887#95#148#2(7@90"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m290143887#18446744073709551615#0#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m285247478#17#0#17#0#0"0(13@136"FBConnect/FBConnectGlobal.h: No such file or directory in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBRequest.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBRequest.h285247478#17#0#17#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBRequest.h285247478#17#0#17#0#28"*: No such file or directory0(4@48"Expected specifier-qualifier-list before 'FBUID'290143887#338#139#2(7@90"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m290143887#18446744073709551615#0#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m285247478#18#0#18#0#0"0(13@130"Expected specifier-qualifier-list before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#39#0#39#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#39#0#39#0#19"expected * before *0(4@48"Expected specifier-qualifier-list before 'FBUID'290143887#477#139#2(7@90"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m290143887#18446744073709551615#0#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m285247478#18#0#18#0#0"0(13@130"Expected specifier-qualifier-list before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#84#0#84#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#84#0#84#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#616#119#2(7@90"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m290143887#18446744073709551615#0#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m285247478#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#147#0#147#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#147#0#147#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#735#119#2(7@90"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m290143887#18446744073709551615#0#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m285247478#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#184#0#184#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#184#0#184#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#854#119#2(7@90"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m290143887#18446744073709551615#0#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m285247478#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#196#0#196#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#196#0#196#0#19"expected * before *0(0#0#68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m4300911832#2089"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Projects/Facebook/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-gafktzakmqjliablyxieiempxqzj/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBRequest.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBRequest.o1#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBRequest.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290144260.930794
+e290144261.121982
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBRequest.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m290144260#290144261#0(0"0(0#0#57"/Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m4300911832#2101"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBRequest.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBSession.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290143887.550532
+e290143887.624889
+r0
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBSession.o
+x/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:17:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:17:38: error: FBConnect/FBConnectGlobal.h: No such file or directory
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:17:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:39: error: expected specifier-qualifier-list before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:84: error: expected specifier-qualifier-list before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:147: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:184: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:196: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:37: error: no declaration of property 'uid' found in the interface
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m: In function '-[FBSession save]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:71: error: '_uid' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:71: error: (Each undeclared identifier is reported only once
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:71: error: for each function it appears in.)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m: In function '-[FBSession initWithKey:secret:getSessionProxy:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:169: warning: implicit declaration of function 'FBCreateNonRetainingArray'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:169: warning: assignment makes pointer from integer without a cast
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:173: error: '_uid' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m: At top level:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:217: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m: In function '-[FBSession begin:sessionKey:sessionSecret:expires:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:219: error: '_uid' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m: In function '-[FBSession resume]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:229: error: 'FBUID' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:229: error: expected ';' before 'uid'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:230: error: 'uid' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:233: error: '_uid' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m: In function '-[FBSession logout]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:261: error: '_uid' undeclared (first use in this function)
+lSLF07#2@76"Compile /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m290143887#290143887#0(3413"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:17:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:17:38: error: FBConnect/FBConnectGlobal.h: No such file or directoryIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:17:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:39: error: expected specifier-qualifier-list before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:84: error: expected specifier-qualifier-list before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:147: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:184: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:196: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:37: error: no declaration of property 'uid' found in the interface/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m: In function '-[FBSession save]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:71: error: '_uid' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:71: error: (Each undeclared identifier is reported only once/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:71: error: for each function it appears in.)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m: In function '-[FBSession initWithKey:secret:getSessionProxy:]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:169: warning: implicit declaration of function 'FBCreateNonRetainingArray'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:169: warning: assignment makes pointer from integer without a cast/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:173: error: '_uid' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m: At top level:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:217: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m: In function '-[FBSession begin:sessionKey:sessionSecret:expires:]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:219: error: '_uid' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m: In function '-[FBSession resume]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:229: error: 'FBUID' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:229: error: expected ';' before 'uid'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:230: error: 'uid' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:233: error: '_uid' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m: In function '-[FBSession logout]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m:261: error: '_uid' undeclared (first use in this function)19(4@54"FBConnect/FBConnectGlobal.h: No such file or directory290143887#95#148#2(7@90"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m290143887#18446744073709551615#0#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#17#0#17#0#0"0(13@136"FBConnect/FBConnectGlobal.h: No such file or directory in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#17#0#17#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#17#0#17#0#28"*: No such file or directory0(4@48"Expected specifier-qualifier-list before 'FBUID'290143887#338#139#2(7@90"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m290143887#18446744073709551615#0#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#17#0#17#0#0"0(13@130"Expected specifier-qualifier-list before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#39#0#39#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#39#0#39#0#19"expected * before *0(4@48"Expected specifier-qualifier-list before 'FBUID'290143887#477#139#2(7@90"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m290143887#18446744073709551615#0#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#17#0#17#0#0"0(13@130"Expected specifier-qualifier-list before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#84#0#84#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#84#0#84#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#616#119#2(7@90"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m290143887#18446744073709551615#0#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#17#0#17#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#147#0#147#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#147#0#147#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#735#119#2(7@90"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m290143887#18446744073709551615#0#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#17#0#17#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#184#0#184#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#184#0#184#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#854#119#2(7@90"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m290143887#18446744073709551615#0#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#17#0#17#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#196#0#196#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#196#0#196#0#19"expected * before *0(4@55"No declaration of property 'uid' found in the interface290143887#973#136#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#37#0#37#0#0"0(4@46"'_uid' undeclared (first use in this function)290143887#1212#127#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#71#0#71#0#43"'*' undeclared (first use in this function)0(22@60"Implicit declaration of function 'FBCreateNonRetainingArray'290143887#1717#144#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#169#0#169#0#36"implicit declaration of function '*'0(22@52"Assignment makes pointer from integer without a cast290143887#1861#136#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#169#0#169#0#0"0(4@46"'_uid' undeclared (first use in this function)290143887#1997#128#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#173#0#173#0#43"'*' undeclared (first use in this function)0(23@13"At top level:290143887#2125#84#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#0#0#0#0#0"0(4@27"Expected ')' before 'FBUID'290143887#2209#109#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#217#0#217#0#19"expected * before *0(4@46"'_uid' undeclared (first use in this function)290143887#2456#128#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#219#0#219#0#43"'*' undeclared (first use in this function)0(4@47"'FBUID' undeclared (first use in this function)290143887#2689#129#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#229#0#229#0#43"'*' undeclared (first use in this function)0(4@25"Expected ';' before 'uid'290143887#2818#107#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#229#0#229#0#19"expected * before *0(4@45"'uid' undeclared (first use in this function)290143887#2925#127#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#230#0#230#0#43"'*' undeclared (first use in this function)0(4@46"'_uid' undeclared (first use in this function)290143887#3052#128#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#233#0#233#0#43"'*' undeclared (first use in this function)0(4@46"'_uid' undeclared (first use in this function)290143887#3285#128#0(6@68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m285247478#261#0#261#0#43"'*' undeclared (first use in this function)0(0#0#68"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m4300911832#2089"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Projects/Facebook/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-gafktzakmqjliablyxieiempxqzj/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBSession.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBSession.o1#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBSession.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290144260.904788
+e290144261.013376
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBSession.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m290144260#290144261#0(0"0(0#0#57"/Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m4300911832#2101"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBSession.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBStreamDialog.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290143887.771254
+e290143887.829519
+r0
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBStreamDialog.o
+x/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:17:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBStreamDialog.h:17:31: error: FBConnect/FBDialog.h: No such file or directory
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:17:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBStreamDialog.h:19: error: cannot find interface declaration for 'FBDialog', superclass of 'FBStreamDialog'
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:18:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:17:38: error: FBConnect/FBConnectGlobal.h: No such file or directory
+oIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:18:
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:39: error: expected specifier-qualifier-list before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:84: error: expected specifier-qualifier-list before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:147: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:184: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:196: error: expected ')' before 'FBUID'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m: In function '-[FBStreamDialog initWithSession:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:38: error: no super class declared in @interface for 'FBStreamDialog'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m: In function '-[FBStreamDialog dealloc]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:52: error: no super class declared in @interface for 'FBStreamDialog'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m: In function '-[FBStreamDialog load]':
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:63: error: '_session' undeclared (first use in this function)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:63: error: (Each undeclared identifier is reported only once
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:63: error: for each function it appears in.)
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:74: warning: 'FBStreamDialog' may not respond to '-loadURL:method:get:post:'
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:74: warning: (Messages without a matching method signature
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:74: warning: will be assumed to return 'id' and accept
+o/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:74: warning: '...' as arguments.)
+lSLF07#2@81"Compile /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m290143887#290143887#0(3058"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:17:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBStreamDialog.h:17:31: error: FBConnect/FBDialog.h: No such file or directoryIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:17:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBStreamDialog.h:19: error: cannot find interface declaration for 'FBDialog', superclass of 'FBStreamDialog'In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:18:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:17:38: error: FBConnect/FBConnectGlobal.h: No such file or directoryIn file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:18:/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:39: error: expected specifier-qualifier-list before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:84: error: expected specifier-qualifier-list before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:147: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:184: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h:196: error: expected ')' before 'FBUID'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m: In function '-[FBStreamDialog initWithSession:]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:38: error: no super class declared in @interface for 'FBStreamDialog'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m: In function '-[FBStreamDialog dealloc]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:52: error: no super class declared in @interface for 'FBStreamDialog'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m: In function '-[FBStreamDialog load]':/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:63: error: '_session' undeclared (first use in this function)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:63: error: (Each undeclared identifier is reported only once/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:63: error: for each function it appears in.)/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:74: warning: 'FBStreamDialog' may not respond to '-loadURL:method:get:post:'/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:74: warning: (Messages without a matching method signature/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:74: warning: will be assumed to return 'id' and accept/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m:74: warning: '...' as arguments.)13(4@47"FBConnect/FBDialog.h: No such file or directory290143887#100#146#2(7@95"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m290143887#18446744073709551615#0#0(6@73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m285247478#17#0#17#0#0"0(13@134"FBConnect/FBDialog.h: No such file or directory in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBStreamDialog.h290143887#18446744073709551615#0#0(6@83"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBStreamDialog.h285247478#17#0#17#0#0"0(6@83"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBStreamDialog.h285247478#17#0#17#0#28"*: No such file or directory0(4@80"Cannot find interface declaration for 'FBDialog', superclass of 'FBStreamDialog'290143887#346#176#2(7@95"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m290143887#18446744073709551615#0#0(6@73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m285247478#17#0#17#0#0"0(13@167"Cannot find interface declaration for 'FBDialog', superclass of 'FBStreamDialog' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBStreamDialog.h290143887#18446744073709551615#0#0(6@83"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBStreamDialog.h285247478#19#0#19#0#0"0(6@83"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBStreamDialog.h285247478#19#0#19#0#60"cannot find interface declaration for '*', superclass of '*'0(4@54"FBConnect/FBConnectGlobal.h: No such file or directory290143887#622#148#2(7@95"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m290143887#18446744073709551615#0#0(6@73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m285247478#18#0#18#0#0"0(13@136"FBConnect/FBConnectGlobal.h: No such file or directory in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#17#0#17#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#17#0#17#0#28"*: No such file or directory0(4@48"Expected specifier-qualifier-list before 'FBUID'290143887#870#139#2(7@95"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m290143887#18446744073709551615#0#0(6@73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m285247478#18#0#18#0#0"0(13@130"Expected specifier-qualifier-list before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#39#0#39#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#39#0#39#0#19"expected * before *0(4@48"Expected specifier-qualifier-list before 'FBUID'290143887#1009#139#2(7@95"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m290143887#18446744073709551615#0#0(6@73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m285247478#18#0#18#0#0"0(13@130"Expected specifier-qualifier-list before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#84#0#84#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#84#0#84#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#1148#119#2(7@95"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m290143887#18446744073709551615#0#0(6@73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m285247478#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#147#0#147#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#147#0#147#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#1267#119#2(7@95"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m290143887#18446744073709551615#0#0(6@73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m285247478#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#184#0#184#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#184#0#184#0#19"expected * before *0(4@27"Expected ')' before 'FBUID'290143887#1386#119#2(7@95"In file included from /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m290143887#18446744073709551615#0#0(6@73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m285247478#18#0#18#0#0"0(13@109"Expected ')' before 'FBUID' in /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h290143887#18446744073709551615#0#0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#196#0#196#0#0"0(6@78"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBConnect/FBSession.h285247478#196#0#196#0#19"expected * before *0(4@58"No super class declared in @interface for 'FBStreamDialog'290143887#1630#144#0(6@73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m285247478#38#0#38#0#0"0(4@58"No super class declared in @interface for 'FBStreamDialog'290143887#1890#144#0(6@73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m285247478#52#0#52#0#0"0(4@50"'_session' undeclared (first use in this function)290143887#2147#136#0(6@73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m285247478#63#0#63#0#43"'*' undeclared (first use in this function)0(22@63"'FBStreamDialog' may not respond to '-loadURL:method:get:post:'290143887#2537#151#0(6@73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m285247478#74#0#74#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)290143887#2688#133#0(6@73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m285247478#74#0#74#0#0"0(0#0#73"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m4300911832#2099"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Projects/Facebook/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-gafktzakmqjliablyxieiempxqzj/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBStreamDialog.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBStreamDialog.o1#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBStreamDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290144261.324211
+e290144261.381336
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBStreamDialog.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m290144261#290144261#0(0"0(0#0#62"/Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m4300911832#2111"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBStreamDialog.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBXMLHandler.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBXMLHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290143883.983026
+e290143884.071027
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBXMLHandler.o
+x/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBXMLHandler.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBXMLHandler.m290143883#290143884#0(0"0(0#0#71"/Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBXMLHandler.m4300911832#2095"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Projects/Facebook/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-gafktzakmqjliablyxieiempxqzj/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/Classes/../src/FBXMLHandler.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBXMLHandler.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBXMLHandler.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290144261.013481
+e290144261.097097
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBXMLHandler.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m290144261#290144261#0(0"0(0#0#60"/Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m4300911832#2107"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FBXMLHandler.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FacebookAPIAppDelegate.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290144260.748898
+e290144260.848050
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FacebookAPIAppDelegate.o
+x/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m290144260#290144260#0(0"0(0#0#74"/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m4300911832#2131"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FacebookAPIAppDelegate.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FacebookAPIViewController.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290144799.096713
+e290144799.170502
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FacebookAPIViewController.o
+x/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m290144799#290144799#0(0"0(0#0#77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m4300911832#2137"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FacebookAPIViewController.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/main.o /Users/frankmcauley/Downloads/FacebookAPI/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290144260.747767
+e290144260.797536
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/main.o
+x/Users/frankmcauley/Downloads/FacebookAPI/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/frankmcauley/Downloads/FacebookAPI/main.m290144260#290144260#0(0"0(0#0#48"/Users/frankmcauley/Downloads/FacebookAPI/main.m4300911832#2087"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/main.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/frankmcauley/Downloads/FacebookAPI/FacebookAPIViewController.xib
+r0
+
+CCompileXIB /Users/frankmcauley/Downloads/FacebookAPI/MainWindow.xib
+r0
+
+CCpResource build/Debug-iphonesimulator/FacebookAPI.app/FBConnect.bundle Classes/../src/FBConnect.bundle
+r0
+
+CCpResource build/Debug-iphonesimulator/FacebookAPI.app/FBConnect.bundle src/FBConnect.bundle
+r0
+
+CGenerateDSYMFile /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app.dSYM /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/FacebookAPI
+s290144799.203542
+e290144799.230669
+r1
+xGenerateDSYMFile
+x/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app.dSYM
+x/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/FacebookAPI
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/FacebookAPI.app.dSYM build/Debug-iphonesimulator/FacebookAPI.app/FacebookAPI290144799#290144799#0(0"0(0#0#97"/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/FacebookAPI4300911832#466"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/FacebookAPI -o /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app.dSYM0#
+
+CLd /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/FacebookAPI normal i386
+s290144799.170614
+e290144799.203423
+r1
+xLd
+x/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/FacebookAPI
+xnormal
+xi386
+lSLF07#2@102"Link /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/FacebookAPI290144799#290144799#0(0"0(0#0#0"4300911832#961"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -filelist /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/Objects-normal/i386/FacebookAPI.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/FacebookAPI0#
+
+CProcessInfoPlistFile /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app/Info.plist FacebookAPI-Info.plist
+r0
+
+CProcessPCH /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch.gch FacebookAPI_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s290144260.059603
+e290144260.747624
+r1
+xProcessPCH
+x/var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch.gch
+xFacebookAPI_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile FacebookAPI_Prefix.pch290144260#290144260#0(0"0(0#0#64"/Users/frankmcauley/Downloads/FacebookAPI/FacebookAPI_Prefix.pch4300911832#1972"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -c /Users/frankmcauley/Downloads/FacebookAPI/FacebookAPI_Prefix.pch -o /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-bfwpyazgdehozsdtdnomxdgkcjuc/FacebookAPI_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-gafktzakmqjliablyxieiempxqzj/FacebookAPI_Prefix.pch.gch FacebookAPI_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s290143787.612387
+e290143788.525706
+r1
+xProcessPCH
+x/var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-gafktzakmqjliablyxieiempxqzj/FacebookAPI_Prefix.pch.gch
+xFacebookAPI_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile FacebookAPI_Prefix.pch290143787#290143788#0(0"0(0#0#64"/Users/frankmcauley/Downloads/FacebookAPI/FacebookAPI_Prefix.pch7009342042935747584#1949"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator -iquote/Projects/Facebook/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources/i386 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphonesimulator/FacebookAPI.build/DerivedSources -c /Users/frankmcauley/Downloads/FacebookAPI/FacebookAPI_Prefix.pch -o /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-gafktzakmqjliablyxieiempxqzj/FacebookAPI_Prefix.pch.gch0#
+
+CTouch /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app
+s290144799.230761
+e290144799.233370
+r1
+xTouch
+x/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app
+lSLF07#2@91"Touch /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app290144799#290144799#0(0"0(0#0#0"4300911832#350"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphonesimulator/FacebookAPI.app0#
+

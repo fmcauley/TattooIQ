@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'FacebookAPI' target in the 'FacebookAPI' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

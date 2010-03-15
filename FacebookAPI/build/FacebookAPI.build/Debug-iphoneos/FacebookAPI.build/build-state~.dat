@@ -1,0 +1,652 @@
+TFacebookAPI
+v7
+r0
+t290281943.441520
+cCheck dependencies
+cCpResource build/Debug-iphoneos/FacebookAPI.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/Info.plist FacebookAPI-Info.plist
+cCompileXIB /Users/frankmcauley/Downloads/FacebookAPI/MainWindow.xib
+cCompileXIB /Users/frankmcauley/Downloads/FacebookAPI/FacebookAPIViewController.xib
+cCpResource build/Debug-iphoneos/FacebookAPI.app/FBConnect.bundle src/FBConnect.bundle
+cProcessPCH /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch.gch FacebookAPI_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/main.o /Users/frankmcauley/Downloads/FacebookAPI/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FacebookAPIAppDelegate.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FacebookAPIViewController.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBConnectGlobal.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBSession.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBRequest.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBXMLHandler.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBLoginButton.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBLoginDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBPermissionDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBStreamDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FacebookAPI normal armv6
+cGenerateDSYMFile /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app.dSYM /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FacebookAPI
+cProcessProductPackaging "/Users/frankmcauley/Library/MobileDevice/Provisioning Profiles/Franks_Tattoo_IQ_Testing.mobileprovision" /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/embedded.mobileprovision
+cTouch /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI.xcent
+cCodeSign /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk
+c000000004B79A1A50000000000000110
+t1266262437
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+c000000004B2B3B9F00000000000000DD
+t1261124511
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+c000000004B2B3B9F00000000000001E5
+t1261124511
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B537900000000005F4900
+t1261130617
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B551F0000000000501370
+t1261131039
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B54F40000000000001355
+t1261130996
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61610000000000000788
+t1261134177
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B63DA0000000001B3F450
+t1261134810
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004B2B3EC60000000000002500
+t1261125318
+s9472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/dlfcn.h
+c000000004B2B3EC50000000000000B1C
+t1261125317
+s2844
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.h
+c000000004B7ED6E800000000000007D8
+t1266603752
+s2008
+i<UIKit/UIKit.h>
+i"FBConnect/FBConnect.h"
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m
+c000000004B7ED6E80000000000000802
+t1266603752
+s2050
+i"FacebookAPIAppDelegate.h"
+i"FacebookAPIViewController.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.h
+c000000004B7ED6E8000000000000083B
+t1266603752
+s2107
+i<UIKit/UIKit.h>
+i"FBConnect/FBConnect.h"
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m
+c000000004B9B0A9E000000000000144E
+t1268451998
+s5198
+i"FacebookAPIViewController.h"
+i"FacebookAPIAppDelegate.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/FacebookAPIViewController.xib
+c000000004B74048600000000000018EB
+t1265894534
+s6379
+
+N/Users/frankmcauley/Downloads/FacebookAPI/FacebookAPI_Prefix.pch
+c000000004B74048600000000000000BF
+t1265894534
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/frankmcauley/Downloads/FacebookAPI/MainWindow.xib
+c000000004B740486000000000000247A
+t1265894534
+s9338
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app
+t1268589143
+s408
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app.dSYM
+t1268589139
+s102
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FBConnect.bundle
+t1268589136
+s102
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FacebookAPI
+t1268589138
+s122304
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FacebookAPIViewController.nib
+t1268589136
+s1151
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/Info.plist
+t1268589132
+s673
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/MainWindow.nib
+t1268589136
+s1487
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/PkgInfo
+t1268589132
+s8
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/ResourceRules.plist
+t1268589132
+s485
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/embedded.mobileprovision
+t1268589139
+s7252
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI.xcent
+t1268589139
+s324
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBConnectGlobal.o
+t1268589137
+s7508
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBDialog.o
+t1268589138
+s79100
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBLoginButton.o
+t1268589138
+s33456
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBLoginDialog.o
+t1268589138
+s26432
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBPermissionDialog.o
+t1268589138
+s22292
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBRequest.o
+t1268589138
+s50620
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBSession.o
+t1268589138
+s35436
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBStreamDialog.o
+t1268589138
+s21648
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBXMLHandler.o
+t1268589138
+s20972
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FacebookAPI.LinkFileList
+c000000004B9D224C0000000000000666
+t1268589132
+s1638
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FacebookAPIAppDelegate.o
+t1268589137
+s40808
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FacebookAPIViewController.o
+t1268589137
+s51900
+
+N/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/main.o
+t1268589137
+s6452
+
+N/Users/frankmcauley/Downloads/FacebookAPI/main.m
+c000000004B7404860000000000000167
+t1265894534
+s359
+i<UIKit/UIKit.h>
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect.bundle
+c000000004B6121DA0000000000000066
+t1264656858
+s102
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBConnect.h
+c000000004B5050760000000000000324
+t1263554678
+s804
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+i"FBConnect/FBLoginButton.h"
+i"FBConnect/FBLoginDialog.h"
+i"FBConnect/FBPermissionDialog.h"
+i"FBConnect/FBStreamDialog.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBConnectGlobal.h
+c000000004B5050760000000000001E6E
+t1263554678
+s7790
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBDialog.h
+c000000004B5050760000000000000EE9
+t1263554678
+s3817
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBLoginButton.h
+c000000004B50507600000000000005A1
+t1263554678
+s1441
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBLoginDialog.h
+c000000004B50507600000000000002F1
+t1263554678
+s753
+i"FBConnect/FBDialog.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBPermissionDialog.h
+c000000004B505076000000000000038C
+t1263554678
+s908
+i"FBConnect/FBLoginDialog.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBRequest.h
+c000000004B5050760000000000001159
+t1263554678
+s4441
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBSession.h
+c000000004B5050760000000000001579
+t1263554678
+s5497
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect/FBStreamDialog.h
+c000000004B505076000000000000083F
+t1263554678
+s2111
+i"FBConnect/FBDialog.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m
+c000000004B5050760000000000000515
+t1263554678
+s1301
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m
+c000000004B612EF200000000000052B1
+t1264660210
+s21169
+i"FBConnect/FBDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m
+c000000004B5050760000000000001476
+t1263554678
+s5238
+i"FBConnect/FBLoginButton.h"
+i"FBConnect/FBLoginDialog.h"
+i<dlfcn.h>
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m
+c000000004B505076000000000000100E
+t1263554678
+s4110
+i"FBConnect/FBLoginDialog.h"
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m
+c000000004B5050760000000000000C88
+t1263554678
+s3208
+i"FBConnect/FBPermissionDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m
+c000000004B5050760000000000002EFC
+t1263554678
+s12028
+i"FBConnect/FBRequest.h"
+i"FBConnect/FBSession.h"
+i"FBXMLHandler.h"
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m
+c000000004B505076000000000000215A
+t1263554678
+s8538
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m
+c000000004B50507600000000000009B1
+t1263554678
+s2481
+i"FBConnect/FBStreamDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.h
+c000000004B50507600000000000003C9
+t1263554678
+s969
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m
+c000000004B5050760000000000001148
+t1263554678
+s4424
+i"FBXMLHandler.h"
+
+N/Users/frankmcauley/Library/MobileDevice/Provisioning Profiles/Franks_Tattoo_IQ_Testing.mobileprovision
+c000000004B90E6F90000000000001C54
+t1267787513
+s7252
+
+N/var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch.gch
+t1268589137
+s8388792
+
+NFacebookAPI-Info.plist
+c000000004B740486000000000000038D
+t1265894534
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies290281932#290281932#0(0"0(0#1#0"4300911832#0"0#
+
+CCodeSign /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app
+s290281939.278857
+e290281943.441406
+r1
+xCodeSign
+x/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app
+lSLF07#2@45"CodeSign build/Debug-iphoneos/FacebookAPI.app290281939#290281943#0(0"0(0#0#78"/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app4300911832#765"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/codesign -f -s "iPhone Developer: Richard Morrison (535ST6MQ6F)" --resource-rules=/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/ResourceRules.plist --entitlements /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI.xcent /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app0#
+
+CCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBConnectGlobal.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290281937.745832
+e290281937.839052
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBConnectGlobal.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m290281937#290281937#0(0"0(0#0#63"/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m4300911832#1982"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources/armv6 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBConnectGlobal.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBConnectGlobal.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290281938.114110
+e290281938.397063
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBDialog.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m: In function '-[FBDialog initWithSession:]':
+o/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m:325: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)
+lSLF07#2@64"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m290281938#290281938#0(349"/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m: In function '-[FBDialog initWithSession:]':/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m:325: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)1(22@175"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)290281938#102#247#0(6@56"/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m286353010#325#0#325#0#33"'*' is deprecated (declared at *)0(0#0#56"/Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m4300911832#1968"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources/armv6 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBDialog.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBDialog.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBLoginButton.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290281938.091377
+e290281938.211525
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBLoginButton.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m290281938#290281938#0(0"0(0#0#61"/Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m4300911832#1978"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources/armv6 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginButton.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBLoginButton.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBLoginDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290281938.211635
+e290281938.298777
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBLoginDialog.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m290281938#290281938#0(0"0(0#0#61"/Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m4300911832#1978"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources/armv6 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBLoginDialog.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBLoginDialog.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBPermissionDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290281938.298888
+e290281938.373384
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBPermissionDialog.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m290281938#290281938#0(0"0(0#0#66"/Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m4300911832#1988"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources/armv6 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBPermissionDialog.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBPermissionDialog.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBRequest.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290281937.883429
+e290281938.091262
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBRequest.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m290281937#290281938#0(0"0(0#0#57"/Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m4300911832#1970"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources/armv6 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBRequest.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBRequest.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBSession.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290281937.839162
+e290281938.008924
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBSession.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m290281937#290281938#0(0"0(0#0#57"/Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m4300911832#1970"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources/armv6 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBSession.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBSession.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBStreamDialog.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290281938.373490
+e290281938.458480
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBStreamDialog.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m290281938#290281938#0(0"0(0#0#62"/Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m4300911832#1980"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources/armv6 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBStreamDialog.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBStreamDialog.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBXMLHandler.o /Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290281938.009033
+e290281938.113996
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBXMLHandler.o
+x/Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m290281938#290281938#0(0"0(0#0#60"/Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m4300911832#1976"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources/armv6 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/src/FBXMLHandler.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FBXMLHandler.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FacebookAPIAppDelegate.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290281937.610852
+e290281937.745728
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FacebookAPIAppDelegate.o
+x/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m290281937#290281937#0(0"0(0#0#74"/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m4300911832#2000"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources/armv6 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIAppDelegate.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FacebookAPIAppDelegate.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FacebookAPIViewController.o /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290281937.743082
+e290281937.883185
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FacebookAPIViewController.o
+x/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m290281937#290281937#0(0"0(0#0#77"/Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m4300911832#2006"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources/armv6 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/Classes/FacebookAPIViewController.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FacebookAPIViewController.o0#
+
+CCompileC build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/main.o /Users/frankmcauley/Downloads/FacebookAPI/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290281937.609730
+e290281937.742981
+r1
+xCompileC
+xbuild/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/main.o
+x/Users/frankmcauley/Downloads/FacebookAPI/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/frankmcauley/Downloads/FacebookAPI/main.m290281937#290281937#0(0"0(0#0#48"/Users/frankmcauley/Downloads/FacebookAPI/main.m4300911832#1956"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources/armv6 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch -c /Users/frankmcauley/Downloads/FacebookAPI/main.m -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/frankmcauley/Downloads/FacebookAPI/FacebookAPIViewController.xib
+s290281932.591193
+e290281936.386122
+r1
+xCompileXIB
+x/Users/frankmcauley/Downloads/FacebookAPI/FacebookAPIViewController.xib
+lSLF07#2@40"CompileXIB FacebookAPIViewController.xib290281932#290281936#0(0"0(0#0#71"/Users/frankmcauley/Downloads/FacebookAPI/FacebookAPIViewController.xib4300911832#573"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FacebookAPIViewController.nib /Users/frankmcauley/Downloads/FacebookAPI/FacebookAPIViewController.xib0#
+
+CCompileXIB /Users/frankmcauley/Downloads/FacebookAPI/MainWindow.xib
+s290281932.590454
+e290281936.382113
+r1
+xCompileXIB
+x/Users/frankmcauley/Downloads/FacebookAPI/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib290281932#290281936#0(0"0(0#0#56"/Users/frankmcauley/Downloads/FacebookAPI/MainWindow.xib4300911832#543"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/MainWindow.nib /Users/frankmcauley/Downloads/FacebookAPI/MainWindow.xib0#
+
+CCpResource build/Debug-iphoneos/FacebookAPI.app/FBConnect.bundle src/FBConnect.bundle
+s290281936.382300
+e290281936.453173
+r1
+xCpResource
+xbuild/Debug-iphoneos/FacebookAPI.app/FBConnect.bundle
+xsrc/FBConnect.bundle
+lSLF07#2@25"Copy src/FBConnect.bundle290281936#290281936#0(0"0(0#0#62"/Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect.bundle4300911832#525"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/frankmcauley/Downloads/FacebookAPI/src/FBConnect.bundle /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app0#
+
+CCpResource build/Debug-iphoneos/FacebookAPI.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+s290281932.105189
+e290281932.590356
+r1
+xCpResource
+xbuild/Debug-iphoneos/FacebookAPI.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist290281932#290281932#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist4300911832#554"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app0#
+
+CGenerateDSYMFile /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app.dSYM /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FacebookAPI
+s290281938.987012
+e290281939.060579
+r1
+xGenerateDSYMFile
+x/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app.dSYM
+x/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FacebookAPI
+lSLF07#2@107"GenerateDSYMFile build/Debug-iphoneos/FacebookAPI.app.dSYM build/Debug-iphoneos/FacebookAPI.app/FacebookAPI290281938#290281939#0(0"0(0#0#90"/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FacebookAPI4300911832#445"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FacebookAPI -o /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app.dSYM0#
+
+CLd /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FacebookAPI normal armv6
+s290281938.458580
+e290281938.986878
+r1
+xLd
+x/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FacebookAPI
+xnormal
+xarmv6
+lSLF07#2@95"Link /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FacebookAPI290281938#290281938#0(0"0(0#0#0"4300911832#925"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -filelist /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/Objects-normal/armv6/FacebookAPI.LinkFileList -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/FacebookAPI0#
+
+CProcessInfoPlistFile /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/Info.plist FacebookAPI-Info.plist
+s290281932.531050
+e290281932.548907
+r1
+xProcessInfoPlistFile
+x/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/Info.plist
+xFacebookAPI-Info.plist
+lSLF07#2@30"Process FacebookAPI-Info.plist290281932#290281932#0(0"0(0#0#64"/Users/frankmcauley/Downloads/FacebookAPI/FacebookAPI-Info.plist4300911832#652"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility FacebookAPI-Info.plist -genpkginfo /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/ResourceRules.plist -o /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/Info.plist0#
+
+CProcessPCH /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch.gch FacebookAPI_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290281936.453308
+e290281937.609611
+r1
+xProcessPCH
+x/var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch.gch
+xFacebookAPI_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile FacebookAPI_Prefix.pch290281936#290281937#0(0"0(0#0#64"/Users/frankmcauley/Downloads/FacebookAPI/FacebookAPI_Prefix.pch4300911832#1847"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-generated-files.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-own-target-headers.hmap -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-all-target-headers.hmap -iquote /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI-project-headers.hmap -F/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos -iquote/Users/frankmcauley/Downloads/FacebookAPI/src -I/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/include -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources/armv6 -I/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/DerivedSources -c /Users/frankmcauley/Downloads/FacebookAPI/FacebookAPI_Prefix.pch -o /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookAPI_Prefix-ddxfwywhamwdxrcmimfobnitgrdg/FacebookAPI_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/frankmcauley/Library/MobileDevice/Provisioning Profiles/Franks_Tattoo_IQ_Testing.mobileprovision" /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/embedded.mobileprovision
+s290281939.060695
+e290281939.218719
+r1
+xProcessProductPackaging
+x/Users/frankmcauley/Library/MobileDevice/Provisioning Profiles/Franks_Tattoo_IQ_Testing.mobileprovision
+x/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/embedded.mobileprovision
+lSLF07#2@191"ProcessProductPackaging "/Users/frankmcauley/Library/MobileDevice/Provisioning Profiles/Franks_Tattoo_IQ_Testing.mobileprovision" build/Debug-iphoneos/FacebookAPI.app/embedded.mobileprovision290281939#290281939#0(0"0(0#0#103"/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/embedded.mobileprovision4300911832#490"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/frankmcauley/Library/MobileDevice/Provisioning Profiles/Franks_Tattoo_IQ_Testing.mobileprovision" -o /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI.xcent
+s290281939.250839
+e290281939.278774
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+x/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI.xcent
+lSLF07#2@189"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI.xcent290281939#290281939#0(0"0(0#0#116"/Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI.xcent4300911832#514"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/frankmcauley/Downloads/FacebookAPI/build/FacebookAPI.build/Debug-iphoneos/FacebookAPI.build/FacebookAPI.xcent0#
+
+CTouch /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app
+s290281939.218798
+e290281939.250727
+r1
+xTouch
+x/Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app
+lSLF07#2@84"Touch /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app290281939#290281939#0(0"0(0#0#0"4300911832#336"    cd /Users/frankmcauley/Downloads/FacebookAPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/frankmcauley/Downloads/FacebookAPI/build/Debug-iphoneos/FacebookAPI.app0#
+
