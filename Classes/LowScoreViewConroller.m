@@ -1,16 +1,9 @@
-//
-//  LowScoreViewConroller.m
-//  Tattoo IQ Quiz
-//
-//  Created by Frank McAuley on 2/7/10.
-//  Copyright 2010 Frank McAuley LLC. All rights reserved.
-//
 
 #import "LowScoreViewConroller.h"
 #import "InfoViewController.h"
 #import "HellCityAppsViewController.h"
 #import "TwitterViewController.h"
-
+#import "FacebookAPI.h"
 
 
 
@@ -36,24 +29,8 @@
 }
 
 -(IBAction)updateFacebook{
-	
-	[self presentModalViewController:session animated:YES];
-	
+	[self presentModalViewController:face animated:YES];
 }
-
-
-
-
-
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -64,15 +41,6 @@
 	lowScore.text = finishingStatement;
 	[finishingStatement release]; 
 }
-
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.

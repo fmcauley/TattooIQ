@@ -51,6 +51,7 @@
 		F0766388114EBEB600705345 /* FBPermissionDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F076637D114EBEB600705345 /* FBPermissionDialog.m */; };
 		F0766389114EBEB600705345 /* FBStreamDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F076637F114EBEB600705345 /* FBStreamDialog.m */; };
 		F076638A114EBEB600705345 /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F0766380114EBEB600705345 /* FBConnect.bundle */; };
+		F07663BA114EC1E800705345 /* FacebookAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F07663B9114EC1E800705345 /* FacebookAPI.m */; };
 		F0D608101137EEC900D516BC /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0D6080F1137EEC900D516BC /* Entitlements.plist */; };
 		F0EC167D10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */; };
 /* End PBXBuildFile section */
@@ -122,6 +123,8 @@
 		F076637E114EBEB600705345 /* FBStreamDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBStreamDialog.h; path = ../../Downloads/src/FBConnect/FBStreamDialog.h; sourceTree = SOURCE_ROOT; };
 		F076637F114EBEB600705345 /* FBStreamDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBStreamDialog.m; path = ../../Downloads/src/FBStreamDialog.m; sourceTree = SOURCE_ROOT; };
 		F0766380114EBEB600705345 /* FBConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBConnect.bundle; path = ../../Downloads/src/FBConnect.bundle; sourceTree = SOURCE_ROOT; };
+		F07663B8114EC1E800705345 /* FacebookAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookAPI.h; sourceTree = "<group>"; };
+		F07663B9114EC1E800705345 /* FacebookAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookAPI.m; sourceTree = "<group>"; };
 		F0D6080F1137EEC900D516BC /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _TattIQ_Questions_480x320.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,6 +164,8 @@
 				F015082611206B680031C193 /* HellCityAppsViewController.m */,
 				F0150840112074220031C193 /* TwitterViewController.h */,
 				F0150841112074220031C193 /* TwitterViewController.m */,
+				F07663B8114EC1E800705345 /* FacebookAPI.h */,
+				F07663B9114EC1E800705345 /* FacebookAPI.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -358,6 +363,7 @@
 				F0766387114EBEB600705345 /* FBLoginDialog.m in Sources */,
 				F0766388114EBEB600705345 /* FBPermissionDialog.m in Sources */,
 				F0766389114EBEB600705345 /* FBStreamDialog.m in Sources */,
+				F07663BA114EC1E800705345 /* FacebookAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

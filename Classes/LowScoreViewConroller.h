@@ -10,13 +10,14 @@
 @class InfoViewController;
 @class HellCityAppsViewController;
 @class TwitterViewController;
-@class SessionViewController;
+#import "FacebookAPI.h"
+
 
 @interface LowScoreViewConroller : UIViewController {
 	IBOutlet InfoViewController *infoViewController;
 	IBOutlet HellCityAppsViewController *hellCityViewController;
 	IBOutlet TwitterViewController *twitterViewController;
-	IBOutlet SessionViewController *session;
+	IBOutlet FacebookAPI *face;
 	UILabel *lowScore;
 
 }
