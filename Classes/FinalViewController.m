@@ -27,6 +27,11 @@
 	[self presentModalViewController:twitterViewController animated:YES];
 }
 
+-(IBAction)updateFacebook{
+	[self presentModalViewController:face animated:YES];
+}
+
+
 
 
 /*

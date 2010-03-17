@@ -13,7 +13,7 @@
 #define _SECRET_KEY @"af6391cf7b2bc653b690a533eb4abe41"
 
 @implementation FacebookAPI
-@synthesize loginButton, facebookAlert, usersession,username,post;
+@synthesize loginButton, facebookAlert, usersession,username,post,backButton;
 
 
 /*
@@ -46,6 +46,10 @@
 		self.loginButton = [[[FBLoginButton alloc]init]autorelease];
 		loginButton.frame = CGRectMake(0, 0, 100, 50);
 		[self.view addSubview:loginButton];
+	
+		
+	
+	
     [super viewDidLoad];
 }
 

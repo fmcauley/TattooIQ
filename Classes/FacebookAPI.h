@@ -18,6 +18,7 @@
 	FBSession *usersession;
 	NSString *username;
 	BOOL post;
+	UIButton *backButton;
 
 }
 
@@ -26,6 +27,7 @@
 @property(nonatomic,retain) FBSession *usersession;
 @property(nonatomic,retain) NSString *username;
 @property(nonatomic,assign) BOOL post;
+@property(nonatomic,retain) UIButton *backButton;
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField;
 -(void)getFacebookName;

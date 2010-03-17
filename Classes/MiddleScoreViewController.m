@@ -27,6 +27,11 @@
 	[self presentModalViewController:twitterViewController animated:YES];
  }
 
+-(IBAction)updateFacebook{
+	[self presentModalViewController:face animated:YES];
+}
+
+
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
