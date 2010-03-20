@@ -1,10 +1,4 @@
-    //
-//  FacebookAPI.m
-//  Tattoo IQ Quiz
-//
-//  Created by Frank McAuley on 3/15/10.
-//  Copyright 2010 Frank McAuley LLC. All rights reserved.
-//
+
 
 #import "FacebookAPI.h"
 #import "Tattoo_IQ_QuizAppDelegate.h"
@@ -14,23 +8,6 @@
 
 @implementation FacebookAPI
 @synthesize loginButton, facebookAlert, usersession,username,post,backButton;
-
-
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-}
-*/
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -47,20 +24,16 @@
 		loginButton.frame = CGRectMake(0, 0, 100, 50);
 		[self.view addSubview:loginButton];
 	
-		
-	
-	
+	backButton = 
+	[[UIButton buttonWithType:UIButtonTypeRoundedRect]retain];
+	backButton.frame = CGRectMake(40.0, 100.0, 100, 50);
+	[backButton setTitle:@"Go Bacl" forState:UIControlStateNormal];
+	[backButton addTarget:self action:@selector(goBack:) forControlEvents:UIControlEventTouchUpInside];
+	[self.view addSubview:backButton];
     [super viewDidLoad];
 }
 
 
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
@@ -126,6 +99,10 @@
 {
 [textField resignFirstResponder];
 return YES;
+}
+
+-(void)goBack:(id)sender{
+	[self dismissModalViewControllerAnimated:YES];
 }
 
 

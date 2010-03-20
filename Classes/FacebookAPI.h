@@ -32,6 +32,7 @@
 -(BOOL)textFieldShouldReturn:(UITextField *)textField;
 -(void)getFacebookName;
 -(void)postToWall;
+-(void)goBack:(id)sender;
 
 
 @end
