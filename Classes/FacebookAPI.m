@@ -100,7 +100,7 @@
 	
 	FBStreamDialog *dialog = [[[FBStreamDialog alloc] init] autorelease];
 	dialog.userMessagePrompt = @"Enter your message:";
-	dialog.attachment = [NSString stringWithFormat:@"{\"name\":\"HellCity.com\",\"href\":\"http://developers.facebook.com/connect.php?tab=iphone\",\"caption\":\"Caption\",\"description\":\"Description\",\"media\":[{\"type\":\"image\",\"src\":\"http://img40.yfrog.com/img40/5914/iphoneconnectbtn.jpg\",\"href\":\"http://developers.facebook.com/connect.php?tab=iphone/\"}],\"properties\":{\"another link\":{\"text\":\"Facebook home page\",\"href\":\"http://www.facebook.com\"}}}"];
+	dialog.attachment = [NSString stringWithFormat:@"{\"name\":\"HellCity.com\",\"href\":\"http://wip.hellcity.com/hell_city_iphone_apps.html\",\"caption\":\"Hell City Tattoo\",\"description\":\"The Hell City Tattoo Festival is much more than your typical tattoo convention\",\"media\":[{\"type\":\"image\",\"src\":\"http://img40.yfrog.com/img40/5914/iphoneconnectbtn.jpg\",\"href\":\"http://developers.facebook.com/connect.php?tab=iphone/\"}],\"properties\":{\"More Hell City iPhone Apps\":{\"text\":\"Hell City home page\",\"href\":\"http://www.hellcity.com\"}}}"];
 	[dialog show];
 	
 }

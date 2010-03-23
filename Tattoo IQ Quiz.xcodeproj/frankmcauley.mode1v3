@@ -252,7 +252,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>16</real>
+								<real>207</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -280,7 +280,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {0, 0}}</string>
+							<string>{{0, 391}, {207, 664}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -292,11 +292,11 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {0, 682}}</string>
+						<string>{{0, 0}, {224, 682}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>16</real>
+							<real>207</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>4 55 1276 723 0 0 1280 778 </string>
@@ -304,7 +304,7 @@
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>0pt</string>
+					<string>224pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F0FAE8A91158567F00BAFBC9</string>
+										<string>F0FAE8BE11585E8D00BAFBC9</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -342,7 +342,6 @@
 											<string>F01509911121CF300031C193</string>
 											<string>F009E4481132E32D002AE76A</string>
 											<string>F028B17E1133664E005C3AB3</string>
-											<string>F028B18B11336800005C3AB3</string>
 											<string>F028B27E1134A3E8005C3AB3</string>
 											<string>F028B27F1134A3E8005C3AB3</string>
 											<string>F028B3121134ACBD005C3AB3</string>
@@ -374,7 +373,8 @@
 											<string>F0FAE81C1154E84700BAFBC9</string>
 											<string>F0FAE8431155145400BAFBC9</string>
 											<string>F0FAE853115515A800BAFBC9</string>
-											<string>F0FAE854115515A800BAFBC9</string>
+											<string>F0FAE8AE11585B6400BAFBC9</string>
+											<string>F0FAE8AF11585B6400BAFBC9</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -386,7 +386,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1271, 626}}</string>
+								<string>{{0, 0}, {1047, 626}}</string>
 								<key>RubberWindowFrame</key>
 								<string>4 55 1276 723 0 0 1280 778 </string>
 							</dict>
@@ -406,7 +406,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 631}, {1271, 51}}</string>
+								<string>{{0, 631}, {1047, 51}}</string>
 								<key>RubberWindowFrame</key>
 								<string>4 55 1276 723 0 0 1280 778 </string>
 							</dict>
@@ -417,7 +417,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1271pt</string>
+					<string>1047pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
