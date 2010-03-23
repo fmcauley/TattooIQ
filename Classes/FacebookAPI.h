@@ -19,6 +19,8 @@
 	NSString *username;
 	BOOL post;
 	UIButton *backButton;
+	UIImage *background;
+	NSString *imageFile;
 
 }
 
@@ -28,6 +30,8 @@
 @property(nonatomic,retain) NSString *username;
 @property(nonatomic,assign) BOOL post;
 @property(nonatomic,retain) UIButton *backButton;
+@property(nonatomic,retain) UIImage *background;
+@property(nonatomic,copy)   NSString *imageFile;
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField;
 -(void)getFacebookName;

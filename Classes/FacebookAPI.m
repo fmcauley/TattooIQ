@@ -7,7 +7,7 @@
 #define _SECRET_KEY @"af6391cf7b2bc653b690a533eb4abe41"
 
 @implementation FacebookAPI
-@synthesize loginButton, facebookAlert, usersession,username,post,backButton;
+@synthesize loginButton, facebookAlert, usersession,username,post,backButton,background,imageFile;
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -19,6 +19,15 @@
 		appDelegate._session = [FBSession
 								sessionForApplication:_APP_KEY secret:_SECRET_KEY delegate:self];
 	}
+	
+	imageFile = 
+	[[NSBundle mainBundle]pathForResource:@"_TattIQ_Questions_480x320" ofType:@".jpg"];
+	background =
+	[[UIImage alloc]initWithContentsOfFile:@"imageFile"];
+	
+	
+	
+		
 	if (self.loginButton == NULL) 
 		self.loginButton = [[[FBLoginButton alloc]init]autorelease];
 		loginButton.frame = CGRectMake(0, 0, 100, 50);
@@ -27,9 +36,10 @@
 	backButton = 
 	[[UIButton buttonWithType:UIButtonTypeRoundedRect]retain];
 	backButton.frame = CGRectMake(40.0, 100.0, 100, 50);
-	[backButton setTitle:@"Go Bacl" forState:UIControlStateNormal];
+	[backButton setTitle:@"Go Back" forState:UIControlStateNormal];
 	[backButton addTarget:self action:@selector(goBack:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:backButton];
+	
     [super viewDidLoad];
 }
 
@@ -90,7 +100,7 @@
 	
 	FBStreamDialog *dialog = [[[FBStreamDialog alloc] init] autorelease];
 	dialog.userMessagePrompt = @"Enter your message:";
-	dialog.attachment = [NSString stringWithFormat:@"{\"name\":\"Facebook Connect for iPhone\",\"href\":\"http://developers.facebook.com/connect.php?tab=iphone\",\"caption\":\"Caption\",\"description\":\"Description\",\"media\":[{\"type\":\"image\",\"src\":\"http://img40.yfrog.com/img40/5914/iphoneconnectbtn.jpg\",\"href\":\"http://developers.facebook.com/connect.php?tab=iphone/\"}],\"properties\":{\"another link\":{\"text\":\"Facebook home page\",\"href\":\"http://www.facebook.com\"}}}"];
+	dialog.attachment = [NSString stringWithFormat:@"{\"name\":\"HellCity.com\",\"href\":\"http://developers.facebook.com/connect.php?tab=iphone\",\"caption\":\"Caption\",\"description\":\"Description\",\"media\":[{\"type\":\"image\",\"src\":\"http://img40.yfrog.com/img40/5914/iphoneconnectbtn.jpg\",\"href\":\"http://developers.facebook.com/connect.php?tab=iphone/\"}],\"properties\":{\"another link\":{\"text\":\"Facebook home page\",\"href\":\"http://www.facebook.com\"}}}"];
 	[dialog show];
 	
 }
