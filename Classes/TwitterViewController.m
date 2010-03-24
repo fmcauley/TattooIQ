@@ -17,7 +17,7 @@
 
 
 -(NSString *)setTheMessage{
-	return [NSString stringWithFormat:@"I just took the Tattoo IQ Test! See how much you know about tattooing, test your Tattoo IQ now!"];
+	return [NSString stringWithFormat:@"I just took the Tattoo IQ Test! See how much you know about tattooing, test your Tattoo IQ now! #TattooIQ"];
 	
 }
 

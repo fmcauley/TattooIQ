@@ -30,12 +30,12 @@
 		
 	if (self.loginButton == NULL) 
 		self.loginButton = [[[FBLoginButton alloc]init]autorelease];
-		loginButton.frame = CGRectMake(0, 0, 100, 50);
+		loginButton.frame = CGRectMake(20, 119, 100, 50);
 		[self.view addSubview:loginButton];
 	
 	backButton = 
 	[[UIButton buttonWithType:UIButtonTypeRoundedRect]retain];
-	backButton.frame = CGRectMake(40.0, 100.0, 100, 50);
+	backButton.frame = CGRectMake(20, 219, 280, 37);
 	[backButton setTitle:@"Go Back" forState:UIControlStateNormal];
 	[backButton addTarget:self action:@selector(goBack:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:backButton];
@@ -100,7 +100,7 @@
 	
 	FBStreamDialog *dialog = [[[FBStreamDialog alloc] init] autorelease];
 	dialog.userMessagePrompt = @"Enter your message:";
-	dialog.attachment = [NSString stringWithFormat:@"{\"name\":\"www.hellcity.com\",\"href\":\"http://wip.hellcity.com/hell_city_iphone_apps.html\",\"caption\":\"Tattoo IQ iPhone App\",\"description\":\"I just took the Tattoo IQ Quiz! Test your tattoo knowledge now!\",\"media\":[{\"type\":\"image\",\"src\":\"http://img40.yfrog.com/img40/5914/iphoneconnectbtn.jpg\",\"href\":\"http://developers.facebook.com/connect.php?tab=iphone/\"}],\"properties\":{\"More Hell City iPhone Apps\":{\"text\":\"Hell City home page\",\"href\":\"http://www.hellcity.com\"}}}"];
+	dialog.attachment = [NSString stringWithFormat:@"{\"name\":\"www.hellcity.com\",\"href\":\"http://wip.hellcity.com/hell_city_iphone_apps.html\",\"caption\":\"Tattoo IQ iPhone App\",\"description\":\"I just took the Tattoo IQ Quiz! Test your tattoo knowledge now!\",\"media\":[{\"type\":\"image\",\"src\":\"http://wip.hellcity.com/images/burnie_head.png\",\"href\":\"http://wip.hellcity.com/\"}],\"properties\":{\"More Hell City iPhone Apps\":{\"text\":\"Hell City Apps Page\",\"href\":\"http://wip.hellcity.com/hell_city_iphone_apps.html\"}}}"];
 	[dialog show];
 	
 }
@@ -112,6 +112,7 @@ return YES;
 }
 
 -(void)goBack:(id)sender{
+	 self.loginButton == NULL;
 	[self dismissModalViewControllerAnimated:YES];
 }
 
