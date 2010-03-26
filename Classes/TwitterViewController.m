@@ -1,4 +1,10 @@
 
+// how can i use the following line:
+//http://twitter.com/#search?q=%23TattooIQ
+//what is i craete a webview that shows the output from the above link????
+//question for tony??
+
+
 #import "TwitterViewController.h"
 
 #define INTERESTING_TAG_NAMES @"text",@"name",nil
@@ -85,8 +91,8 @@
 
 
 -(NSString *)setTheMessage{
-	return [NSString stringWithFormat:@"I just took the Tattoo IQ Test! See how much you know about tattooing, test your Tattoo IQ now! #TattooIQ"];
-	
+	return [NSString stringWithFormat:@"I just took the Tattoo IQ Test! See how much you know about tattooing, test your Tattoo IQ now! #TattooIQ http://tinyurl.com/y86cfxh"];
+	//http://www.hellcity.com/hell_city_iphone_apps.html
 }
 
 
@@ -169,8 +175,12 @@
 
 
 - (void)dealloc {
+	[tweetsView release];
+	[activityIndicator release];
+	[interestingTags release];
+	
     [super dealloc];
-}
+	}
 
 
 @end
