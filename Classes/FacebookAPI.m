@@ -35,7 +35,7 @@
 	
 	backButton = 
 	[[UIButton buttonWithType:UIButtonTypeRoundedRect]retain];
-	backButton.frame = CGRectMake(20, 219, 280, 37);
+	backButton.frame = CGRectMake(20, 400, 100, 50);
 	[backButton setTitle:@"Go Back" forState:UIControlStateNormal];
 	[backButton addTarget:self action:@selector(goBack:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:backButton];

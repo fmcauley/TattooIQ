@@ -55,7 +55,7 @@
 	NSData* result = [NSURLConnection sendSynchronousRequest:therequest returningResponse:&response error:&error];
 	NSLog(@"%@", [[[NSString alloc]initWithData:result encoding:NSASCIIStringEncoding] autorelease]);
 	
-	
+	//add logic that will tell if the update has occured! 3-25-10
 }
 
 
