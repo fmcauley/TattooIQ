@@ -251,6 +251,11 @@ c000000004B90E6F90000000000001C54
 t1267787513
 s7252
 
+N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Desktop/Franks Desktop Stuff/QuizApp/IQ_FB_Button.jpg
+c000000004BB0DAB7000000000000B5BD
+t1269881527
+s46525
+
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Desktop/fbconnect-iphone/samples/Connect/SessionViewController.h
 c000000004B869A5E0000000000000437
 t1267112542
@@ -422,9 +427,9 @@ i"FBConnect/FBConnect.h"
 i"FBConnect/FBSession.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/FacebookAPI.m
-c000000004BA9699D0000000000000E21
-t1269393821
-s3617
+c000000004BB0EF260000000000000E36
+t1269886758
+s3638
 i"FacebookAPI.h"
 i"Tattoo_IQ_QuizAppDelegate.h"
 
@@ -436,9 +441,9 @@ i<UIKit/UIKit.h>
 i"FacebookAPI.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/FinalViewController.m
-c000000004BA02F6A0000000000000816
-t1268789098
-s2070
+c000000004BB0F0200000000000000693
+t1269887008
+s1683
 i"FinalViewController.h"
 i"InfoViewController.h"
 i"HellCityAppsViewController.h"
@@ -463,20 +468,20 @@ s2146
 i"HellCityAppsViewController.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/HellCityAppsViewController.xib
-c000000004BA8235F0000000000002F52
-t1269310303
+c000000004BAC30FB0000000000002F52
+t1269575931
 s12114
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/InfoViewController.h
-c000000004B4F08E800000000000001D2
-t1263470824
-s466
+c000000004BB0B970000000000000013A
+t1269873008
+s314
 i<UIKit/UIKit.h>
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/InfoViewController.m
-c000000004B5478AD00000000000006BA
-t1263827117
-s1722
+c000000004BB0B9B4000000000000026D
+t1269873076
+s621
 i"InfoViewController.h"
 i"Quiz_GameViewController.h"
 
@@ -488,9 +493,9 @@ i<UIKit/UIKit.h>
 i"FacebookAPI.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/LowScoreViewConroller.m
-c000000004B9EE57A0000000000000597
-t1268704634
-s1431
+c000000004BB0F02200000000000005C8
+t1269887010
+s1480
 i"LowScoreViewConroller.h"
 i"InfoViewController.h"
 i"HellCityAppsViewController.h"
@@ -498,9 +503,9 @@ i"TwitterViewController.h"
 i"FacebookAPI.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/LowScoreViewConroller.xib
-c000000004B9EEAED0000000000008BE9
-t1268706029
-s35817
+c000000004BB0D5880000000000008E31
+t1269880200
+s36401
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/MiddleScoreViewController.h
 c000000004BA02D81000000000000027E
@@ -510,9 +515,9 @@ i<UIKit/UIKit.h>
 i"FacebookAPI.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/MiddleScoreViewController.m
-c000000004BA02D9A00000000000005C9
-t1268788634
-s1481
+c000000004BB0EF5400000000000005FD
+t1269886804
+s1533
 i"MiddleScoreViewController.h"
 i"InfoViewController.h"
 i"HellCityAppsViewController.h"
@@ -530,8 +535,8 @@ s1739
 i<UIKit/UIKit.h>
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/Quiz_GameViewController.m
-c000000004BA9690200000000000020DD
-t1269393666
+c000000004BB0F0EF00000000000020DD
+t1269887215
 s8413
 i"Quiz_GameViewController.h"
 i"FinalViewController.h"
@@ -567,21 +572,21 @@ i"Tattoo_IQ_QuizViewController.h"
 i"InfoViewController.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/TwitterViewController.h
-c000000004B9258610000000000000258
-t1267882081
-s600
+c000000004BAC280600000000000003EB
+t1269573638
+s1003
 i<UIKit/UIKit.h>
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/TwitterViewController.m
-c000000004BA9652700000000000008E7
-t1269392679
-s2279
+c000000004BAC33E60000000000001477
+t1269576678
+s5239
 i"TwitterViewController.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/TwitterViewController.xib
-c000000004B9258F80000000000007375
-t1267882232
-s29557
+c000000004BACEDA20000000000007A07
+t1269624226
+s31239
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Default.jpg
 c000000004B426A6E000000000002EBFC
@@ -619,14 +624,14 @@ t1267492493
 s6294
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Quiz_GameViewController.xib
-c000000004B8C668D00000000000091FB
-t1267492493
-s37371
+c000000004BA9721B00000000000090DE
+t1269395995
+s37086
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Tattoo_IQ_QuizViewController.xib
-c000000004B8C76BA00000000000051C8
-t1267496634
-s20936
+c000000004BA971B600000000000052A2
+t1269395894
+s21154
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Tattoo_IQ_Quiz_Prefix.pch
 c000000004B3CD53300000000000000C5
@@ -696,6 +701,10 @@ s5417
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ Quiz.app/HellCityAppsViewController.nib
 t1269393475
 s2310
+
+N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ Quiz.app/IQ_FB_Button.jpg
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ Quiz.app/Info.plist
 t1268705043
@@ -1372,6 +1381,9 @@ xCpResource
 xbuild/Debug-iphoneos/Tattoo IQ Quiz.app/FBConnect.bundle
 x../../Downloads/src/FBConnect.bundle
 lSLF07#2@41"Copy ../../Downloads/src/FBConnect.bundle290397846#290397846#0(0"0(0#0#83"/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/src/FBConnect.bundle4300911832#565"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/src/FBConnect.bundle" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ Quiz.app"0#
+
+CCpResource "build/Debug-iphoneos/Tattoo IQ Quiz.app/IQ_FB_Button.jpg" "../../Desktop/Franks Desktop Stuff/QuizApp/IQ_FB_Button.jpg"
+r0
 
 CCpResource "build/Debug-iphoneos/Tattoo IQ Quiz.app/MoreApps_tattooIQ.jpg" MoreApps_tattooIQ.jpg
 s290397845.847973

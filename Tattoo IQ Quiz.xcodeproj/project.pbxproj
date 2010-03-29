@@ -41,6 +41,7 @@
 		F028B16E113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */; };
 		F028B5021134D60C005C3AB3 /* SessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F028B5011134D60C005C3AB3 /* SessionViewController.xib */; };
 		F028B63311357FF2005C3AB3 /* iTunesArtWork in Resources */ = {isa = PBXBuildFile; fileRef = F028B63211357FF2005C3AB3 /* iTunesArtWork */; };
+		F02984911161157E002EAA10 /* IQ_FB_Button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F02984901161157E002EAA10 /* IQ_FB_Button.jpg */; };
 		F0766381114EBEB600705345 /* FBConnectGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = F076636F114EBEB600705345 /* FBConnectGlobal.m */; };
 		F0766382114EBEB600705345 /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F0766371114EBEB600705345 /* FBSession.m */; };
 		F0766383114EBEB600705345 /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F0766373114EBEB600705345 /* FBRequest.m */; };
@@ -102,6 +103,7 @@
 		F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoreHellCityApps_IQ_Button.png; sourceTree = "<group>"; };
 		F028B5011134D60C005C3AB3 /* SessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SessionViewController.xib; path = "../../Desktop/fbconnect-iphone/samples/Connect/SessionViewController.xib"; sourceTree = SOURCE_ROOT; };
 		F028B63211357FF2005C3AB3 /* iTunesArtWork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtWork; path = ../../Desktop/iTunesArtWork; sourceTree = SOURCE_ROOT; };
+		F02984901161157E002EAA10 /* IQ_FB_Button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IQ_FB_Button.jpg; path = "../../Desktop/Franks Desktop Stuff/QuizApp/IQ_FB_Button.jpg"; sourceTree = SOURCE_ROOT; };
 		F03187B0114095AD000021E9 /* Tattoo IQ Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tattoo IQ Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F076636D114EBEB600705345 /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBConnect.h; path = ../../Downloads/src/FBConnect/FBConnect.h; sourceTree = SOURCE_ROOT; };
 		F076636E114EBEB600705345 /* FBConnectGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBConnectGlobal.h; path = ../../Downloads/src/FBConnect/FBConnectGlobal.h; sourceTree = SOURCE_ROOT; };
@@ -204,6 +206,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F02984901161157E002EAA10 /* IQ_FB_Button.jpg */,
 				F028B63211357FF2005C3AB3 /* iTunesArtWork */,
 				F028B5011134D60C005C3AB3 /* SessionViewController.xib */,
 				F028B167113357A4005C3AB3 /* Facebook_IQ_Button.png */,
@@ -334,6 +337,7 @@
 				F028B63311357FF2005C3AB3 /* iTunesArtWork in Resources */,
 				F0D608101137EEC900D516BC /* Entitlements.plist in Resources */,
 				F076638A114EBEB600705345 /* FBConnect.bundle in Resources */,
+				F02984911161157E002EAA10 /* IQ_FB_Button.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

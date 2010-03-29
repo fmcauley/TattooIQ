@@ -12,11 +12,11 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="32"/>
-			<integer value="14"/>
-			<integer value="4"/>
 			<integer value="1"/>
+			<integer value="14"/>
 			<integer value="15"/>
+			<integer value="32"/>
+			<integer value="4"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -64,7 +64,7 @@
 					<object class="IBUILabel" id="952750796">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 59}, {280, 94}}</string>
+						<string key="NSFrame">{{20, 59}, {280, 152}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -524,6 +524,10 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">FacebookAPI</string>
 					<string key="superclassName">UIViewController</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">goBack:</string>
+						<string key="NS.object.0">id</string>
+					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">Classes/FacebookAPI.h</string>
@@ -538,10 +542,12 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>goToWebSite:</string>
 							<string>restartTheGame:</string>
+							<string>updateFacebook</string>
 							<string>updateTwitter:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -551,6 +557,7 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>face</string>
 							<string>finalScore</string>
 							<string>hellCityViewController</string>
 							<string>infoViewController</string>
@@ -558,6 +565,7 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>FacebookAPI</string>
 							<string>UILabel</string>
 							<string>HellCityAppsViewController</string>
 							<string>InfoViewController</string>
@@ -663,10 +671,12 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>goToWebSite:</string>
 							<string>restartTheGame:</string>
+							<string>updateFacebook</string>
 							<string>updateTwitter:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -676,6 +686,7 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>face</string>
 							<string>hellCityViewController</string>
 							<string>infoViewController</string>
 							<string>middleOutput</string>
@@ -683,6 +694,7 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>FacebookAPI</string>
 							<string>HellCityAppsViewController</string>
 							<string>InfoViewController</string>
 							<string>UILabel</string>
@@ -768,14 +780,18 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>activityIndicator</string>
 							<string>password</string>
 							<string>textView</string>
+							<string>tweetsView</string>
 							<string>username</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>UIActivityIndicatorView</string>
 							<string>UITextField</string>
 							<string>UILabel</string>
+							<string>UITextView</string>
 							<string>UITextField</string>
 						</object>
 					</object>

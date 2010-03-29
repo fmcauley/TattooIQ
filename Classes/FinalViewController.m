@@ -34,22 +34,14 @@
 
 
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
+
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
 	NSString *finishingStatement = [[NSString alloc] initWithFormat:@"Congratulations! Your tattoo knowledge is impressive,"
-									@" you are a Tattoo Guru! Be sure to post your results and challenge your friends to take the" 
+									@" you're a Tattoo Guru! Be sure to post your results and challenge your friends to take the" 
 									@" Tattoo IQ test!"];
 	
 	finalScore.text = finishingStatement;

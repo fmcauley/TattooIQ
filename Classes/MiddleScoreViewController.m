@@ -40,8 +40,9 @@
 	
 	
 	NSString *finishingStatement = [[NSString alloc] initWithFormat:@"You got more than two questions incorrect. " 
-									@"You are still a tattoo apprentice! " 
-									@"Be sure to study up and take the Tattoo IQ test again. Check back for monthly updates!"];
+									@"You're still a tattoo apprentice! " 
+									@"Study up and take the Tattoo IQ test again. Be sure to post your results and"
+									@" challenge your friends to take the Tattoo IQ test"];
 	middleOutput.text = finishingStatement;
 	
 	
