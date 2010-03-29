@@ -274,7 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
+									<integer>16</integer>
 									<integer>2</integer>
 									<integer>0</integer>
 								</array>
@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Quiz_GameViewController.m</string>
+								<string>LowScoreViewConroller.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Quiz_GameViewController.m</string>
+										<string>LowScoreViewConroller.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F02984C611613278002EAA10</string>
+										<string>F02984D211614448002EAA10</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -381,10 +381,10 @@
 											<string>F02984A21161251B002EAA10</string>
 											<string>F02984A31161251B002EAA10</string>
 											<string>F02984B11161275A002EAA10</string>
-											<string>F02984BB116127A4002EAA10</string>
 											<string>F02984BC116127A4002EAA10</string>
 											<string>F02984C211612874002EAA10</string>
-											<string>F02984B41161275A002EAA10</string>
+											<string>F02984C91161442B002EAA10</string>
+											<string>F02984CA1161442B002EAA10</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -580,6 +580,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>F02984D311614448002EAA10</string>
+		<string>F02984CC1161442B002EAA10</string>
+		<string>F02984CD1161442B002EAA10</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>F0286D4A10EE0A8D008EA040</string>

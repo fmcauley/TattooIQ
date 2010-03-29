@@ -1,7 +1,7 @@
 TTattoo IQ Quiz
 v7
 r0
-t291582586.126594
+t291587148.938734
 cCheck dependencies
 cCpResource "build/Distribution-iphoneos/Tattoo IQ Quiz.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
 cProcessInfoPlistFile "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Info.plist" Info.plist
@@ -494,9 +494,9 @@ i<UIKit/UIKit.h>
 i"FacebookAPI.h"
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/LowScoreViewConroller.m
-c000000004BB0F02200000000000005C8
-t1269887010
-s1480
+c000000004BB10CC500000000000005BD
+t1269894341
+s1469
 i"LowScoreViewConroller.h"
 i"InfoViewController.h"
 i"HellCityAppsViewController.h"
@@ -672,11 +672,11 @@ t1262644040
 s106404
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app
-t1269889786
+t1269894348
 s1156
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app.dSYM
-t1269889783
+t1269894344
 s102
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Default.jpg
@@ -752,7 +752,7 @@ t1268705059
 s1113
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz
-t1269889783
+t1269894344
 s145988
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo_IQ_QuizViewController.nib
@@ -856,8 +856,8 @@ t1269889782
 s32068
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Objects-normal/armv6/LowScoreViewConroller.o
-t1269889783
-s42828
+t1269894344
+s42816
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Objects-normal/armv6/MiddleScoreViewController.o
 t1269889782
@@ -926,15 +926,15 @@ s893
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies291582582#291582582#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies291587144#291587144#0(0"0(0#1#0"4300911832#0"0#
 
 CCodeSign "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app"
-s291582583.498582
-e291582586.126481
+s291587144.448565
+e291587148.937610
 r1
 xCodeSign
 x/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app
-lSLF07#2@57"CodeSign "build/Distribution-iphoneos/Tattoo IQ Quiz.app"291582583#291582586#0(0"0(0#0#93"/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app4300911832#829"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/codesign -f -s "iPhone Developer: Richard Morrison (535ST6MQ6F)" "--resource-rules=/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/ResourceRules.plist" --entitlements "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz.xcent" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app"0#
+lSLF07#2@57"CodeSign "build/Distribution-iphoneos/Tattoo IQ Quiz.app"291587144#291587148#0(0"0(0#0#93"/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app4300911832#829"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/codesign -f -s "iPhone Developer: Richard Morrison (535ST6MQ6F)" "--resource-rules=/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/ResourceRules.plist" --entitlements "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz.xcent" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app"0#
 
 CCompileC "build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Objects-normal/armv6/FBConnectGlobal.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/fbconnect-iphone/src/FBConnectGlobal.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
 s290015808.919613
@@ -1228,8 +1228,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@83"Compile /Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/InfoViewController.m291582582#291582582#0(0"0(0#0#75"/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/InfoViewController.m4300911832#2254"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz-generated-files.hmap" "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz-own-target-headers.hmap" "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz-all-target-headers.hmap" -iquote "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz-project-headers.hmap" "-F/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos" -iquote/Users/frankmcauley/Downloads/src "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/include" -I/Users/frankmcauley/iPhone_Apps/Tattoo -IIQ -IQuiz/src "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/DerivedSources/armv6" "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/DerivedSources" -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tattoo_IQ_Quiz_Prefix-ehuznaonzcotmdgpkghaddrnjzru/Tattoo_IQ_Quiz_Prefix.pch -c "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/InfoViewController.m" -o "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Objects-normal/armv6/InfoViewController.o"0#
 
 CCompileC "build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Objects-normal/armv6/LowScoreViewConroller.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/LowScoreViewConroller.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s291582582.916095
-e291582583.036179
+s291587144.240773
+e291587144.352580
 r1
 xCompileC
 xbuild/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Objects-normal/armv6/LowScoreViewConroller.o
@@ -1238,7 +1238,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/LowScoreViewConroller.m291582582#291582583#0(0"0(0#0#78"/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/LowScoreViewConroller.m4300911832#2260"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz-generated-files.hmap" "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz-own-target-headers.hmap" "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz-all-target-headers.hmap" -iquote "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz-project-headers.hmap" "-F/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos" -iquote/Users/frankmcauley/Downloads/src "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/include" -I/Users/frankmcauley/iPhone_Apps/Tattoo -IIQ -IQuiz/src "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/DerivedSources/armv6" "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/DerivedSources" -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tattoo_IQ_Quiz_Prefix-ehuznaonzcotmdgpkghaddrnjzru/Tattoo_IQ_Quiz_Prefix.pch -c "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/LowScoreViewConroller.m" -o "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Objects-normal/armv6/LowScoreViewConroller.o"0#
+lSLF07#2@86"Compile /Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/LowScoreViewConroller.m291587144#291587144#0(0"0(0#0#78"/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/LowScoreViewConroller.m4300911832#2260"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz-generated-files.hmap" "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz-own-target-headers.hmap" "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz-all-target-headers.hmap" -iquote "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz-project-headers.hmap" "-F/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos" -iquote/Users/frankmcauley/Downloads/src "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/include" -I/Users/frankmcauley/iPhone_Apps/Tattoo -IIQ -IQuiz/src "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/DerivedSources/armv6" "-I/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/DerivedSources" -include /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tattoo_IQ_Quiz_Prefix-ehuznaonzcotmdgpkghaddrnjzru/Tattoo_IQ_Quiz_Prefix.pch -c "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/LowScoreViewConroller.m" -o "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Objects-normal/armv6/LowScoreViewConroller.o"0#
 
 CCompileC "build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Objects-normal/armv6/MiddleScoreViewController.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/MiddleScoreViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
 s291582582.818028
@@ -1571,23 +1571,23 @@ x../../Desktop/iTunesArtWork
 lSLF07#2@32"Copy ../../Desktop/iTunesArtWork289880292#289880292#0(0"0(0#0#74"/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Desktop/iTunesArtWork4300907768#584"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Desktop/iTunesArtWork" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app"0#
 
 CGenerateDSYMFile "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app.dSYM" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz"
-s291582583.444923
-e291582583.495120
+s291587144.404825
+e291587144.444670
 r1
 xGenerateDSYMFile
 x/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app.dSYM
 x/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz
-lSLF07#2@134"GenerateDSYMFile "build/Distribution-iphoneos/Tattoo IQ Quiz.app.dSYM" "build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz"291582583#291582583#0(0"0(0#0#108"/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz4300911832#489"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz" -o "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app.dSYM"0#
+lSLF07#2@134"GenerateDSYMFile "build/Distribution-iphoneos/Tattoo IQ Quiz.app.dSYM" "build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz"291587144#291587144#0(0"0(0#0#108"/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz4300911832#489"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz" -o "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app.dSYM"0#
 
 CLd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz" normal armv6
-s291582583.318369
-e291582583.444799
+s291587144.352678
+e291587144.404711
 r1
 xLd
 x/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz
 xnormal
 xarmv6
-lSLF07#2@113"Link /Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz291582583#291582583#0(0"0(0#0#0"4300911832#1003"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk "-L/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos" "-F/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos" -filelist "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Objects-normal/armv6/Tattoo IQ Quiz.LinkFileList" -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz"0#
+lSLF07#2@113"Link /Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz291587144#291587144#0(0"0(0#0#0"4300911832#1003"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk "-L/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos" "-F/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos" -filelist "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Objects-normal/armv6/Tattoo IQ Quiz.LinkFileList" -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Tattoo IQ Quiz"0#
 
 CProcessInfoPlistFile "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app/Info.plist" Info.plist
 s289880271.444657
@@ -1646,10 +1646,10 @@ x/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distr
 lSLF07#2@207"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist "build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz.xcent"289880299#289880299#0(0"0(0#0#137"/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz.xcent4300907768#544"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist -entitlements -format xml -o "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ Quiz.build/Distribution-iphoneos/Tattoo IQ Quiz.build/Tattoo IQ Quiz.xcent"0#
 
 CTouch "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app"
-s291582583.495321
-e291582583.498389
+s291587144.445078
+e291587144.448368
 r1
 xTouch
 x/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app
-lSLF07#2@99"Touch /Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app291582583#291582583#0(0"0(0#0#0"4300911832#360"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app"0#
+lSLF07#2@99"Touch /Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app291587144#291587144#0(0"0(0#0#0"4300911832#360"    cd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Distribution-iphoneos/Tattoo IQ Quiz.app"0#
 

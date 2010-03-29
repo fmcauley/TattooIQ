@@ -192,6 +192,10 @@
 			F02984C211612874002EAA10 /* PBXTextBookmark */ = F02984C211612874002EAA10 /* PBXTextBookmark */;
 			F02984C311612874002EAA10 /* PBXTextBookmark */ = F02984C311612874002EAA10 /* PBXTextBookmark */;
 			F02984C611613278002EAA10 /* PBXTextBookmark */ = F02984C611613278002EAA10 /* PBXTextBookmark */;
+			F02984C91161442B002EAA10 /* PBXTextBookmark */ = F02984C91161442B002EAA10 /* PBXTextBookmark */;
+			F02984CA1161442B002EAA10 /* PBXTextBookmark */ = F02984CA1161442B002EAA10 /* PBXTextBookmark */;
+			F02984CB1161442B002EAA10 /* PBXTextBookmark */ = F02984CB1161442B002EAA10 /* PBXTextBookmark */;
+			F02984D211614448002EAA10 /* PBXTextBookmark */ = F02984D211614448002EAA10 /* PBXTextBookmark */;
 			F046F7951151B37E00C2A6F7 = F046F7951151B37E00C2A6F7 /* PBXTextBookmark */;
 			F046F7961151B37E00C2A6F7 = F046F7961151B37E00C2A6F7 /* PBXTextBookmark */;
 			F046F7971151B37E00C2A6F7 = F046F7971151B37E00C2A6F7 /* PBXTextBookmark */;
@@ -392,9 +396,9 @@
 	};
 	F0150799111FA33B0031C193 /* LowScoreViewConroller.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1181, 806}}";
-			sepNavSelRange = "{963, 0}";
-			sepNavVisRange = "{332, 1066}";
+			sepNavIntBoundsRect = "{{0, 0}, {1181, 767}}";
+			sepNavSelRange = "{881, 0}";
+			sepNavVisRange = "{332, 1003}";
 			sepNavWindowFrame = "{{19, 288}, {1259, 485}}";
 		};
 	};
@@ -544,7 +548,7 @@
 		fRef = F0150799111FA33B0031C193 /* LowScoreViewConroller.m */;
 		name = "LowScoreViewConroller.m: 41";
 		rLen = 0;
-		rLoc = 1058;
+		rLoc = 1047;
 		rType = 0;
 		vrLen = 1039;
 		vrLoc = 228;
@@ -704,7 +708,7 @@
 		fRef = F0150799111FA33B0031C193 /* LowScoreViewConroller.m */;
 		name = "LowScoreViewConroller.m: 40";
 		rLen = 0;
-		rLoc = 920;
+		rLoc = 909;
 		rType = 0;
 		vrLen = 995;
 		vrLoc = 328;
@@ -784,7 +788,7 @@
 		fRef = F0150799111FA33B0031C193 /* LowScoreViewConroller.m */;
 		name = "LowScoreViewConroller.m: 40";
 		rLen = 0;
-		rLoc = 920;
+		rLoc = 909;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 332;
@@ -804,7 +808,7 @@
 		fRef = F0150799111FA33B0031C193 /* LowScoreViewConroller.m */;
 		name = "LowScoreViewConroller.m: 40";
 		rLen = 0;
-		rLoc = 963;
+		rLoc = 952;
 		rType = 0;
 		vrLen = 1066;
 		vrLoc = 332;
@@ -858,6 +862,46 @@
 		rType = 0;
 		vrLen = 2418;
 		vrLoc = 5750;
+	};
+	F02984C91161442B002EAA10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 280";
+		rLen = 0;
+		rLoc = 7784;
+		rType = 0;
+		vrLen = 2418;
+		vrLoc = 5750;
+	};
+	F02984CA1161442B002EAA10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150799111FA33B0031C193 /* LowScoreViewConroller.m */;
+		name = "LowScoreViewConroller.m: 40";
+		rLen = 0;
+		rLoc = 952;
+		rType = 0;
+		vrLen = 1066;
+		vrLoc = 332;
+	};
+	F02984CB1161442B002EAA10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150799111FA33B0031C193 /* LowScoreViewConroller.m */;
+		name = "LowScoreViewConroller.m: 39";
+		rLen = 0;
+		rLoc = 881;
+		rType = 0;
+		vrLen = 1055;
+		vrLoc = 332;
+	};
+	F02984D211614448002EAA10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0150799111FA33B0031C193 /* LowScoreViewConroller.m */;
+		name = "LowScoreViewConroller.m: 39";
+		rLen = 0;
+		rLoc = 881;
+		rType = 0;
+		vrLen = 1003;
+		vrLoc = 332;
 	};
 	F03187B1114095AD000021E9 /* Tattoo IQ Quiz */ = {
 		isa = PBXExecutable;
