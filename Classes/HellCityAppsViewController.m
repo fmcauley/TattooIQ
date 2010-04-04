@@ -11,17 +11,13 @@
 
 @implementation HellCityAppsViewController
 
+@synthesize activityView, webview;
+
 -(void) loadURL {
-   
-	//Fit the page to the view
-    //[self webview scalesPageToFit:YES];
-	
 	NSURL *url = [[NSURL alloc] initWithString:urlField.text];
 	NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
 	webview.scalesPageToFit = YES;
 	[webview loadRequest:request];
-	
-	
 	[request release];
 	[url release];
 }
@@ -39,15 +35,33 @@
 	return YES;
 }
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
-    }
-    return self;
+
+#pragma mark -
+#pragma mark View Controller Utility Methods
+
+
+-(void)disableWebView {
+	self.webview.userInteractionEnabled = NO;
+	self.webview.alpha = .025;
 }
-*/
+
+-(void)enableWebView {
+	self.webview.userInteractionEnabled = YES;
+	self.webview.alpha = 1.0;
+}
+
+#pragma mark -
+#pragma mark Web View Delegate methods
+
+-(void)webViewDidStartLoad:(UIWebView *) theWebView {
+	[self disableWebView];
+	[self.activityView startAnimating];
+}
+
+-(void)webViewDidFinishLoad:(UIWebView *)theWebView{
+	[self enableWebView];
+	[self.activityView stopAnimating];
+}
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -56,14 +70,6 @@
 	[self loadURL];
 }
 
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.

@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -254,7 +252,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>348</real>
+								<real>250</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -277,13 +275,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
-									<integer>2</integer>
+									<integer>38</integer>
+									<integer>26</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 105}, {348, 605}}</string>
+							<string>{{0, 140}, {250, 605}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -295,11 +293,11 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {365, 623}}</string>
+						<string>{{0, 0}, {267, 623}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>348</real>
+							<real>250</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>33 114 1124 664 0 0 1280 778 </string>
@@ -307,18 +305,20 @@
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>365pt</string>
+					<string>267pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Quiz_GameViewController.m</string>
+								<string>HellCityAppsViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Quiz_GameViewController.m</string>
+										<string>HellCityAppsViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F0D5F67F1169376800843BB0</string>
+										<string>F0D5F6A911693C5B00843BB0</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -355,8 +355,6 @@
 											<string>F0FAE974115BD80800BAFBC9</string>
 											<string>F0FAE975115BD80800BAFBC9</string>
 											<string>F0FAE976115BD80800BAFBC9</string>
-											<string>F0FAEA17115C68A500BAFBC9</string>
-											<string>F0FAEA18115C68A500BAFBC9</string>
 											<string>F0FAEA19115C68A500BAFBC9</string>
 											<string>F0127FFA115D250F00D9D46A</string>
 											<string>F02984631160F14B002EAA10</string>
@@ -385,7 +383,9 @@
 											<string>F0D3B3131164EECC003DA132</string>
 											<string>F0D5F4611165682A00843BB0</string>
 											<string>F0D5F67E1169376800843BB0</string>
-											<string>F0D3B3121164EECC003DA132</string>
+											<string>F0D5F6A611693C5B00843BB0</string>
+											<string>F0D5F6A711693C5B00843BB0</string>
+											<string>F0D5F6A811693C5B00843BB0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -397,7 +397,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {754, 618}}</string>
+								<string>{{0, 0}, {852, 618}}</string>
 								<key>RubberWindowFrame</key>
 								<string>33 114 1124 664 0 0 1280 778 </string>
 							</dict>
@@ -417,7 +417,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 623}, {754, 0}}</string>
+								<string>{{0, 623}, {852, 0}}</string>
 								<key>RubberWindowFrame</key>
 								<string>33 114 1124 664 0 0 1280 778 </string>
 							</dict>
@@ -428,7 +428,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>754pt</string>
+					<string>852pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -608,7 +608,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>HellCityAppsViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -625,6 +625,8 @@
 							<string>440pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

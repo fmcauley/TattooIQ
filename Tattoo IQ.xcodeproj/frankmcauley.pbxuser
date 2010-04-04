@@ -94,7 +94,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					515,
+					613,
 					20,
 					48,
 					43,
@@ -177,6 +177,14 @@
 			F0D5F6761169360900843BB0 /* PBXTextBookmark */ = F0D5F6761169360900843BB0 /* PBXTextBookmark */;
 			F0D5F67E1169376800843BB0 /* PBXTextBookmark */ = F0D5F67E1169376800843BB0 /* PBXTextBookmark */;
 			F0D5F67F1169376800843BB0 /* PBXTextBookmark */ = F0D5F67F1169376800843BB0 /* PBXTextBookmark */;
+			F0D5F69111693AE300843BB0 /* XCBuildMessageTextBookmark */ = F0D5F69111693AE300843BB0 /* XCBuildMessageTextBookmark */;
+			F0D5F69211693AE300843BB0 /* PBXTextBookmark */ = F0D5F69211693AE300843BB0 /* PBXTextBookmark */;
+			F0D5F69E11693C2700843BB0 /* XCBuildMessageTextBookmark */ = F0D5F69E11693C2700843BB0 /* XCBuildMessageTextBookmark */;
+			F0D5F69F11693C2700843BB0 /* PBXTextBookmark */ = F0D5F69F11693C2700843BB0 /* PBXTextBookmark */;
+			F0D5F6A611693C5B00843BB0 /* PBXTextBookmark */ = F0D5F6A611693C5B00843BB0 /* PBXTextBookmark */;
+			F0D5F6A711693C5B00843BB0 /* PBXTextBookmark */ = F0D5F6A711693C5B00843BB0 /* PBXTextBookmark */;
+			F0D5F6A811693C5B00843BB0 /* PBXTextBookmark */ = F0D5F6A811693C5B00843BB0 /* PBXTextBookmark */;
+			F0D5F6A911693C5B00843BB0 /* PBXTextBookmark */ = F0D5F6A911693C5B00843BB0 /* PBXTextBookmark */;
 			F0D6081B1137EF6900D516BC = F0D6081B1137EF6900D516BC /* PlistBookmark */;
 			F0D60B6F113CB16500D516BC = F0D60B6F113CB16500D516BC /* PBXTextBookmark */;
 			F0FAE81B1154E84700BAFBC9 = F0FAE81B1154E84700BAFBC9 /* PBXTextBookmark */;
@@ -379,17 +387,17 @@
 	};
 	F015082511206B680031C193 /* HellCityAppsViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {986, 565}}";
-			sepNavSelRange = "{213, 0}";
-			sepNavVisRange = "{0, 416}";
+			sepNavIntBoundsRect = "{{0, 0}, {791, 586}}";
+			sepNavSelRange = "{350, 0}";
+			sepNavVisRange = "{0, 578}";
 			sepNavWindowFrame = "{{4, 0}, {1334, 778}}";
 		};
 	};
 	F015082611206B680031C193 /* HellCityAppsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1053}}";
-			sepNavSelRange = "{202, 43}";
-			sepNavVisRange = "{0, 1199}";
+			sepNavIntBoundsRect = "{{0, 0}, {791, 1183}}";
+			sepNavSelRange = "{488, 0}";
+			sepNavVisRange = "{98, 1063}";
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
 		};
 	};
@@ -440,7 +448,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {908, 4472}}";
 			sepNavSelRange = "{495, 11}";
-			sepNavVisRange = "{3386, 869}";
+			sepNavVisRange = "{998, 1520}";
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
 		};
 	};
@@ -868,6 +876,84 @@
 		vrLen = 869;
 		vrLoc = 3386;
 	};
+	F0D5F69111693AE300843BB0 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'HellCityAppsViewController' may not respond to '-disableWebView'";
+		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 56;
+		rType = 1;
+	};
+	F0D5F69211693AE300843BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
+		name = "HellCityAppsViewController.m: 48";
+		rLen = 0;
+		rLoc = 1273;
+		rType = 0;
+		vrLen = 812;
+		vrLoc = 743;
+	};
+	F0D5F69E11693C2700843BB0 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Property 'webview' requires method '-webview' to be defined - use @synthesize, @dynamic or provide a method implementation";
+		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 91;
+		rType = 1;
+	};
+	F0D5F69F11693C2700843BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
+		name = "HellCityAppsViewController.m: 98";
+		rLen = 0;
+		rLoc = 1959;
+		rType = 0;
+		vrLen = 627;
+		vrLoc = 1408;
+	};
+	F0D5F6A611693C5B00843BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 21";
+		rLen = 11;
+		rLoc = 495;
+		rType = 0;
+		vrLen = 1520;
+		vrLoc = 998;
+	};
+	F0D5F6A711693C5B00843BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F015082511206B680031C193 /* HellCityAppsViewController.h */;
+		name = "HellCityAppsViewController.h: 16";
+		rLen = 0;
+		rLoc = 350;
+		rType = 0;
+		vrLen = 578;
+		vrLoc = 0;
+	};
+	F0D5F6A811693C5B00843BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
+		name = "HellCityAppsViewController.m: 98";
+		rLen = 0;
+		rLoc = 1959;
+		rType = 0;
+		vrLen = 898;
+		vrLoc = 1137;
+	};
+	F0D5F6A911693C5B00843BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
+		name = "HellCityAppsViewController.m: 20";
+		rLen = 0;
+		rLoc = 488;
+		rType = 0;
+		vrLen = 1063;
+		vrLoc = 98;
+	};
 	F0D6080F1137EEC900D516BC /* Entitlements.plist */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{19, 288}, {1259, 485}}";
@@ -1023,7 +1109,7 @@
 		isa = PBXTextBookmark;
 		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
 		name = "HellCityAppsViewController.m: 12";
-		rLen = 43;
+		rLen = 79;
 		rLoc = 202;
 		rType = 0;
 		vrLen = 1199;

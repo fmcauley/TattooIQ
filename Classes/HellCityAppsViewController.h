@@ -13,9 +13,12 @@
 @interface HellCityAppsViewController : UIViewController <UITextFieldDelegate, UIWebViewDelegate>{
 	
 	IBOutlet UITextField *urlField;
-	IBOutlet UIWebView *webview;
-
+	UIWebView *webview;
+	UIActivityIndicatorView *activityView;
 }
+
+@property(nonatomic,retain)IBOutlet UIActivityIndicatorView *activityView;
+@property(nonatomic,retain)IBOutlet UIWebView *webview;
 
 -(IBAction) handleGoTapped;
 @end
