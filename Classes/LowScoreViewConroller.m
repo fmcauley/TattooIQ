@@ -37,7 +37,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	NSString *finishingStatement = [[NSString alloc] initWithFormat:@"You got more than five questions incorrect. You're a scratcher! " 
-									@"Study up and take the Tattoo IQ test again. Be sure to post your results and challenge your friends to take the Tattoo IQ test"];
+									@"Study up and take the Tattoo IQ test again. Be sure to post your results and challenge your friends to take the Tattoo IQ test!"];
 									
 	lowScore.text = finishingStatement;
 	[finishingStatement release]; 

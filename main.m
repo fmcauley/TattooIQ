@@ -1,10 +1,4 @@
-//
-//  main.m
-//  Tattoo IQ Quiz
-//
-//  Created by Frank McAuley on 12/31/09.
-//  Copyright Frank McAuley LLC 2009. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
 

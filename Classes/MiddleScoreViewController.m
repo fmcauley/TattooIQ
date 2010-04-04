@@ -39,10 +39,8 @@
     [super viewDidLoad];
 	
 	
-	NSString *finishingStatement = [[NSString alloc] initWithFormat:@"You got more than two questions incorrect. " 
-									@"You're still a tattoo apprentice! " 
-									@"Study up and take the Tattoo IQ test again. Be sure to post your results and"
-									@" challenge your friends to take the Tattoo IQ test"];
+	NSString *finishingStatement = [[NSString alloc] initWithFormat:@"You missed more than two questions. You're still a tattoo apprentice. " 
+									@"Be sure to post your results and challenge your friends to take the Tattoo IQ test!"];
 	middleOutput.text = finishingStatement;
 	
 	
