@@ -36,9 +36,9 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Distribution;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = F03187B1114095AD000021E9 /* Tattoo IQ */;
-		activeSDKPreference = iphoneos3.1.3;
+		activeSDKPreference = iphonesimulator3.1.3;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Tattoo IQ */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Tattoo IQ */,
@@ -175,6 +175,8 @@
 			F0D5F4621165682A00843BB0 = F0D5F4621165682A00843BB0 /* PBXTextBookmark */;
 			F0D5F46511657BD700843BB0 = F0D5F46511657BD700843BB0 /* PBXTextBookmark */;
 			F0D5F6761169360900843BB0 /* PBXTextBookmark */ = F0D5F6761169360900843BB0 /* PBXTextBookmark */;
+			F0D5F67E1169376800843BB0 /* PBXTextBookmark */ = F0D5F67E1169376800843BB0 /* PBXTextBookmark */;
+			F0D5F67F1169376800843BB0 /* PBXTextBookmark */ = F0D5F67F1169376800843BB0 /* PBXTextBookmark */;
 			F0D6081B1137EF6900D516BC = F0D6081B1137EF6900D516BC /* PlistBookmark */;
 			F0D60B6F113CB16500D516BC = F0D60B6F113CB16500D516BC /* PBXTextBookmark */;
 			F0FAE81B1154E84700BAFBC9 = F0FAE81B1154E84700BAFBC9 /* PBXTextBookmark */;
@@ -436,9 +438,9 @@
 	};
 	F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {936, 4238}}";
+			sepNavIntBoundsRect = "{{0, 0}, {908, 4472}}";
 			sepNavSelRange = "{495, 11}";
-			sepNavVisRange = "{154, 844}";
+			sepNavVisRange = "{3386, 869}";
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
 		};
 	};
@@ -664,9 +666,9 @@
 	};
 	F0766379114EBEB600705345 /* FBDialog.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {705, 7748}}";
+			sepNavIntBoundsRect = "{{0, 0}, {705, 7774}}";
 			sepNavSelRange = "{11630, 0}";
-			sepNavVisRange = "{10867, 2132}";
+			sepNavVisRange = "{11414, 1750}";
 		};
 	};
 	F076637A114EBEB600705345 /* FBLoginDialog.h */ = {
@@ -845,6 +847,26 @@
 		rType = 0;
 		vrLen = 2132;
 		vrLoc = 10867;
+	};
+	F0D5F67E1169376800843BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0766379114EBEB600705345 /* FBDialog.m */;
+		name = "FBDialog.m: 325";
+		rLen = 0;
+		rLoc = 11630;
+		rType = 0;
+		vrLen = 1750;
+		vrLoc = 11414;
+	};
+	F0D5F67F1169376800843BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 21";
+		rLen = 11;
+		rLoc = 495;
+		rType = 0;
+		vrLen = 869;
+		vrLoc = 3386;
 	};
 	F0D6080F1137EEC900D516BC /* Entitlements.plist */ = {
 		uiCtxt = {

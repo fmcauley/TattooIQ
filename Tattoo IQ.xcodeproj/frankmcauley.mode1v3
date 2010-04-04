@@ -277,13 +277,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>37</integer>
-									<integer>26</integer>
+									<integer>8</integer>
+									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 183}, {348, 605}}</string>
+							<string>{{0, 105}, {348, 605}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FBDialog.m</string>
+								<string>Quiz_GameViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FBDialog.m</string>
+										<string>Quiz_GameViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F0D5F6761169360900843BB0</string>
+										<string>F0D5F67F1169376800843BB0</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -382,10 +382,10 @@
 											<string>F0105C0C1164122A00CD5544</string>
 											<string>F0105C0D1164122A00CD5544</string>
 											<string>F0B6A86E1164ACC900FB5513</string>
-											<string>F0D3B3121164EECC003DA132</string>
 											<string>F0D3B3131164EECC003DA132</string>
 											<string>F0D5F4611165682A00843BB0</string>
-											<string>F0D5F46511657BD700843BB0</string>
+											<string>F0D5F67E1169376800843BB0</string>
+											<string>F0D3B3121164EECC003DA132</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -581,6 +581,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>F0286D4A10EE0A8D008EA040</string>
 		<string>/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Tattoo IQ.xcodeproj</string>
 	</array>
@@ -782,13 +784,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>F0D5F4401165645200843BB0</string>
+				<string>F0D5F6801169376800843BB0</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>F0D5F4411165645200843BB0</string>
-				<string>F0D5F4421165645200843BB0</string>
-				<string>F0D5F4431165645200843BB0</string>
-				<string>F0D5F4441165645200843BB0</string>
-				<string>F0D5F4451165645200843BB0</string>
+				<string>F0D5F6811169376800843BB0</string>
+				<string>F0D5F6821169376800843BB0</string>
+				<string>F0D5F6831169376800843BB0</string>
+				<string>F0D5F6841169376800843BB0</string>
+				<string>F0D5F6851169376800843BB0</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -950,7 +952,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>F0D3B3241164EF96003DA132</string>
+				<string>F0D5F6861169376800843BB0</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
