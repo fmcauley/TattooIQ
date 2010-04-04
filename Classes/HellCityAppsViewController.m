@@ -1,10 +1,4 @@
-//
-//  HellCityAppsViewController.m
-//  Tattoo IQ Quiz
-//
-//  Created by Frank McAuley on 2/8/10.
-//  Copyright 2010 Frank McAuley LLC. All rights reserved.
-//
+
 
 #import "HellCityAppsViewController.h"
 
@@ -85,6 +79,8 @@
 
 
 - (void)dealloc {
+	self.activityView = nil;
+	self.webview = nil;
     [super dealloc];
 }
 

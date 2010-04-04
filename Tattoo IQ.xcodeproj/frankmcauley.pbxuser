@@ -185,6 +185,10 @@
 			F0D5F6A711693C5B00843BB0 /* PBXTextBookmark */ = F0D5F6A711693C5B00843BB0 /* PBXTextBookmark */;
 			F0D5F6A811693C5B00843BB0 /* PBXTextBookmark */ = F0D5F6A811693C5B00843BB0 /* PBXTextBookmark */;
 			F0D5F6A911693C5B00843BB0 /* PBXTextBookmark */ = F0D5F6A911693C5B00843BB0 /* PBXTextBookmark */;
+			F0D5F6AC11693D7C00843BB0 /* PBXTextBookmark */ = F0D5F6AC11693D7C00843BB0 /* PBXTextBookmark */;
+			F0D5F6B111693E6A00843BB0 /* PBXTextBookmark */ = F0D5F6B111693E6A00843BB0 /* PBXTextBookmark */;
+			F0D5F6B211693E6A00843BB0 /* PBXTextBookmark */ = F0D5F6B211693E6A00843BB0 /* PBXTextBookmark */;
+			F0D5F6B311693E6A00843BB0 /* PBXTextBookmark */ = F0D5F6B311693E6A00843BB0 /* PBXTextBookmark */;
 			F0D6081B1137EF6900D516BC = F0D6081B1137EF6900D516BC /* PlistBookmark */;
 			F0D60B6F113CB16500D516BC = F0D60B6F113CB16500D516BC /* PBXTextBookmark */;
 			F0FAE81B1154E84700BAFBC9 = F0FAE81B1154E84700BAFBC9 /* PBXTextBookmark */;
@@ -395,9 +399,9 @@
 	};
 	F015082611206B680031C193 /* HellCityAppsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {791, 1183}}";
-			sepNavSelRange = "{488, 0}";
-			sepNavVisRange = "{98, 1063}";
+			sepNavIntBoundsRect = "{{0, 0}, {791, 1157}}";
+			sepNavSelRange = "{1821, 0}";
+			sepNavVisRange = "{975, 877}";
 			sepNavWindowFrame = "{{4, 0}, {1276, 778}}";
 		};
 	};
@@ -882,7 +886,7 @@
 		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 56;
+		rLoc = 50;
 		rType = 1;
 	};
 	F0D5F69211693AE300843BB0 /* PBXTextBookmark */ = {
@@ -890,7 +894,7 @@
 		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
 		name = "HellCityAppsViewController.m: 48";
 		rLen = 0;
-		rLoc = 1273;
+		rLoc = 1114;
 		rType = 0;
 		vrLen = 812;
 		vrLoc = 743;
@@ -901,7 +905,7 @@
 		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 91;
+		rLoc = 87;
 		rType = 1;
 	};
 	F0D5F69F11693C2700843BB0 /* PBXTextBookmark */ = {
@@ -909,7 +913,7 @@
 		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
 		name = "HellCityAppsViewController.m: 98";
 		rLen = 0;
-		rLoc = 1959;
+		rLoc = 1847;
 		rType = 0;
 		vrLen = 627;
 		vrLoc = 1408;
@@ -939,7 +943,7 @@
 		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
 		name = "HellCityAppsViewController.m: 98";
 		rLen = 0;
-		rLoc = 1959;
+		rLoc = 1847;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 1137;
@@ -949,10 +953,50 @@
 		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
 		name = "HellCityAppsViewController.m: 20";
 		rLen = 0;
-		rLoc = 488;
+		rLoc = 329;
 		rType = 0;
 		vrLen = 1063;
 		vrLoc = 98;
+	};
+	F0D5F6AC11693D7C00843BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
+		name = "HellCityAppsViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1002;
+		vrLoc = 0;
+	};
+	F0D5F6B111693E6A00843BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F015082511206B680031C193 /* HellCityAppsViewController.h */;
+		name = "HellCityAppsViewController.h: 16";
+		rLen = 0;
+		rLoc = 350;
+		rType = 0;
+		vrLen = 578;
+		vrLoc = 0;
+	};
+	F0D5F6B211693E6A00843BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
+		name = "HellCityAppsViewController.m: 55";
+		rLen = 51;
+		rLoc = 1178;
+		rType = 0;
+		vrLen = 897;
+		vrLoc = 908;
+	};
+	F0D5F6B311693E6A00843BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
+		name = "HellCityAppsViewController.m: 83";
+		rLen = 0;
+		rLoc = 1821;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 975;
 	};
 	F0D6080F1137EEC900D516BC /* Entitlements.plist */ = {
 		uiCtxt = {
@@ -1110,7 +1154,7 @@
 		fRef = F015082611206B680031C193 /* HellCityAppsViewController.m */;
 		name = "HellCityAppsViewController.m: 12";
 		rLen = 79;
-		rLoc = 202;
+		rLoc = 43;
 		rType = 0;
 		vrLen = 1199;
 		vrLoc = 0;
