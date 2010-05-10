@@ -262,22 +262,21 @@
 	// FORMAT IS IMPORTANT!!!!
 	// 1: Question, 2 3 4 5: Answers 1-4 respectively, 6: The right answer
 	// THIS IS A TERRIBLE WAY TO DO THIS. I will figure out how to do nested arrays to make this better.
-	NSArray *quizArray = [[NSArray alloc] initWithObjects:@"Who patented the first tattoo machine?",@"Thomas Edison",@"Sam O'Reilly",@"Thomas Riley",@"Percy Waters",@"2",
-						  @"How many layers does a tattoo get injected into skin?",@"1-2 layers",@"2-3 layers",@"3-5 layers",@"5-8 layers",@"2",
-						  @"What is the popular slang for a tattoo machine?", @"Shooter", @"Inker", @"Zapper", @"Gun", @"4",
-						  @"Body weight can distort a tattoo?", @"true", @"false", @"", @"", @"1",
-						  @"What's the name of the oldest iceman found with tattoos on his skin?", @"Yaki", @"Tommy", @"Otano", 
-						  @"Otzi", @"4",
-						  @"Who's the current Guinness World Record most heavily tattooed man?",@"Chris Longo",@"Lyle Tuttle",@"Lucky Diamond Rich",@"Don Ed Hardy",@"3",
-						  @"What's the Japanese term for hand poked tattooing?",@"Kanji",@"Itai",@"Katana",@"Tebori",@"4",
-						  @"What is one considered that is learning to tattoo from another tattoo artist?",@"Apprentice",@"Trainee",@"Learner",@"Sidehand",@"1",
-						  @"Which of the following is not a tattoo machine?",@"Pneumatic",@"Hydro",@"Coil",@"Rotary",@"2",
-						  @"Tattoo designs that are sold from the walls of studios are called?",@"Drawings",@"Stencils",@"Transfer",@"Flash",@"4",
-						  @"What is the instrument used to sterilize tattoo equipment?",@"Autoclave",@"Cooker",@"Sterilizer",@"Heatclave",@"1",
-						  @"The most current method of tattooing is?",@"Hand Poked",@"Battery",@"Electric",@"Solar",@"3",
-						  @"What is the tattoo machine designed from?",@"Telephone",@"Doorbell",@"Cassette recorder",@"Television",@"2",
-						  @"What makes a tattoo machine operate?",@"Wind Power",@"Static electricity",@"Nuclear Fission",@"Electromagnetics",@"4",
-						  @"Who's the current oldest living tattoo artist?",@"Lyle Tuttle",@"Philadelphia Eddie",@"Don Ed Hardy",@"Sailor Jerry",@"1",
+	NSArray *quizArray = [[NSArray alloc] initWithObjects:@"What is the outer layers of skin?",@"Dermatitis",@"Dermis",@"Epidermis",@"Callous",@"2",
+						  @"Which Actor does not have a tattoo?",@"Mark Wahlberg",@"Johnny Depp",@"Will Smith",@"Kurt Russell",@"3",
+						  @"Which famous inventor had tattoos?", @"Albert Einstein", @"Thomas Edison", @"Sir Isaac Newton", @"Ben Franklin", @"2",
+						  @"Cosmetic Tattooing is also known as:", @"Dermapigmentation", @"Melanomenation", @"Facial pigmenting", @"Permentation", @"1",
+						  @"A tattoo artist steps on this to make his machines operate:", @"Gun Clip", @"Foot Clamp", @"Push Button",@"Foot Pedal", @"4",
+						  @"A tattoo of an anchor means?",@"Swam with sharks",@"Sailed the Atlantic ocean",@"Dove at a ship wreck site",@"Sailed the Pacific ocean",@"2",
+						  @"Which tattoo artist called Columbus, Ohio home in the 70’s?",@"Don Ed Hardy",@"Greg Irons",@"Burt Grimm",@"Stoney St. Clair",@"4",
+						  @"Which style of tattooing uses black lines, bold shading & bright color?",@"Realism",@"Traditional",@"Biomechanical",@"Tribal",@"2",
+						  @"What damages tattoos the worst over time?",@"Aging",@"Sunlight",@"Scratching",@"Moisture",@"2",
+						  @"What life saving tattoos do people get the most?",@"ID numbers",@"Social Security number",@"Their name & address",@"Medical info",@"4",
+						  @"Who is the worlds most tattooed woman?",@"Isobel Varley",@"Lydia O’Lydia",@"Julia Gnuse",@"Tonya Seranski",@"1",
+						  @"Which U.S. President had a tattoo?",@"Bill Clinton",@"Andrew Jackson",@"Abraham Lincoln",@"George Washington",@"2",
+						  @"Maori facial tattoos are called?",@"Maoroko",@"Chintoos",@"Ta Moko",@"Facitoos",@"3",
+						  @"One of the most famous Japanese Tattooists is?",@"Horikrap II",@"Horirocka",@"Horiyoshi III",@"Horijin",@"3",
+						  @"This band had facial tattoos on one of their albums:",@"Police",@"The WHo",@"Rolling Stones",@"Black Sabbath",@"3",
 						  nil];
 	self.theQuiz = quizArray;
 	[quizArray release];

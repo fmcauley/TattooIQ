@@ -1,9 +1,4 @@
 
-// how can i use the following line:
-//http://twitter.com/#search?q=%23TattooIQ
-//what is i craete a webview that shows the output from the above link????
-//question for tony??
-
 
 #import "TwitterViewController.h"
 
@@ -92,7 +87,6 @@
 
 -(NSString *)setTheMessage{
 	return [NSString stringWithFormat:@"I just took the Tattoo IQ Test! See how much you know about tattooing, test your Tattoo IQ now! #TattooIQ http://tinyurl.com/y86cfxh"];
-	//http://www.hellcity.com/hell_city_iphone_apps.html
 }
 
 
@@ -160,18 +154,6 @@
 	
 }
 
-
-- (void)didReceiveMemoryWarning {
-	// Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-	
-	// Release any cached data, images, etc that aren't in use.
-}
-
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
-}
 
 
 - (void)dealloc {

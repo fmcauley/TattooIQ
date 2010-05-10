@@ -12,6 +12,9 @@
 
 @synthesize lowScore;
 
+#pragma mark -
+#pragma mark Button actions
+
 -(IBAction)restartTheGame {
   
 	[self presentModalViewController:infoViewController animated:YES];
@@ -32,8 +35,9 @@
 	[self presentModalViewController:face animated:YES];
 }
 
+#pragma mark -
+#pragma mark viewDidLoad
 
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
 	NSString *finishingStatement = [[NSString alloc] initWithFormat:@"You got more than five questions incorrect. You're a scratcher! " 
@@ -42,6 +46,9 @@
 	lowScore.text = finishingStatement;
 	[finishingStatement release]; 
 }
+
+#pragma mark -
+#pragma mark memory and dealloc
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.

@@ -57,8 +57,10 @@
 	[self.activityView stopAnimating];
 }
 
+#pragma mark -
+#pragma mark View did load, memory warning and dealloc
 
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 	[self loadURL];

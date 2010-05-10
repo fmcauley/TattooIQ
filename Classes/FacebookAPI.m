@@ -100,7 +100,7 @@
 	
 	FBStreamDialog *dialog = [[[FBStreamDialog alloc] init] autorelease];
 	dialog.userMessagePrompt = @"Enter your message:";
-	dialog.attachment = [NSString stringWithFormat:@"{\"name\":\"www.hellcity.com\",\"href\":\"http://www.hellcity.com/hell_city_iphone_apps.html\",\"caption\":\"Tattoo IQ iPhone App\",\"description\":\"I just took the Tattoo IQ Quiz! Test your tattoo knowledge now!\",\"media\":[{\"type\":\"image\",\"src\":\"http://www.hellcity.com/images/tattoo-IQ-brain.jpg\",\"href\":\"http://www.hellcity.com/\"}],\"properties\":{\"More Hell City iPhone Apps\":{\"text\":\"Hell City Apps Page\",\"href\":\"http://www.hellcity.com/hell_city_iphone_apps.html\"}}}"];
+	dialog.attachment = [NSString stringWithFormat:@"{\"name\":\"Get Tattoo IQ Now!\",\"href\":\"http://www.hellcity.com/hell_city_iphone_apps.html\",\"caption\":\"Tattoo IQ iPhone App\",\"description\":\"I just took the Tattoo IQ Quiz! Test your tattoo knowledge now!\",\"media\":[{\"type\":\"image\",\"src\":\"http://www.hellcity.com/images/tattoo-IQ-brain.jpg\",\"href\":\"http://www.hellcity.com/hell_city_iphone_apps.html/\"}],\"properties\":{\"More Hell City iPhone Apps\":{\"text\":\"Hell City Apps Page\",\"href\":\"http://www.hellcity.com/hell_city_iphone_apps.html\"}}}"];
 	[dialog show];
 	
 }
