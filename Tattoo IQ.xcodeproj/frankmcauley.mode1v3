@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -252,7 +254,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>16</real>
+								<real>264</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -275,13 +277,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
+									<integer>22</integer>
 									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {0, 0}}</string>
+							<string>{{0, 0}, {264, 579}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -293,11 +295,11 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {0, 597}}</string>
+						<string>{{0, 0}, {281, 597}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>16</real>
+							<real>264</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>12 137 1239 638 0 0 1280 778 </string>
@@ -305,20 +307,18 @@
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>0pt</string>
+					<string>281pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FBDialog.m</string>
+								<string>TwitterViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FBDialog.m</string>
+										<string>TwitterViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F05FA6AD119893EE00C34B47</string>
+										<string>F05FA72D1199C17200C34B47</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -381,9 +381,9 @@
 											<string>F05FA65111986CA500C34B47</string>
 											<string>F05FA65211986CA500C34B47</string>
 											<string>F05FA65311986CA500C34B47</string>
-											<string>F05FA65411986CA500C34B47</string>
 											<string>F05FA6AB119893EE00C34B47</string>
-											<string>F05FA6AC119893EE00C34B47</string>
+											<string>F05FA6B41198A7BC00C34B47</string>
+											<string>F05FA6B51198A7BC00C34B47</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -395,7 +395,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1234, 579}}</string>
+								<string>{{0, 0}, {953, 579}}</string>
 								<key>RubberWindowFrame</key>
 								<string>12 137 1239 638 0 0 1280 778 </string>
 							</dict>
@@ -415,7 +415,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 584}, {1234, 13}}</string>
+								<string>{{0, 584}, {953, 13}}</string>
 								<key>RubberWindowFrame</key>
 								<string>12 137 1239 638 0 0 1280 778 </string>
 							</dict>
@@ -426,7 +426,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1234pt</string>
+					<string>953pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -579,7 +579,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>F05FA6AE119893EE00C34B47</string>
+		<string>F05FA6BA1198A7BC00C34B47</string>
 		<string>F05FA6AF119893EE00C34B47</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>

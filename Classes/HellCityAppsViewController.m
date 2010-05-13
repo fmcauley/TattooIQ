@@ -48,13 +48,15 @@
 #pragma mark Web View Delegate methods
 
 -(void)webViewDidStartLoad:(UIWebView *) theWebView {
-	[self disableWebView];
-	[self.activityView startAnimating];
+	//[self disableWebView];
+	//[self.activityView startAnimating];
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
 }
 
 -(void)webViewDidFinishLoad:(UIWebView *)theWebView{
-	[self enableWebView];
-	[self.activityView stopAnimating];
+	//[self enableWebView];
+	//[self.activityView stopAnimating];
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 }
 
 #pragma mark -
