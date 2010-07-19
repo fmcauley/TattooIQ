@@ -32,6 +32,7 @@
 		F015082911206B680031C193 /* HellCityAppsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F015082711206B680031C193 /* HellCityAppsViewController.xib */; };
 		F0150843112074220031C193 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0150841112074220031C193 /* TwitterViewController.m */; };
 		F0150844112074220031C193 /* TwitterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0150842112074220031C193 /* TwitterViewController.xib */; };
+		F0180D0D11F4AFFC0042D979 /* iTunesArtWork in Resources */ = {isa = PBXBuildFile; fileRef = F0180D0C11F4AFFC0042D979 /* iTunesArtWork */; };
 		F0286D0B10ED0D6A008EA040 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F0286D0A10ED0D6A008EA040 /* icon.png */; };
 		F0286D4310EE09D4008EA040 /* Quiz_GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */; };
 		F0286D4710EE0A1D008EA040 /* Quiz_GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0286D4610EE0A1D008EA040 /* Quiz_GameViewController.xib */; };
@@ -40,7 +41,6 @@
 		F028B16D113357A4005C3AB3 /* Twitter_IQ_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F028B169113357A4005C3AB3 /* Twitter_IQ_Button.png */; };
 		F028B16E113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */; };
 		F028B5021134D60C005C3AB3 /* SessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F028B5011134D60C005C3AB3 /* SessionViewController.xib */; };
-		F028B63311357FF2005C3AB3 /* iTunesArtWork in Resources */ = {isa = PBXBuildFile; fileRef = F028B63211357FF2005C3AB3 /* iTunesArtWork */; };
 		F02984911161157E002EAA10 /* IQ_FB_Button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F02984901161157E002EAA10 /* IQ_FB_Button.jpg */; };
 		F0766381114EBEB600705345 /* FBConnectGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = F076636F114EBEB600705345 /* FBConnectGlobal.m */; };
 		F0766382114EBEB600705345 /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F0766371114EBEB600705345 /* FBSession.m */; };
@@ -93,6 +93,7 @@
 		F0150840112074220031C193 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
 		F0150841112074220031C193 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
 		F0150842112074220031C193 /* TwitterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TwitterViewController.xib; path = Classes/TwitterViewController.xib; sourceTree = "<group>"; };
+		F0180D0C11F4AFFC0042D979 /* iTunesArtWork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtWork; sourceTree = "<group>"; };
 		F0286D0A10ED0D6A008EA040 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		F0286D4110EE09D4008EA040 /* Quiz_GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz_GameViewController.h; sourceTree = "<group>"; };
 		F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz_GameViewController.m; sourceTree = "<group>"; };
@@ -102,7 +103,6 @@
 		F028B169113357A4005C3AB3 /* Twitter_IQ_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_IQ_Button.png; sourceTree = "<group>"; };
 		F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoreHellCityApps_IQ_Button.png; sourceTree = "<group>"; };
 		F028B5011134D60C005C3AB3 /* SessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SessionViewController.xib; path = "../../Desktop/fbconnect-iphone/samples/Connect/SessionViewController.xib"; sourceTree = SOURCE_ROOT; };
-		F028B63211357FF2005C3AB3 /* iTunesArtWork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtWork; path = ../../Desktop/iTunesArtWork; sourceTree = SOURCE_ROOT; };
 		F02984901161157E002EAA10 /* IQ_FB_Button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IQ_FB_Button.jpg; path = "../../Desktop/Franks Desktop Stuff/QuizApp/IQ_FB_Button.jpg"; sourceTree = SOURCE_ROOT; };
 		F03187B0114095AD000021E9 /* Tattoo IQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tattoo IQ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F076636D114EBEB600705345 /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBConnect.h; path = ../../Downloads/src/FBConnect/FBConnect.h; sourceTree = SOURCE_ROOT; };
@@ -206,30 +206,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F02984901161157E002EAA10 /* IQ_FB_Button.jpg */,
-				F028B63211357FF2005C3AB3 /* iTunesArtWork */,
-				F028B5011134D60C005C3AB3 /* SessionViewController.xib */,
-				F028B167113357A4005C3AB3 /* Facebook_IQ_Button.png */,
-				F028B168113357A4005C3AB3 /* TryAgain_IQ_Button.png */,
-				F028B169113357A4005C3AB3 /* Twitter_IQ_Button.png */,
-				F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */,
-				F009E3F61132D2F9002AE76A /* MoreApps_tattooIQ.jpg */,
-				F009E3F41132D2E3002AE76A /* Twitter_tattooIQ.jpg */,
-				F009E3EC1132D04A002AE76A /* TryAgain_tattooIQ.jpg */,
-				F0150842112074220031C193 /* TwitterViewController.xib */,
-				F015082711206B680031C193 /* HellCityAppsViewController.xib */,
-				F015079A111FA33B0031C193 /* LowScoreViewConroller.xib */,
-				F0150795111FA3090031C193 /* MiddleScoreViewController.xib */,
-				F0150706111F483C0031C193 /* FinalViewController.xib */,
-				F011297F10FB98EE00ECB428 /* _TattIQ_InfoPage_480x320.jpg */,
-				F011293610F9FE8000ECB428 /* Default.jpg */,
-				F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */,
-				F0286D4610EE0A1D008EA040 /* Quiz_GameViewController.xib */,
-				F0286D0A10ED0D6A008EA040 /* icon.png */,
-				2899E5210DE3E06400AC0155 /* Tattoo_IQ_QuizViewController.xib */,
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				F0180D0C11F4AFFC0042D979 /* iTunesArtWork */,
+				F0180D0611F4AC800042D979 /* nibs */,
+				F0180D0511F4AC790042D979 /* images */,
 				8D1107310486CEB800E47090 /* Info.plist */,
-				F011297C10FB989600ECB428 /* InfoViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -242,6 +222,42 @@
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0180D0511F4AC790042D979 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F011297C10FB989600ECB428 /* InfoViewController.xib */,
+				F011297F10FB98EE00ECB428 /* _TattIQ_InfoPage_480x320.jpg */,
+				F011293610F9FE8000ECB428 /* Default.jpg */,
+				F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */,
+				F0286D0A10ED0D6A008EA040 /* icon.png */,
+				F028B167113357A4005C3AB3 /* Facebook_IQ_Button.png */,
+				F028B168113357A4005C3AB3 /* TryAgain_IQ_Button.png */,
+				F028B169113357A4005C3AB3 /* Twitter_IQ_Button.png */,
+				F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */,
+				F009E3F61132D2F9002AE76A /* MoreApps_tattooIQ.jpg */,
+				F009E3F41132D2E3002AE76A /* Twitter_tattooIQ.jpg */,
+				F009E3EC1132D04A002AE76A /* TryAgain_tattooIQ.jpg */,
+				F02984901161157E002EAA10 /* IQ_FB_Button.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F0180D0611F4AC800042D979 /* nibs */ = {
+			isa = PBXGroup;
+			children = (
+				F0286D4610EE0A1D008EA040 /* Quiz_GameViewController.xib */,
+				F0150842112074220031C193 /* TwitterViewController.xib */,
+				2899E5210DE3E06400AC0155 /* Tattoo_IQ_QuizViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				F015082711206B680031C193 /* HellCityAppsViewController.xib */,
+				F015079A111FA33B0031C193 /* LowScoreViewConroller.xib */,
+				F0150795111FA3090031C193 /* MiddleScoreViewController.xib */,
+				F0150706111F483C0031C193 /* FinalViewController.xib */,
+				F028B5011134D60C005C3AB3 /* SessionViewController.xib */,
+			);
+			name = nibs;
 			sourceTree = "<group>";
 		};
 		F076636C114EBEB600705345 /* FBConnect */ = {
@@ -334,10 +350,10 @@
 				F028B16D113357A4005C3AB3 /* Twitter_IQ_Button.png in Resources */,
 				F028B16E113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png in Resources */,
 				F028B5021134D60C005C3AB3 /* SessionViewController.xib in Resources */,
-				F028B63311357FF2005C3AB3 /* iTunesArtWork in Resources */,
 				F0D608101137EEC900D516BC /* Entitlements.plist in Resources */,
 				F076638A114EBEB600705345 /* FBConnect.bundle in Resources */,
 				F02984911161157E002EAA10 /* IQ_FB_Button.jpg in Resources */,
+				F0180D0D11F4AFFC0042D979 /* iTunesArtWork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +463,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = Entitlements.plist;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hell City Ltd.";
+				CURRENT_PROJECT_VERSION = 1.02;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -484,7 +501,7 @@
 				F0D607FF1137EA0500D516BC /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Distribution;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tattoo IQ" */ = {
 			isa = XCConfigurationList;
@@ -494,7 +511,7 @@
 				F0D607FE1137EA0500D516BC /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Distribution;
 		};
 /* End XCConfigurationList section */
 	};

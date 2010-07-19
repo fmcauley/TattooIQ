@@ -201,6 +201,7 @@
 		NSInteger theAnswerValue = 1;
 		[self checkAnswer:(int)theAnswerValue];
 		
+		
 	}
 	
 }
@@ -276,7 +277,7 @@
 						  @"Which U.S. President had a tattoo?",@"Bill Clinton",@"Andrew Jackson",@"Abraham Lincoln",@"George Washington",@"2",
 						  @"Maori facial tattoos are called?",@"Maoroko",@"Chintoos",@"Ta Moko",@"Facitoos",@"3",
 						  @"One of the most famous Japanese Tattooists is?",@"Horikrap II",@"Horirocka",@"Horiyoshi III",@"Horijin",@"3",
-						  @"This band had facial tattoos on one of their albums:",@"Police",@"The WHo",@"Rolling Stones",@"Black Sabbath",@"3",
+						  @"This band had facial tattoos on one of their albums:",@"Police",@"The Who",@"Rolling Stones",@"Black Sabbath",@"3",
 						  nil];
 	self.theQuiz = quizArray;
 	[quizArray release];
