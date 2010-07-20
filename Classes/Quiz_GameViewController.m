@@ -228,8 +228,7 @@
 -(void)checkAnswer:(int)theAnswerValue
 {
 	
-	//FOR TESTING ONLY
-	NSLog(@"The value %d\n ",restartGame); //THIS WILL BE REMOVED AFTER TESTING
+	
 	if(rightAnswer == theAnswerValue)
 	{
 		theQuestion.text = @"Correct!\n Ready for the next question?";
@@ -263,21 +262,22 @@
 	// FORMAT IS IMPORTANT!!!!
 	// 1: Question, 2 3 4 5: Answers 1-4 respectively, 6: The right answer
 	// THIS IS A TERRIBLE WAY TO DO THIS. I will figure out how to do nested arrays to make this better.
-	NSArray *quizArray = [[NSArray alloc] initWithObjects:@"What is the outer layers of skin?",@"Dermatitis",@"Dermis",@"Epidermis",@"Callous",@"2",
-						  @"Which Actor does not have a tattoo?",@"Mark Wahlberg",@"Johnny Depp",@"Will Smith",@"Kurt Russell",@"3",
-						  @"Which famous inventor had tattoos?", @"Albert Einstein", @"Thomas Edison", @"Sir Isaac Newton", @"Ben Franklin", @"2",
-						  @"Cosmetic Tattooing is also known as:", @"Dermapigmentation", @"Melanomenation", @"Facial pigmenting", @"Permentation", @"1",
-						  @"A tattoo artist steps on this to make his machines operate:", @"Gun Clip", @"Foot Clamp", @"Push Button",@"Foot Pedal", @"4",
-						  @"A tattoo of an anchor means?",@"Swam with sharks",@"Sailed the Atlantic ocean",@"Dove at a ship wreck site",@"Sailed the Pacific ocean",@"2",
-						  @"Which tattoo artist called Columbus, Ohio home in the 70’s?",@"Don Ed Hardy",@"Greg Irons",@"Burt Grimm",@"Stoney St. Clair",@"4",
-						  @"Which style of tattooing uses black lines, bold shading & bright color?",@"Realism",@"Traditional",@"Biomechanical",@"Tribal",@"2",
-						  @"What damages tattoos the worst over time?",@"Aging",@"Sunlight",@"Scratching",@"Moisture",@"2",
-						  @"What life saving tattoos do people get the most?",@"ID numbers",@"Social Security number",@"Their name & address",@"Medical info",@"4",
-						  @"Who is the worlds most tattooed woman?",@"Isobel Varley",@"Lydia O’Lydia",@"Julia Gnuse",@"Tonya Seranski",@"1",
-						  @"Which U.S. President had a tattoo?",@"Bill Clinton",@"Andrew Jackson",@"Abraham Lincoln",@"George Washington",@"2",
-						  @"Maori facial tattoos are called?",@"Maoroko",@"Chintoos",@"Ta Moko",@"Facitoos",@"3",
-						  @"One of the most famous Japanese Tattooists is?",@"Horikrap II",@"Horirocka",@"Horiyoshi III",@"Horijin",@"3",
-						  @"This band had facial tattoos on one of their albums:",@"Police",@"The Who",@"Rolling Stones",@"Black Sabbath",@"3",
+	NSArray *quizArray = [[NSArray alloc] initWithObjects:
+						  @"Who invented the 'magnum' tattoo needle?",@"Don Ed Hardy",@"Sailor Jerry",@"Marty Holcomb",@"Horiyoshi I",@"2",
+						  @"When did European explorers discover Polynesian tattooing?",@"1901",@"1753",@"1987",@"1595",@"4",
+						  @"Who was the first person to tattoo while skydiving?", @"Al Christou", @"Carson Hill", @"Travis Pastrana", @"Guy Aitchison", @"1",
+						  @"Which tattoo artist is know for creating evil tattoos?", @"Vyvyn Lazonga", @"Filip Leu", @"Paul Booth", @"Tin Tin", @"3",
+						  @"What does the swallow tattoo mean?", @"Swam 1000 miles", @"Sailed 5000 miles", @"Flew 10000 miles",@"Walked 1000 miles", @"2",
+						  @"Which famous contortionist has performed at the Hell City Tattoo Fest?",@"Jeff 'Superfly' Solin",@"Stretchy Sam",@"Rubberboy",@"Rubber Randy",@"3",
+						  @"Who holds the world record for most tattoos done within 24 hours?",@"Kat Von D",@"Oliver Peck",@"Hollis Cantrell",@"Jimi Litwalk",@"3",
+						  @"When did tattooing become legal in New York?",@"1997",@"1965",@"1972",@"2001",@"1",
+						  @"Tattoo Inks are made of what?",@"Ashes",@"Pigment",@"Food Coloring",@"Oil",@"2",
+						  @"Which culture tattoos their faces with Ta Moko's?",@"Japanese",@"Icelandic",@"Chinese",@"Maori",@"4",
+						  @"Which technique is often used with coloring flash?",@"Spit Shading",@"Scratching",@"Scrubbing",@"Drip Drop",@"1",
+						  @"Which tattoo artist is known for his organic images?",@"Chris Trevino",@"Leo Zulueta",@"Guy Aitchison",@"Joe Capobianco",@"3",
+						  @"Don Ed Hardy tattoos in what city?",@"New York",@"Los Angeles",@"San Francisco",@"Florida",@"3",
+						  @"The Japanese gang know for their tattoos are?",@"Yamozi",@"Yakuza",@"Takatura",@"Kirosumi",@"2",
+						  @"When did Sailor Jerry die?",@"1973",@"1985",@"1955",@"1932",@"1",
 						  nil];
 	self.theQuiz = quizArray;
 	[quizArray release];
