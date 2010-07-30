@@ -432,7 +432,7 @@
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos2.2.1;
+				SDKROOT = iphonesimulator4.0;
 				USER_HEADER_SEARCH_PATHS = /Users/frankmcauley/Downloads/src/;
 			};
 			name = Debug;
@@ -452,7 +452,7 @@
 					Quiz/src,
 				);
 				PREBINDING = NO;
-				SDKROOT = iphoneos2.2.1;
+				SDKROOT = iphonesimulator4.0;
 				USER_HEADER_SEARCH_PATHS = /Users/frankmcauley/Downloads/src/;
 			};
 			name = Release;
@@ -474,7 +474,7 @@
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphonesimulator4.0;
 				USER_HEADER_SEARCH_PATHS = /Users/frankmcauley/Downloads/src/;
 			};
 			name = Distribution;
