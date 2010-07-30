@@ -55,6 +55,8 @@
 		F07663BA114EC1E800705345 /* FacebookAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F07663B9114EC1E800705345 /* FacebookAPI.m */; };
 		F0D608101137EEC900D516BC /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0D6080F1137EEC900D516BC /* Entitlements.plist */; };
 		F0EC167D10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */; };
+		F0F3CC3C12031F4400A3599C /* QuestionHintText.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F3CC3B12031F4400A3599C /* QuestionHintText.m */; };
+		F0F3CC3F12031F9600A3599C /* QuestionsThiredGeneration.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F3CC3E12031F9600A3599C /* QuestionsThiredGeneration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +131,10 @@
 		F07663B9114EC1E800705345 /* FacebookAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookAPI.m; sourceTree = "<group>"; };
 		F0D6080F1137EEC900D516BC /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		F0EC167C10F76C2C00C1F361 /* _TattIQ_Questions_480x320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _TattIQ_Questions_480x320.jpg; sourceTree = "<group>"; };
+		F0F3CC3A12031F4400A3599C /* QuestionHintText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionHintText.h; sourceTree = "<group>"; };
+		F0F3CC3B12031F4400A3599C /* QuestionHintText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionHintText.m; sourceTree = "<group>"; };
+		F0F3CC3D12031F9600A3599C /* QuestionsThiredGeneration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionsThiredGeneration.h; sourceTree = "<group>"; };
+		F0F3CC3E12031F9600A3599C /* QuestionsThiredGeneration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionsThiredGeneration.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +189,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				F0F3CC3912031F1600A3599C /* Modals */,
 				F076636C114EBEB600705345 /* FBConnect */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -287,6 +294,17 @@
 			name = FBConnect;
 			sourceTree = "<group>";
 		};
+		F0F3CC3912031F1600A3599C /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				F0F3CC3A12031F4400A3599C /* QuestionHintText.h */,
+				F0F3CC3B12031F4400A3599C /* QuestionHintText.m */,
+				F0F3CC3D12031F9600A3599C /* QuestionsThiredGeneration.h */,
+				F0F3CC3E12031F9600A3599C /* QuestionsThiredGeneration.m */,
+			);
+			name = Modals;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -384,6 +402,8 @@
 				F0766388114EBEB600705345 /* FBPermissionDialog.m in Sources */,
 				F0766389114EBEB600705345 /* FBStreamDialog.m in Sources */,
 				F07663BA114EC1E800705345 /* FacebookAPI.m in Sources */,
+				F0F3CC3C12031F4400A3599C /* QuestionHintText.m in Sources */,
+				F0F3CC3F12031F9600A3599C /* QuestionsThiredGeneration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -224,6 +224,16 @@
 	[self checkAnswer:(int)theAnswerValue];
 }
 
+-(void)showCorrectAnswerHint {
+	
+	UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Correct Answer" 
+												   message:@"A magnum is a tattoo needle with two rows, one on top of the other. Invented by Sailor Jerry Collins in Hawaii." 
+												  delegate:self 
+										 cancelButtonTitle:@"Okay" 
+										 otherButtonTitles:nil];
+	[alert show];
+	[alert release];
+}
 // Check for the answer (this is not written right, but it runs)
 -(void)checkAnswer:(int)theAnswerValue
 {
@@ -233,6 +243,7 @@
 	{
 		theQuestion.text = @"Correct!\n Ready for the next question?";
 		myScore = myScore + 10;
+		[self showCorrectAnswerHint];
 	}
 	else
 	{

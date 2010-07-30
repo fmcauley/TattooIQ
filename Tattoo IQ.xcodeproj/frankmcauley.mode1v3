@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -273,6 +271,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>7</integer>
+									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -307,12 +307,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TwitterViewController.m</string>
+								<string>Quiz_GameViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -320,11 +322,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TwitterViewController.m</string>
+										<string>Quiz_GameViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F0F3CC151203167A00A3599C</string>
+										<string>F0F3CC2F12031C9800A3599C</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -373,11 +375,11 @@
 											<string>F0180D3211F4B2940042D979</string>
 											<string>F0180D3311F4B2940042D979</string>
 											<string>F0180D3411F4B2940042D979</string>
-											<string>F0180D3511F4B2940042D979</string>
-											<string>F0180D3E11F4B4630042D979</string>
-											<string>F0180D3F11F4B4630042D979</string>
+											<string>F0F3CC2612031C5100A3599C</string>
+											<string>F0F3CC2712031C5100A3599C</string>
+											<string>F0F3CC2812031C5100A3599C</string>
+											<string>F0F3CC2912031C5100A3599C</string>
 											<string>F0F3CC131203167A00A3599C</string>
-											<string>F0F3CC141203167A00A3599C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
