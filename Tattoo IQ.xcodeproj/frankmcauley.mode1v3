@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>F0180D4A11F4B9340042D979</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>Quiz_GameViewController.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>F0180D4B11F4B9340042D979</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>Quiz_GameViewController.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>F0180D6611F4D75D0042D979</string>
-						<key>history</key>
-						<array>
-							<string>F0180D4611F4B8A30042D979</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {1266, 335}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>-5 48 1266 376 0 0 1280 778 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -367,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F0180D6511F4D75D0042D979</string>
+										<string>F05AF80112026EC000C891BE</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -420,7 +379,7 @@
 											<string>F0180D3511F4B2940042D979</string>
 											<string>F0180D3E11F4B4630042D979</string>
 											<string>F0180D3F11F4B4630042D979</string>
-											<string>F0B44F2C11E55EE6007186CC</string>
+											<string>F0180D6511F4D75D0042D979</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -432,14 +391,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {890, 619}}</string>
+								<string>{{0, 0}, {890, 617}}</string>
 								<key>RubberWindowFrame</key>
 								<string>4 55 1276 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>619pt</string>
+							<string>617pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -452,14 +411,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 624}, {890, 58}}</string>
+								<string>{{0, 622}, {890, 60}}</string>
 								<key>RubberWindowFrame</key>
 								<string>4 55 1276 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>58pt</string>
+							<string>60pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -478,9 +437,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>F0180D1B11F4B0200042D979</string>
+				<string>F05AF799120109D300C891BE</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>F0180D1C11F4B0200042D979</string>
+				<string>F05AF79A120109D300C891BE</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -616,13 +575,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>F0180D2F11F4B06C0042D979</string>
-		<string>F0180D2911F4B0370042D979</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>F0286D4A10EE0A8D008EA040</string>
-		<string>/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Tattoo IQ.xcodeproj</string>
-		<string>F0180D4A11F4B9340042D979</string>
 	</array>
 	<key>WindowString</key>
 	<string>4 55 1276 723 0 0 1280 778 </string>
@@ -646,7 +600,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FBDialog.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -704,7 +658,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>F0286D4A10EE0A8D008EA040</string>
-				<string>F0180D1D11F4B0200042D979</string>
+				<string>F05AF7851201095F00C891BE</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -824,13 +778,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>F0180D1E11F4B0200042D979</string>
+				<string>F05AF7861201095F00C891BE</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>F0180D1F11F4B0200042D979</string>
-				<string>F0180D2011F4B0200042D979</string>
-				<string>F0180D2111F4B0200042D979</string>
-				<string>F0180D2211F4B0200042D979</string>
-				<string>F0180D2311F4B0200042D979</string>
+				<string>F05AF7871201095F00C891BE</string>
+				<string>F05AF7881201095F00C891BE</string>
+				<string>F05AF7891201095F00C891BE</string>
+				<string>F05AF78A1201095F00C891BE</string>
+				<string>F05AF78B1201095F00C891BE</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>

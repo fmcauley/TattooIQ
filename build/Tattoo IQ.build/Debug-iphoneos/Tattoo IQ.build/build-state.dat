@@ -1,62 +1,8 @@
 TTattoo IQ
 v7
 r0
-t301249174.725654
+t302057882.262752
 cCheck dependencies
-cCpResource "build/Debug-iphoneos/Tattoo IQ.app/ResourceRules.plist" /Developer/xcode32/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
-cProcessInfoPlistFile "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Info.plist" Info.plist
-cCompileXIB "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/MainWindow.xib"
-cCompileXIB "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Tattoo_IQ_QuizViewController.xib"
-cCopyPNGFile "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/icon.png" icon.png
-cCompileXIB "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Quiz_GameViewController.xib"
-cCpResource "build/Debug-iphoneos/Tattoo IQ.app/_TattIQ_Questions_480x320.jpg" _TattIQ_Questions_480x320.jpg
-cCpResource "build/Debug-iphoneos/Tattoo IQ.app/Default.jpg" Default.jpg
-cCompileXIB "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/InfoViewController.xib"
-cCpResource "build/Debug-iphoneos/Tattoo IQ.app/_TattIQ_InfoPage_480x320.jpg" _TattIQ_InfoPage_480x320.jpg
-cCompileXIB "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/FinalViewController.xib"
-cCompileXIB "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/MiddleScoreViewController.xib"
-cCompileXIB "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/LowScoreViewConroller.xib"
-cCompileXIB "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/HellCityAppsViewController.xib"
-cCompileXIB "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/TwitterViewController.xib"
-cCpResource "build/Debug-iphoneos/Tattoo IQ.app/TryAgain_tattooIQ.jpg" TryAgain_tattooIQ.jpg
-cCpResource "build/Debug-iphoneos/Tattoo IQ.app/Twitter_tattooIQ.jpg" Twitter_tattooIQ.jpg
-cCpResource "build/Debug-iphoneos/Tattoo IQ.app/MoreApps_tattooIQ.jpg" MoreApps_tattooIQ.jpg
-cCopyPNGFile "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Facebook_IQ_Button.png" Facebook_IQ_Button.png
-cCopyPNGFile "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/TryAgain_IQ_Button.png" TryAgain_IQ_Button.png
-cCopyPNGFile "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Twitter_IQ_Button.png" Twitter_IQ_Button.png
-cCopyPNGFile "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/MoreHellCityApps_IQ_Button.png" MoreHellCityApps_IQ_Button.png
-cCompileXIB "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Desktop/fbconnect-iphone/samples/Connect/SessionViewController.xib"
-cCopyPlistFile "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Entitlements.plist" Entitlements.plist
-cCpResource "build/Debug-iphoneos/Tattoo IQ.app/FBConnect.bundle" ../../Downloads/src/FBConnect.bundle
-cCpResource "build/Debug-iphoneos/Tattoo IQ.app/IQ_FB_Button.jpg" "../../Desktop/Franks Desktop Stuff/QuizApp/IQ_FB_Button.jpg"
-cCpResource "build/Debug-iphoneos/Tattoo IQ.app/iTunesArtWork" iTunesArtWork
-cProcessPCH /var/folders/Mw/MwQHxZM3G60cD-hydq13q++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tattoo_IQ_Quiz_Prefix-ajzakptufhuynobbfoktjjoqgbkr/Tattoo_IQ_Quiz_Prefix.pch.gch Tattoo_IQ_Quiz_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/main.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/Tattoo_IQ_QuizAppDelegate.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/Tattoo_IQ_QuizAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/Tattoo_IQ_QuizViewController.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/Tattoo_IQ_QuizViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/Quiz_GameViewController.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/Quiz_GameViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/InfoViewController.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/InfoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/FinalViewController.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/FinalViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/MiddleScoreViewController.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/MiddleScoreViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/LowScoreViewConroller.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/LowScoreViewConroller.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/HellCityAppsViewController.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/HellCityAppsViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/TwitterViewController.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/TwitterViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/FBConnectGlobal.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/src/FBConnectGlobal.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/FBSession.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/src/FBSession.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/FBRequest.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/src/FBRequest.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/FBXMLHandler.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/src/FBXMLHandler.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/FBLoginButton.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/src/FBLoginButton.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/FBDialog.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/src/FBDialog.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/FBLoginDialog.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/src/FBLoginDialog.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/FBPermissionDialog.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/src/FBPermissionDialog.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/FBStreamDialog.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/../../Downloads/src/FBStreamDialog.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/FacebookAPI.o" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Classes/FacebookAPI.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Tattoo IQ" normal armv6
-cGenerateDSYMFile "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app.dSYM" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Tattoo IQ"
-cProcessProductPackaging "/Users/frankmcauley/Library/MobileDevice/Provisioning Profiles/CFE4BC7B-8638-4734-B612-03DB91D0681F.mobileprovision" "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/embedded.mobileprovision"
-cTouch "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app"
-cProcessProductPackaging /Developer/xcode32/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Tattoo IQ.xcent"
-cCodeSign "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app"
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk
 c000000004B79A1A50000000000000110
@@ -583,132 +529,132 @@ t1262644040
 s106404
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app
-t1279556374
-s1156
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app.dSYM
 t1279556371
 s102
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Default.jpg
-t1279555763
-s191484
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Entitlements.plist
-t1279555765
-s62
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/FBConnect.bundle
-t1279555765
-s102
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Facebook_IQ_Button.png
-t1279555764
-s7814
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/FinalViewController.nib
-t1279555763
-s5417
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/HellCityAppsViewController.nib
-t1279555765
-s2610
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/IQ_FB_Button.jpg
-t1279555765
-s46525
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Info.plist
-t1279555761
-s799
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/InfoViewController.nib
-t1279555763
-s4187
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/LowScoreViewConroller.nib
-t1279555764
-s5441
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/MainWindow.nib
-t1279555762
-s1493
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/MiddleScoreViewController.nib
-t1279555764
-s5438
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/MoreApps_tattooIQ.jpg
-t1279555764
-s27129
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/MoreHellCityApps_IQ_Button.png
-t1279555765
-s6418
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/PkgInfo
-t1279555761
-s8
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Quiz_GameViewController.nib
-t1279555763
-s5711
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/ResourceRules.plist
 t1279555761
 s485
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/SessionViewController.nib
-t1279555765
-s1113
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Tattoo IQ
 t1279556371
 s184324
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Tattoo_IQ_QuizViewController.nib
-t1279555762
-s1668
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/TryAgain_IQ_Button.png
-t1279555765
-s6466
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/TryAgain_tattooIQ.jpg
-t1279555764
-s29484
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/TwitterViewController.nib
-t1279555764
-s4828
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Twitter_IQ_Button.png
-t1279555765
-s7123
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/Twitter_tattooIQ.jpg
-t1279555764
-s25584
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/_TattIQ_InfoPage_480x320.jpg
-t1279555763
-s157495
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/_TattIQ_Questions_480x320.jpg
-t1279555763
-s106404
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/embedded.mobileprovision
 t1279555767
 s7240
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/iTunesArtWork
-t1279555765
-s9601
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app/icon.png
-t1279555763
-s10630
+t2
+s0
 
 N/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Tattoo IQ.build/Debug-iphoneos/Tattoo IQ.build/Objects-normal/armv6/FBConnectGlobal.o
 t1279555766
@@ -834,7 +780,7 @@ s1091
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies301249171#301249171#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies302191452#302191452#0(203"[BEROR]error: There is no SDK with the name or path 'iphoneos2.2.1'[BEROR]Code Sign error: The identity 'Entitlements.plist' doesn't match any valid certificate/private key pair in the default keychain2(4@60"error: There is no SDK with the name or path 'iphoneos2.2.1'302191452#18446744073709551615#0#0(1@0"0(4@127"Code Sign error: The identity 'Entitlements.plist' doesn't match any valid certificate/private key pair in the default keychain302191452#18446744073709551615#0#0(1@0"0(0#1#0"8613324832#0"0#
 
 CCodeSign "/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/build/Debug-iphoneos/Tattoo IQ.app"
 s301249171.617651
