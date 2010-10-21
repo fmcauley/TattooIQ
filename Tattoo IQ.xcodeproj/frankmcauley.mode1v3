@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -265,19 +267,21 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>E2644B35053B69B200211256</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
-									<integer>2</integer>
+									<integer>5</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {259, 664}}</string>
+							<string>{{0, 0}, {259, 479}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -289,14 +293,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {276, 682}}</string>
+						<string>{{0, 0}, {276, 497}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>259</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>4 55 1276 723 0 0 1280 778 </string>
+						<string>50 240 1169 538 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -307,14 +311,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Quiz_GameViewController.m</string>
+								<string>Tattoo_IQ_QuizAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Quiz_GameViewController.m</string>
+										<string>Tattoo_IQ_QuizAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F0F3CC2F12031C9800A3599C</string>
+										<string>F01906461243E12900A24C45</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>
@@ -373,13 +375,18 @@
 											<string>F0180D1911F4B0200042D979</string>
 											<string>F0180D2D11F4B06C0042D979</string>
 											<string>F0180D3211F4B2940042D979</string>
-											<string>F0180D3311F4B2940042D979</string>
-											<string>F0180D3411F4B2940042D979</string>
-											<string>F0F3CC2612031C5100A3599C</string>
 											<string>F0F3CC2712031C5100A3599C</string>
-											<string>F0F3CC2812031C5100A3599C</string>
-											<string>F0F3CC2912031C5100A3599C</string>
-											<string>F0F3CC131203167A00A3599C</string>
+											<string>F00881E21221DF64009667DD</string>
+											<string>F00881FF1221E7D1009667DD</string>
+											<string>F00882001221E7D1009667DD</string>
+											<string>F00882011221E7D1009667DD</string>
+											<string>F00882021221E7D1009667DD</string>
+											<string>F01A31101241A50900DB81F4</string>
+											<string>F01A31241241A57400DB81F4</string>
+											<string>F01A31251241A57400DB81F4</string>
+											<string>F01906441243E12900A24C45</string>
+											<string>F01906451243E12900A24C45</string>
+											<string>F0180D3411F4B2940042D979</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -391,14 +398,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {995, 511}}</string>
+								<string>{{0, 0}, {888, 412}}</string>
 								<key>RubberWindowFrame</key>
-								<string>4 55 1276 723 0 0 1280 778 </string>
+								<string>50 240 1169 538 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>511pt</string>
+							<string>412pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -411,18 +418,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 516}, {995, 166}}</string>
+								<string>{{0, 417}, {888, 80}}</string>
 								<key>RubberWindowFrame</key>
-								<string>4 55 1276 723 0 0 1280 778 </string>
+								<string>50 240 1169 538 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>166pt</string>
+							<string>80pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>995pt</string>
+					<string>888pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -437,9 +444,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>F0F3CBEC1203145D00A3599C</string>
+				<string>F01906471243E12900A24C45</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>F0F3CBED1203145D00A3599C</string>
+				<string>F01906481243E12900A24C45</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -575,13 +582,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>F0286D4A10EE0A8D008EA040</string>
 		<string>/Users/frankmcauley/iPhone_Apps/Tattoo IQ Quiz/Tattoo IQ.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>4 55 1276 723 0 0 1280 778 </string>
+	<string>50 240 1169 538 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -602,25 +607,23 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TwitterViewController.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1276, 440}}</string>
+								<string>{{0, 0}, {821, 158}}</string>
 								<key>RubberWindowFrame</key>
-								<string>4 56 1276 722 0 0 1280 778 </string>
+								<string>50 338 821 440 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>440pt</string>
+							<string>158pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -635,9 +638,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 445}, {1276, 236}}</string>
+								<string>{{0, 163}, {821, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>4 56 1276 722 0 0 1280 778 </string>
+								<string>50 338 821 440 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -646,7 +649,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>681pt</string>
+					<string>399pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -660,14 +663,14 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>F0286D4A10EE0A8D008EA040</string>
-				<string>F0F3CBE51203138100A3599C</string>
+				<string>F01906491243E12900A24C45</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.buildV3</string>
 			<key>WindowString</key>
-			<string>4 56 1276 722 0 0 1280 778 </string>
+			<string>50 338 821 440 0 0 1280 778 </string>
 			<key>WindowToolGUID</key>
 			<string>F0286D4A10EE0A8D008EA040</string>
 			<key>WindowToolIsVisible</key>
@@ -780,13 +783,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>F0F3CC021203165A00A3599C</string>
+				<string>F01905881241AE0600A24C45</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>F0F3CC031203165A00A3599C</string>
-				<string>F0F3CC041203165A00A3599C</string>
-				<string>F0F3CC051203165A00A3599C</string>
-				<string>F0F3CC061203165A00A3599C</string>
-				<string>F0F3CC071203165A00A3599C</string>
+				<string>F01905891241AE0600A24C45</string>
+				<string>F019058A1241AE0600A24C45</string>
+				<string>F019058B1241AE0600A24C45</string>
+				<string>F019058C1241AE0600A24C45</string>
+				<string>F019058D1241AE0600A24C45</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -948,7 +951,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>F0F3CC081203165A00A3599C</string>
+				<string>F01905B01241B43600A24C45</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

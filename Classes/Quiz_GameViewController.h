@@ -23,6 +23,7 @@
 	NSTimer *timer;
 	BOOL questionLive;
 	BOOL restartGame;
+	NSArray *hintArray;
 	
 	//seting up a new screen for restart
 	FinalViewController *finalViewController;
