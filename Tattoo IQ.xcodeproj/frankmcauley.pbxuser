@@ -205,6 +205,16 @@
 			F0364FC3129D5F52009462CE /* PBXTextBookmark */ = F0364FC3129D5F52009462CE /* PBXTextBookmark */;
 			F0364FC4129D5F9E009462CE /* PBXTextBookmark */ = F0364FC4129D5F9E009462CE /* PBXTextBookmark */;
 			F0364FC7129D5FC2009462CE /* PBXTextBookmark */ = F0364FC7129D5FC2009462CE /* PBXTextBookmark */;
+			F0364FC8129D5FE2009462CE /* PBXTextBookmark */ = F0364FC8129D5FE2009462CE /* PBXTextBookmark */;
+			F0364FC9129D6731009462CE /* PBXTextBookmark */ = F0364FC9129D6731009462CE /* PBXTextBookmark */;
+			F0364FCA129D68D9009462CE /* PBXTextBookmark */ = F0364FCA129D68D9009462CE /* PBXTextBookmark */;
+			F0364FCB129D6923009462CE /* PBXTextBookmark */ = F0364FCB129D6923009462CE /* PBXTextBookmark */;
+			F0364FCC129D6B7C009462CE /* PBXTextBookmark */ = F0364FCC129D6B7C009462CE /* PBXTextBookmark */;
+			F0364FCD129D6BF9009462CE /* PBXTextBookmark */ = F0364FCD129D6BF9009462CE /* PBXTextBookmark */;
+			F0364FCE129D7130009462CE /* PBXTextBookmark */ = F0364FCE129D7130009462CE /* PBXTextBookmark */;
+			F0364FCF129D7134009462CE /* PBXTextBookmark */ = F0364FCF129D7134009462CE /* PBXTextBookmark */;
+			F0364FD0129D71ED009462CE /* PBXTextBookmark */ = F0364FD0129D71ED009462CE /* PBXTextBookmark */;
+			F0364FD1129D730D009462CE /* PBXTextBookmark */ = F0364FD1129D730D009462CE /* PBXTextBookmark */;
 			F046F7A31151B37E00C2A6F7 = F046F7A31151B37E00C2A6F7 /* PBXBookmark */;
 			F05105D611149D5E007A8EE0 = F05105D611149D5E007A8EE0 /* PBXTextBookmark */;
 			F06D2E83119B8E6A009D59AA = F06D2E83119B8E6A009D59AA /* PBXTextBookmark */;
@@ -578,9 +588,9 @@
 	};
 	F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1769, 3809}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1769, 3770}}";
 			sepNavSelRange = "{10690, 0}";
-			sepNavVisRange = "{8361, 3848}";
+			sepNavVisRange = "{8148, 4019}";
 			sepNavWindowFrame = "{{4, 0}, {1266, 778}}";
 		};
 	};
@@ -1031,6 +1041,106 @@
 		rType = 0;
 		vrLen = 3848;
 		vrLoc = 8361;
+	};
+	F0364FC8129D5FE2009462CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 355";
+		rLen = 0;
+		rLoc = 10690;
+		rType = 0;
+		vrLen = 4019;
+		vrLoc = 8148;
+	};
+	F0364FC9129D6731009462CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 355";
+		rLen = 0;
+		rLoc = 10690;
+		rType = 0;
+		vrLen = 4019;
+		vrLoc = 8148;
+	};
+	F0364FCA129D68D9009462CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 355";
+		rLen = 0;
+		rLoc = 10690;
+		rType = 0;
+		vrLen = 4019;
+		vrLoc = 8148;
+	};
+	F0364FCB129D6923009462CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 355";
+		rLen = 0;
+		rLoc = 10690;
+		rType = 0;
+		vrLen = 4019;
+		vrLoc = 8148;
+	};
+	F0364FCC129D6B7C009462CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 355";
+		rLen = 0;
+		rLoc = 10690;
+		rType = 0;
+		vrLen = 4019;
+		vrLoc = 8148;
+	};
+	F0364FCD129D6BF9009462CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 355";
+		rLen = 0;
+		rLoc = 10690;
+		rType = 0;
+		vrLen = 4019;
+		vrLoc = 8148;
+	};
+	F0364FCE129D7130009462CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 355";
+		rLen = 0;
+		rLoc = 10690;
+		rType = 0;
+		vrLen = 4019;
+		vrLoc = 8148;
+	};
+	F0364FCF129D7134009462CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 355";
+		rLen = 0;
+		rLoc = 10690;
+		rType = 0;
+		vrLen = 4019;
+		vrLoc = 8148;
+	};
+	F0364FD0129D71ED009462CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 355";
+		rLen = 0;
+		rLoc = 10690;
+		rType = 0;
+		vrLen = 4019;
+		vrLoc = 8148;
+	};
+	F0364FD1129D730D009462CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0286D4210EE09D4008EA040 /* Quiz_GameViewController.m */;
+		name = "Quiz_GameViewController.m: 355";
+		rLen = 0;
+		rLoc = 10690;
+		rType = 0;
+		vrLen = 4019;
+		vrLoc = 8148;
 	};
 	F046F7A31151B37E00C2A6F7 /* PBXBookmark */ = {
 		isa = PBXBookmark;
