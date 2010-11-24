@@ -323,8 +323,8 @@
 	// 1: Question, 2 3 4 5: Answers 1-4 respectively, 6: The right answer
 	// THIS IS A TERRIBLE WAY TO DO THIS. I will figure out how to do nested arrays to make this better.
 	NSArray *quizArray = [[NSArray alloc] initWithObjects:
-						  @"Who invented the 'magnum' tattoo needle?",@"Don Ed Hardy",@"Sailor Jerry",@"Marty Holcomb",@"Horiyoshi I",@"2",
-						  @"When did European explorers discover Polynesian tattooing?",@"1901",@"1753",@"1987",@"1595",@"4",
+						  @"This tattoo technique requires one to line a tattoo without ink?",@"Linear Absense",@"Non-Lining",@"Bloodlining",@"Clearining",@"3",
+						  @"Laser tattoo removal does what to an existing tattoo?",@"Burns the tattoo away evenly",@"Body absorbs ink overtime",@"Evaporates the tattoo quickly",@"Lightens tattoo immediately",@"2",
 						  @"Who was the first person to tattoo while skydiving?", @"Al Christou", @"Carson Hill", @"Travis Pastrana", @"Guy Aitchison", @"1",
 						  @"Which tattoo artist is know for creating evil tattoos?", @"Vyvyn Lazonga", @"Filip Leu", @"Paul Booth", @"Tin Tin", @"3",
 						  @"What does the swallow tattoo mean?", @"Swam 1000 miles", @"Sailed 5000 miles", @"Flew 10000 miles",@"Walked 1000 miles", @"2",
@@ -344,8 +344,8 @@
 	
 	//Build out an array to hold the hints
 	hintArray = [[NSArray alloc] initWithObjects:
-				 @"A magnum is a tattoo needle with two rows, one on top of the other. Invented by Sailor Jerry Collins in Hawaii.",
-				 @"The early Spanish explorer discovered the Fenua Enana Islands in 1595, descriptions of Polynesian tattooing were written almost 2 centuries later.",
+				 @"Bloodlining is a technique used when the artist does not want an actual line, yet wants to have a reference line to work from.",
+				 @"Laser energy that is directed at the tattooed disrupts the ink, allowing your body to absorb it and break it down naturally.",
 				 @"Al Christou performed a tattoo on Zeke Galt, a Canadian musician while in freefall for 15 seconds, therefore also setting the record for the fastest tattoo ever.",
 				 @"After devoting nearly twenty years of his life to the art of dark tattoos, Paul Booth works in New York and has become a household name with evil tattooing.",
 				 @"The swallow is a tattoo that a sailor gets after sailing 5,000 nautical miles at sea. Another reason behind it is that a swallow is the 'first sign that land is near'.",
