@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>F0364FD1129D730D009462CE</string>
+						<string>F0364FFF129DA941009462CE</string>
 						<key>history</key>
 						<array>
 							<string>F0364F9A129D5A7C009462CE</string>
@@ -235,7 +235,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>-6 -22 1272 589 0 0 1280 778 </string>
+				<string>-9 159 1272 589 0 0 1280 778 </string>
 			</dict>
 		</dict>
 	</array>
@@ -350,6 +350,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -364,6 +366,10 @@
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
 										<string>Quiz_GameViewController.m</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>F0364FFE129DA941009462CE</string>
 										<key>history</key>
 										<array>
 											<string>F08ED09510EF825400F6C263</string>

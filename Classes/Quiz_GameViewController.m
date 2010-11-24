@@ -330,14 +330,14 @@
 						  @"Which artist is “The New King Of Rock Tattoos” by Rolling Stone Magazine?", @"Bob Tyrell", @"Durb Morrison", @"Lyle Tuttle",@"Paul Booth", @"4",
 						  @"The most common body part that people tattoo is?",@"Arms",@"Back",@"Legs",@"Chest",@"1",
 						  @"Tattoo artists take these at Conventions to learn new techniques?",@"Classes",@"Seminars",@"Study Hall",@"Lessons",@"2",
-						  @"The Hell City Tattoo Festival takes place in what two cities?",@"•	Los Angeles, CA & Houston, TX",@"•	Las Vegas, NV & Columbus, OH",@"•	Phoenix, AZ & Las Vegas, NV",@"•	Columbus, OH & Phoenix, AZ",@"4",
+						  @"The Hell City Tattoo Festival takes place in what two cities?",@"Los Angeles, CA & Houston, TX",@"Las Vegas, NV & Columbus, OH",@"Phoenix, AZ & Las Vegas, NV",@"Columbus, OH & Phoenix, AZ",@"4",
 						  @"Which tattoo machine part regulates the power output?",@"Capacitor",@"Coils",@"Springs",@"Contact Screw",@"1",
-						  @"Which culture tattoos their faces with Ta Moko's?",@"Japanese",@"Icelandic",@"Chinese",@"Maori",@"4",
-						  @"Which technique is often used with coloring flash?",@"Spit Shading",@"Scratching",@"Scrubbing",@"Drip Drop",@"1",
-						  @"Which tattoo artist is known for his organic images?",@"Chris Trevino",@"Leo Zulueta",@"Guy Aitchison",@"Joe Capobianco",@"3",
-						  @"Don Ed Hardy tattoos in what city?",@"New York",@"Los Angeles",@"San Francisco",@"Florida",@"3",
-						  @"The Japanese gang know for their tattoos are?",@"Yamozi",@"Yakuza",@"Takatura",@"Kirosumi",@"2",
-						  @"When did Sailor Jerry die?",@"1973",@"1985",@"1955",@"1932",@"1",
+						  @"The actor who wears one of the most infamous tattoos is?",@"Angelina Jolie",@"Danny Trejo",@"Josh Hartnett",@"Dwayne 'The Rock' Johnson",@"2",
+						  @"Which part of a tattoo machine does the artist connect their clipcord to?",@"Tubes",@"Binding posts",@"Frame",@"Scres",@"2",
+						  @"Why are ointments used during a tattoo procedure?",@"Lubrication of the skin",@"Helps wipe away ink",@"Helps stop bleeding",@"All of the above",@"4",
+						  @"Which tattoo artist is know for doing amazing color portraits?",@"Carson Hill",@"Nathan Kostechko",@"Mike Devries",@"Vyvyn Lazonga",@"3",
+						  @"Tattooing is regulated in every state in the U.S?",@"True",@"False",@"",@"",@"2",
+						  @"Which TV show featured tattoo artists going head to head at various conventions?",@"Skin Battles",@"Tattoo Battle",@"Tattoo Wars",@"Skin Time",@"3",
 						  nil];
 	self.theQuiz = quizArray;
 	[quizArray release];
@@ -353,12 +353,12 @@
 				 @"Seminars are a great way to expand your knowledge of various fields of tattooing. Seminars are a staple at any tattoo convention today.",
 				 @"The Hell City Tattoo Festival takes place in it’s hometown of Columbus, OH and also travels to Phoenix, AZ to bring this amazing fest to the West.",
 				 @"Capacitors are widely used in electronic circuits for blocking direct current, allowing alternating current to pass. Therefore smoothing the distribution of power throughout a tattoo machine.",
-				 @"Tā moko is the permanent face marking by Māori, the indigenous people of New Zealand. The skin was carved by uhi (chisels) rather than punctured and left the skin with grooves, rather than a smooth surface.",
-				 @"An old technique called 'spit-shading' gives a piece of flash that unique tattoo look. Dipping your brush in water, then putting it in your mouth to draw out some of the water before painting. This is why it's called spit shading!",
-				 @"Guy Aitchison's has been tattooing over 20 years now. His new book Organica covers the last 18 years of his career focusing on Organic, abstract, free-form imagery that he is known for.",
-				 @"Ed Hardy’s Tattoo City is located in the heart of San Francisco's historic North Beach, Tattoo City features work from artists that have amazing freehand drawing capabilities that Ed's shops have always been known for.",
-				 @"Yakuza tattoos became a symbol of strength. Their tattoos were to illustrate you were unwilling to accommodate yourself to societies rules or to illustrate your clan affiliations.",
-				 @"Traditional tattoo legend, Sailor Jerry, born Norman Keith Collins on January 14, 1911 in Reno, Nevada. Sailor Jerry died June 12, 1973 in Hawaii.",
+				 @"Danny Trejo has had his famous chest piece tattoo for his entire acting career. The first thing people notice on Danny Trejo is his giant chest tattoo and others on his body. He has earned the nickname of 'The Illustrated Man' as a result.",
+				 @"Binding Posts are used to attach required parts to a traditional tattoo machine, including clipcords and contact screws.",
+				 @"Ointments are commonly used by artists to assist in many aspects of the tattoo application. Serving many purposes, ointments are still used by today’s artists.",
+				 @"Mike Devries has been making his mark in the color portraiture scene in Southern California since 2003. He is an award winning, groundbreaking artist that has a unique vision of portrait tattoos.",
+				 @"Tattooing is regulated by health departments in every state except for New Mexico, North Dakota and Washington DC.",
+				 @"Tattoo Wars pits the best tattoo artists against each other in a head to head creation competition. Having filmed an episode at The Hell City Tattoo Fest, each episode explores the world, legend and work of two tattooists.",
 				 nil];
 }
 
