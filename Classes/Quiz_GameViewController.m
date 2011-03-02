@@ -323,7 +323,7 @@
 	// 1: Question, 2 3 4 5: Answers 1-4 respectively, 6: The right answer
 	// THIS IS A TERRIBLE WAY TO DO THIS. I will figure out how to do nested arrays to make this better.
 	NSArray *quizArray = [[NSArray alloc] initWithObjects:
-						  @"This tattoo technique requires one to line a tattoo without ink?",@"Linear Absense",@"Non-Lining",@"Bloodlining",@"Clearining",@"3",
+						  @"How does bleeding stop during a tattoo?",@"Ointment",@"Pressure",@"Plasma",@"Dabbing",@"3",
 						  @"Laser tattoo removal does what to an existing tattoo?",@"Burns the tattoo away evenly",@"Body absorbs ink overtime",@"Evaporates the tattoo quickly",@"Lightens tattoo immediately",@"2",
 						  @"Hair grows back through a new tattoo?", @"True", @"False", @"", @"", @"1",
 						  @"The most common tattoos on fingers are?", @"Lettering", @"Flowers", @"Kanji", @"Skulls", @"1",
@@ -344,7 +344,7 @@
 	
 	//Build out an array to hold the hints
 	hintArray = [[NSArray alloc] initWithObjects:
-				 @"Bloodlining is a technique used when the artist does not want an actual line, yet wants to have a reference line to work from.",
+				 @"Plasma coagulates blood to stop bleeding. It is the yellowish liquid component of blood containing proteins, glucose, minerals, hormones and carbon dioxide. It makes up 55% of blood.",
 				 @"Laser energy that is directed at the tattooed disrupts the ink, allowing your body to absorb it and break it down naturally.",
 				 @"Tattooing does not damage the follicle or the sebaceous gland that produces hair, allowing the hair to continue to grow through the dermis and epidermis.",
 				 @"Finger tattoos commonly spell a favorite saying or combo of 4 letter words. Symbols can often express desired words as well.",

@@ -40,7 +40,6 @@
 		F028B16C113357A4005C3AB3 /* TryAgain_IQ_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F028B168113357A4005C3AB3 /* TryAgain_IQ_Button.png */; };
 		F028B16D113357A4005C3AB3 /* Twitter_IQ_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F028B169113357A4005C3AB3 /* Twitter_IQ_Button.png */; };
 		F028B16E113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */; };
-		F028B5021134D60C005C3AB3 /* SessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F028B5011134D60C005C3AB3 /* SessionViewController.xib */; };
 		F02984911161157E002EAA10 /* IQ_FB_Button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F02984901161157E002EAA10 /* IQ_FB_Button.jpg */; };
 		F0766381114EBEB600705345 /* FBConnectGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = F076636F114EBEB600705345 /* FBConnectGlobal.m */; };
 		F0766382114EBEB600705345 /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F0766371114EBEB600705345 /* FBSession.m */; };
@@ -104,7 +103,6 @@
 		F028B168113357A4005C3AB3 /* TryAgain_IQ_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TryAgain_IQ_Button.png; sourceTree = "<group>"; };
 		F028B169113357A4005C3AB3 /* Twitter_IQ_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_IQ_Button.png; sourceTree = "<group>"; };
 		F028B16A113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoreHellCityApps_IQ_Button.png; sourceTree = "<group>"; };
-		F028B5011134D60C005C3AB3 /* SessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SessionViewController.xib; path = "../../Desktop/fbconnect-iphone/samples/Connect/SessionViewController.xib"; sourceTree = SOURCE_ROOT; };
 		F02984901161157E002EAA10 /* IQ_FB_Button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IQ_FB_Button.jpg; path = "../../Desktop/Franks Desktop Stuff/QuizApp/IQ_FB_Button.jpg"; sourceTree = SOURCE_ROOT; };
 		F03187B0114095AD000021E9 /* Tattoo IQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tattoo IQ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F076636D114EBEB600705345 /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBConnect.h; path = ../../Downloads/src/FBConnect/FBConnect.h; sourceTree = SOURCE_ROOT; };
@@ -262,7 +260,6 @@
 				F015079A111FA33B0031C193 /* LowScoreViewConroller.xib */,
 				F0150795111FA3090031C193 /* MiddleScoreViewController.xib */,
 				F0150706111F483C0031C193 /* FinalViewController.xib */,
-				F028B5011134D60C005C3AB3 /* SessionViewController.xib */,
 			);
 			name = nibs;
 			sourceTree = "<group>";
@@ -374,7 +371,6 @@
 				F028B16C113357A4005C3AB3 /* TryAgain_IQ_Button.png in Resources */,
 				F028B16D113357A4005C3AB3 /* Twitter_IQ_Button.png in Resources */,
 				F028B16E113357A4005C3AB3 /* MoreHellCityApps_IQ_Button.png in Resources */,
-				F028B5021134D60C005C3AB3 /* SessionViewController.xib in Resources */,
 				F0D608101137EEC900D516BC /* Entitlements.plist in Resources */,
 				F076638A114EBEB600705345 /* FBConnect.bundle in Resources */,
 				F02984911161157E002EAA10 /* IQ_FB_Button.jpg in Resources */,
@@ -459,7 +455,7 @@
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphoneos4.2;
 				USER_HEADER_SEARCH_PATHS = /Users/frankmcauley/Downloads/src/;
 			};
 			name = Debug;
@@ -479,7 +475,7 @@
 					Quiz/src,
 				);
 				PREBINDING = NO;
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphoneos4.2;
 				USER_HEADER_SEARCH_PATHS = /Users/frankmcauley/Downloads/src/;
 			};
 			name = Release;
@@ -488,8 +484,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Richard Morrison (535ST6MQ6F)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Richard Morrison (535ST6MQ6F)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hell City Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hell City Ltd.";
 				CURRENT_PROJECT_VERSION = 1.04;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -503,9 +499,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				OTHER_CFLAGS = "-D__IPHONE_OS_VERSION_MIN_REQUIRED=040100";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "DF85EE76-8DB6-4039-8719-EE0480E9E4CC";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DF85EE76-8DB6-4039-8719-EE0480E9E4CC";
-				SDKROOT = iphoneos4.1;
+				PROVISIONING_PROFILE = "757D0DA8-9944-4D93-8C5C-4950E44CA74A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "757D0DA8-9944-4D93-8C5C-4950E44CA74A";
+				SDKROOT = iphoneos4.2;
 				USER_HEADER_SEARCH_PATHS = /Users/frankmcauley/Downloads/src/;
 			};
 			name = Distribution;
