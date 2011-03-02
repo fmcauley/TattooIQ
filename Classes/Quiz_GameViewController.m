@@ -324,8 +324,8 @@
 	// THIS IS A TERRIBLE WAY TO DO THIS. I will figure out how to do nested arrays to make this better.
 	NSArray *quizArray = [[NSArray alloc] initWithObjects:
 						  @"How does bleeding stop during a tattoo?",@"Ointment",@"Pressure",@"Plasma",@"Dabbing",@"3",
-						  @"Laser tattoo removal does what to an existing tattoo?",@"Burns the tattoo away evenly",@"Body absorbs ink overtime",@"Evaporates the tattoo quickly",@"Lightens tattoo immediately",@"2",
-						  @"Hair grows back through a new tattoo?", @"True", @"False", @"", @"", @"1",
+						  @"A magnum tattoo needle is grouped in what?",@"Three layers",@"Odd numbers",@"Even numbers",@"Four layers",@"2",
+						  @"A capacitor does what to a tattoo machine?", @"Makes it hum", @"Balance needles", @"Regulates current", @"Makes the machine sound good", @"3",
 						  @"The most common tattoos on fingers are?", @"Lettering", @"Flowers", @"Kanji", @"Skulls", @"1",
 						  @"Which artist is “The New King Of Rock Tattoos” by Rolling Stone Magazine?", @"Bob Tyrell", @"Durb Morrison", @"Lyle Tuttle",@"Paul Booth", @"4",
 						  @"The most common body part that people tattoo is?",@"Arms",@"Back",@"Legs",@"Chest",@"1",
@@ -345,8 +345,8 @@
 	//Build out an array to hold the hints
 	hintArray = [[NSArray alloc] initWithObjects:
 				 @"Plasma coagulates blood to stop bleeding. It is the yellowish liquid component of blood containing proteins, glucose, minerals, hormones and carbon dioxide. It makes up 55% of blood.",
-				 @"Laser energy that is directed at the tattooed disrupts the ink, allowing your body to absorb it and break it down naturally.",
-				 @"Tattooing does not damage the follicle or the sebaceous gland that produces hair, allowing the hair to continue to grow through the dermis and epidermis.",
+				 @"A magnum needle is two layers of needles configured in odd numbers , like a 7 magnum or 13 magnum. Magnums are considered the paint brushes of all tattoo needles!",
+				 @"Capacitors store electrical energy and distribute clean electrons evenly. Perfect for high voltage applications like tattooing.",
 				 @"Finger tattoos commonly spell a favorite saying or combo of 4 letter words. Symbols can often express desired words as well.",
 				 @"*In 2002, Rolling Stone featured Booth and proudly crowned him “The new king of rock tattoos”. Paul has recently stepped into the arena of film also.",
 				 @"Arm tattoos are a staple in tattoo parlors around the world. This area is often the least painful and easy to cover up with clothing for the average collector.",
