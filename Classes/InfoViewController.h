@@ -10,7 +10,7 @@
 
 }
 
-@property(nonatomic, retain) IBOutlet Quiz_GameViewController	*quiz;
+@property(nonatomic, strong) IBOutlet Quiz_GameViewController	*quiz;
 
 //method to load the quiz from the infor screen
 -(IBAction)loadQuizForStart:(id)sender;

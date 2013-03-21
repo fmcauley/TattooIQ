@@ -20,7 +20,7 @@
 }
 
 
-@property (nonatomic, retain) IBOutlet UILabel *finalScore;
+@property (nonatomic, strong) IBOutlet UILabel *finalScore;
 
 -(IBAction)restartTheGame:(id)sender;
 -(IBAction)goToWebSite:(id)sender;

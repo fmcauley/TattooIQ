@@ -7,7 +7,7 @@
 	UILabel *textView;
 	
 	FinalViewController *finalViewController;
-	NSString *theMessage;
+	NSString *__weak theMessage;
 	UITextField *username;
 	UITextField *password;
 	UIActivityIndicatorView *activityIndicator;
@@ -22,12 +22,12 @@
 }
 
 
-@property (nonatomic, retain) IBOutlet UILabel *textView;
-@property (assign)NSString *theMessage;
-@property (nonatomic, retain) IBOutlet UITextField *username;
-@property (nonatomic, retain) IBOutlet UITextField *password;
-@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *activityIndicator;
-@property (nonatomic, retain) IBOutlet UITextView *tweetsView;
+@property (nonatomic, strong) IBOutlet UILabel *textView;
+@property (weak)NSString *theMessage;
+@property (nonatomic, strong) IBOutlet UITextField *username;
+@property (nonatomic, strong) IBOutlet UITextField *password;
+@property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (nonatomic, strong) IBOutlet UITextView *tweetsView;
 
 -(IBAction)goBackOneScreen:(id)sender;
 -(IBAction)setUpdateToTwitter;

@@ -18,7 +18,7 @@
 }
 
 
-@property (nonatomic, retain) IBOutlet UILabel *middleOutput;
+@property (nonatomic, strong) IBOutlet UILabel *middleOutput;
 
 
 

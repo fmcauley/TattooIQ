@@ -45,7 +45,6 @@
 									@" Tattoo IQ test!"];
 	
 	finalScore.text = finishingStatement;
-	[finishingStatement release];
 	
 	
 	
@@ -74,9 +73,6 @@
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-}
 
 
 @end

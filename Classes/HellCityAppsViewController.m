@@ -12,8 +12,6 @@
 	NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
 	webview.scalesPageToFit = YES;
 	[webview loadRequest:request];
-	[request release];
-	[url release];
 }
 
 -(IBAction)handleGoTapped {
@@ -82,11 +80,6 @@
 }
 
 
-- (void)dealloc {
-	self.activityView = nil;
-	self.webview = nil;
-    [super dealloc];
-}
 
 
 @end

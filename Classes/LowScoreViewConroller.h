@@ -22,7 +22,7 @@
 }
 
 
-@property (nonatomic,retain) IBOutlet UILabel *lowScore;
+@property (nonatomic,strong) IBOutlet UILabel *lowScore;
 
 -(IBAction)restartTheGame;
 -(IBAction)goToWebSite;

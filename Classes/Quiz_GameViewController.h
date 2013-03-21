@@ -32,18 +32,18 @@
 	
 }
 
-@property (nonatomic, retain) IBOutlet FinalViewController *finalViewController;
-@property (nonatomic, retain) IBOutlet MiddleScoreViewController *middleScoreViewController;
-@property (nonatomic, retain) IBOutlet LowScoreViewConroller *lowScoreViewController;
-@property (retain, nonatomic) UILabel	*theQuestion;
-@property (retain, nonatomic) UILabel	*theScore;
-@property (retain, nonatomic) UILabel	*theLives;
-@property (retain, nonatomic) UIButton	*answerOne;
-@property (retain, nonatomic) UIButton	*answerTwo;
-@property (retain, nonatomic) UIButton	*answerThree;
-@property (retain, nonatomic) UIButton	*answerFour;
-@property (retain, nonatomic) NSArray *theQuiz;
-@property (retain, nonatomic) NSTimer *timer;
+@property (nonatomic, strong) IBOutlet FinalViewController *finalViewController;
+@property (nonatomic, strong) IBOutlet MiddleScoreViewController *middleScoreViewController;
+@property (nonatomic, strong) IBOutlet LowScoreViewConroller *lowScoreViewController;
+@property (strong, nonatomic) UILabel	*theQuestion;
+@property (strong, nonatomic) UILabel	*theScore;
+@property (strong, nonatomic) UILabel	*theLives;
+@property (strong, nonatomic) UIButton	*answerOne;
+@property (strong, nonatomic) UIButton	*answerTwo;
+@property (strong, nonatomic) UIButton	*answerThree;
+@property (strong, nonatomic) UIButton	*answerFour;
+@property (strong, nonatomic) NSArray *theQuiz;
+@property (strong, nonatomic) NSTimer *timer;
 @property (nonatomic, assign) NSInteger myScore;
 
 

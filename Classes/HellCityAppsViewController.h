@@ -17,8 +17,8 @@
 	UIActivityIndicatorView *activityView;
 }
 
-@property(nonatomic,retain)IBOutlet UIActivityIndicatorView *activityView;
-@property(nonatomic,retain)IBOutlet UIWebView *webview;
+@property(nonatomic,strong)IBOutlet UIActivityIndicatorView *activityView;
+@property(nonatomic,strong)IBOutlet UIWebView *webview;
 
 -(IBAction) handleGoTapped;
 @end

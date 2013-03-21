@@ -20,7 +20,7 @@
 }
 
 
-@property (nonatomic, retain) IBOutlet InfoViewController *infoViewController;
+@property (nonatomic, strong) IBOutlet InfoViewController *infoViewController;
 
 
 @end

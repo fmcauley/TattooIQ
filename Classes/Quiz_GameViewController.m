@@ -71,13 +71,13 @@
 	}
 	
 	// Set the question string, and set the buttons the the answers
-	NSString *selected = [theQuiz objectAtIndex:row];
+	NSString *selected = theQuiz[row];
 	NSString *activeQuestion = [[NSString alloc] initWithFormat:@"%@", selected];
-	[answerOne setTitle:[theQuiz objectAtIndex:row+1] forState:UIControlStateNormal];
-	[answerTwo setTitle:[theQuiz objectAtIndex:row+2] forState:UIControlStateNormal];
-	[answerThree setTitle:[theQuiz objectAtIndex:row+3] forState:UIControlStateNormal];
-	[answerFour setTitle:[theQuiz objectAtIndex:row+4] forState:UIControlStateNormal];
-	rightAnswer = [[theQuiz objectAtIndex:row+5] intValue];
+	[answerOne setTitle:theQuiz[row+1] forState:UIControlStateNormal];
+	[answerTwo setTitle:theQuiz[row+2] forState:UIControlStateNormal];
+	[answerThree setTitle:theQuiz[row+3] forState:UIControlStateNormal];
+	[answerFour setTitle:theQuiz[row+4] forState:UIControlStateNormal];
+	rightAnswer = [theQuiz[row+5] intValue];
 	
 	// Set theQuestion label to the active question
 	theQuestion.text = activeQuestion;
@@ -85,8 +85,6 @@
 	// Start the timer for the countdown
 	timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(countDown) userInfo:nil repeats:YES];
 	
-	[selected release];
-	[activeQuestion release];
 }
 
 -(void)updateScore
@@ -103,7 +101,6 @@
 	[answerFour setHidden:YES];
 	NSString *scoreUpdate = [[NSString alloc] initWithFormat:@"Score: %d", myScore];
 	theScore.text = scoreUpdate;
-	[scoreUpdate release];
 	
 	// END THE GAME.
 	NSInteger endOfQuiz = [theQuiz count];
@@ -227,12 +224,11 @@
 - (void)getHints:(int)indexNum
 {
 	UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Correct Answer" 
-												   message:[hintArray objectAtIndex:indexNum] 
+												   message:hintArray[indexNum] 
 												  delegate:self 
 										 cancelButtonTitle:@"Next" 
 										 otherButtonTitles:nil];
 	[alert show];
-	[alert release];
 	
 	
 }
@@ -322,8 +318,7 @@
 	// FORMAT IS IMPORTANT!!!!
 	// 1: Question, 2 3 4 5: Answers 1-4 respectively, 6: The right answer
 	// THIS IS A TERRIBLE WAY TO DO THIS. I will figure out how to do nested arrays to make this better.
-	NSArray *quizArray = [[NSArray alloc] initWithObjects:
-						  @"This tattoo technique requires one to line a tattoo without ink?",@"Linear Absense",@"Non-Lining",@"Bloodlining",@"Clearining",@"3",
+	NSArray *quizArray = @[@"This tattoo technique requires one to line a tattoo without ink?",@"Linear Absense",@"Non-Lining",@"Bloodlining",@"Clearining",@"3",
 						  @"Laser tattoo removal does what to an existing tattoo?",@"Burns the tattoo away evenly",@"Body absorbs ink overtime",@"Evaporates the tattoo quickly",@"Lightens tattoo immediately",@"2",
 						  @"Hair grows back through a new tattoo?", @"True", @"False", @"", @"", @"1",
 						  @"The most common tattoos on fingers are?", @"Lettering", @"Flowers", @"Kanji", @"Skulls", @"1",
@@ -337,14 +332,11 @@
 						  @"Why are ointments used during a tattoo procedure?",@"Lubrication of the skin",@"Helps wipe away ink",@"Helps stop bleeding",@"All of the above",@"4",
 						  @"Which tattoo artist is know for doing amazing color portraits?",@"Carson Hill",@"Nathan Kostechko",@"Mike Devries",@"Vyvyn Lazonga",@"3",
 						  @"Tattooing is regulated in every state in the U.S?",@"True",@"False",@"",@"",@"2",
-						  @"Which TV show featured tattoo artists going head to head at various conventions?",@"Skin Battles",@"Tattoo Battle",@"Tattoo Wars",@"Skin Time",@"3",
-						  nil];
+						  @"Which TV show featured tattoo artists going head to head at various conventions?",@"Skin Battles",@"Tattoo Battle",@"Tattoo Wars",@"Skin Time",@"3"];
 	self.theQuiz = quizArray;
-	[quizArray release];
 	
 	//Build out an array to hold the hints
-	hintArray = [[NSArray alloc] initWithObjects:
-				 @"Bloodlining is a technique used when the artist does not want an actual line, yet wants to have a reference line to work from.",
+	hintArray = @[@"Bloodlining is a technique used when the artist does not want an actual line, yet wants to have a reference line to work from.",
 				 @"Laser energy that is directed at the tattooed disrupts the ink, allowing your body to absorb it and break it down naturally.",
 				 @"Tattooing does not damage the follicle or the sebaceous gland that produces hair, allowing the hair to continue to grow through the dermis and epidermis.",
 				 @"Finger tattoos commonly spell a favorite saying or combo of 4 letter words. Symbols can often express desired words as well.",
@@ -358,8 +350,7 @@
 				 @"Ointments are commonly used by artists to assist in many aspects of the tattoo application. Serving many purposes, ointments are still used by today’s artists.",
 				 @"Mike Devries has been making his mark in the color portraiture scene in Southern California since 2003. He is an award winning, groundbreaking artist that has a unique vision of portrait tattoos.",
 				 @"Tattooing is regulated by health departments in every state except for New Mexico, North Dakota and Washington DC.",
-				 @"Tattoo Wars pits the best tattoo artists against each other in a head to head creation competition. Having filmed an episode at The Hell City Tattoo Fest, each episode explores the world, legend and work of two tattooists.",
-				 nil];
+				 @"Tattoo Wars pits the best tattoo artists against each other in a head to head creation competition. Having filmed an episode at The Hell City Tattoo Fest, each episode explores the world, legend and work of two tattooists."];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -368,17 +359,5 @@
 }
 
 
-- (void)dealloc {
-	[theQuestion release];
-	[theScore release];
-	[theLives release];
-	[answerOne release];
-	[answerTwo release];
-	[answerThree release];
-	[answerFour release];
-	[theQuiz release];
-	[timer release];
-    [super dealloc];
-}
 
 @end

@@ -44,7 +44,6 @@
 	middleOutput.text = finishingStatement;
 	
 	
-	[finishingStatement release];
 }
 
 
@@ -61,9 +60,6 @@
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-}
 
 
 @end

@@ -44,7 +44,6 @@
 									@"Study up and take the Tattoo IQ test again. Be sure to post your results and challenge your friends to take the Tattoo IQ test!"];
 									
 	lowScore.text = finishingStatement;
-	[finishingStatement release]; 
 }
 
 #pragma mark -
@@ -63,9 +62,6 @@
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-}
 
 
 @end
