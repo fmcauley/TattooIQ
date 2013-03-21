@@ -7,20 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FBConnect/FBConnect.h"
-#import "FBConnect/FBSession.h"
 @class  Tattoo_IQ_QuizViewController;
 
 
 @interface Tattoo_IQ_QuizAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
  Tattoo_IQ_QuizViewController *viewController;
-	FBSession *_session;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet Tattoo_IQ_QuizViewController *viewController;
-@property (nonatomic, retain) FBSession *_session;
 
 
 @end

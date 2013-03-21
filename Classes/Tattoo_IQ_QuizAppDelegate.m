@@ -13,7 +13,6 @@
 
 @synthesize window;
 @synthesize viewController;
-@synthesize _session;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {   
@@ -27,7 +26,7 @@
 
 
 - (void)dealloc {
-	[_session release];
+	
     [viewController release];
     [window release];
     [super dealloc];

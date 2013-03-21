@@ -28,7 +28,7 @@
  }
 
 -(IBAction)updateFacebook{
-	[self presentModalViewController:face animated:YES];
+	
 }
 
 

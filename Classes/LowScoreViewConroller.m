@@ -3,7 +3,7 @@
 #import "InfoViewController.h"
 #import "HellCityAppsViewController.h"
 #import "TwitterViewController.h"
-#import "FacebookAPI.h"
+
 
 
 
@@ -32,7 +32,7 @@
 }
 
 -(IBAction)updateFacebook{
-	[self presentModalViewController:face animated:YES];
+	
 }
 
 #pragma mark -
