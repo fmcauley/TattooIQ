@@ -17,18 +17,21 @@
 
 -(IBAction)restartTheGame {
   
-	[self presentModalViewController:infoViewController animated:YES];
+	//[self presentModalViewController:infoViewController animated:YES];
+    [self presentViewController:infoViewController animated:YES completion:^{
+        
+    }];
 
 }
 
 -(IBAction)goToWebSite{
 	
-	[self presentModalViewController:hellCityViewController animated:YES];	
+	[self presentViewController:hellCityViewController animated:YES completion:nil];
 }
 
 -(IBAction)updateTwitter{
 	
-	[self presentModalViewController:twitterViewController animated:YES];	
+	[self presentViewController:twitterViewController animated:YES completion:nil];
 }
 
 -(IBAction)updateFacebook{

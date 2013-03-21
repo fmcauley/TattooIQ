@@ -14,17 +14,17 @@
 
 -(IBAction)restartTheGame:(id) sender{
 	
-	[self presentModalViewController:infoViewController animated:YES];
+	[self presentViewController:infoViewController animated:YES completion:nil];
 	
 }
 
 -(IBAction)goToWebSite:(id)sender{
 	
-	[self presentModalViewController:hellCityViewController animated:YES];
+	[self presentViewController:hellCityViewController animated:YES completion:nil];
 	
 }
 -(IBAction)updateTwitter:(id)sender{
-	[self presentModalViewController:twitterViewController animated:YES];
+	[self presentViewController:twitterViewController animated:YES completion:nil];
  }
 
 -(IBAction)updateFacebook{

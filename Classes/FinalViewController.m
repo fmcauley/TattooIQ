@@ -12,30 +12,20 @@
 
 
 -(IBAction)restartTheGame:(id)sender {
-	
-	[self presentModalViewController:infoViewController animated:YES];
-	
+    [self presentViewController:infoViewController animated:YES completion:nil];
 }
 
 -(IBAction)goToWebSite:(id)sender {
-	
-	[self presentModalViewController:hellCityViewController animated:YES];
-	
+	[self presentViewController:hellCityViewController animated:YES completion:nil];
 }
 
 -(IBAction)updateTwitter:(id)sender{
-	[self presentModalViewController:twitterViewController animated:YES];
+    [self presentViewController:twitterViewController animated:YES completion:nil];
 }
 
 -(IBAction)updateFacebook{
 	
 }
-
-
-
-
-
-
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
@@ -45,34 +35,6 @@
 									@" Tattoo IQ test!"];
 	
 	finalScore.text = finishingStatement;
-	
-	
-	
-	
 }
-
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
-
-- (void)didReceiveMemoryWarning {
-	// Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-	
-	// Release any cached data, images, etc that aren't in use.
-}
-
-- (void)viewDidUnload {
-  	
-
-}
-
-
-
 
 @end

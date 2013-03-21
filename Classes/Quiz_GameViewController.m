@@ -28,8 +28,6 @@
 @synthesize myScore;
 
 
-//THIS IS A TEST
-
 -(NSInteger)getMyScore {
 	return myScore;
 }
@@ -112,14 +110,14 @@
 		// Game is over.
 		if(myScore >= 130)
 		{
-			[self presentModalViewController:finalViewController animated:YES];
+			[self presentViewController:finalViewController animated:YES completion:nil];
 		
 			
 			
 		} 
 			else if(myScore < 130 && myScore >= 100)  {
 				
-				[self presentModalViewController:middleScoreViewController animated:YES];
+				[self presentViewController:middleScoreViewController animated:YES completion:nil];
 			
 						
 		}
@@ -127,7 +125,7 @@
 		
 		else
 		{
-			[self presentModalViewController:lowScoreViewController animated:YES];
+			[self presentViewController:lowScoreViewController animated:YES completion:nil];
 			
 		}
 		

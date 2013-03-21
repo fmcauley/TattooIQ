@@ -10,7 +10,7 @@
 
 -(IBAction)loadQuizForStart:(id)sender{
   
-	[self presentModalViewController:quiz animated:YES];
+	[self presentViewController:quiz animated:YES completion:nil];
 	NSLog(@"BUTTON PRESSED TO LOAD THE QUIZ");
 
 }
